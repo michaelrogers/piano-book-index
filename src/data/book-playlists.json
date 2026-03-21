@@ -526,5 +526,37 @@
     "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn8VCV0z8lzPcDoBvUJB4Xfm",
     "channelName": "Piano Adventures",
     "trackCount": 27
+  },
+  {
+    "bookId": "alfred-adult-aio-1",
+    "playlistId": "PLIx-hGjmqNJE9M_m1oMkNl8BRdATc1m8d",
+    "playlistTitle": "Alfred's Adult All-In-One Level 1",
+    "playlistUrl": "https://www.youtube.com/playlist?list=PLIx-hGjmqNJE9M_m1oMkNl8BRdATc1m8d",
+    "channelName": "92pianokeys",
+    "trackCount": 50
+  },
+  {
+    "bookId": "alfred-adult-aio-2",
+    "playlistId": "PLIx-hGjmqNJEm1DLb4A6uYnrzJUl_tzCe",
+    "playlistTitle": "Alfred's Adult All-In-One Level 2",
+    "playlistUrl": "https://www.youtube.com/playlist?list=PLIx-hGjmqNJEm1DLb4A6uYnrzJUl_tzCe",
+    "channelName": "92pianokeys",
+    "trackCount": 70
+  },
+  {
+    "bookId": "alfred-adult-aio-3",
+    "playlistId": "PLIx-hGjmqNJH9V3NTh6g3jl7unuNUTQvt",
+    "playlistTitle": "Alfred's Adult All-In-One Level 3",
+    "playlistUrl": "https://www.youtube.com/playlist?list=PLIx-hGjmqNJH9V3NTh6g3jl7unuNUTQvt",
+    "channelName": "92pianokeys",
+    "trackCount": 47
+  },
+  {
+    "bookId": "library-of-easy-piano-classics",
+    "playlistId": "PL7ucElDiXf1QlJJ79ho-Svy9LWegYStIL",
+    "playlistTitle": "Easy Piano Classics - Book One",
+    "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1QlJJ79ho-Svy9LWegYStIL",
+    "channelName": "Amy Comparetto",
+    "trackCount": 100
   }
 ]

@@ -1286,5 +1286,61 @@
     "description": "A collection of Christmas and winter holiday favorites arranged to provide work on arpeggios, scales, 2-hand gestures, balance between hands, balance within the hand, chord voicing, and octave playing – all within a delightful musical context. Includes: Skaters' Waltz",
     "amazonUrl": "",
     "trackListingSource": "publisher-website"
+  },
+  {
+    "id": "library-of-easy-piano-classics",
+    "title": "Library of Easy Piano Classics",
+    "series": null,
+    "seriesLevel": null,
+    "bookType": "companion",
+    "publisher": "Music Sales America",
+    "isbn": "978-0825612848",
+    "coverImage": "/covers/library-of-easy-piano-classics.jpg",
+    "pageCount": 296,
+    "description": "A comprehensive collection of easy piano arrangements of classical masterworks, featuring over 100 pieces from the Baroque, Classical, Romantic, and Modern periods.",
+    "amazonUrl": "https://www.amazon.com/dp/0825612845",
+    "trackListingSource": "publisher-website"
+  },
+  {
+    "id": "alfred-adult-aio-1",
+    "title": "Alfred's Basic Adult All-in-One Course Book 1",
+    "series": "Alfred's Basic Adult Piano Course",
+    "seriesLevel": "Level 1",
+    "bookType": "lesson",
+    "publisher": "Alfred Music",
+    "isbn": "978-0882848181",
+    "coverImage": "/covers/alfred-adult-aio-1.jpg",
+    "pageCount": 160,
+    "description": "A complete beginner piano course combining lesson, theory, and solo repertoire in one convenient book. Features folk, classical, and contemporary selections.",
+    "amazonUrl": "https://www.amazon.com/dp/0882848186",
+    "trackListingSource": "amazon"
+  },
+  {
+    "id": "alfred-adult-aio-2",
+    "title": "Alfred's Basic Adult All-in-One Course Book 2",
+    "series": "Alfred's Basic Adult Piano Course",
+    "seriesLevel": "Level 2",
+    "bookType": "lesson",
+    "publisher": "Alfred Music",
+    "isbn": "978-0882849959",
+    "coverImage": "/covers/alfred-adult-aio-2.jpg",
+    "pageCount": 144,
+    "description": "Continues the All-in-One approach with more advanced lesson, theory, and solo content. Features classical masterworks and folk songs at the early intermediate level.",
+    "amazonUrl": "https://www.amazon.com/dp/0882849956",
+    "trackListingSource": "amazon"
+  },
+  {
+    "id": "alfred-adult-aio-3",
+    "title": "Alfred's Basic Adult All-in-One Course Book 3",
+    "series": "Alfred's Basic Adult Piano Course",
+    "seriesLevel": "Level 3",
+    "bookType": "lesson",
+    "publisher": "Alfred Music",
+    "isbn": "978-0739000687",
+    "coverImage": "/covers/alfred-adult-aio-3.jpg",
+    "pageCount": 144,
+    "description": "The final book in the All-in-One series, featuring intermediate-level lesson, theory, and solo content including classical pieces and original compositions.",
+    "amazonUrl": "https://www.amazon.com/dp/0739000683",
+    "trackListingSource": "youtube-playlist"
   }
 ]

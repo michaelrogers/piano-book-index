@@ -32,6 +32,18 @@ function extractSongFromVideoTitle(videoTitle) {
   // Pattern 3: "Song Title - Composer (page X, Book)" (e.g. Piano Adventures Classics format)
   const composerPageMatch = text.match(/^(.+?)\s+-\s+[A-Z][a-z]+\s+\(page\s+\d+/i);
   if (composerPageMatch) return composerPageMatch[1].trim();
+  // Pattern 4: "Song Title (Difficulty Piano Solo) Alfred's Adult Level N" (92PianoKeys format)
+  //   – also strips trailing ", Composer" and "(RH)"/"(LH)" markers
+  const alfredAdultMatch = text.match(/^(.+?)\s+\([\w-]+(?:\s+[\w-]+)*\s+Piano\s+Solo\)\s*Alfred/i);
+  if (alfredAdultMatch) {
+    let t = alfredAdultMatch[1].trim();
+    // Remove (RH) or (LH) markers
+    t = t.replace(/\s*\((?:RH|LH)\)\s*/gi, '').trim();
+    return t;
+  }
+  // Pattern 5: "Song Title [Composer] (Easy Piano Classics - Book ...)" (Amy format)
+  const amyClassicsMatch = text.match(/^(.+?)(?:\s+\[[^\]]+\])?\s+\(Easy Piano Classics/i);
+  if (amyClassicsMatch) return amyClassicsMatch[1].trim();
   return null;
 }
 
@@ -66,6 +78,19 @@ function titleVariants(text) {
   const withoutBy = base.replace(/\s+by\s+\S.*$/, '').trim();
   variants.add(withoutBy.replace(/^the\s+/, ''));
   variants.add(withoutBy.replace(/\b(theme|finale)\s+from\s+.*/, '$1').trim());
+  // Strip trailing composer name after last comma (handles "Fur Elise, Beethoven" → "Fur Elise")
+  const lastComma = base.lastIndexOf(',');
+  if (lastComma > 0) {
+    const beforeComma = base.slice(0, lastComma).trim();
+    if (beforeComma.length > 3) {
+      variants.add(beforeComma);
+      variants.add(beforeComma.replace(/^the\s+/, ''));
+    }
+  }
+  // Strip "themes" → "theme" singular
+  variants.add(base.replace(/\bthemes\b/, 'theme'));
+  // Strip "overture theme" → "overture" for matching variants
+  variants.add(base.replace(/\boverture theme\b/, 'overture'));
   return [...variants].filter(Boolean);
 }
 
