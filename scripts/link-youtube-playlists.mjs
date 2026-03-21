@@ -2,11 +2,13 @@ import { readFileSync, writeFileSync } from 'fs';
 
 const CURATED_PATH = 'scripts/youtube-playlists-curated.json';
 const SONGS_PATH = 'src/data/songs.json';
+const BOOK_PLAYLISTS_PATH = 'src/data/book-playlists.json';
 const DRY_RUN = process.argv.includes('--dry-run');
 
 function normalizeTitle(text) {
   return String(text || '')
     .toLowerCase()
+    .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
     .replace(/&/g, ' and ')
     .replace(/\([^)]*\)/g, ' ')
     .replace(/\[[^\]]*\]/g, ' ')
@@ -18,22 +20,44 @@ function normalizeTitle(text) {
 // Extract the song title portion from video titles that embed book/page info
 // e.g. "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 22, O Sole Mio!" → "O Sole Mio!"
 // e.g. "Lean On Me - Piano Adventures Level 2B ChordTime Popular Book" → "Lean On Me"
+// e.g. "Theme from Finlandia - Sibelius (page 34, Adult Piano Adventures Classics Book 1)" → "Theme from Finlandia"
 function extractSongFromVideoTitle(videoTitle) {
   const text = String(videoTitle || '');
-  // Pattern: "Book Name, Page X, Song Title"
+  // Pattern 1: "Book Name, Page X, Song Title"
   const pageMatch = text.match(/,\s*(?:Pages?\s+\d+(?:\s+(?:and|through)\s+\d+)?),\s*(.+)$/i);
   if (pageMatch) return pageMatch[1].trim();
-  // Pattern: "Song Title - Book Info"
+  // Pattern 2: "Song Title - Book Info" (e.g. Let's Play Piano Methods format)
   const dashMatch = text.match(/^(.+?)\s+-\s+(?:Piano Adventures|PlayTime|ShowTime|ChordTime|FunTime|BigTime|PreTime|Level|Alfred)/i);
   if (dashMatch) return dashMatch[1].trim();
+  // Pattern 3: "Song Title - Composer (page X, Book)" (e.g. Piano Adventures Classics format)
+  const composerPageMatch = text.match(/^(.+?)\s+-\s+[A-Z][a-z]+\s+\(page\s+\d+/i);
+  if (composerPageMatch) return composerPageMatch[1].trim();
   return null;
+}
+
+// Extract page number from video title, e.g. "(page 34, ...)" or ", Page 62," → number
+function extractPageFromVideoTitle(videoTitle) {
+  const text = String(videoTitle || '');
+  const parenMatch = text.match(/\(page\s+(\d+)/i);
+  if (parenMatch) return parseInt(parenMatch[1], 10);
+  const commaMatch = text.match(/,\s*Pages?\s+(\d+)/i);
+  if (commaMatch) return parseInt(commaMatch[1], 10);
+  return null;
+}
+
+// Extract composer from "Song - Composer (page ...)" format (Piano Adventures)
+function extractComposerFromDashTitle(videoTitle) {
+  const match = String(videoTitle || '').match(/^.+?\s+-\s+([A-Z][a-z]+(?:\s+[A-Z][a-z]*)*)\s+\(page/i);
+  return match ? normalizeTitle(match[1]) : null;
 }
 
 function titleVariants(text) {
   const base = normalizeTitle(text);
   const variants = new Set([base]);
   variants.add(base.replace(/^the\s+/, ''));
-  variants.add(base.replace(/\s+(theme|from)\s+.*/, '').trim());
+  // Only strip "from ..." when preceded by "theme" or "finale" to avoid
+  // collapsing distinct titles like "Theme from Finlandia" vs "Theme from Don Giovanni"
+  variants.add(base.replace(/\b(theme|finale)\s+from\s+.*/, '$1').trim());
   variants.add(base.replace(/\s+op\.?\s*\d+.*/, '').trim());
   variants.add(base.replace(/\s+no\.?\s*\d+.*/, '').trim());
   // Strip "by <composer>" suffix commonly found in song titles
@@ -41,7 +65,7 @@ function titleVariants(text) {
   // Also combine: strip "by" and "the"
   const withoutBy = base.replace(/\s+by\s+\S.*$/, '').trim();
   variants.add(withoutBy.replace(/^the\s+/, ''));
-  variants.add(withoutBy.replace(/\s+(theme|from)\s+.*/, '').trim());
+  variants.add(withoutBy.replace(/\b(theme|finale)\s+from\s+.*/, '$1').trim());
   return [...variants].filter(Boolean);
 }
 
@@ -96,8 +120,33 @@ function findSongMatchInBook(bookSongs, requestedTitle, rawVideoTitle) {
   }
 
   if (exactMatches.length > 1) {
-    // Try to disambiguate using composer from video title brackets
-    const videoComposer = extractComposerFromVideoTitle(rawVideoTitle);
+    // Strategy 1: Disambiguate using page number from video title
+    const videoPage = extractPageFromVideoTitle(rawVideoTitle);
+    if (videoPage) {
+      const pageMatches = exactMatches.filter((song) => song.pageNumber === videoPage);
+      if (pageMatches.length === 1) {
+        return { song: pageMatches[0], ambiguous: false };
+      }
+      // Fallback: find closest page within ±5 pages (handles slight page-number discrepancies)
+      const withPages = exactMatches.filter((s) => s.pageNumber);
+      if (withPages.length >= 2) {
+        const closest = withPages.reduce((best, s) =>
+          Math.abs(s.pageNumber - videoPage) < Math.abs(best.pageNumber - videoPage) ? s : best
+        );
+        if (Math.abs(closest.pageNumber - videoPage) <= 5) {
+          const tiedCount = withPages.filter((s) =>
+            Math.abs(s.pageNumber - videoPage) === Math.abs(closest.pageNumber - videoPage)
+          ).length;
+          if (tiedCount === 1) {
+            return { song: closest, ambiguous: false };
+          }
+        }
+      }
+    }
+
+    // Strategy 2: Disambiguate using composer from video title brackets [Composer]
+    const videoComposer = extractComposerFromVideoTitle(rawVideoTitle)
+      || extractComposerFromDashTitle(rawVideoTitle);
     if (videoComposer) {
       const videoLastName = normalizeComposer(videoComposer);
       const composerMatches = exactMatches.filter((song) => {
@@ -269,6 +318,21 @@ function main() {
   if (!DRY_RUN) {
     writeFileSync(SONGS_PATH, JSON.stringify(songs, null, 2) + '\n', 'utf8');
     console.log(`\n[yt:link] Updated ${SONGS_PATH}`);
+
+    // Auto-generate book-playlists.json from curated playlistBookMappings
+    const bookPlaylists = playlistEntries.map((p) => {
+      const channel = channelsById.get(p.channelId);
+      return {
+        bookId: p.bookId,
+        playlistId: p.playlistId,
+        playlistTitle: p.playlistTitle,
+        playlistUrl: p.playlistUrl || `https://www.youtube.com/playlist?list=${p.playlistId}`,
+        channelName: channel?.name || p.channelName || 'Unknown Channel',
+        trackCount: (p.tracks || []).length,
+      };
+    });
+    writeFileSync(BOOK_PLAYLISTS_PATH, JSON.stringify(bookPlaylists, null, 2) + '\n', 'utf8');
+    console.log(`[yt:link] Updated ${BOOK_PLAYLISTS_PATH}`);
   } else {
     console.log('\n[yt:link] Dry run complete. No files were written.');
   }

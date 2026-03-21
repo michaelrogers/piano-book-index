@@ -446,5 +446,85 @@
     "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1Rogw8DL6gIVy0a-a4LgLfK",
     "channelName": "Amy Comparetto",
     "trackCount": 12
+  },
+  {
+    "bookId": "chordtime-piano-ragtime-marches",
+    "playlistId": "PLfee9gwa8EdE5LL51z5oYDUW5ugiyWFfQ",
+    "playlistTitle": "Level 2B Ragtime & Marches Book - Piano Adventures",
+    "playlistUrl": "https://www.youtube.com/playlist?list=PLfee9gwa8EdE5LL51z5oYDUW5ugiyWFfQ",
+    "channelName": "Karen Rock Music",
+    "trackCount": 2
+  },
+  {
+    "bookId": "playtime-piano-rock-n-roll",
+    "playlistId": "PLfee9gwa8EdEEbIQsYn-UCSMjQbBIEAiK",
+    "playlistTitle": "Level 1 PlayTime Rock 'n Roll Book",
+    "playlistUrl": "https://www.youtube.com/playlist?list=PLfee9gwa8EdEEbIQsYn-UCSMjQbBIEAiK",
+    "channelName": "Karen Rock Music",
+    "trackCount": 1
+  },
+  {
+    "bookId": "showtime-piano-disney",
+    "playlistId": "PLfee9gwa8EdG_X96hidb1I5470I5iKUFc",
+    "playlistTitle": "Level 2A ShowTime Piano Disney - Piano Adventures",
+    "playlistUrl": "https://www.youtube.com/playlist?list=PLfee9gwa8EdG_X96hidb1I5470I5iKUFc",
+    "channelName": "Karen Rock Music",
+    "trackCount": 9
+  },
+  {
+    "bookId": "chordtime-piano-popular",
+    "playlistId": "PLfee9gwa8EdGYk0Szr6RFPsSCE2zo8wQ4",
+    "playlistTitle": "Level 2B ChordTime Piano Popular",
+    "playlistUrl": "https://www.youtube.com/playlist?list=PLfee9gwa8EdGYk0Szr6RFPsSCE2zo8wQ4",
+    "channelName": "Karen Rock Music",
+    "trackCount": 11
+  },
+  {
+    "bookId": "playtime-piano-disney",
+    "playlistId": "PLfee9gwa8EdGA2rNEwfPk_5Ptv4EJlcGG",
+    "playlistTitle": "Level 1 PlayTime Piano Disney",
+    "playlistUrl": "https://www.youtube.com/playlist?list=PLfee9gwa8EdGA2rNEwfPk_5Ptv4EJlcGG",
+    "channelName": "Karen Rock Music",
+    "trackCount": 9
+  },
+  {
+    "bookId": "faber-lesson-2",
+    "playlistId": "PL8hZtgRyL9WQwqgM5hZsVxLVNfQ5MCCrJ",
+    "playlistTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2",
+    "playlistUrl": "https://www.youtube.com/playlist?list=PL8hZtgRyL9WQwqgM5hZsVxLVNfQ5MCCrJ",
+    "channelName": "Let's Play Piano Methods",
+    "trackCount": 99
+  },
+  {
+    "bookId": "faber-classics-1",
+    "playlistId": "PLROQq1cZUMn_tJxX2UelnAkgxlQRdfZRs",
+    "playlistTitle": "Adult Piano Adventures Classics Book 1",
+    "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn_tJxX2UelnAkgxlQRdfZRs",
+    "channelName": "Piano Adventures",
+    "trackCount": 35
+  },
+  {
+    "bookId": "faber-classics-2",
+    "playlistId": "PLROQq1cZUMn8vTb9RKSo_h1eL81v4J9tu",
+    "playlistTitle": "Adult Piano Adventures Classics Book 2",
+    "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn8vTb9RKSo_h1eL81v4J9tu",
+    "channelName": "Piano Adventures",
+    "trackCount": 26
+  },
+  {
+    "bookId": "faber-popular-1",
+    "playlistId": "PLROQq1cZUMn_18r2SJZU8ajbrBJmeHYMW",
+    "playlistTitle": "Adult Piano Adventures Popular Book 1",
+    "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn_18r2SJZU8ajbrBJmeHYMW",
+    "channelName": "Piano Adventures",
+    "trackCount": 33
+  },
+  {
+    "bookId": "faber-popular-2",
+    "playlistId": "PLROQq1cZUMn8VCV0z8lzPcDoBvUJB4Xfm",
+    "playlistTitle": "Adult Piano Adventures Popular Book 2",
+    "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn8VCV0z8lzPcDoBvUJB4Xfm",
+    "channelName": "Piano Adventures",
+    "trackCount": 27
   }
 ]
