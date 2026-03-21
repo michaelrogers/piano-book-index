@@ -76,11 +76,13 @@ interface BookInfo {
   hasVideos: boolean;
   difficultyLabel: DifficultyLabel | null;
   faberLevel: string | null;
+  publisher: string;
 }
 
 interface Props {
   books: BookInfo[];
   seriesList: string[];
+  publisherList: string[];
 }
 
 function syncToUrl(params: Record<string, string>) {
@@ -92,9 +94,10 @@ function syncToUrl(params: Record<string, string>) {
   history.replaceState(null, '', url);
 }
 
-export default function BookFilter({ books, seriesList }: Props) {
+export default function BookFilter({ books, seriesList, publisherList }: Props) {
   const [selectedSeries, setSelectedSeries] = useState('');
   const [selectedDifficulty, setSelectedDifficulty] = useState('');
+  const [selectedPublisher, setSelectedPublisher] = useState('');
   const [hideLessonBooks, setHideLessonBooks] = useState(true);
   const [ownedBookIds, setOwnedBookIds] = useState<Set<string>>(new Set());
 
@@ -113,6 +116,10 @@ export default function BookFilter({ books, seriesList }: Props) {
     if (params.get('lesson') === '1') {
       setHideLessonBooks(false);
     }
+    const pub = params.get('publisher');
+    if (pub && publisherList.includes(pub)) {
+      setSelectedPublisher(pub);
+    }
     setInitialized(true);
   }, []);
 
@@ -121,9 +128,10 @@ export default function BookFilter({ books, seriesList }: Props) {
     syncToUrl({
       difficulty: selectedDifficulty,
       series: selectedSeries,
+      publisher: selectedPublisher,
       lesson: hideLessonBooks ? '' : '1',
     });
-  }, [selectedDifficulty, selectedSeries, hideLessonBooks, initialized]);
+  }, [selectedDifficulty, selectedSeries, selectedPublisher, hideLessonBooks, initialized]);
 
   useEffect(() => {
     const loadOwnedBooks = () => {
@@ -157,9 +165,13 @@ export default function BookFilter({ books, seriesList }: Props) {
     ? visibleBooks.filter((b) => b.difficultyLabel === selectedDifficulty)
     : visibleBooks;
 
-  const filtered = selectedSeries
-    ? afterDifficulty.filter((b) => b.series === selectedSeries)
+  const afterPublisher = selectedPublisher
+    ? afterDifficulty.filter((b) => b.publisher === selectedPublisher)
     : afterDifficulty;
+
+  const filtered = selectedSeries
+    ? afterPublisher.filter((b) => b.series === selectedSeries)
+    : afterPublisher;
 
   // Sort: owned books first, then books with no songs to the bottom
   const sorted = [...filtered].sort((a, b) => {
@@ -196,6 +208,17 @@ export default function BookFilter({ books, seriesList }: Props) {
           ))}
         </select>
 
+        <select
+          value={selectedPublisher}
+          onChange={(e) => setSelectedPublisher((e.target as HTMLSelectElement).value)}
+          class="rounded-full border border-gray-300 bg-white px-3 py-1 text-sm dark:border-gray-700 dark:bg-gray-900 dark:text-gray-100"
+        >
+          <option value="">All Publishers</option>
+          {publisherList.map((p) => (
+            <option key={p} value={p}>{p}</option>
+          ))}
+        </select>
+
         <button
           onClick={() => setSelectedSeries('')}
           class={`rounded-full px-3 py-1 text-sm font-medium transition-colors ${
@@ -204,10 +227,10 @@ export default function BookFilter({ books, seriesList }: Props) {
               : 'bg-gray-100 text-gray-600 hover:bg-gray-200 dark:bg-gray-800 dark:text-gray-400 dark:hover:bg-gray-700'
           }`}
         >
-          All ({visibleBooks.length})
+          All ({afterPublisher.length})
         </button>
         {seriesList.map((s) => {
-          const count = visibleBooks.filter((b) => b.series === s).length;
+          const count = afterPublisher.filter((b) => b.series === s).length;
           return (
             <button
               key={s}
@@ -249,7 +272,7 @@ export default function BookFilter({ books, seriesList }: Props) {
               ) : (
                 <div class="flex h-full items-center justify-center p-4 text-center">
                   <div>
-                    <div class="text-3xl">🎹</div>
+                    <svg class="mx-auto h-8 w-8 text-gray-300 dark:text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="m9 9 10.5-3m0 6.553v3.75a2.25 2.25 0 0 1-1.632 2.163l-1.32.377a1.803 1.803 0 0 1-.99-3.467l2.31-.66a2.25 2.25 0 0 0 1.632-2.163zm0 0V4.5l-10.5 3v6.75m0 0v3.75a2.25 2.25 0 0 1-1.632 2.163l-1.32.377a1.803 1.803 0 0 1-.99-3.467l2.31-.66A2.25 2.25 0 0 0 4.5 15V4.5" /></svg>
                     <p class="mt-2 text-xs text-gray-500 dark:text-gray-400">{book.title}</p>
                   </div>
                 </div>

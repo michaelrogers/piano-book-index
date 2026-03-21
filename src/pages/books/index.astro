@@ -1,10 +1,11 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import BookFilter from '../../components/BookFilter.tsx';
-import { getBooks, getSongsByBook, getBookSeries } from '../../lib/data';
+import { getBooks, getSongsByBook, getBookSeries, getPublishers } from '../../lib/data';
 
 const books = getBooks();
 const seriesList = getBookSeries();
+const publisherList = getPublishers();
 
 const bookInfos = books.map((b) => {
   const songs = getSongsByBook(b.id);
@@ -22,6 +23,7 @@ const bookInfos = books.map((b) => {
     hasVideos: songs.some((s) => s.youtubeLinks && s.youtubeLinks.length > 0),
     difficultyLabel: firstSong?.difficulty.label ?? null,
     faberLevel: firstSong?.difficulty.faberLevel ?? null,
+    publisher: b.publisher,
   };
 });
 ---
@@ -35,5 +37,5 @@ const bookInfos = books.map((b) => {
       {books.length} books across {seriesList.length} series
     </p>
   </div>
-  <BookFilter client:load books={bookInfos} seriesList={seriesList} />
+  <BookFilter client:load books={bookInfos} seriesList={seriesList} publisherList={publisherList} />
 </BaseLayout>

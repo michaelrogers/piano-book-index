@@ -35,7 +35,7 @@ const book = getBookById(song.bookId);
       </p>
       {showBook && book && (
         <p class="mt-1 text-xs text-gray-500 dark:text-gray-500">
-          📖 {book.title}
+          {book.title}
           {song.pageNumber && <span> &middot; p.{song.pageNumber}</span>}
         </p>
       )}

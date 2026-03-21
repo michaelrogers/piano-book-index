@@ -276,7 +276,7 @@ export default function SearchApp({ songs, genres, series, publishers }: Props) 
               {song.bookCoverImage ? (
                 <img src={song.bookCoverImage} alt="" class="h-10 w-8 rounded object-cover shadow-sm" />
               ) : (
-                <div class="flex h-10 w-8 items-center justify-center rounded bg-gray-100 text-xs dark:bg-gray-800">🎹</div>
+                <div class="flex h-10 w-8 items-center justify-center rounded bg-gray-100 dark:bg-gray-800"><svg class="h-4 w-4 text-gray-300 dark:text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="m9 9 10.5-3m0 6.553v3.75a2.25 2.25 0 0 1-1.632 2.163l-1.32.377a1.803 1.803 0 0 1-.99-3.467l2.31-.66a2.25 2.25 0 0 0 1.632-2.163zm0 0V4.5l-10.5 3v6.75m0 0v3.75a2.25 2.25 0 0 1-1.632 2.163l-1.32.377a1.803 1.803 0 0 1-.99-3.467l2.31-.66A2.25 2.25 0 0 0 4.5 15V4.5" /></svg></div>
               )}
             </div>
             <div class="min-w-0 flex-1">
@@ -308,7 +308,7 @@ export default function SearchApp({ songs, genres, series, publishers }: Props) 
 
       {results.length === 0 && (
         <div class="mt-8 text-center text-gray-500 dark:text-gray-400">
-          <div class="text-4xl">🎵</div>
+          <svg class="mx-auto h-10 w-10 text-gray-300 dark:text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="m9 9 10.5-3m0 6.553v3.75a2.25 2.25 0 0 1-1.632 2.163l-1.32.377a1.803 1.803 0 0 1-.99-3.467l2.31-.66a2.25 2.25 0 0 0 1.632-2.163zm0 0V4.5l-10.5 3v6.75m0 0v3.75a2.25 2.25 0 0 1-1.632 2.163l-1.32.377a1.803 1.803 0 0 1-.99-3.467l2.31-.66A2.25 2.25 0 0 0 4.5 15V4.5" /></svg>
           <p class="mt-2">No songs found. Try a different search or adjust filters.</p>
         </div>
       )}

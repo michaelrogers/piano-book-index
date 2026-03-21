@@ -1,28 +1,17 @@
 import { useState, useEffect, useMemo } from 'preact/hooks';
 import type { SongSearchItem, DifficultyLabel } from '../lib/types';
-import type { PracticeStatus } from './FavoriteToggle';
-
-interface FavoriteData {
-  status: PracticeStatus;
-  favoritedAt: number;
-}
+import { STATUS_OPTIONS, removeFavoriteFromStorage, setFavorite } from './FavoriteToggle';
+import type { PracticeStatus, FavoriteData } from './FavoriteToggle';
 
 interface FavoriteSong extends SongSearchItem {
   favData: FavoriteData;
 }
 
-const STATUS_GROUPS: { status: PracticeStatus; label: string; emoji: string }[] = [
-  { status: 'learning', label: 'Learning', emoji: '📖' },
-  { status: 'want-to-learn', label: 'Want to Learn', emoji: '📋' },
-  { status: 'practiced', label: 'Practiced', emoji: '✅' },
-  { status: 'mastered', label: 'Mastered', emoji: '⭐' },
-];
-
-const STATUS_OPTIONS: { value: PracticeStatus; label: string; emoji: string }[] = [
-  { value: 'want-to-learn', label: 'Want to Learn', emoji: '📋' },
-  { value: 'learning', label: 'Learning', emoji: '📖' },
-  { value: 'practiced', label: 'Practiced', emoji: '✅' },
-  { value: 'mastered', label: 'Mastered', emoji: '⭐' },
+const STATUS_GROUPS: { status: PracticeStatus; label: string; dotColor: string }[] = [
+  { status: 'want-to-learn', label: 'Want to Learn', dotColor: 'bg-blue-400' },
+  { status: 'learning', label: 'Learning', dotColor: 'bg-amber-400' },
+  { status: 'practiced', label: 'Practiced', dotColor: 'bg-green-500' },
+  { status: 'mastered', label: 'Mastered', dotColor: 'bg-purple-500' },
 ];
 
 const difficultyColors: Record<DifficultyLabel, string> = {
@@ -66,15 +55,11 @@ export default function FavoritesList({ songs }: Props) {
   }, []);
 
   const changeStatus = (songId: string, newStatus: PracticeStatus) => {
-    const existing = favMap.get(songId);
-    const data: FavoriteData = { status: newStatus, favoritedAt: existing?.favoritedAt ?? Date.now() };
-    localStorage.setItem(`fav:${songId}`, JSON.stringify(data));
-    window.dispatchEvent(new CustomEvent('favorites-changed', { detail: { songId, status: newStatus, removed: false } }));
+    setFavorite(songId, newStatus);
   };
 
   const removeFavorite = (songId: string) => {
-    localStorage.removeItem(`fav:${songId}`);
-    window.dispatchEvent(new CustomEvent('favorites-changed', { detail: { songId, status: null, removed: true } }));
+    removeFavoriteFromStorage(songId);
   };
 
   const songMap = useMemo(() => {
@@ -95,7 +80,6 @@ export default function FavoritesList({ songs }: Props) {
       if (!song) continue;
       groups[favData.status].push({ ...song, favData });
     }
-    // Sort each group by favoritedAt (newest first)
     for (const key of Object.keys(groups) as PracticeStatus[]) {
       groups[key].sort((a, b) => b.favData.favoritedAt - a.favData.favoritedAt);
     }
@@ -120,31 +104,32 @@ export default function FavoritesList({ songs }: Props) {
   }
 
   return (
-    <div class="space-y-8">
+    <div class="space-y-6">
       <p class="text-sm text-gray-500 dark:text-gray-400">
         {totalFavorites} {totalFavorites === 1 ? 'song' : 'songs'} favorited
       </p>
 
-      {STATUS_GROUPS.map(({ status, label, emoji }) => {
+      {STATUS_GROUPS.map(({ status, label, dotColor }) => {
         const items = grouped[status];
         if (items.length === 0) return null;
         return (
           <div key={status}>
-            <h2 class="text-lg font-semibold text-gray-900 dark:text-gray-100">
-              {emoji} {label} ({items.length})
+            <h2 class="flex items-center gap-2 text-sm font-semibold text-gray-900 dark:text-gray-100">
+              <span class={`inline-block h-2.5 w-2.5 rounded-full ${dotColor}`} />
+              {label}
+              <span class="font-normal text-gray-400 dark:text-gray-500">({items.length})</span>
             </h2>
-            <div class="mt-3 divide-y divide-gray-100 overflow-hidden rounded-lg border border-gray-200 bg-white dark:divide-gray-800 dark:border-gray-800 dark:bg-gray-900">
+            <div class="mt-2 divide-y divide-gray-100 overflow-hidden rounded-lg border border-gray-200 bg-white dark:divide-gray-800 dark:border-gray-800 dark:bg-gray-900">
               {items.map((song) => (
-                <div key={song.id} class="group">
-                  <a
-                    href={`/songs/${song.id}`}
-                    class="flex items-center gap-3 px-3 py-2.5 transition-colors hover:bg-gray-50 dark:hover:bg-gray-800/60"
-                  >
+                <div key={song.id} class="group flex items-center gap-3 px-3 py-2">
+                  <a href={`/songs/${song.id}`} class="flex min-w-0 flex-1 items-center gap-3">
                     <div class="shrink-0">
                       {song.bookCoverImage ? (
                         <img src={song.bookCoverImage} alt="" class="h-10 w-8 rounded object-cover shadow-sm" />
                       ) : (
-                        <div class="flex h-10 w-8 items-center justify-center rounded bg-gray-100 text-xs dark:bg-gray-800">🎹</div>
+                        <div class="flex h-10 w-8 items-center justify-center rounded bg-gray-100 dark:bg-gray-800">
+                          <svg class="h-4 w-4 text-gray-300 dark:text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="m9 9 10.5-3m0 6.553v3.75a2.25 2.25 0 0 1-1.632 2.163l-1.32.377a1.803 1.803 0 0 1-.99-3.467l2.31-.66a2.25 2.25 0 0 0 1.632-2.163zm0 0V4.5l-10.5 3v6.75m0 0v3.75a2.25 2.25 0 0 1-1.632 2.163l-1.32.377a1.803 1.803 0 0 1-.99-3.467l2.31-.66A2.25 2.25 0 0 0 4.5 15V4.5" /></svg>
+                        </div>
                       )}
                     </div>
                     <div class="min-w-0 flex-1">
@@ -165,26 +150,22 @@ export default function FavoritesList({ songs }: Props) {
                       </p>
                     </div>
                   </a>
-                  <div class="flex items-center gap-1 border-t border-gray-50 px-3 py-1.5 dark:border-gray-800/50">
-                    {STATUS_OPTIONS.map((opt) => (
-                      <button
-                        key={opt.value}
-                        onClick={() => changeStatus(song.id, opt.value)}
-                        class={`rounded-full border px-2 py-0.5 text-xs font-medium transition-colors ${
-                          song.favData.status === opt.value
-                            ? 'border-piano-300 bg-piano-50 text-piano-700 dark:border-piano-700 dark:bg-piano-900/30 dark:text-piano-400'
-                            : 'border-gray-200 bg-gray-50 text-gray-500 hover:border-gray-300 hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:hover:border-gray-600 dark:hover:bg-gray-700'
-                        }`}
-                      >
-                        {opt.emoji} {opt.label}
-                      </button>
-                    ))}
+                  <div class="flex shrink-0 items-center gap-1.5">
+                    <select
+                      value={song.favData.status}
+                      onChange={(e) => changeStatus(song.id, (e.target as HTMLSelectElement).value as PracticeStatus)}
+                      class="rounded border border-gray-200 bg-gray-50 px-1.5 py-0.5 text-xs text-gray-600 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-400"
+                    >
+                      {STATUS_OPTIONS.map((opt) => (
+                        <option key={opt.value} value={opt.value}>{opt.label}</option>
+                      ))}
+                    </select>
                     <button
                       onClick={() => removeFavorite(song.id)}
-                      class="ml-auto rounded-full border border-gray-200 px-2 py-0.5 text-xs text-gray-400 hover:border-red-300 hover:bg-red-50 hover:text-red-500 dark:border-gray-700 dark:text-gray-500 dark:hover:border-red-800 dark:hover:bg-red-900/20 dark:hover:text-red-400"
+                      class="rounded p-1 text-gray-300 hover:bg-red-50 hover:text-red-500 dark:text-gray-600 dark:hover:bg-red-900/20 dark:hover:text-red-400"
                       title="Remove from favorites"
                     >
-                      ✕
+                      <svg class="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" /></svg>
                     </button>
                   </div>
                 </div>

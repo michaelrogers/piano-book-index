@@ -33,7 +33,7 @@ import ThemeToggle from '../components/ThemeToggle.tsx';
     <header class="sticky top-0 z-50 border-b border-gray-200 bg-white/80 backdrop-blur dark:border-gray-800 dark:bg-gray-950/80">
       <nav class="mx-auto flex max-w-5xl items-center justify-between px-4 py-3">
         <a href="/" class="text-lg font-bold text-piano-700 dark:text-piano-400">
-          🎹 Piano Book Index
+          Piano Book Index
         </a>
         <ul class="flex items-center gap-1 text-sm">
           <li>
@@ -150,6 +150,7 @@ import ThemeToggle from '../components/ThemeToggle.tsx';
       const handleFavToggleClick = (e) => {
         const btn = e.target.closest('[data-fav-toggle][data-song-id]');
         if (!btn) return;
+        e.preventDefault();
         const songId = btn.getAttribute('data-song-id');
         if (!songId) return;
         const key = 'fav:' + songId;
