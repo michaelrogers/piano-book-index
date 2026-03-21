@@ -1,6 +1,7 @@
-import { useEffect, useMemo, useState } from 'preact/hooks';
+import { useEffect, useMemo, useRef, useState } from 'preact/hooks';
 import Fuse from 'fuse.js';
 import type { SongSearchItem, DifficultyLabel } from '../lib/types';
+import DifficultyRangeFilter, { DIFFICULTY_LABELS } from './DifficultyRangeFilter';
 
 interface Props {
   songs: SongSearchItem[];
@@ -18,15 +19,6 @@ const difficultyColors: Record<DifficultyLabel, string> = {
   'Advanced': 'text-pink-700 dark:text-pink-400',
 };
 
-const DIFFICULTY_LABELS: DifficultyLabel[] = [
-  'Beginner',
-  'Early Intermediate',
-  'Intermediate',
-  'Late Intermediate',
-  'Early Advanced',
-  'Advanced',
-];
-
 function syncToUrl(params: Record<string, string>) {
   const url = new URL(window.location.href);
   for (const [k, v] of Object.entries(params)) {
@@ -38,8 +30,11 @@ function syncToUrl(params: Record<string, string>) {
 
 export default function SearchApp({ songs, genres, series, publishers }: Props) {
   const [query, setQuery] = useState('');
-  const [selectedDifficulty, setSelectedDifficulty] = useState('');
-  const [selectedGenre, setSelectedGenre] = useState('');
+  const [diffMin, setDiffMin] = useState<number | null>(null);
+  const [diffMax, setDiffMax] = useState<number | null>(null);
+  const [selectedGenres, setSelectedGenres] = useState<Set<string>>(new Set());
+  const [genreDropdownOpen, setGenreDropdownOpen] = useState(false);
+  const genreRef = useRef<HTMLDivElement>(null);
   const [selectedSeries, setSelectedSeries] = useState('');
   const [selectedPublisher, setSelectedPublisher] = useState('');
   const [onlyOwned, setOnlyOwned] = useState(false);
@@ -48,11 +43,32 @@ export default function SearchApp({ songs, genres, series, publishers }: Props) 
   const [favSongIds, setFavSongIds] = useState<Set<string>>(new Set());
   const [initialized, setInitialized] = useState(false);
 
+  // Close genre dropdown on outside click
+  useEffect(() => {
+    const handleClick = (e: MouseEvent) => {
+      if (genreRef.current && !genreRef.current.contains(e.target as Node)) {
+        setGenreDropdownOpen(false);
+      }
+    };
+    document.addEventListener('click', handleClick);
+    return () => document.removeEventListener('click', handleClick);
+  }, []);
+
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
     if (params.get('q')) setQuery(params.get('q')!);
-    if (params.get('difficulty') && DIFFICULTY_LABELS.includes(params.get('difficulty') as DifficultyLabel)) setSelectedDifficulty(params.get('difficulty')!);
-    if (params.get('genre')) setSelectedGenre(params.get('genre')!);
+    const dmin = params.get('dmin');
+    const dmax = params.get('dmax');
+    if (dmin !== null && dmax !== null) {
+      const mn = parseInt(dmin, 10);
+      const mx = parseInt(dmax, 10);
+      if (!isNaN(mn) && !isNaN(mx) && mn >= 0 && mx < DIFFICULTY_LABELS.length) {
+        setDiffMin(mn);
+        setDiffMax(mx);
+      }
+    }
+    const genreParam = params.get('genres');
+    if (genreParam) setSelectedGenres(new Set(genreParam.split(',')));
     if (params.get('series')) setSelectedSeries(params.get('series')!);
     if (params.get('publisher')) setSelectedPublisher(params.get('publisher')!);
     if (params.get('owned') === '1') setOnlyOwned(true);
@@ -64,14 +80,15 @@ export default function SearchApp({ songs, genres, series, publishers }: Props) 
     if (!initialized) return;
     syncToUrl({
       q: query,
-      difficulty: selectedDifficulty,
-      genre: selectedGenre,
+      dmin: diffMin !== null ? String(diffMin) : '',
+      dmax: diffMax !== null ? String(diffMax) : '',
+      genres: selectedGenres.size > 0 ? [...selectedGenres].join(',') : '',
       series: selectedSeries,
       publisher: selectedPublisher,
       owned: onlyOwned ? '1' : '',
       lesson: hideLessonBooks ? '' : '1',
     });
-  }, [query, selectedDifficulty, selectedGenre, selectedSeries, selectedPublisher, onlyOwned, hideLessonBooks, initialized]);
+  }, [query, diffMin, diffMax, selectedGenres, selectedSeries, selectedPublisher, onlyOwned, hideLessonBooks, initialized]);
 
   useEffect(() => {
     const loadOwnedBooks = () => {
@@ -137,11 +154,16 @@ export default function SearchApp({ songs, genres, series, publishers }: Props) 
       ? fuse.search(query).map((r) => r.item)
       : songs;
 
-    if (selectedDifficulty) {
-      filtered = filtered.filter((s) => s.difficultyLabel === selectedDifficulty);
+    if (diffMin !== null && diffMax !== null) {
+      filtered = filtered.filter((s) => {
+        const idx = DIFFICULTY_LABELS.indexOf(s.difficultyLabel);
+        return idx >= diffMin && idx <= diffMax;
+      });
     }
-    if (selectedGenre) {
-      filtered = filtered.filter((s) => s.genre === selectedGenre);
+    if (selectedGenres.size > 0) {
+      filtered = filtered.filter((s) =>
+        s.genreTags.some((t) => selectedGenres.has(t)),
+      );
     }
     if (selectedSeries) {
       filtered = filtered.filter((s) => s.bookSeries === selectedSeries);
@@ -156,7 +178,7 @@ export default function SearchApp({ songs, genres, series, publishers }: Props) 
       filtered = filtered.filter((s) => ownedBookIds.has(s.bookId));
     }
     return filtered;
-  }, [query, selectedDifficulty, selectedGenre, selectedSeries, selectedPublisher, onlyOwned, hideLessonBooks, ownedBookIds, fuse, songs]);
+  }, [query, diffMin, diffMax, selectedGenres, selectedSeries, selectedPublisher, onlyOwned, hideLessonBooks, ownedBookIds, fuse, songs]);
 
   return (
     <div>
@@ -174,29 +196,63 @@ export default function SearchApp({ songs, genres, series, publishers }: Props) 
         </svg>
       </div>
 
+      {/* Difficulty range */}
+      <div class="mt-3">
+        <DifficultyRangeFilter min={diffMin} max={diffMax} onChange={(mn, mx) => { setDiffMin(mn); setDiffMax(mx); }} />
+      </div>
+
       {/* Filters */}
       <div class="mt-3 flex flex-nowrap gap-2 overflow-x-auto pb-2 sm:flex-wrap sm:overflow-visible sm:pb-0">
-        <select
-          value={selectedDifficulty}
-          onChange={(e) => setSelectedDifficulty((e.target as HTMLSelectElement).value)}
-          class="shrink-0 rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm dark:border-gray-700 dark:bg-gray-900 dark:text-gray-100"
-        >
-          <option value="">All Levels</option>
-          {DIFFICULTY_LABELS.map((d) => (
-            <option key={d} value={d}>{d}</option>
-          ))}
-        </select>
+        <div ref={genreRef} class="relative shrink-0">
+          <button
+            type="button"
+            onClick={() => setGenreDropdownOpen(!genreDropdownOpen)}
+            class={`rounded-lg border px-3 py-2 text-sm ${
+              selectedGenres.size > 0
+                ? 'border-piano-400 bg-piano-50 text-piano-700 dark:border-piano-600 dark:bg-piano-900/30 dark:text-piano-300'
+                : 'border-gray-300 bg-white text-gray-700 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-100'
+            }`}
+          >
+            {selectedGenres.size > 0 ? `Genres (${selectedGenres.size})` : 'All Genres'}
+            <svg class="ml-1 inline h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" /></svg>
+          </button>
+          {genreDropdownOpen && (
+            <div class="absolute left-0 z-20 mt-1 max-h-60 w-52 overflow-y-auto rounded-lg border border-gray-200 bg-white p-2 shadow-lg dark:border-gray-700 dark:bg-gray-900">
+              {genres.map((g) => (
+                <label key={g} class="flex cursor-pointer items-center gap-2 rounded px-2 py-1.5 text-sm hover:bg-gray-50 dark:hover:bg-gray-800">
+                  <input
+                    type="checkbox"
+                    checked={selectedGenres.has(g)}
+                    onChange={() => {
+                      const next = new Set(selectedGenres);
+                      if (next.has(g)) next.delete(g);
+                      else next.add(g);
+                      setSelectedGenres(next);
+                    }}
+                    class="accent-piano-600"
+                  />
+                  <span class="text-gray-700 dark:text-gray-300">{g}</span>
+                </label>
+              ))}
+            </div>
+          )}
+        </div>
 
-        <select
-          value={selectedGenre}
-          onChange={(e) => setSelectedGenre((e.target as HTMLSelectElement).value)}
-          class="shrink-0 rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm dark:border-gray-700 dark:bg-gray-900 dark:text-gray-100"
-        >
-          <option value="">All Genres</option>
-          {genres.map((g) => (
-            <option key={g} value={g}>{g}</option>
-          ))}
-        </select>
+        {/* Genre pills */}
+        {[...selectedGenres].map((g) => (
+          <button
+            key={g}
+            onClick={() => {
+              const next = new Set(selectedGenres);
+              next.delete(g);
+              setSelectedGenres(next);
+            }}
+            class="inline-flex shrink-0 items-center gap-1 rounded-full bg-piano-100 px-2.5 py-1 text-xs font-medium text-piano-700 hover:bg-piano-200 dark:bg-piano-900/40 dark:text-piano-300 dark:hover:bg-piano-800/60"
+          >
+            {g}
+            <svg class="h-3 w-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+          </button>
+        ))}
 
         <select
           value={selectedSeries}
@@ -240,11 +296,12 @@ export default function SearchApp({ songs, genres, series, publishers }: Props) 
           <span class="text-gray-600 dark:text-gray-300">Hide lesson books</span>
         </label>
 
-        {(selectedDifficulty || selectedGenre || selectedSeries || selectedPublisher) && (
+        {(diffMin !== null || selectedGenres.size > 0 || selectedSeries || selectedPublisher) && (
           <button
             onClick={() => {
-              setSelectedDifficulty('');
-              setSelectedGenre('');
+              setDiffMin(null);
+              setDiffMax(null);
+              setSelectedGenres(new Set());
               setSelectedSeries('');
               setSelectedPublisher('');
             }}

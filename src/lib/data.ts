@@ -81,7 +81,27 @@ export function getBookSeries(): string[] {
 }
 
 export function getGenres(): string[] {
-  return [...new Set(songs.map((s) => s.genre))].sort();
+  const allTags = songs.flatMap((s) => normalizeGenre(s.genre));
+  return [...new Set(allTags)].sort();
+}
+
+const GENRE_MAP: Record<string, string[]> = {
+  'Film/TV': ['Film/TV'],
+  'Pop/Film': ['Pop', 'Film/TV'],
+  'Film/Pop': ['Film/TV', 'Pop'],
+  'Film/Musical Theatre': ['Film/TV', 'Musical Theatre'],
+  'Jazz/Pop': ['Jazz', 'Pop'],
+  'Disco/Pop': ['Disco', 'Pop'],
+  'Pop/Rock': ['Pop', 'Rock'],
+  'Pop/Soul': ['Pop', 'Soul'],
+  'Pop/Latin': ['Pop', 'Latin'],
+  'Pop/Folk': ['Pop', 'Folk'],
+  'Folk/Rock': ['Folk', 'Rock'],
+};
+
+function normalizeGenre(genre: string): string[] {
+  if (GENRE_MAP[genre]) return GENRE_MAP[genre];
+  return [genre];
 }
 
 export function getPublishers(): string[] {
@@ -97,6 +117,7 @@ export function buildSearchIndex(): SongSearchItem[] {
       title: song.title,
       composer: song.composer,
       genre: song.genre,
+      genreTags: normalizeGenre(song.genre),
       bookId: song.bookId,
       bookTitle: book?.title ?? '',
       bookSeries: book?.series ?? '',

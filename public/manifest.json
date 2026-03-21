@@ -24,7 +24,7 @@
     {
       "name": "Search Songs",
       "short_name": "Search",
-      "url": "/",
+      "url": "/search",
       "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
     },
     {

@@ -1,0 +1,22 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SearchApp from '../components/SearchApp.tsx';
+import { buildSearchIndex, getGenres, getBookSeries, getPublishers } from '../lib/data';
+
+const searchIndex = buildSearchIndex();
+const genres = getGenres();
+const series = getBookSeries();
+const publishers = getPublishers();
+---
+
+<BaseLayout title="Search Songs">
+  <div class="mb-6">
+    <h1 class="text-2xl font-bold text-gray-900 dark:text-gray-100">
+      Find Your Song
+    </h1>
+    <p class="mt-1 text-sm text-gray-600 dark:text-gray-400">
+      Search across {searchIndex.length} songs from Faber and Alfred piano method books
+    </p>
+  </div>
+  <SearchApp client:load songs={searchIndex} genres={genres} series={series} publishers={publishers} />
+</BaseLayout>

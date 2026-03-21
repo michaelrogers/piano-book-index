@@ -56,6 +56,7 @@ export interface Song {
 export interface DifficultyMapping {
   label: DifficultyLabel;
   faberLevel: string;
+  faberSupplementary: string;
   alfredLevel: string;
   description: string;
 }
@@ -66,6 +67,7 @@ export interface SongSearchItem {
   title: string;
   composer: string;
   genre: string;
+  genreTags: string[];
   bookId: string;
   bookTitle: string;
   bookSeries: string;

@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'preact/hooks';
+import DifficultyRangeFilter, { DIFFICULTY_LABELS } from './DifficultyRangeFilter';
 
 type DifficultyLabel =
   | 'Beginner'
@@ -8,14 +9,7 @@ type DifficultyLabel =
   | 'Early Advanced'
   | 'Advanced';
 
-const DIFFICULTY_LEVELS: DifficultyLabel[] = [
-  'Beginner',
-  'Early Intermediate',
-  'Intermediate',
-  'Late Intermediate',
-  'Early Advanced',
-  'Advanced',
-];
+const DIFFICULTY_LEVELS: DifficultyLabel[] = DIFFICULTY_LABELS;
 
 const segmentFillColors: Record<DifficultyLabel, string> = {
   'Beginner': 'bg-green-500',
@@ -96,7 +90,8 @@ function syncToUrl(params: Record<string, string>) {
 
 export default function BookFilter({ books, seriesList, publisherList }: Props) {
   const [selectedSeries, setSelectedSeries] = useState('');
-  const [selectedDifficulty, setSelectedDifficulty] = useState('');
+  const [diffMin, setDiffMin] = useState<number | null>(null);
+  const [diffMax, setDiffMax] = useState<number | null>(null);
   const [selectedPublisher, setSelectedPublisher] = useState('');
   const [hideLessonBooks, setHideLessonBooks] = useState(true);
   const [ownedBookIds, setOwnedBookIds] = useState<Set<string>>(new Set());
@@ -105,9 +100,15 @@ export default function BookFilter({ books, seriesList, publisherList }: Props) 
 
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
-    const diff = params.get('difficulty');
-    if (diff && DIFFICULTY_LEVELS.includes(diff as DifficultyLabel)) {
-      setSelectedDifficulty(diff);
+    const dmin = params.get('dmin');
+    const dmax = params.get('dmax');
+    if (dmin !== null && dmax !== null) {
+      const mn = parseInt(dmin, 10);
+      const mx = parseInt(dmax, 10);
+      if (!isNaN(mn) && !isNaN(mx) && mn >= 0 && mx < DIFFICULTY_LEVELS.length) {
+        setDiffMin(mn);
+        setDiffMax(mx);
+      }
     }
     const series = params.get('series');
     if (series && seriesList.includes(series)) {
@@ -126,12 +127,13 @@ export default function BookFilter({ books, seriesList, publisherList }: Props) 
   useEffect(() => {
     if (!initialized) return;
     syncToUrl({
-      difficulty: selectedDifficulty,
+      dmin: diffMin !== null ? String(diffMin) : '',
+      dmax: diffMax !== null ? String(diffMax) : '',
       series: selectedSeries,
       publisher: selectedPublisher,
       lesson: hideLessonBooks ? '' : '1',
     });
-  }, [selectedDifficulty, selectedSeries, selectedPublisher, hideLessonBooks, initialized]);
+  }, [diffMin, diffMax, selectedSeries, selectedPublisher, hideLessonBooks, initialized]);
 
   useEffect(() => {
     const loadOwnedBooks = () => {
@@ -161,8 +163,12 @@ export default function BookFilter({ books, seriesList, publisherList }: Props) 
     ? books.filter((b) => b.bookType !== 'lesson')
     : books;
 
-  const afterDifficulty = selectedDifficulty
-    ? visibleBooks.filter((b) => b.difficultyLabel === selectedDifficulty)
+  const afterDifficulty = diffMin !== null && diffMax !== null
+    ? visibleBooks.filter((b) => {
+        if (!b.difficultyLabel) return false;
+        const idx = DIFFICULTY_LEVELS.indexOf(b.difficultyLabel);
+        return idx >= diffMin && idx <= diffMax;
+      })
     : visibleBooks;
 
   const afterPublisher = selectedPublisher
@@ -185,6 +191,11 @@ export default function BookFilter({ books, seriesList, publisherList }: Props) 
 
   return (
     <div>
+      {/* Difficulty range */}
+      <div class="mb-3">
+        <DifficultyRangeFilter min={diffMin} max={diffMax} onChange={(mn, mx) => { setDiffMin(mn); setDiffMax(mx); }} />
+      </div>
+
       {/* Filter row */}
       <div class="flex flex-nowrap items-center gap-2 overflow-x-auto pb-2 sm:flex-wrap sm:overflow-visible sm:pb-0">
         <label class="inline-flex shrink-0 cursor-pointer items-center gap-1.5 rounded-full border border-gray-300 px-3 py-2 text-sm dark:border-gray-700">
@@ -196,17 +207,6 @@ export default function BookFilter({ books, seriesList, publisherList }: Props) 
           />
           <span class="text-gray-600 dark:text-gray-300">Hide lesson books</span>
         </label>
-
-        <select
-          value={selectedDifficulty}
-          onChange={(e) => setSelectedDifficulty((e.target as HTMLSelectElement).value)}
-          class="shrink-0 rounded-full border border-gray-300 bg-white px-3 py-2 text-sm dark:border-gray-700 dark:bg-gray-900 dark:text-gray-100"
-        >
-          <option value="">All Levels</option>
-          {DIFFICULTY_LEVELS.map((d) => (
-            <option key={d} value={d}>{d}</option>
-          ))}
-        </select>
 
         <select
           value={selectedPublisher}

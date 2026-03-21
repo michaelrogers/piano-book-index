@@ -22,7 +22,8 @@ const difficultyMap = getDifficultyMap();
       <thead>
         <tr class="bg-gray-50 dark:bg-gray-900">
           <th class="px-4 py-3 text-left font-semibold text-gray-700 dark:text-gray-300">Level</th>
-          <th class="px-4 py-3 text-left font-semibold text-gray-700 dark:text-gray-300">Faber</th>
+          <th class="px-4 py-3 text-left font-semibold text-gray-700 dark:text-gray-300">Faber Lesson</th>
+          <th class="px-4 py-3 text-left font-semibold text-gray-700 dark:text-gray-300">Faber Supplementary</th>
           <th class="px-4 py-3 text-left font-semibold text-gray-700 dark:text-gray-300">Alfred</th>
           <th class="px-4 py-3 text-left font-semibold text-gray-700 dark:text-gray-300">Description</th>
         </tr>
@@ -36,6 +37,7 @@ const difficultyMap = getDifficultyMap();
               </a>
             </td>
             <td class="px-4 py-3 text-gray-600 dark:text-gray-400">{row.faberLevel}</td>
+            <td class="px-4 py-3 text-gray-600 dark:text-gray-400">{row.faberSupplementary}</td>
             <td class="px-4 py-3 text-gray-600 dark:text-gray-400">{row.alfredLevel}</td>
             <td class="px-4 py-3 text-gray-600 dark:text-gray-400">{row.description}</td>
           </tr>
@@ -53,8 +55,12 @@ const difficultyMap = getDifficultyMap();
         </div>
         <dl class="space-y-2 text-sm">
           <div>
-            <dt class="font-medium text-gray-700 dark:text-gray-300">Faber Level</dt>
+            <dt class="font-medium text-gray-700 dark:text-gray-300">Faber Lesson</dt>
             <dd class="text-gray-600 dark:text-gray-400">{row.faberLevel}</dd>
+          </div>
+          <div>
+            <dt class="font-medium text-gray-700 dark:text-gray-300">Faber Supplementary</dt>
+            <dd class="text-gray-600 dark:text-gray-400">{row.faberSupplementary}</dd>
           </div>
           <div>
             <dt class="font-medium text-gray-700 dark:text-gray-300">Alfred Level</dt>

@@ -2,36 +2,42 @@
   {
     "label": "Beginner",
     "faberLevel": "Lesson Book 1 (Units 1-5)",
+    "faberSupplementary": "PreTime (Primer) / PlayTime (Level 1)",
     "alfredLevel": "Level 1",
     "description": "First year of study. Reading in C position, simple rhythms, basic dynamics. Hands mostly separate or in parallel motion."
   },
   {
     "label": "Early Intermediate",
     "faberLevel": "Lesson Book 1 (Units 6-10) / Book 2 (Units 1-5)",
+    "faberSupplementary": "ShowTime (Level 2A) / ChordTime (Level 2B)",
     "alfredLevel": "Level 2",
     "description": "Expanding hand positions, sharps/flats, I-IV-V7 chords, pedaling, 8th-note patterns. Both hands independent."
   },
   {
     "label": "Intermediate",
     "faberLevel": "Lesson Book 2 (Units 6-10)",
+    "faberSupplementary": "FunTime (Level 3A-3B)",
     "alfredLevel": "Level 3",
     "description": "Key signatures to 2 sharps/flats, scales, arpeggios, syncopation, more complex rhythms. Musical expression and phrasing."
   },
   {
     "label": "Late Intermediate",
     "faberLevel": "Beyond Book 2",
+    "faberSupplementary": "BigTime (Level 4)",
     "alfredLevel": "Level 4-5",
     "description": "All major/minor keys, ornaments, extended chords, varied articulations. Longer and more demanding pieces."
   },
   {
     "label": "Early Advanced",
     "faberLevel": "N/A",
+    "faberSupplementary": "N/A",
     "alfredLevel": "Level 6+",
     "description": "Advanced technique, complex rhythms, extended repertoire. Concert-level preparation."
   },
   {
     "label": "Advanced",
     "faberLevel": "N/A",
+    "faberSupplementary": "N/A",
     "alfredLevel": "N/A",
     "description": "Professional-level repertoire. Full mastery of technique and musical interpretation required."
   }
