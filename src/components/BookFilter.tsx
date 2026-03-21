@@ -197,8 +197,8 @@ export default function BookFilter({ books, seriesList, publisherList }: Props) 
       </div>
 
       {/* Filter row */}
-      <div class="flex flex-nowrap items-center gap-2 overflow-x-auto pb-2 sm:flex-wrap sm:overflow-visible sm:pb-0">
-        <label class="inline-flex shrink-0 cursor-pointer items-center gap-1.5 rounded-full border border-gray-300 px-3 py-2 text-sm dark:border-gray-700">
+      <div class="flex flex-wrap items-center gap-2">
+        <label class="inline-flex cursor-pointer items-center gap-1.5 rounded-full border border-gray-300 px-3 py-2 text-sm dark:border-gray-700">
           <input
             type="checkbox"
             checked={hideLessonBooks}
@@ -211,7 +211,7 @@ export default function BookFilter({ books, seriesList, publisherList }: Props) 
         <select
           value={selectedPublisher}
           onChange={(e) => setSelectedPublisher((e.target as HTMLSelectElement).value)}
-          class="shrink-0 rounded-full border border-gray-300 bg-white px-3 py-2 text-sm dark:border-gray-700 dark:bg-gray-900 dark:text-gray-100"
+          class="rounded-full border border-gray-300 bg-white px-3 py-2 text-sm dark:border-gray-700 dark:bg-gray-900 dark:text-gray-100"
         >
           <option value="">All Publishers</option>
           {publisherList.map((p) => (
@@ -221,7 +221,7 @@ export default function BookFilter({ books, seriesList, publisherList }: Props) 
 
         <button
           onClick={() => setSelectedSeries('')}
-          class={`shrink-0 rounded-full px-3 py-2 text-sm font-medium transition-colors ${
+          class={`rounded-full px-3 py-2 text-sm font-medium transition-colors ${
             !selectedSeries
               ? 'bg-piano-600 text-white'
               : 'bg-gray-100 text-gray-600 hover:bg-gray-200 dark:bg-gray-800 dark:text-gray-400 dark:hover:bg-gray-700'
@@ -235,7 +235,7 @@ export default function BookFilter({ books, seriesList, publisherList }: Props) 
             <button
               key={s}
               onClick={() => setSelectedSeries(s)}
-              class={`shrink-0 rounded-full px-3 py-2 text-sm font-medium transition-colors ${
+              class={`rounded-full px-3 py-2 text-sm font-medium transition-colors ${
                 selectedSeries === s
                   ? 'bg-piano-600 text-white'
                   : 'bg-gray-100 text-gray-600 hover:bg-gray-200 dark:bg-gray-800 dark:text-gray-400 dark:hover:bg-gray-700'

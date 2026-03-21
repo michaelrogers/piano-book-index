@@ -202,12 +202,12 @@ export default function SearchApp({ songs, genres, series, publishers }: Props) 
       </div>
 
       {/* Filters */}
-      <div class="mt-3 flex flex-nowrap gap-2 overflow-x-auto pb-2 sm:flex-wrap sm:overflow-visible sm:pb-0">
-        <div ref={genreRef} class="relative shrink-0">
+      <div class="mt-3 grid grid-cols-2 gap-2 sm:flex sm:flex-wrap">
+        <div ref={genreRef} class="relative">
           <button
             type="button"
             onClick={() => setGenreDropdownOpen(!genreDropdownOpen)}
-            class={`rounded-lg border px-3 py-2 text-sm ${
+            class={`w-full rounded-lg border px-3 py-2 text-sm ${
               selectedGenres.size > 0
                 ? 'border-piano-400 bg-piano-50 text-piano-700 dark:border-piano-600 dark:bg-piano-900/30 dark:text-piano-300'
                 : 'border-gray-300 bg-white text-gray-700 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-100'
@@ -238,26 +238,10 @@ export default function SearchApp({ songs, genres, series, publishers }: Props) 
           )}
         </div>
 
-        {/* Genre pills */}
-        {[...selectedGenres].map((g) => (
-          <button
-            key={g}
-            onClick={() => {
-              const next = new Set(selectedGenres);
-              next.delete(g);
-              setSelectedGenres(next);
-            }}
-            class="inline-flex shrink-0 items-center gap-1 rounded-full bg-piano-100 px-2.5 py-1 text-xs font-medium text-piano-700 hover:bg-piano-200 dark:bg-piano-900/40 dark:text-piano-300 dark:hover:bg-piano-800/60"
-          >
-            {g}
-            <svg class="h-3 w-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
-          </button>
-        ))}
-
         <select
           value={selectedSeries}
           onChange={(e) => setSelectedSeries((e.target as HTMLSelectElement).value)}
-          class="shrink-0 rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm dark:border-gray-700 dark:bg-gray-900 dark:text-gray-100"
+          class="rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm dark:border-gray-700 dark:bg-gray-900 dark:text-gray-100"
         >
           <option value="">All Series</option>
           {series.map((s) => (
@@ -268,7 +252,7 @@ export default function SearchApp({ songs, genres, series, publishers }: Props) 
         <select
           value={selectedPublisher}
           onChange={(e) => setSelectedPublisher((e.target as HTMLSelectElement).value)}
-          class="shrink-0 rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm dark:border-gray-700 dark:bg-gray-900 dark:text-gray-100"
+          class="rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm dark:border-gray-700 dark:bg-gray-900 dark:text-gray-100"
         >
           <option value="">All Publishers</option>
           {publishers.map((p) => (
@@ -276,24 +260,24 @@ export default function SearchApp({ songs, genres, series, publishers }: Props) 
           ))}
         </select>
 
-        <label class="inline-flex shrink-0 cursor-pointer items-center gap-1.5 rounded-lg border border-gray-300 px-3 py-2 text-sm dark:border-gray-700">
+        <label class="inline-flex cursor-pointer items-center gap-1.5 rounded-lg border border-gray-300 px-3 py-2 text-sm dark:border-gray-700">
           <input
             type="checkbox"
             checked={onlyOwned}
             onChange={(e) => setOnlyOwned((e.target as HTMLInputElement).checked)}
             class="accent-piano-600"
           />
-          <span class="text-gray-600 dark:text-gray-300">In Library only</span>
+          <span class="text-gray-600 dark:text-gray-300">In Library</span>
         </label>
 
-        <label class="inline-flex shrink-0 cursor-pointer items-center gap-1.5 rounded-lg border border-gray-300 px-3 py-2 text-sm dark:border-gray-700">
+        <label class="inline-flex cursor-pointer items-center gap-1.5 rounded-lg border border-gray-300 px-3 py-2 text-sm dark:border-gray-700">
           <input
             type="checkbox"
             checked={hideLessonBooks}
             onChange={(e) => setHideLessonBooks((e.target as HTMLInputElement).checked)}
             class="accent-piano-600"
           />
-          <span class="text-gray-600 dark:text-gray-300">Hide lesson books</span>
+          <span class="text-gray-600 dark:text-gray-300">Hide lessons</span>
         </label>
 
         {(diffMin !== null || selectedGenres.size > 0 || selectedSeries || selectedPublisher) && (
@@ -305,12 +289,32 @@ export default function SearchApp({ songs, genres, series, publishers }: Props) 
               setSelectedSeries('');
               setSelectedPublisher('');
             }}
-            class="shrink-0 rounded-lg px-3 py-2 text-sm text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200"
+            class="rounded-lg px-3 py-2 text-sm text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200"
           >
             Clear filters
           </button>
         )}
       </div>
+
+      {/* Genre pills */}
+      {selectedGenres.size > 0 && (
+        <div class="mt-2 flex flex-wrap gap-1.5">
+          {[...selectedGenres].map((g) => (
+            <button
+              key={g}
+              onClick={() => {
+                const next = new Set(selectedGenres);
+                next.delete(g);
+                setSelectedGenres(next);
+              }}
+              class="inline-flex items-center gap-1 rounded-full bg-piano-100 px-2.5 py-1 text-xs font-medium text-piano-700 hover:bg-piano-200 dark:bg-piano-900/40 dark:text-piano-300 dark:hover:bg-piano-800/60"
+            >
+              {g}
+              <svg class="h-3 w-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+            </button>
+          ))}
+        </div>
+      )}
 
       {/* Results count */}
       <p class="mt-4 text-sm text-gray-500 dark:text-gray-400">
