@@ -19,6 +19,11 @@
       "id": "lets-play-piano-methods",
       "name": "Let's Play Piano Methods",
       "playlistsUrl": "https://www.youtube.com/@LetsPlayPianoMethods/playlists"
+    },
+    {
+      "id": "pianoadventures",
+      "name": "Piano Adventures",
+      "playlistsUrl": "https://www.youtube.com/@pianoadventures/playlists"
     }
   ],
   "playlistBookMappings": [
@@ -4586,6 +4591,651 @@
           "url": "https://www.youtube.com/watch?v=PSxpyYcNWrs"
         }
       ]
+    },
+    {
+      "channelId": "pianoadventures",
+      "channelName": "Piano Adventures",
+      "playlistId": "PLROQq1cZUMn_tJxX2UelnAkgxlQRdfZRs",
+      "playlistTitle": "Adult Piano Adventures Classics Book 1",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn_tJxX2UelnAkgxlQRdfZRs",
+      "bookId": "faber-classics-1",
+      "tracks": [
+        {
+          "videoId": "wB-9gPsYomw",
+          "videoTitle": "Theme from Symphony No. 104 (London) - Haydn (page 6, Adult Piano Adventures Classics Book 1)",
+          "url": "https://www.youtube.com/watch?v=wB-9gPsYomw"
+        },
+        {
+          "videoId": "mh06Uq6SgtI",
+          "videoTitle": "Swan Lake (Overture to Act II) - Tchaikovsky (page 7, Adult Piano Adventures Classics Book 1)",
+          "url": "https://www.youtube.com/watch?v=mh06Uq6SgtI"
+        },
+        {
+          "videoId": "5oVVe4HPfpE",
+          "videoTitle": "Ode to Joy (from the Ninth Symphony) - Beethoven (page 8, Adult Piano Adventures Classics Book 1)",
+          "url": "https://www.youtube.com/watch?v=5oVVe4HPfpE"
+        },
+        {
+          "videoId": "10UQTIA7WiU",
+          "videoTitle": "Alleluia (from Exultate Jubilate) - Mozart (page 10, Adult Piano Adventures Classics Book 1)",
+          "url": "https://www.youtube.com/watch?v=10UQTIA7WiU"
+        },
+        {
+          "videoId": "xZ3Kfed4j60",
+          "videoTitle": "Pomp and Circumstance (Op. 39, No. 1) - Elgar (page 12, Adult Piano Adventures Classics Book 1)",
+          "url": "https://www.youtube.com/watch?v=xZ3Kfed4j60"
+        },
+        {
+          "videoId": "H5zz2SlOxgc",
+          "videoTitle": "Finale (from Symphony No. 1) - Brahms (page 14, Adult Piano Adventures Classics Book 1)",
+          "url": "https://www.youtube.com/watch?v=H5zz2SlOxgc"
+        },
+        {
+          "videoId": "SSCPNAbTIjk",
+          "videoTitle": "Air (from the Anna Magdalena Bach Notebook) - Bach (page 16, Adult Piano Adventures Classics Book 1)",
+          "url": "https://www.youtube.com/watch?v=SSCPNAbTIjk"
+        },
+        {
+          "videoId": "PUtYDUdlxWY",
+          "videoTitle": "Autumn, 1st movement (The Four Seasons) - Vivaldi (page 18, Adult Piano Adventures Classics Book 1)",
+          "url": "https://www.youtube.com/watch?v=PUtYDUdlxWY"
+        },
+        {
+          "videoId": "a17w4PBM7e0",
+          "videoTitle": "Finale (Symphony No. 9, New World) - Dvořák (page 20, Adult Piano Adventures Classics Book 1)",
+          "url": "https://www.youtube.com/watch?v=a17w4PBM7e0"
+        },
+        {
+          "videoId": "ZRgr2CCkers",
+          "videoTitle": "Hornpipe (from Water Music) - Handel (page 22, Adult Piano Adventures Classics Book 1)",
+          "url": "https://www.youtube.com/watch?v=ZRgr2CCkers"
+        },
+        {
+          "videoId": "dHKGUSa2sIQ",
+          "videoTitle": "Huntsmen's Chorus (from Der Freischütz) - Weber (page 24, Adult Piano Adventures Classics Book 1)",
+          "url": "https://www.youtube.com/watch?v=dHKGUSa2sIQ"
+        },
+        {
+          "videoId": "93Klo0M9heM",
+          "videoTitle": "Theme from the Fifth Symphony - Beethoven (page 26, Adult Piano Adventures Classics Book 1)",
+          "url": "https://www.youtube.com/watch?v=93Klo0M9heM"
+        },
+        {
+          "videoId": "AoCwWnw749E",
+          "videoTitle": "Theme from Symphony No. 6 (“Pastoral\") - Beethoven (page 31, Adult Piano Adventures Classics Book 1)",
+          "url": "https://www.youtube.com/watch?v=AoCwWnw749E"
+        },
+        {
+          "videoId": "3XusT8av1LA",
+          "videoTitle": "Vivaldi (The Four Seasons) - Spring, 1st movement",
+          "url": "https://www.youtube.com/watch?v=3XusT8av1LA"
+        },
+        {
+          "videoId": "LX5E_21WqVQ",
+          "videoTitle": "Theme from Finlandia - Sibelius (page 34, Adult Piano Adventures Classics Book 1)",
+          "url": "https://www.youtube.com/watch?v=LX5E_21WqVQ"
+        },
+        {
+          "videoId": "Q7x_v4qbE5w",
+          "videoTitle": "Prince of Denmark's March - Clarke (page 36, Adult Piano Adventures Classics Book 1)",
+          "url": "https://www.youtube.com/watch?v=Q7x_v4qbE5w"
+        },
+        {
+          "videoId": "hd8qGQk2XUY",
+          "videoTitle": "Minuet (Op. 14, No. 1) - Paderewski (page 38, Adult Piano Adventures Classics Book 1)",
+          "url": "https://www.youtube.com/watch?v=hd8qGQk2XUY"
+        },
+        {
+          "videoId": "jXN7AiwItXI",
+          "videoTitle": "Theme from the “Surprise” Symphony - Haydn (page 40, Adult Piano Adventures Classics Book 1)",
+          "url": "https://www.youtube.com/watch?v=jXN7AiwItXI"
+        },
+        {
+          "videoId": "jZEyP00FK1Y",
+          "videoTitle": "Caro Nome (theme from Rigoletto) - Verdi (page 42, Adult Piano Adventures Classics Book 1)",
+          "url": "https://www.youtube.com/watch?v=jZEyP00FK1Y"
+        },
+        {
+          "videoId": "Btb44kUuVRA",
+          "videoTitle": "Rondeau (from Suite de Symphonies, No. 1) - Mouret (page 44, Adult Piano Adventures Classics Book 1)",
+          "url": "https://www.youtube.com/watch?v=Btb44kUuVRA"
+        },
+        {
+          "videoId": "dFW-ibIYgtk",
+          "videoTitle": "The Trout (Die Forelle) - Schubert (page 46, Adult Piano Adventures Classics Book 1)",
+          "url": "https://www.youtube.com/watch?v=dFW-ibIYgtk"
+        },
+        {
+          "videoId": "hJ-9a4ZOqWM",
+          "videoTitle": "Spring Song (Songs Without Words) - Mendelssohn (page 48, Adult Piano Adventures Classics Book 1)",
+          "url": "https://www.youtube.com/watch?v=hJ-9a4ZOqWM"
+        },
+        {
+          "videoId": "nn6BK3V-WZM",
+          "videoTitle": "Variations on a Theme by Haydn (St. Anthony's Chorale) - Brahms (page 50, Classics Book 1)",
+          "url": "https://www.youtube.com/watch?v=nn6BK3V-WZM"
+        },
+        {
+          "videoId": "nfxSzO96cyQ",
+          "videoTitle": "Aria (theme from La Traviata) - Verdi (page 52, Adult Piano Adventures Classics Book 1)",
+          "url": "https://www.youtube.com/watch?v=nfxSzO96cyQ"
+        },
+        {
+          "videoId": "yFAhW-MIHVI",
+          "videoTitle": "Theme from Sonata in A Major (K. 331) - Mozart (page 57, Adult Piano Adventures Classics Book 1)",
+          "url": "https://www.youtube.com/watch?v=yFAhW-MIHVI"
+        },
+        {
+          "videoId": "vQcXWJPEinI",
+          "videoTitle": "March of the English Guard - Clarke (page 58, Adult Piano Adventures Classics Book 1)",
+          "url": "https://www.youtube.com/watch?v=vQcXWJPEinI"
+        },
+        {
+          "videoId": "yndJtpCBscQ",
+          "videoTitle": "Theme from The Magic Flute - Mozart (page 60, Adult Piano Adventures Classics Book 1)",
+          "url": "https://www.youtube.com/watch?v=yndJtpCBscQ"
+        },
+        {
+          "videoId": "on0YixlBuFQ",
+          "videoTitle": "Laughing Song (Die Fledermaus) - J. Strauss, Jr. (page 62, Adult Piano Adventures Classics Book 1)",
+          "url": "https://www.youtube.com/watch?v=on0YixlBuFQ"
+        },
+        {
+          "videoId": "XtiKUbbkI1s",
+          "videoTitle": "Autumn, 3rd movement (The Four Seasons) - Vivaldi (page 64, Adult Piano Adventures Classics Book 1)",
+          "url": "https://www.youtube.com/watch?v=XtiKUbbkI1s"
+        },
+        {
+          "videoId": "_gMFTuIc72k",
+          "videoTitle": "See, the Conquering Hero Comes (Joshua) - Handel (page 66, Adult Piano Adventures Classics Book 1)",
+          "url": "https://www.youtube.com/watch?v=_gMFTuIc72k"
+        },
+        {
+          "videoId": "V2q7Tq98vIY",
+          "videoTitle": "Theme from Don Giovanni (Là ci darem la mano) - Mozart (page 68, Classics Book 1)",
+          "url": "https://www.youtube.com/watch?v=V2q7Tq98vIY"
+        },
+        {
+          "videoId": "XcgPjPDtPxc",
+          "videoTitle": "Liebestraum (Dream of Love) - Liszt (page 70, Adult Piano Adventures Classics Book 1)",
+          "url": "https://www.youtube.com/watch?v=XcgPjPDtPxc"
+        },
+        {
+          "videoId": "c31Ks1QZRz8",
+          "videoTitle": "Farandole (from L’Arlésienne) - Bizet (page 72, Adult Piano Adventures Classics Book 1)",
+          "url": "https://www.youtube.com/watch?v=c31Ks1QZRz8"
+        },
+        {
+          "videoId": "2Pu_WPI0Vjg",
+          "videoTitle": "Barcarolle (The Tales of Hoffmann) - Offenbach (page 74, Adult Piano Adventures Classics Book 1)",
+          "url": "https://www.youtube.com/watch?v=2Pu_WPI0Vjg"
+        },
+        {
+          "videoId": "vICNH4GxTnc",
+          "videoTitle": "O mio babbino caro (from Gianni Schicchi) - Puccini (pg 76, Adult Piano Adventures Classics Book 1)",
+          "url": "https://www.youtube.com/watch?v=vICNH4GxTnc"
+        }
+      ]
+    },
+    {
+      "channelId": "pianoadventures",
+      "channelName": "Piano Adventures",
+      "playlistId": "PLROQq1cZUMn8vTb9RKSo_h1eL81v4J9tu",
+      "playlistTitle": "Adult Piano Adventures Classics Book 2",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn8vTb9RKSo_h1eL81v4J9tu",
+      "bookId": "faber-classics-2",
+      "tracks": [
+        {
+          "videoId": "SwkyQBetXpE",
+          "videoTitle": "Jesu, Joy of Man's Desiring - Bach (page 6, Adult Piano Adventures Classics Book 2)",
+          "url": "https://www.youtube.com/watch?v=SwkyQBetXpE"
+        },
+        {
+          "videoId": "Gn6SiiZGNw8",
+          "videoTitle": "Sheep May Safely Graze - Bach (page 8, Adult Piano Adventures Classics Book 2)",
+          "url": "https://www.youtube.com/watch?v=Gn6SiiZGNw8"
+        },
+        {
+          "videoId": "A_2dTs9y4Ys",
+          "videoTitle": "Canon in D - Pachelbel (page 11, Adult Piano Adventures Classics Book 2)",
+          "url": "https://www.youtube.com/watch?v=A_2dTs9y4Ys"
+        },
+        {
+          "videoId": "CCGIv2qIcxI",
+          "videoTitle": "Rondeau in D Minor - Purcell (page 14, Adult Piano Adventures Classics Book 2)",
+          "url": "https://www.youtube.com/watch?v=CCGIv2qIcxI"
+        },
+        {
+          "videoId": "xX4akAehc78",
+          "videoTitle": "Prelude (from Cello Suite No. 1 in G Major) - Bach (page 16, Adult Piano Adventures Classics Book 2)",
+          "url": "https://www.youtube.com/watch?v=xX4akAehc78"
+        },
+        {
+          "videoId": "87eHbZ6zBn0",
+          "videoTitle": "The Arrival of the Queen of Sheba - Handel (page 20, Adult Piano Adventures Classics Book 2)",
+          "url": "https://www.youtube.com/watch?v=87eHbZ6zBn0"
+        },
+        {
+          "videoId": "fZFId9xBLPU",
+          "videoTitle": "Winter, 3rd movement (The Four Seasons) - Vivaldi (page 22, Adult Piano Adventures Classics Book 2)",
+          "url": "https://www.youtube.com/watch?v=fZFId9xBLPU"
+        },
+        {
+          "videoId": "C4MeD128neA",
+          "videoTitle": "Sarabande (Keyboard Suite in D Minor) - Handel (page 26, Adult Piano Adventures Classics Book 2)",
+          "url": "https://www.youtube.com/watch?v=C4MeD128neA"
+        },
+        {
+          "videoId": "CL2xnmpIsrs",
+          "videoTitle": "Sleepers Awake - Bach (page 28, Adult Piano Adventures Classics Book 2)",
+          "url": "https://www.youtube.com/watch?v=CL2xnmpIsrs"
+        },
+        {
+          "videoId": "DUl2NhOBcMk",
+          "videoTitle": "Theme from Symphony No. 3, \"Eroica\" - Beethoven (page 32, Adult Piano Adventures Classics Book 2)",
+          "url": "https://www.youtube.com/watch?v=DUl2NhOBcMk"
+        },
+        {
+          "videoId": "jq1vMgS-Oak",
+          "videoTitle": "Theme from Symphony No. 40, 1st movement - Mozart (page 34, Adult Piano Adventures Classics Book 2)",
+          "url": "https://www.youtube.com/watch?v=jq1vMgS-Oak"
+        },
+        {
+          "videoId": "n3sK4rocr8k",
+          "videoTitle": "Mozart -Ave Verum Corpus -In Celebration of Easter",
+          "url": "https://www.youtube.com/watch?v=n3sK4rocr8k"
+        },
+        {
+          "videoId": "3jh_P6KHQwE",
+          "videoTitle": "Minuet (from Don Giovanni) - Mozart (page 40, Adult Piano Adventures Classics Book 2)",
+          "url": "https://www.youtube.com/watch?v=3jh_P6KHQwE"
+        },
+        {
+          "videoId": "2yWnu0nHOIk",
+          "videoTitle": "Moonlight Sonata Theme - Beethoven",
+          "url": "https://www.youtube.com/watch?v=2yWnu0nHOIk"
+        },
+        {
+          "videoId": "AmwOgbAzbSk",
+          "videoTitle": "Gypsy Rondo (from Piano Trio No. 39) - Haydn (page 44, Adult Piano Adventures Classics Book 2)",
+          "url": "https://www.youtube.com/watch?v=AmwOgbAzbSk"
+        },
+        {
+          "videoId": "Un99HeThrgg",
+          "videoTitle": "Pathétique Sonata Theme (No. 8) - Beethoven (page 48, Adult Piano Adventures Classics Book 2)",
+          "url": "https://www.youtube.com/watch?v=Un99HeThrgg"
+        },
+        {
+          "videoId": "oQKx9DluCm4",
+          "videoTitle": "On Wings of Song - Mendelssohn (page 54, Adult Piano Adventures Classics Book 2)",
+          "url": "https://www.youtube.com/watch?v=oQKx9DluCm4"
+        },
+        {
+          "videoId": "pe4o-p9FDuo",
+          "videoTitle": "In the Hall of the Mountain King - Grieg (page 56, Adult Piano Adventures Classics Book 2)",
+          "url": "https://www.youtube.com/watch?v=pe4o-p9FDuo"
+        },
+        {
+          "videoId": "Z4bev_muXbs",
+          "videoTitle": "Melody in F - Rubinstein (page 58, Adult Piano Adventures Classics Book 2)",
+          "url": "https://www.youtube.com/watch?v=Z4bev_muXbs"
+        },
+        {
+          "videoId": "gnYo9aA3EhM",
+          "videoTitle": "Triumphal March (from Aida) - Verdi (page 60, Adult Piano Adventures Classics Book 2)",
+          "url": "https://www.youtube.com/watch?v=gnYo9aA3EhM"
+        },
+        {
+          "videoId": "We-YXzljSBU",
+          "videoTitle": "Ballade No. 1 in G Minor - Chopin (page 62, Adult Piano Adventures Classics Book 2)",
+          "url": "https://www.youtube.com/watch?v=We-YXzljSBU"
+        },
+        {
+          "videoId": "OsHeojJVBes",
+          "videoTitle": "Prelude Op. 28, No. 7 - Chopin (page 64, Adult Piano Adventures Classics Book 2)",
+          "url": "https://www.youtube.com/watch?v=OsHeojJVBes"
+        },
+        {
+          "videoId": "Sn96DN8zFfA",
+          "videoTitle": "Humoresque - Dvořák (page 65, Adult Piano Adventures Classics Book 2)",
+          "url": "https://www.youtube.com/watch?v=Sn96DN8zFfA"
+        },
+        {
+          "videoId": "U6j-o9KlEzI",
+          "videoTitle": "Serenade (from Schwanengesang) - Schubert (page 68, Adult Piano Adventures Classics Book 2)",
+          "url": "https://www.youtube.com/watch?v=U6j-o9KlEzI"
+        },
+        {
+          "videoId": "32fwbWf2dsk",
+          "videoTitle": "You and You (from Die Fledermaus) - Strauss (page 71, Adult Piano Adventures Classics Book 2)",
+          "url": "https://www.youtube.com/watch?v=32fwbWf2dsk"
+        },
+        {
+          "videoId": "uR4P58SyzIE",
+          "videoTitle": "Clair de lune (from Suite bergamasque) - Debussy (page 74, Adult Piano Adventures Classics Book 2)",
+          "url": "https://www.youtube.com/watch?v=uR4P58SyzIE"
+        }
+      ]
+    },
+    {
+      "channelId": "pianoadventures",
+      "channelName": "Piano Adventures",
+      "playlistId": "PLROQq1cZUMn_18r2SJZU8ajbrBJmeHYMW",
+      "playlistTitle": "Adult Piano Adventures Popular Book 1",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn_18r2SJZU8ajbrBJmeHYMW",
+      "bookId": "faber-popular-1",
+      "tracks": [
+        {
+          "videoId": "-7U4Ya8y8tc",
+          "videoTitle": "My Heart Will Go On (page 4, Adult Piano Adventures Popular Book 1)",
+          "url": "https://www.youtube.com/watch?v=-7U4Ya8y8tc"
+        },
+        {
+          "videoId": "lUrbWcooOsk",
+          "videoTitle": "Edelweiss (page 6, Adult Piano Adventures Popular Book 1)",
+          "url": "https://www.youtube.com/watch?v=lUrbWcooOsk"
+        },
+        {
+          "videoId": "qQzTJWvI3Jc",
+          "videoTitle": "Let It Be (page 8, Adult Piano Adventures Popular Book 1)",
+          "url": "https://www.youtube.com/watch?v=qQzTJWvI3Jc"
+        },
+        {
+          "videoId": "QL2944_i-lM",
+          "videoTitle": "Oh, What a Beautiful Mornin' (page 10, Adult Piano Adventures Popular Book 1)",
+          "url": "https://www.youtube.com/watch?v=QL2944_i-lM"
+        },
+        {
+          "videoId": "ZZFRc8o6hCo",
+          "videoTitle": "Downton Abbey (Theme) (page 12, Adult Piano Adventures Popular Book 1)",
+          "url": "https://www.youtube.com/watch?v=ZZFRc8o6hCo"
+        },
+        {
+          "videoId": "QwykdVqH6os",
+          "videoTitle": "There's No Business Like Show Business (page 14, Adult Piano Adventures Popular Book 1)",
+          "url": "https://www.youtube.com/watch?v=QwykdVqH6os"
+        },
+        {
+          "videoId": "OgQuX35Fpa4",
+          "videoTitle": "Do Re Mi (page 17, Adult Piano Adventures Popular Book 1)",
+          "url": "https://www.youtube.com/watch?v=OgQuX35Fpa4"
+        },
+        {
+          "videoId": "xvYL_rgR9xY",
+          "videoTitle": "Chim Chim Cher-ee (page 20, Adult Piano Adventures Popular Book 1)",
+          "url": "https://www.youtube.com/watch?v=xvYL_rgR9xY"
+        },
+        {
+          "videoId": "9XY4cXvbjjg",
+          "videoTitle": "Let's Go Fly a Kite (page 22, Adult Piano Adventures Popular Book 1)",
+          "url": "https://www.youtube.com/watch?v=9XY4cXvbjjg"
+        },
+        {
+          "videoId": "TATRESVCyts",
+          "videoTitle": "Tomorrow (page 24, Adult Piano Adventures Popular Book 1)",
+          "url": "https://www.youtube.com/watch?v=TATRESVCyts"
+        },
+        {
+          "videoId": "zv5k_d4R4Mw",
+          "videoTitle": "If I Were a Rich Man (page 26, Adult Piano Adventures Popular Book 1)",
+          "url": "https://www.youtube.com/watch?v=zv5k_d4R4Mw"
+        },
+        {
+          "videoId": "TO8fr5lkPFc",
+          "videoTitle": "Climb Ev'ry Mountain (page 28, Adult Piano Adventures Popular Book 1)",
+          "url": "https://www.youtube.com/watch?v=TO8fr5lkPFc"
+        },
+        {
+          "videoId": "VgrRWwQqmpQ",
+          "videoTitle": "Twist and Shout (page 31, Adult Piano Adventures Popular Book 1)",
+          "url": "https://www.youtube.com/watch?v=VgrRWwQqmpQ"
+        },
+        {
+          "videoId": "pZH8Ecx1NDM",
+          "videoTitle": "This Land Is Your Land (page 35, Adult Piano Adventures Popular Book 1)",
+          "url": "https://www.youtube.com/watch?v=pZH8Ecx1NDM"
+        },
+        {
+          "videoId": "YjGi39oNiAE",
+          "videoTitle": "The Tide Is High (page 36, Adult Piano Adventures Popular Book 1)",
+          "url": "https://www.youtube.com/watch?v=YjGi39oNiAE"
+        },
+        {
+          "videoId": "J6_EECX5xso",
+          "videoTitle": "Lean On Me (page 38, Adult Piano Adventures Popular Book 1)",
+          "url": "https://www.youtube.com/watch?v=J6_EECX5xso"
+        },
+        {
+          "videoId": "67Z2J_xBf0w",
+          "videoTitle": "Theme From \"Jurassic Park\" (page 40, Adult Piano Adventures Popular Book 1)",
+          "url": "https://www.youtube.com/watch?v=67Z2J_xBf0w"
+        },
+        {
+          "videoId": "_IguSZB0Skg",
+          "videoTitle": "One Call Away (page 43, Adult Piano Adventures Popular Book 1)",
+          "url": "https://www.youtube.com/watch?v=_IguSZB0Skg"
+        },
+        {
+          "videoId": "wBmK2PMf7Jo",
+          "videoTitle": "Heart and Soul (page 44, Adult Piano Adventures Popular Book 1)",
+          "url": "https://www.youtube.com/watch?v=wBmK2PMf7Jo"
+        },
+        {
+          "videoId": "e_zvAYPmAw8",
+          "videoTitle": "Right Here Waiting (page 46, Adult Piano Adventures Popular Book 1)",
+          "url": "https://www.youtube.com/watch?v=e_zvAYPmAw8"
+        },
+        {
+          "videoId": "uZTLCGphFxo",
+          "videoTitle": "Someone Like You (page 48, Adult Piano Adventures Popular Book 1)",
+          "url": "https://www.youtube.com/watch?v=uZTLCGphFxo"
+        },
+        {
+          "videoId": "lJxpxOqidZ8",
+          "videoTitle": "I Want to Hold Your Hand (page 50, Adult Piano Adventures Popular Book 1)",
+          "url": "https://www.youtube.com/watch?v=lJxpxOqidZ8"
+        },
+        {
+          "videoId": "s-hu8m_LCLc",
+          "videoTitle": "Yesterday (page 52, Adult Piano Adventures Popular Book 1)",
+          "url": "https://www.youtube.com/watch?v=s-hu8m_LCLc"
+        },
+        {
+          "videoId": "IgD6bR3y9WA",
+          "videoTitle": "The Winner Takes It All (page 54, Adult Piano Adventures Popular Book 1)",
+          "url": "https://www.youtube.com/watch?v=IgD6bR3y9WA"
+        },
+        {
+          "videoId": "K2TJ4mxzvBY",
+          "videoTitle": "Pachelbel Canon (page 56, Adult Piano Adventures Popular Book 1)",
+          "url": "https://www.youtube.com/watch?v=K2TJ4mxzvBY"
+        },
+        {
+          "videoId": "f0ge2iB6mbY",
+          "videoTitle": "Rocky Top (page 59, Adult Piano Adventures Popular Book 1)",
+          "url": "https://www.youtube.com/watch?v=f0ge2iB6mbY"
+        },
+        {
+          "videoId": "9yx-U5ZuauQ",
+          "videoTitle": "Can You Feel the Love Tonight (page 60, Adult Piano Adventures Popular Book 1)",
+          "url": "https://www.youtube.com/watch?v=9yx-U5ZuauQ"
+        },
+        {
+          "videoId": "GshGXjV92R0",
+          "videoTitle": "Thinking Out Loud (page 62, Adult Piano Adventures Popular Book 1)",
+          "url": "https://www.youtube.com/watch?v=GshGXjV92R0"
+        },
+        {
+          "videoId": "EIO5AycXuJU",
+          "videoTitle": "Unchained Melody (page 64, Adult Piano Adventures Popular Book 1)",
+          "url": "https://www.youtube.com/watch?v=EIO5AycXuJU"
+        },
+        {
+          "videoId": "i2HBD3xvFRI",
+          "videoTitle": "Angel of Music (page 66, Adult Piano Adventures Popular Book 1)",
+          "url": "https://www.youtube.com/watch?v=i2HBD3xvFRI"
+        },
+        {
+          "videoId": "sdMZ54Jwwbs",
+          "videoTitle": "Beauty and the Beast (page 70, Adult Piano Adventures Popular Book 1)",
+          "url": "https://www.youtube.com/watch?v=sdMZ54Jwwbs"
+        },
+        {
+          "videoId": "IVKjYlfR1ck",
+          "videoTitle": "Chariots of Fire (page 74, Adult Piano Adventures Popular Book 1)",
+          "url": "https://www.youtube.com/watch?v=IVKjYlfR1ck"
+        },
+        {
+          "videoId": "-piXaqOGGDQ",
+          "videoTitle": "What a Wonderful World (page 76, Adult Piano Adventures Popular Book 1)",
+          "url": "https://www.youtube.com/watch?v=-piXaqOGGDQ"
+        }
+      ]
+    },
+    {
+      "channelId": "pianoadventures",
+      "channelName": "Piano Adventures",
+      "playlistId": "PLROQq1cZUMn8VCV0z8lzPcDoBvUJB4Xfm",
+      "playlistTitle": "Adult Piano Adventures Popular Book 2",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn8VCV0z8lzPcDoBvUJB4Xfm",
+      "bookId": "faber-popular-2",
+      "tracks": [
+        {
+          "videoId": "Kclu6weT1dc",
+          "videoTitle": "Over the Rainbow - Piano Adventures",
+          "url": "https://www.youtube.com/watch?v=Kclu6weT1dc"
+        },
+        {
+          "videoId": "18jjpSl9nO8",
+          "videoTitle": "Ain't No Mountain High Enough - Piano Adventures",
+          "url": "https://www.youtube.com/watch?v=18jjpSl9nO8"
+        },
+        {
+          "videoId": "d4FJkX9ifD4",
+          "videoTitle": "Don't Cry for Me Argentina (page 8, Adult Piano Adventures Popular Book 2)",
+          "url": "https://www.youtube.com/watch?v=d4FJkX9ifD4"
+        },
+        {
+          "videoId": "gSkMmBk4EpU",
+          "videoTitle": "Ashokan Farewell (page 10, Adult Piano Adventures Popular Book 2)",
+          "url": "https://www.youtube.com/watch?v=gSkMmBk4EpU"
+        },
+        {
+          "videoId": "wCX3Vq8w48Y",
+          "videoTitle": "Let It Go (page 12, Adult Piano Adventures Popular Book 2)",
+          "url": "https://www.youtube.com/watch?v=wCX3Vq8w48Y"
+        },
+        {
+          "videoId": "gXZI_C4xJ2U",
+          "videoTitle": "Somewhere, My Love (page 16, Adult Piano Adventures Popular Book 2)",
+          "url": "https://www.youtube.com/watch?v=gXZI_C4xJ2U"
+        },
+        {
+          "videoId": "6o-iN1ZDIS8",
+          "videoTitle": "Singin' in the Rain (page 18, Adult Piano Adventures Popular Book 2)",
+          "url": "https://www.youtube.com/watch?v=6o-iN1ZDIS8"
+        },
+        {
+          "videoId": "5V9I3gHaW1A",
+          "videoTitle": "Batman Theme (page 20, Adult Piano Adventures Popular Book 2)",
+          "url": "https://www.youtube.com/watch?v=5V9I3gHaW1A"
+        },
+        {
+          "videoId": "DOKXd2duTlg",
+          "videoTitle": "Bridge Over Troubled Water (page 22, Adult Piano Adventures Popular Book 2)",
+          "url": "https://www.youtube.com/watch?v=DOKXd2duTlg"
+        },
+        {
+          "videoId": "zUza5JwEg_g",
+          "videoTitle": "All I Have to Do Is Dream (page 24, Adult Piano Adventures Popular Book 2)",
+          "url": "https://www.youtube.com/watch?v=zUza5JwEg_g"
+        },
+        {
+          "videoId": "3kjIdY30qzw",
+          "videoTitle": "I Will Survive (page 26, Adult Piano Adventures Popular Book 2)",
+          "url": "https://www.youtube.com/watch?v=3kjIdY30qzw"
+        },
+        {
+          "videoId": "RQky_Ru5Szc",
+          "videoTitle": "Your Song (page 29, Adult Piano Adventures Popular Book 2)",
+          "url": "https://www.youtube.com/watch?v=RQky_Ru5Szc"
+        },
+        {
+          "videoId": "yZ1Ob0Rqkb4",
+          "videoTitle": "The James Bond Theme (page 32, Adult Piano Adventures Popular Book 2)",
+          "url": "https://www.youtube.com/watch?v=yZ1Ob0Rqkb4"
+        },
+        {
+          "videoId": "BEiP7I2pEUs",
+          "videoTitle": "Hey Jude (page 34, Adult Piano Adventures Popular Book 2)",
+          "url": "https://www.youtube.com/watch?v=BEiP7I2pEUs"
+        },
+        {
+          "videoId": "bbpqaQFSiQg",
+          "videoTitle": "Sweet Caroline (page 38, Adult Piano Adventures Popular Book 2)",
+          "url": "https://www.youtube.com/watch?v=bbpqaQFSiQg"
+        },
+        {
+          "videoId": "ZdeFMSk476E",
+          "videoTitle": "Make You Feel My Love (page 40, Adult Piano Adventures Popular Book 2)",
+          "url": "https://www.youtube.com/watch?v=ZdeFMSk476E"
+        },
+        {
+          "videoId": "553mBWkUSBo",
+          "videoTitle": "A Whole New World - Piano Adventures",
+          "url": "https://www.youtube.com/watch?v=553mBWkUSBo"
+        },
+        {
+          "videoId": "wt1OfgL7Ego",
+          "videoTitle": "Stand By Me (page 46, Adult Piano Adventures Popular Book 2)",
+          "url": "https://www.youtube.com/watch?v=wt1OfgL7Ego"
+        },
+        {
+          "videoId": "mLsL0P2-q60",
+          "videoTitle": "I Will Always Love You (page 50, Adult Piano Adventures Popular Book 2)",
+          "url": "https://www.youtube.com/watch?v=mLsL0P2-q60"
+        },
+        {
+          "videoId": "tP1wEn919o0",
+          "videoTitle": "Thriller (page 52, Adult Piano Adventures Popular Book 2)",
+          "url": "https://www.youtube.com/watch?v=tP1wEn919o0"
+        },
+        {
+          "videoId": "A2RtVQTARx0",
+          "videoTitle": "Rolling in the Deep (page 55, Adult Piano Adventures Popular Book 2)",
+          "url": "https://www.youtube.com/watch?v=A2RtVQTARx0"
+        },
+        {
+          "videoId": "1ysg0RSt6HY",
+          "videoTitle": "Send in the Clowns (page 58, Adult Piano Adventures Popular Book 2)",
+          "url": "https://www.youtube.com/watch?v=1ysg0RSt6HY"
+        },
+        {
+          "videoId": "MPmN5TAAg_E",
+          "videoTitle": "Smooth (page 60, Adult Piano Adventures Popular Book 2)",
+          "url": "https://www.youtube.com/watch?v=MPmN5TAAg_E"
+        },
+        {
+          "videoId": "U1Xwi_TwLbg",
+          "videoTitle": "You Raise Me Up",
+          "url": "https://www.youtube.com/watch?v=U1Xwi_TwLbg"
+        },
+        {
+          "videoId": "4ELQ-cGztyg",
+          "videoTitle": "The Sound of Silence (page 66, Adult Piano Adventures Popular Book 2)",
+          "url": "https://www.youtube.com/watch?v=4ELQ-cGztyg"
+        },
+        {
+          "videoId": "pEv_BxZZz4g",
+          "videoTitle": "Piano Man (page 70, Adult Piano Adventures Popular Book 2)",
+          "url": "https://www.youtube.com/watch?v=pEv_BxZZz4g"
+        },
+        {
+          "videoId": "s1NFMJKO780",
+          "videoTitle": "When a Man Loves a Woman (page 74, Adult Piano Adventures Popular Book 2)",
+          "url": "https://www.youtube.com/watch?v=s1NFMJKO780"
+        }
+      ]
     }
   ],
   "directSongLinks": [
@@ -5068,6 +5718,72 @@
       "songId": "faber-lesson-2-swan-lake",
       "url": "https://www.youtube.com/watch?v=OxucW5TvZjM",
       "description": "Swan Lake from Karen Rock Music"
+    },
+    {
+      "channelId": "pianoadventures",
+      "songId": "faber-classics-1-theme-from-symphony-no-104-london-symphony",
+      "url": "https://www.youtube.com/watch?v=wB-9gPsYomw",
+      "description": "Theme from Symphony No. 104 (London) - Haydn"
+    },
+    {
+      "channelId": "pianoadventures",
+      "songId": "faber-classics-1-theme-from-the-fifth-symphony",
+      "url": "https://www.youtube.com/watch?v=93Klo0M9heM",
+      "description": "Theme from the Fifth Symphony - Beethoven"
+    },
+    {
+      "channelId": "pianoadventures",
+      "songId": "faber-classics-1-theme-from-symphony-no-6-pastoral-op-68",
+      "url": "https://www.youtube.com/watch?v=AoCwWnw749E",
+      "description": "Theme from Symphony No. 6 (Pastoral) - Beethoven"
+    },
+    {
+      "channelId": "pianoadventures",
+      "songId": "faber-classics-1-theme-from-finlandia",
+      "url": "https://www.youtube.com/watch?v=LX5E_21WqVQ",
+      "description": "Theme from Finlandia - Sibelius"
+    },
+    {
+      "channelId": "pianoadventures",
+      "songId": "faber-classics-1-theme-from-the-surprise-symphony",
+      "url": "https://www.youtube.com/watch?v=jXN7AiwItXI",
+      "description": "Theme from the Surprise Symphony - Haydn"
+    },
+    {
+      "channelId": "pianoadventures",
+      "songId": "faber-classics-1-theme-from-sonata-in-a-major-k-331",
+      "url": "https://www.youtube.com/watch?v=yFAhW-MIHVI",
+      "description": "Theme from Sonata in A Major (K. 331) - Mozart"
+    },
+    {
+      "channelId": "pianoadventures",
+      "songId": "faber-classics-1-theme-from-the-magic-flute",
+      "url": "https://www.youtube.com/watch?v=yndJtpCBscQ",
+      "description": "Theme from The Magic Flute - Mozart"
+    },
+    {
+      "channelId": "pianoadventures",
+      "songId": "faber-classics-1-theme-from-don-giovanni-l-ci-darem-la-mano",
+      "url": "https://www.youtube.com/watch?v=V2q7Tq98vIY",
+      "description": "Theme from Don Giovanni - Mozart"
+    },
+    {
+      "channelId": "pianoadventures",
+      "songId": "faber-classics-2-theme-from-symphony-no-3-eroica-4th-movement",
+      "url": "https://www.youtube.com/watch?v=DUl2NhOBcMk",
+      "description": "Theme from Symphony No. 3, Eroica - Beethoven"
+    },
+    {
+      "channelId": "pianoadventures",
+      "songId": "faber-classics-2-theme-from-symphony-no-40-1st-movement",
+      "url": "https://www.youtube.com/watch?v=jq1vMgS-Oak",
+      "description": "Theme from Symphony No. 40, 1st movement - Mozart"
+    },
+    {
+      "channelId": "pianoadventures",
+      "songId": "faber-classics-2-prelude-op-28-no-7",
+      "url": "https://www.youtube.com/watch?v=OsHeojJVBes",
+      "description": "Prelude Op. 28, No. 7 - Chopin"
     }
   ]
 }

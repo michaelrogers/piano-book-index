@@ -17,6 +17,11 @@
         "url": "https://www.youtube.com/watch?v=P8MTjun11-U",
         "artist": "Karen Rock Music",
         "description": "Theme from Symphony No. 104 from Karen Rock Music"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=wB-9gPsYomw",
+        "artist": "Piano Adventures",
+        "description": "Theme from Symphony No. 104 (London) - Haydn"
       }
     ],
     "notes": "Section 1: Beginning Classics"
@@ -259,6 +264,11 @@
         "url": "https://www.youtube.com/watch?v=Zp2pDz8-9s8",
         "artist": "Karen Rock Music",
         "description": "Theme from Beethoven's 5th Symphony from Karen Rock Music"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=93Klo0M9heM",
+        "artist": "Piano Adventures",
+        "description": "Theme from the Fifth Symphony - Beethoven"
       }
     ],
     "notes": ""
@@ -281,6 +291,11 @@
         "url": "https://www.youtube.com/watch?v=9ailqNlWKoI",
         "artist": "Karen Rock Music",
         "description": "Theme from Symphony No. 6 from Karen Rock Music"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=AoCwWnw749E",
+        "artist": "Piano Adventures",
+        "description": "Theme from Symphony No. 6 (Pastoral) - Beethoven"
       }
     ],
     "notes": "Section 2: Classics in the Key of C Major"
@@ -325,6 +340,11 @@
         "url": "https://www.youtube.com/watch?v=gJP2eCaBtQo",
         "artist": "Karen Rock Music",
         "description": "Theme from Finlandia from Karen Rock Music"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=LX5E_21WqVQ",
+        "artist": "Piano Adventures",
+        "description": "Theme from Finlandia - Sibelius"
       }
     ],
     "notes": ""
@@ -391,6 +411,11 @@
         "url": "https://www.youtube.com/watch?v=st0YZ5iP_4g",
         "artist": "Karen Rock Music",
         "description": "Theme from the Surprise Symphony from Karen Rock Music"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=jXN7AiwItXI",
+        "artist": "Piano Adventures",
+        "description": "Theme from the Surprise Symphony - Haydn"
       }
     ],
     "notes": ""
@@ -490,7 +515,15 @@
       "faberLevel": "Book 1",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=nn6BK3V-WZM",
+        "artist": "Piano Adventures",
+        "description": "Adult Piano Adventures Classics Book 1",
+        "playlistId": "PLROQq1cZUMn_tJxX2UelnAkgxlQRdfZRs",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn_tJxX2UelnAkgxlQRdfZRs"
+      }
+    ],
     "notes": ""
   },
   {
@@ -533,6 +566,11 @@
         "url": "https://www.youtube.com/watch?v=S7xcTBr4G0E",
         "artist": "Karen Rock Music",
         "description": "Theme from Sonata in A Major from Karen Rock Music"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=yFAhW-MIHVI",
+        "artist": "Piano Adventures",
+        "description": "Theme from Sonata in A Major (K. 331) - Mozart"
       }
     ],
     "notes": "Section 3: Classics in the Key of G Major"
@@ -577,6 +615,11 @@
         "url": "https://www.youtube.com/watch?v=n4Bm4ve8f9E",
         "artist": "Karen Rock Music",
         "description": "Theme from The Magic Flute from Karen Rock Music"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=yndJtpCBscQ",
+        "artist": "Piano Adventures",
+        "description": "Theme from The Magic Flute - Mozart"
       }
     ],
     "notes": ""
@@ -665,6 +708,11 @@
         "url": "https://www.youtube.com/watch?v=lO-1TV879pU",
         "artist": "Karen Rock Music",
         "description": "Theme from Don Giovanni from Karen Rock Music"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=V2q7Tq98vIY",
+        "artist": "Piano Adventures",
+        "description": "Theme from Don Giovanni - Mozart"
       }
     ],
     "notes": ""
@@ -931,7 +979,13 @@
       "faberLevel": "Book 2",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=DUl2NhOBcMk",
+        "artist": "Piano Adventures",
+        "description": "Theme from Symphony No. 3, Eroica - Beethoven"
+      }
+    ],
     "notes": ""
   },
   {
@@ -947,7 +1001,13 @@
       "faberLevel": "Book 2",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=jq1vMgS-Oak",
+        "artist": "Piano Adventures",
+        "description": "Theme from Symphony No. 40, 1st movement - Mozart"
+      }
+    ],
     "notes": ""
   },
   {
@@ -1113,7 +1173,15 @@
       "faberLevel": "Book 2",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=We-YXzljSBU",
+        "artist": "Piano Adventures",
+        "description": "Adult Piano Adventures Classics Book 2",
+        "playlistId": "PLROQq1cZUMn8vTb9RKSo_h1eL81v4J9tu",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn8vTb9RKSo_h1eL81v4J9tu"
+      }
+    ],
     "notes": ""
   },
   {
@@ -1129,7 +1197,13 @@
       "faberLevel": "Book 2",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=OsHeojJVBes",
+        "artist": "Piano Adventures",
+        "description": "Prelude Op. 28, No. 7 - Chopin"
+      }
+    ],
     "notes": ""
   },
   {
@@ -1209,7 +1283,15 @@
       "faberLevel": "Book 1",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=-7U4Ya8y8tc",
+        "artist": "Piano Adventures",
+        "description": "Adult Piano Adventures Popular Book 1",
+        "playlistId": "PLROQq1cZUMn_18r2SJZU8ajbrBJmeHYMW",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn_18r2SJZU8ajbrBJmeHYMW"
+      }
+    ],
     "notes": "Section 1: Beginning Popular Songs"
   },
   {
@@ -1225,7 +1307,15 @@
       "faberLevel": "Book 1",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=lUrbWcooOsk",
+        "artist": "Piano Adventures",
+        "description": "Adult Piano Adventures Popular Book 1",
+        "playlistId": "PLROQq1cZUMn_18r2SJZU8ajbrBJmeHYMW",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn_18r2SJZU8ajbrBJmeHYMW"
+      }
+    ],
     "notes": ""
   },
   {
@@ -1241,7 +1331,15 @@
       "faberLevel": "Book 1",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=qQzTJWvI3Jc",
+        "artist": "Piano Adventures",
+        "description": "Adult Piano Adventures Popular Book 1",
+        "playlistId": "PLROQq1cZUMn_18r2SJZU8ajbrBJmeHYMW",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn_18r2SJZU8ajbrBJmeHYMW"
+      }
+    ],
     "notes": ""
   },
   {
@@ -1257,7 +1355,15 @@
       "faberLevel": "Book 1",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=QL2944_i-lM",
+        "artist": "Piano Adventures",
+        "description": "Adult Piano Adventures Popular Book 1",
+        "playlistId": "PLROQq1cZUMn_18r2SJZU8ajbrBJmeHYMW",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn_18r2SJZU8ajbrBJmeHYMW"
+      }
+    ],
     "notes": ""
   },
   {
@@ -1273,7 +1379,15 @@
       "faberLevel": "Book 1",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=ZZFRc8o6hCo",
+        "artist": "Piano Adventures",
+        "description": "Adult Piano Adventures Popular Book 1",
+        "playlistId": "PLROQq1cZUMn_18r2SJZU8ajbrBJmeHYMW",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn_18r2SJZU8ajbrBJmeHYMW"
+      }
+    ],
     "notes": ""
   },
   {
@@ -1289,7 +1403,15 @@
       "faberLevel": "Book 1",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=QwykdVqH6os",
+        "artist": "Piano Adventures",
+        "description": "Adult Piano Adventures Popular Book 1",
+        "playlistId": "PLROQq1cZUMn_18r2SJZU8ajbrBJmeHYMW",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn_18r2SJZU8ajbrBJmeHYMW"
+      }
+    ],
     "notes": ""
   },
   {
@@ -1305,7 +1427,15 @@
       "faberLevel": "Book 1",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=OgQuX35Fpa4",
+        "artist": "Piano Adventures",
+        "description": "Adult Piano Adventures Popular Book 1",
+        "playlistId": "PLROQq1cZUMn_18r2SJZU8ajbrBJmeHYMW",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn_18r2SJZU8ajbrBJmeHYMW"
+      }
+    ],
     "notes": ""
   },
   {
@@ -1321,7 +1451,15 @@
       "faberLevel": "Book 1",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=xvYL_rgR9xY",
+        "artist": "Piano Adventures",
+        "description": "Adult Piano Adventures Popular Book 1",
+        "playlistId": "PLROQq1cZUMn_18r2SJZU8ajbrBJmeHYMW",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn_18r2SJZU8ajbrBJmeHYMW"
+      }
+    ],
     "notes": ""
   },
   {
@@ -1337,7 +1475,15 @@
       "faberLevel": "Book 1",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=9XY4cXvbjjg",
+        "artist": "Piano Adventures",
+        "description": "Adult Piano Adventures Popular Book 1",
+        "playlistId": "PLROQq1cZUMn_18r2SJZU8ajbrBJmeHYMW",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn_18r2SJZU8ajbrBJmeHYMW"
+      }
+    ],
     "notes": ""
   },
   {
@@ -1353,7 +1499,15 @@
       "faberLevel": "Book 1",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=TATRESVCyts",
+        "artist": "Piano Adventures",
+        "description": "Adult Piano Adventures Popular Book 1",
+        "playlistId": "PLROQq1cZUMn_18r2SJZU8ajbrBJmeHYMW",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn_18r2SJZU8ajbrBJmeHYMW"
+      }
+    ],
     "notes": ""
   },
   {
@@ -1369,7 +1523,15 @@
       "faberLevel": "Book 1",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=zv5k_d4R4Mw",
+        "artist": "Piano Adventures",
+        "description": "Adult Piano Adventures Popular Book 1",
+        "playlistId": "PLROQq1cZUMn_18r2SJZU8ajbrBJmeHYMW",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn_18r2SJZU8ajbrBJmeHYMW"
+      }
+    ],
     "notes": ""
   },
   {
@@ -1385,7 +1547,15 @@
       "faberLevel": "Book 1",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=TO8fr5lkPFc",
+        "artist": "Piano Adventures",
+        "description": "Adult Piano Adventures Popular Book 1",
+        "playlistId": "PLROQq1cZUMn_18r2SJZU8ajbrBJmeHYMW",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn_18r2SJZU8ajbrBJmeHYMW"
+      }
+    ],
     "notes": ""
   },
   {
@@ -1401,7 +1571,15 @@
       "faberLevel": "Book 1",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=VgrRWwQqmpQ",
+        "artist": "Piano Adventures",
+        "description": "Adult Piano Adventures Popular Book 1",
+        "playlistId": "PLROQq1cZUMn_18r2SJZU8ajbrBJmeHYMW",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn_18r2SJZU8ajbrBJmeHYMW"
+      }
+    ],
     "notes": ""
   },
   {
@@ -1417,7 +1595,15 @@
       "faberLevel": "Book 1",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=pZH8Ecx1NDM",
+        "artist": "Piano Adventures",
+        "description": "Adult Piano Adventures Popular Book 1",
+        "playlistId": "PLROQq1cZUMn_18r2SJZU8ajbrBJmeHYMW",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn_18r2SJZU8ajbrBJmeHYMW"
+      }
+    ],
     "notes": "Section 2: Popular Songs in the Key of C Major"
   },
   {
@@ -1433,7 +1619,15 @@
       "faberLevel": "Book 1",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=YjGi39oNiAE",
+        "artist": "Piano Adventures",
+        "description": "Adult Piano Adventures Popular Book 1",
+        "playlistId": "PLROQq1cZUMn_18r2SJZU8ajbrBJmeHYMW",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn_18r2SJZU8ajbrBJmeHYMW"
+      }
+    ],
     "notes": ""
   },
   {
@@ -1449,7 +1643,15 @@
       "faberLevel": "Book 1",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=J6_EECX5xso",
+        "artist": "Piano Adventures",
+        "description": "Adult Piano Adventures Popular Book 1",
+        "playlistId": "PLROQq1cZUMn_18r2SJZU8ajbrBJmeHYMW",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn_18r2SJZU8ajbrBJmeHYMW"
+      }
+    ],
     "notes": ""
   },
   {
@@ -1465,7 +1667,15 @@
       "faberLevel": "Book 1",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=67Z2J_xBf0w",
+        "artist": "Piano Adventures",
+        "description": "Adult Piano Adventures Popular Book 1",
+        "playlistId": "PLROQq1cZUMn_18r2SJZU8ajbrBJmeHYMW",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn_18r2SJZU8ajbrBJmeHYMW"
+      }
+    ],
     "notes": ""
   },
   {
@@ -1481,7 +1691,15 @@
       "faberLevel": "Book 1",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=_IguSZB0Skg",
+        "artist": "Piano Adventures",
+        "description": "Adult Piano Adventures Popular Book 1",
+        "playlistId": "PLROQq1cZUMn_18r2SJZU8ajbrBJmeHYMW",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn_18r2SJZU8ajbrBJmeHYMW"
+      }
+    ],
     "notes": ""
   },
   {
@@ -1497,7 +1715,15 @@
       "faberLevel": "Book 1",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=wBmK2PMf7Jo",
+        "artist": "Piano Adventures",
+        "description": "Adult Piano Adventures Popular Book 1",
+        "playlistId": "PLROQq1cZUMn_18r2SJZU8ajbrBJmeHYMW",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn_18r2SJZU8ajbrBJmeHYMW"
+      }
+    ],
     "notes": ""
   },
   {
@@ -1513,7 +1739,15 @@
       "faberLevel": "Book 1",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=e_zvAYPmAw8",
+        "artist": "Piano Adventures",
+        "description": "Adult Piano Adventures Popular Book 1",
+        "playlistId": "PLROQq1cZUMn_18r2SJZU8ajbrBJmeHYMW",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn_18r2SJZU8ajbrBJmeHYMW"
+      }
+    ],
     "notes": ""
   },
   {
@@ -1529,7 +1763,15 @@
       "faberLevel": "Book 1",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=uZTLCGphFxo",
+        "artist": "Piano Adventures",
+        "description": "Adult Piano Adventures Popular Book 1",
+        "playlistId": "PLROQq1cZUMn_18r2SJZU8ajbrBJmeHYMW",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn_18r2SJZU8ajbrBJmeHYMW"
+      }
+    ],
     "notes": ""
   },
   {
@@ -1545,7 +1787,15 @@
       "faberLevel": "Book 1",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=lJxpxOqidZ8",
+        "artist": "Piano Adventures",
+        "description": "Adult Piano Adventures Popular Book 1",
+        "playlistId": "PLROQq1cZUMn_18r2SJZU8ajbrBJmeHYMW",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn_18r2SJZU8ajbrBJmeHYMW"
+      }
+    ],
     "notes": ""
   },
   {
@@ -1561,7 +1811,15 @@
       "faberLevel": "Book 1",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=s-hu8m_LCLc",
+        "artist": "Piano Adventures",
+        "description": "Adult Piano Adventures Popular Book 1",
+        "playlistId": "PLROQq1cZUMn_18r2SJZU8ajbrBJmeHYMW",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn_18r2SJZU8ajbrBJmeHYMW"
+      }
+    ],
     "notes": ""
   },
   {
@@ -1577,7 +1835,15 @@
       "faberLevel": "Book 1",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=IgD6bR3y9WA",
+        "artist": "Piano Adventures",
+        "description": "Adult Piano Adventures Popular Book 1",
+        "playlistId": "PLROQq1cZUMn_18r2SJZU8ajbrBJmeHYMW",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn_18r2SJZU8ajbrBJmeHYMW"
+      }
+    ],
     "notes": ""
   },
   {
@@ -1598,6 +1864,13 @@
         "url": "https://www.youtube.com/watch?v=nudfgPA4xdc",
         "artist": "Karen Rock Music",
         "description": "Pachelbel Canon - Piano Adventures Level 3B Lesson Book"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=K2TJ4mxzvBY",
+        "artist": "Piano Adventures",
+        "description": "Adult Piano Adventures Popular Book 1",
+        "playlistId": "PLROQq1cZUMn_18r2SJZU8ajbrBJmeHYMW",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn_18r2SJZU8ajbrBJmeHYMW"
       }
     ],
     "notes": ""
@@ -1615,7 +1888,15 @@
       "faberLevel": "Book 1",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=f0ge2iB6mbY",
+        "artist": "Piano Adventures",
+        "description": "Adult Piano Adventures Popular Book 1",
+        "playlistId": "PLROQq1cZUMn_18r2SJZU8ajbrBJmeHYMW",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn_18r2SJZU8ajbrBJmeHYMW"
+      }
+    ],
     "notes": "Section 3: Popular Songs in the Key of G Major"
   },
   {
@@ -1631,7 +1912,15 @@
       "faberLevel": "Book 1",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=9yx-U5ZuauQ",
+        "artist": "Piano Adventures",
+        "description": "Adult Piano Adventures Popular Book 1",
+        "playlistId": "PLROQq1cZUMn_18r2SJZU8ajbrBJmeHYMW",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn_18r2SJZU8ajbrBJmeHYMW"
+      }
+    ],
     "notes": ""
   },
   {
@@ -1647,7 +1936,15 @@
       "faberLevel": "Book 1",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=GshGXjV92R0",
+        "artist": "Piano Adventures",
+        "description": "Adult Piano Adventures Popular Book 1",
+        "playlistId": "PLROQq1cZUMn_18r2SJZU8ajbrBJmeHYMW",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn_18r2SJZU8ajbrBJmeHYMW"
+      }
+    ],
     "notes": ""
   },
   {
@@ -1663,7 +1960,15 @@
       "faberLevel": "Book 1",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=EIO5AycXuJU",
+        "artist": "Piano Adventures",
+        "description": "Adult Piano Adventures Popular Book 1",
+        "playlistId": "PLROQq1cZUMn_18r2SJZU8ajbrBJmeHYMW",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn_18r2SJZU8ajbrBJmeHYMW"
+      }
+    ],
     "notes": ""
   },
   {
@@ -1679,7 +1984,15 @@
       "faberLevel": "Book 1",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=i2HBD3xvFRI",
+        "artist": "Piano Adventures",
+        "description": "Adult Piano Adventures Popular Book 1",
+        "playlistId": "PLROQq1cZUMn_18r2SJZU8ajbrBJmeHYMW",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn_18r2SJZU8ajbrBJmeHYMW"
+      }
+    ],
     "notes": ""
   },
   {
@@ -1695,7 +2008,15 @@
       "faberLevel": "Book 1",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=sdMZ54Jwwbs",
+        "artist": "Piano Adventures",
+        "description": "Adult Piano Adventures Popular Book 1",
+        "playlistId": "PLROQq1cZUMn_18r2SJZU8ajbrBJmeHYMW",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn_18r2SJZU8ajbrBJmeHYMW"
+      }
+    ],
     "notes": ""
   },
   {
@@ -1711,7 +2032,15 @@
       "faberLevel": "Book 1",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=IVKjYlfR1ck",
+        "artist": "Piano Adventures",
+        "description": "Adult Piano Adventures Popular Book 1",
+        "playlistId": "PLROQq1cZUMn_18r2SJZU8ajbrBJmeHYMW",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn_18r2SJZU8ajbrBJmeHYMW"
+      }
+    ],
     "notes": ""
   },
   {
@@ -1727,7 +2056,15 @@
       "faberLevel": "Book 1",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=-piXaqOGGDQ",
+        "artist": "Piano Adventures",
+        "description": "Adult Piano Adventures Popular Book 1",
+        "playlistId": "PLROQq1cZUMn_18r2SJZU8ajbrBJmeHYMW",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn_18r2SJZU8ajbrBJmeHYMW"
+      }
+    ],
     "notes": ""
   },
   {
@@ -1743,7 +2080,15 @@
       "faberLevel": "Book 2",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=Kclu6weT1dc",
+        "artist": "Piano Adventures",
+        "description": "Adult Piano Adventures Popular Book 2",
+        "playlistId": "PLROQq1cZUMn8VCV0z8lzPcDoBvUJB4Xfm",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn8VCV0z8lzPcDoBvUJB4Xfm"
+      }
+    ],
     "notes": ""
   },
   {
@@ -1759,7 +2104,15 @@
       "faberLevel": "Book 2",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=18jjpSl9nO8",
+        "artist": "Piano Adventures",
+        "description": "Adult Piano Adventures Popular Book 2",
+        "playlistId": "PLROQq1cZUMn8VCV0z8lzPcDoBvUJB4Xfm",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn8VCV0z8lzPcDoBvUJB4Xfm"
+      }
+    ],
     "notes": ""
   },
   {
@@ -1775,7 +2128,15 @@
       "faberLevel": "Book 2",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=d4FJkX9ifD4",
+        "artist": "Piano Adventures",
+        "description": "Adult Piano Adventures Popular Book 2",
+        "playlistId": "PLROQq1cZUMn8VCV0z8lzPcDoBvUJB4Xfm",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn8VCV0z8lzPcDoBvUJB4Xfm"
+      }
+    ],
     "notes": ""
   },
   {
@@ -1791,7 +2152,15 @@
       "faberLevel": "Book 2",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=gSkMmBk4EpU",
+        "artist": "Piano Adventures",
+        "description": "Adult Piano Adventures Popular Book 2",
+        "playlistId": "PLROQq1cZUMn8VCV0z8lzPcDoBvUJB4Xfm",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn8VCV0z8lzPcDoBvUJB4Xfm"
+      }
+    ],
     "notes": ""
   },
   {
@@ -1807,7 +2176,15 @@
       "faberLevel": "Book 2",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=wCX3Vq8w48Y",
+        "artist": "Piano Adventures",
+        "description": "Adult Piano Adventures Popular Book 2",
+        "playlistId": "PLROQq1cZUMn8VCV0z8lzPcDoBvUJB4Xfm",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn8VCV0z8lzPcDoBvUJB4Xfm"
+      }
+    ],
     "notes": ""
   },
   {
@@ -1823,7 +2200,15 @@
       "faberLevel": "Book 2",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=gXZI_C4xJ2U",
+        "artist": "Piano Adventures",
+        "description": "Adult Piano Adventures Popular Book 2",
+        "playlistId": "PLROQq1cZUMn8VCV0z8lzPcDoBvUJB4Xfm",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn8VCV0z8lzPcDoBvUJB4Xfm"
+      }
+    ],
     "notes": ""
   },
   {
@@ -1839,7 +2224,15 @@
       "faberLevel": "Book 2",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=6o-iN1ZDIS8",
+        "artist": "Piano Adventures",
+        "description": "Adult Piano Adventures Popular Book 2",
+        "playlistId": "PLROQq1cZUMn8VCV0z8lzPcDoBvUJB4Xfm",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn8VCV0z8lzPcDoBvUJB4Xfm"
+      }
+    ],
     "notes": ""
   },
   {
@@ -1855,7 +2248,15 @@
       "faberLevel": "Book 2",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=5V9I3gHaW1A",
+        "artist": "Piano Adventures",
+        "description": "Adult Piano Adventures Popular Book 2",
+        "playlistId": "PLROQq1cZUMn8VCV0z8lzPcDoBvUJB4Xfm",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn8VCV0z8lzPcDoBvUJB4Xfm"
+      }
+    ],
     "notes": ""
   },
   {
@@ -1871,7 +2272,15 @@
       "faberLevel": "Book 2",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=DOKXd2duTlg",
+        "artist": "Piano Adventures",
+        "description": "Adult Piano Adventures Popular Book 2",
+        "playlistId": "PLROQq1cZUMn8VCV0z8lzPcDoBvUJB4Xfm",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn8VCV0z8lzPcDoBvUJB4Xfm"
+      }
+    ],
     "notes": ""
   },
   {
@@ -1887,7 +2296,15 @@
       "faberLevel": "Book 2",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=zUza5JwEg_g",
+        "artist": "Piano Adventures",
+        "description": "Adult Piano Adventures Popular Book 2",
+        "playlistId": "PLROQq1cZUMn8VCV0z8lzPcDoBvUJB4Xfm",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn8VCV0z8lzPcDoBvUJB4Xfm"
+      }
+    ],
     "notes": ""
   },
   {
@@ -1903,7 +2320,15 @@
       "faberLevel": "Book 2",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=3kjIdY30qzw",
+        "artist": "Piano Adventures",
+        "description": "Adult Piano Adventures Popular Book 2",
+        "playlistId": "PLROQq1cZUMn8VCV0z8lzPcDoBvUJB4Xfm",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn8VCV0z8lzPcDoBvUJB4Xfm"
+      }
+    ],
     "notes": ""
   },
   {
@@ -1919,7 +2344,15 @@
       "faberLevel": "Book 2",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=RQky_Ru5Szc",
+        "artist": "Piano Adventures",
+        "description": "Adult Piano Adventures Popular Book 2",
+        "playlistId": "PLROQq1cZUMn8VCV0z8lzPcDoBvUJB4Xfm",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn8VCV0z8lzPcDoBvUJB4Xfm"
+      }
+    ],
     "notes": ""
   },
   {
@@ -1935,7 +2368,15 @@
       "faberLevel": "Book 2",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=yZ1Ob0Rqkb4",
+        "artist": "Piano Adventures",
+        "description": "Adult Piano Adventures Popular Book 2",
+        "playlistId": "PLROQq1cZUMn8VCV0z8lzPcDoBvUJB4Xfm",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn8VCV0z8lzPcDoBvUJB4Xfm"
+      }
+    ],
     "notes": ""
   },
   {
@@ -1951,7 +2392,15 @@
       "faberLevel": "Book 2",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=BEiP7I2pEUs",
+        "artist": "Piano Adventures",
+        "description": "Adult Piano Adventures Popular Book 2",
+        "playlistId": "PLROQq1cZUMn8VCV0z8lzPcDoBvUJB4Xfm",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn8VCV0z8lzPcDoBvUJB4Xfm"
+      }
+    ],
     "notes": ""
   },
   {
@@ -1967,7 +2416,15 @@
       "faberLevel": "Book 2",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=bbpqaQFSiQg",
+        "artist": "Piano Adventures",
+        "description": "Adult Piano Adventures Popular Book 2",
+        "playlistId": "PLROQq1cZUMn8VCV0z8lzPcDoBvUJB4Xfm",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn8VCV0z8lzPcDoBvUJB4Xfm"
+      }
+    ],
     "notes": ""
   },
   {
@@ -1983,7 +2440,15 @@
       "faberLevel": "Book 2",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=ZdeFMSk476E",
+        "artist": "Piano Adventures",
+        "description": "Adult Piano Adventures Popular Book 2",
+        "playlistId": "PLROQq1cZUMn8VCV0z8lzPcDoBvUJB4Xfm",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn8VCV0z8lzPcDoBvUJB4Xfm"
+      }
+    ],
     "notes": ""
   },
   {
@@ -1999,7 +2464,15 @@
       "faberLevel": "Book 2",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=553mBWkUSBo",
+        "artist": "Piano Adventures",
+        "description": "Adult Piano Adventures Popular Book 2",
+        "playlistId": "PLROQq1cZUMn8VCV0z8lzPcDoBvUJB4Xfm",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn8VCV0z8lzPcDoBvUJB4Xfm"
+      }
+    ],
     "notes": ""
   },
   {
@@ -2015,7 +2488,15 @@
       "faberLevel": "Book 2",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=wt1OfgL7Ego",
+        "artist": "Piano Adventures",
+        "description": "Adult Piano Adventures Popular Book 2",
+        "playlistId": "PLROQq1cZUMn8VCV0z8lzPcDoBvUJB4Xfm",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn8VCV0z8lzPcDoBvUJB4Xfm"
+      }
+    ],
     "notes": ""
   },
   {
@@ -2031,7 +2512,15 @@
       "faberLevel": "Book 2",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=mLsL0P2-q60",
+        "artist": "Piano Adventures",
+        "description": "Adult Piano Adventures Popular Book 2",
+        "playlistId": "PLROQq1cZUMn8VCV0z8lzPcDoBvUJB4Xfm",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn8VCV0z8lzPcDoBvUJB4Xfm"
+      }
+    ],
     "notes": ""
   },
   {
@@ -2047,7 +2536,15 @@
       "faberLevel": "Book 2",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=tP1wEn919o0",
+        "artist": "Piano Adventures",
+        "description": "Adult Piano Adventures Popular Book 2",
+        "playlistId": "PLROQq1cZUMn8VCV0z8lzPcDoBvUJB4Xfm",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn8VCV0z8lzPcDoBvUJB4Xfm"
+      }
+    ],
     "notes": ""
   },
   {
@@ -2063,7 +2560,15 @@
       "faberLevel": "Book 2",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=A2RtVQTARx0",
+        "artist": "Piano Adventures",
+        "description": "Adult Piano Adventures Popular Book 2",
+        "playlistId": "PLROQq1cZUMn8VCV0z8lzPcDoBvUJB4Xfm",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn8VCV0z8lzPcDoBvUJB4Xfm"
+      }
+    ],
     "notes": ""
   },
   {
@@ -2079,7 +2584,15 @@
       "faberLevel": "Book 2",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=1ysg0RSt6HY",
+        "artist": "Piano Adventures",
+        "description": "Adult Piano Adventures Popular Book 2",
+        "playlistId": "PLROQq1cZUMn8VCV0z8lzPcDoBvUJB4Xfm",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn8VCV0z8lzPcDoBvUJB4Xfm"
+      }
+    ],
     "notes": ""
   },
   {
@@ -2095,7 +2608,15 @@
       "faberLevel": "Book 2",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=MPmN5TAAg_E",
+        "artist": "Piano Adventures",
+        "description": "Adult Piano Adventures Popular Book 2",
+        "playlistId": "PLROQq1cZUMn8VCV0z8lzPcDoBvUJB4Xfm",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn8VCV0z8lzPcDoBvUJB4Xfm"
+      }
+    ],
     "notes": ""
   },
   {
@@ -2111,7 +2632,15 @@
       "faberLevel": "Book 2",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=U1Xwi_TwLbg",
+        "artist": "Piano Adventures",
+        "description": "Adult Piano Adventures Popular Book 2",
+        "playlistId": "PLROQq1cZUMn8VCV0z8lzPcDoBvUJB4Xfm",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn8VCV0z8lzPcDoBvUJB4Xfm"
+      }
+    ],
     "notes": ""
   },
   {
@@ -2127,7 +2656,15 @@
       "faberLevel": "Book 2",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=4ELQ-cGztyg",
+        "artist": "Piano Adventures",
+        "description": "Adult Piano Adventures Popular Book 2",
+        "playlistId": "PLROQq1cZUMn8VCV0z8lzPcDoBvUJB4Xfm",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn8VCV0z8lzPcDoBvUJB4Xfm"
+      }
+    ],
     "notes": ""
   },
   {
@@ -2143,7 +2680,15 @@
       "faberLevel": "Book 2",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=pEv_BxZZz4g",
+        "artist": "Piano Adventures",
+        "description": "Adult Piano Adventures Popular Book 2",
+        "playlistId": "PLROQq1cZUMn8VCV0z8lzPcDoBvUJB4Xfm",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn8VCV0z8lzPcDoBvUJB4Xfm"
+      }
+    ],
     "notes": ""
   },
   {
@@ -2159,7 +2704,15 @@
       "faberLevel": "Book 2",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=s1NFMJKO780",
+        "artist": "Piano Adventures",
+        "description": "Adult Piano Adventures Popular Book 2",
+        "playlistId": "PLROQq1cZUMn8VCV0z8lzPcDoBvUJB4Xfm",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn8VCV0z8lzPcDoBvUJB4Xfm"
+      }
+    ],
     "notes": ""
   },
   {
