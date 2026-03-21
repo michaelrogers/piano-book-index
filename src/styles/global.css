@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-piano-50: #faf5ff;
+  --color-piano-100: #f3e8ff;
+  --color-piano-200: #e9d5ff;
+  --color-piano-500: #a855f7;
+  --color-piano-600: #9333ea;
+  --color-piano-700: #7e22ce;
+  --color-piano-800: #6b21a8;
+  --color-piano-900: #581c87;
+}
+
+.owned-book {
+  border-color: color-mix(in oklab, #10b981 45%, transparent);
+  background-color: color-mix(in oklab, #10b981 10%, transparent);
+}
+
+.owned-indicator {
+  background-color: rgb(16 185 129 / 0.15);
+  color: rgb(5 150 105);
+}
+
+.dark .owned-indicator {
+  background-color: rgb(6 78 59 / 0.55);
+  color: rgb(52 211 153);
+}

@@ -1,0 +1,4683 @@
+{
+  "channels": [
+    {
+      "id": "92pianokeys",
+      "name": "92pianokeys",
+      "playlistsUrl": "https://www.youtube.com/@92pianokeys40/playlists"
+    },
+    {
+      "id": "amy-comparetto",
+      "name": "Amy Comparetto",
+      "playlistsUrl": "https://www.youtube.com/@AmyComparetto/playlists"
+    },
+    {
+      "id": "karen-rock-music",
+      "name": "Karen Rock Music",
+      "playlistsUrl": "https://www.youtube.com/@KarenRockMusic/playlists"
+    },
+    {
+      "id": "lets-play-piano-methods",
+      "name": "Let's Play Piano Methods",
+      "playlistsUrl": "https://www.youtube.com/@LetsPlayPianoMethods/playlists"
+    }
+  ],
+  "playlistBookMappings": [
+    {
+      "channelId": "92pianokeys",
+      "channelName": "92pianokeys",
+      "playlistId": "PLIx-hGjmqNJH3_R1-VFSuqHNBwTiW9cAn",
+      "playlistTitle": "Alfred's Greatest Hits Level 1",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PLIx-hGjmqNJH3_R1-VFSuqHNBwTiW9cAn",
+      "bookId": "alfred-greatest-hits-1",
+      "tracks": [
+        {
+          "videoId": "jzVISTzwneQ",
+          "videoTitle": "Love Me Tender (Elementary Piano Solo)",
+          "url": "https://www.youtube.com/watch?v=jzVISTzwneQ"
+        },
+        {
+          "videoId": "fQx4Ua_kv-4",
+          "videoTitle": "Edelweiss (Elementary Piano Solo)",
+          "url": "https://www.youtube.com/watch?v=fQx4Ua_kv-4"
+        },
+        {
+          "videoId": "cPs9EIvBGEw",
+          "videoTitle": "My Heart Will Go On (Elementary Piano Solo)",
+          "url": "https://www.youtube.com/watch?v=cPs9EIvBGEw"
+        },
+        {
+          "videoId": "2YHv7rMfy9E",
+          "videoTitle": "Puff the Magic Dragon (Elementary Piano Solo)",
+          "url": "https://www.youtube.com/watch?v=2YHv7rMfy9E"
+        },
+        {
+          "videoId": "wWDStLPlVM4",
+          "videoTitle": "The Rainbow Connection (Elementary Piano Solo)",
+          "url": "https://www.youtube.com/watch?v=wWDStLPlVM4"
+        },
+        {
+          "videoId": "gCSc0rJq77k",
+          "videoTitle": "What A Wonderful World (Elementary Piano Solo)",
+          "url": "https://www.youtube.com/watch?v=gCSc0rJq77k"
+        },
+        {
+          "videoId": "117f6hP3cBs",
+          "videoTitle": "It's A Small World (Elementary Piano Solo)",
+          "url": "https://www.youtube.com/watch?v=117f6hP3cBs"
+        },
+        {
+          "videoId": "wDuSkapkQUA",
+          "videoTitle": "Tomorrow from \"Annie\" (Elementary Piano Solo)",
+          "url": "https://www.youtube.com/watch?v=wDuSkapkQUA"
+        },
+        {
+          "videoId": "dBrfVbqWMhc",
+          "videoTitle": "Rock Around The Clock (Elementary Piano Solo)",
+          "url": "https://www.youtube.com/watch?v=dBrfVbqWMhc"
+        },
+        {
+          "videoId": "40IVGbYbjl8",
+          "videoTitle": "Beauty and The Beast (Elementary Piano Solo)",
+          "url": "https://www.youtube.com/watch?v=40IVGbYbjl8"
+        },
+        {
+          "videoId": "oCd9f0DWuAE",
+          "videoTitle": "On Broadway (Elementary Piano Solo)",
+          "url": "https://www.youtube.com/watch?v=oCd9f0DWuAE"
+        },
+        {
+          "videoId": "REco2jgYmXM",
+          "videoTitle": "Can You Feel the Love Tonight (Elementary Piano Solo)",
+          "url": "https://www.youtube.com/watch?v=REco2jgYmXM"
+        },
+        {
+          "videoId": "y49yDlb2Yrw",
+          "videoTitle": "Memory from \"Cats\" (Elementary Piano Solo)",
+          "url": "https://www.youtube.com/watch?v=y49yDlb2Yrw"
+        },
+        {
+          "videoId": "dY_mSZOhq70",
+          "videoTitle": "She Loves You, Beatles (Elementary Piano Solo)",
+          "url": "https://www.youtube.com/watch?v=dY_mSZOhq70"
+        },
+        {
+          "videoId": "MKCBF9a_1JE",
+          "videoTitle": "Hello, Dolly! (Elementary Piano Solo)",
+          "url": "https://www.youtube.com/watch?v=MKCBF9a_1JE"
+        },
+        {
+          "videoId": "zH0tbdZsqu8",
+          "videoTitle": "That's Amore (That's Love) (Elementary Piano Solo)",
+          "url": "https://www.youtube.com/watch?v=zH0tbdZsqu8"
+        },
+        {
+          "videoId": "jFEGt9f4fnY",
+          "videoTitle": "The Sound of Music (Elementary Piano Solo)",
+          "url": "https://www.youtube.com/watch?v=jFEGt9f4fnY"
+        },
+        {
+          "videoId": "XZvYC2ESMis",
+          "videoTitle": "A Whole New World (Elementary Piano Solo)",
+          "url": "https://www.youtube.com/watch?v=XZvYC2ESMis"
+        },
+        {
+          "videoId": "qK9C7BN8j18",
+          "videoTitle": "Nadia's Theme (Early-Intermediate Piano Solo)",
+          "url": "https://www.youtube.com/watch?v=qK9C7BN8j18"
+        },
+        {
+          "videoId": "i-AsLljhrh8",
+          "videoTitle": "I Left My Heart in San Francisco (Early-Intermediate Piano Solo)",
+          "url": "https://www.youtube.com/watch?v=i-AsLljhrh8"
+        },
+        {
+          "videoId": "0tqfAAsY4ag",
+          "videoTitle": "Blue Suede Shoes (Early-Intermediate Piano Solo)",
+          "url": "https://www.youtube.com/watch?v=0tqfAAsY4ag"
+        },
+        {
+          "videoId": "7__29S8qwrw",
+          "videoTitle": "Part of Your World (Elementary Piano Solo)",
+          "url": "https://www.youtube.com/watch?v=7__29S8qwrw"
+        }
+      ]
+    },
+    {
+      "channelId": "92pianokeys",
+      "channelName": "92pianokeys",
+      "playlistId": "PLIx-hGjmqNJGepF4pv83jakxJY5N_A1Ua",
+      "playlistTitle": "Alfred's Greatest Hits Level 2",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PLIx-hGjmqNJGepF4pv83jakxJY5N_A1Ua",
+      "bookId": "alfred-greatest-hits-2",
+      "tracks": [
+        {
+          "videoId": "-4lKNkn2bKc",
+          "videoTitle": "There's No Business Like Show Business (Elementary Piano Solo)",
+          "url": "https://www.youtube.com/watch?v=-4lKNkn2bKc"
+        },
+        {
+          "videoId": "NejMVO9W3Z0",
+          "videoTitle": "My Heart Will Go On (Early-Intermediate Piano Solo)",
+          "url": "https://www.youtube.com/watch?v=NejMVO9W3Z0"
+        },
+        {
+          "videoId": "34JgJ_b7rtI",
+          "videoTitle": "Que Sera, Sera (Whatever Will Be, Will Be) (Early-Intermediate Piano Solo)",
+          "url": "https://www.youtube.com/watch?v=34JgJ_b7rtI"
+        },
+        {
+          "videoId": "07bw4ukBAQU",
+          "videoTitle": "Beauty and The Beast (Intermediate Piano Solo)",
+          "url": "https://www.youtube.com/watch?v=07bw4ukBAQU"
+        },
+        {
+          "videoId": "gT6-o3y4CiQ",
+          "videoTitle": "Yesterday, Beatles (Intermediate Piano Solo)",
+          "url": "https://www.youtube.com/watch?v=gT6-o3y4CiQ"
+        },
+        {
+          "videoId": "h4zgeLFXOpI",
+          "videoTitle": "Think of Me (The Phantom of the Opera) (Intermediate Piano Solo)",
+          "url": "https://www.youtube.com/watch?v=h4zgeLFXOpI"
+        },
+        {
+          "videoId": "ZSSQVU-apaw",
+          "videoTitle": "This Is The Moment (Jekyll & Hyde) (Intermediate Piano Solo)",
+          "url": "https://www.youtube.com/watch?v=ZSSQVU-apaw"
+        }
+      ]
+    },
+    {
+      "channelId": "amy-comparetto",
+      "channelName": "Amy Comparetto",
+      "playlistId": "PL7ucElDiXf1QUj75w-GuTHi5cw4dpXrsx",
+      "playlistTitle": "BigTime Disney",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1QUj75w-GuTHi5cw4dpXrsx",
+      "bookId": "bigtime-piano-disney",
+      "tracks": [
+        {
+          "videoId": "w6qwmxPOZnk",
+          "videoTitle": "Aladdin Medley (BigTime Piano Disney)",
+          "url": "https://www.youtube.com/watch?v=w6qwmxPOZnk"
+        },
+        {
+          "videoId": "13BeKZfETD4",
+          "videoTitle": "God Help the Outcasts [Hunchback of Notre Dame] (BigTime Piano Disney)",
+          "url": "https://www.youtube.com/watch?v=13BeKZfETD4"
+        },
+        {
+          "videoId": "h2Sr5Mh8WRw",
+          "videoTitle": "We Know the Way [Moana] (BigTime Piano Disney)",
+          "url": "https://www.youtube.com/watch?v=h2Sr5Mh8WRw"
+        },
+        {
+          "videoId": "f_MOp4zOiCc",
+          "videoTitle": "Two Worlds [Tarzan] (BigTime Piano Disney)",
+          "url": "https://www.youtube.com/watch?v=f_MOp4zOiCc"
+        },
+        {
+          "videoId": "nEHpgn7JnMI",
+          "videoTitle": "Prologue [Beauty and the Beast] (BigTime Piano Disney)",
+          "url": "https://www.youtube.com/watch?v=nEHpgn7JnMI"
+        },
+        {
+          "videoId": "slE9gXxq-uM",
+          "videoTitle": "Just Around the Riverbend [Pocahontas] (BigTime Piano Disney)",
+          "url": "https://www.youtube.com/watch?v=slE9gXxq-uM"
+        },
+        {
+          "videoId": "4xSsAlFMqF8",
+          "videoTitle": "I'll Make a Man Out of You [Mulan] (BigTime Piano Disney)",
+          "url": "https://www.youtube.com/watch?v=4xSsAlFMqF8"
+        },
+        {
+          "videoId": "kTsfbVyG9e8",
+          "videoTitle": "Dig a Little Deeper [Princess and the Frog] (BigTime Piano Disney)",
+          "url": "https://www.youtube.com/watch?v=kTsfbVyG9e8"
+        },
+        {
+          "videoId": "qOzwWzhOG0M",
+          "videoTitle": "Can You Feel the Love Tonight [The Lion King] (BigTime Piano Disney)",
+          "url": "https://www.youtube.com/watch?v=qOzwWzhOG0M"
+        },
+        {
+          "videoId": "zvh9qh2RcoA",
+          "videoTitle": "Beauty and the Beast (BigTime Piano Disney)",
+          "url": "https://www.youtube.com/watch?v=zvh9qh2RcoA"
+        },
+        {
+          "videoId": "qQ7gkNL5vAM",
+          "videoTitle": "Be Prepared [The Lion King] (BigTime Piano Disney)",
+          "url": "https://www.youtube.com/watch?v=qQ7gkNL5vAM"
+        },
+        {
+          "videoId": "goW_Q121Z5U",
+          "videoTitle": "Alice in Wonderland (BigTime Piano Disney)",
+          "url": "https://www.youtube.com/watch?v=goW_Q121Z5U"
+        }
+      ]
+    },
+    {
+      "channelId": "amy-comparetto",
+      "channelName": "Amy Comparetto",
+      "playlistId": "PL7ucElDiXf1SAh4Jo25oBXC-LkZT3XpQR",
+      "playlistTitle": "BigTime Hits",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1SAh4Jo25oBXC-LkZT3XpQR",
+      "bookId": "bigtime-piano-hits",
+      "tracks": [
+        {
+          "videoId": "Lj0fbmbfg-k",
+          "videoTitle": "When I Was Your Man [Bruno Mars] (BigTime Piano Hits)",
+          "url": "https://www.youtube.com/watch?v=Lj0fbmbfg-k"
+        },
+        {
+          "videoId": "T7iUI5Qgx0M",
+          "videoTitle": "Symphony [Clean Bandit] (BigTime Piano Hits)",
+          "url": "https://www.youtube.com/watch?v=T7iUI5Qgx0M"
+        },
+        {
+          "videoId": "NpJsOeTNwu4",
+          "videoTitle": "Sugar [Maroon 5] (BigTime Piano Hits)",
+          "url": "https://www.youtube.com/watch?v=NpJsOeTNwu4"
+        },
+        {
+          "videoId": "sT2lj61HDFg",
+          "videoTitle": "Stay With Me [Sam Smith] (BigTime Piano Hits)",
+          "url": "https://www.youtube.com/watch?v=sT2lj61HDFg"
+        },
+        {
+          "videoId": "vSIFUywvaZY",
+          "videoTitle": "Sorry [Justin Bieber] (BigTime Piano Hits)",
+          "url": "https://www.youtube.com/watch?v=vSIFUywvaZY"
+        },
+        {
+          "videoId": "YUR5k0_PyfI",
+          "videoTitle": "Shut Up and Dance [Walk the Moon] (BigTime Piano Hits)",
+          "url": "https://www.youtube.com/watch?v=YUR5k0_PyfI"
+        },
+        {
+          "videoId": "17kkyVj3uWo",
+          "videoTitle": "Shake It Off [Taylor Swift] (BigTime Piano Hits)",
+          "url": "https://www.youtube.com/watch?v=17kkyVj3uWo"
+        },
+        {
+          "videoId": "UYl7-UeVmp8",
+          "videoTitle": "See You Again [Wiz Khalifa] (BigTime Piano Hits)",
+          "url": "https://www.youtube.com/watch?v=UYl7-UeVmp8"
+        },
+        {
+          "videoId": "cAki3eDYGYE",
+          "videoTitle": "Hello [Adele] (BigTime Piano Hits)",
+          "url": "https://www.youtube.com/watch?v=cAki3eDYGYE"
+        },
+        {
+          "videoId": "IEUUSElLYcQ",
+          "videoTitle": "All of Me [John Legend] (BigTime Piano Hits)",
+          "url": "https://www.youtube.com/watch?v=IEUUSElLYcQ"
+        },
+        {
+          "videoId": "oeTUbazscGY",
+          "videoTitle": "Firework [Katy Perry] (BigTime Piano Hits)",
+          "url": "https://www.youtube.com/watch?v=oeTUbazscGY"
+        },
+        {
+          "videoId": "0eywmov39go",
+          "videoTitle": "What About Us [P!nk] (BigTime Piano Hits)",
+          "url": "https://www.youtube.com/watch?v=0eywmov39go"
+        }
+      ]
+    },
+    {
+      "channelId": "amy-comparetto",
+      "channelName": "Amy Comparetto",
+      "playlistId": "PL7ucElDiXf1TgW8ozEb13NobTKCft1QDZ",
+      "playlistTitle": "BigTime Popular",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1TgW8ozEb13NobTKCft1QDZ",
+      "bookId": "bigtime-piano-popular",
+      "tracks": [
+        {
+          "videoId": "3PmCcbanw88",
+          "videoTitle": "Pachelbel Canon (BigTime Piano Popular)",
+          "url": "https://www.youtube.com/watch?v=3PmCcbanw88"
+        },
+        {
+          "videoId": "wbk_b3bzMyI",
+          "videoTitle": "You Raise Me Up (BigTime Piano Popular)",
+          "url": "https://www.youtube.com/watch?v=wbk_b3bzMyI"
+        },
+        {
+          "videoId": "UAHVyVo0qO8",
+          "videoTitle": "The Music of the Night [Phantom of the Opera] (BigTime Piano Popular)",
+          "url": "https://www.youtube.com/watch?v=UAHVyVo0qO8"
+        },
+        {
+          "videoId": "XCNSeu3eU04",
+          "videoTitle": "The Medallion Calls [Pirates of the Caribbean] (BigTime Piano Popular)",
+          "url": "https://www.youtube.com/watch?v=XCNSeu3eU04"
+        },
+        {
+          "videoId": "8NNwFPjRxDw",
+          "videoTitle": "Star Wars Main Theme (BigTime Piano Popular)",
+          "url": "https://www.youtube.com/watch?v=8NNwFPjRxDw"
+        },
+        {
+          "videoId": "EsDQz_z8G_k",
+          "videoTitle": "Pure Imagination [Willy Wonka and the Chocolate Factory] (BigTime Piano Popular)",
+          "url": "https://www.youtube.com/watch?v=EsDQz_z8G_k"
+        },
+        {
+          "videoId": "CnAw8MnDtds",
+          "videoTitle": "Lean on Me [Bill Withers] (BigTime Piano Popular)",
+          "url": "https://www.youtube.com/watch?v=CnAw8MnDtds"
+        },
+        {
+          "videoId": "X9LY4eUwkjk",
+          "videoTitle": "I Saw Her Standing There [The Beatles] (BigTime Piano Popular)",
+          "url": "https://www.youtube.com/watch?v=X9LY4eUwkjk"
+        },
+        {
+          "videoId": "AMWWjJsqjcU",
+          "videoTitle": "Dancing Queen [Mamma Mia] (BigTime Piano Popular)",
+          "url": "https://www.youtube.com/watch?v=AMWWjJsqjcU"
+        },
+        {
+          "videoId": "IpH9koBf6B8",
+          "videoTitle": "100 Years [Five for Fighting] (BigTime Piano Popular)",
+          "url": "https://www.youtube.com/watch?v=IpH9koBf6B8"
+        },
+        {
+          "videoId": "pDVhC1PcyQM",
+          "videoTitle": "On Broadway (BigTime Piano Popular)",
+          "url": "https://www.youtube.com/watch?v=pDVhC1PcyQM"
+        }
+      ]
+    },
+    {
+      "channelId": "amy-comparetto",
+      "channelName": "Amy Comparetto",
+      "playlistId": "PL7ucElDiXf1SnJU6cEl24znyQPsT5rXIF",
+      "playlistTitle": "BigTime Classics",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1SnJU6cEl24znyQPsT5rXIF",
+      "bookId": "bigtime-piano-classics",
+      "tracks": [
+        {
+          "videoId": "ByqCxMQuDmI",
+          "videoTitle": "Theme from Symphony No. 40 [Mozart] (BigTime Piano Classics)",
+          "url": "https://www.youtube.com/watch?v=ByqCxMQuDmI"
+        },
+        {
+          "videoId": "TbQl4TMU0ds",
+          "videoTitle": "The Great Gate of Kiev [Mussorgsky] (BigTime Piano Classics)",
+          "url": "https://www.youtube.com/watch?v=TbQl4TMU0ds"
+        },
+        {
+          "videoId": "mhbQD7q_Wvs",
+          "videoTitle": "Tales from the Vienna Woods [Strauss] (BigTime Piano Classics)",
+          "url": "https://www.youtube.com/watch?v=mhbQD7q_Wvs"
+        },
+        {
+          "videoId": "Qrg6Ym1Ku2I",
+          "videoTitle": "Spring Song [Mendelssohn] (BigTime Piano Classics)",
+          "url": "https://www.youtube.com/watch?v=Qrg6Ym1Ku2I"
+        },
+        {
+          "videoId": "yl10oTJg2EM",
+          "videoTitle": "Song of India [Rimsky-Korsakov] (BigTime Piano Classics)",
+          "url": "https://www.youtube.com/watch?v=yl10oTJg2EM"
+        },
+        {
+          "videoId": "rElor5R9i4I",
+          "videoTitle": "Russian Sailor's Dance [Gliere] (BigTime Piano Classics)",
+          "url": "https://www.youtube.com/watch?v=rElor5R9i4I"
+        },
+        {
+          "videoId": "YOqnKQw6Qzw",
+          "videoTitle": "Rondeau [Mouret] (BigTime Piano Classics)",
+          "url": "https://www.youtube.com/watch?v=YOqnKQw6Qzw"
+        },
+        {
+          "videoId": "Ck6krk6VUqo",
+          "videoTitle": "Liebesfreud [Kreisler] (BigTime Piano Classics)",
+          "url": "https://www.youtube.com/watch?v=Ck6krk6VUqo"
+        },
+        {
+          "videoId": "-Hi7gl5CvEA",
+          "videoTitle": "Hungarian Dance No. 5 [Brahms] (BigTime Piano Classics)",
+          "url": "https://www.youtube.com/watch?v=-Hi7gl5CvEA"
+        },
+        {
+          "videoId": "tsnH3gryZmw",
+          "videoTitle": "Hornpipe [Handel] (BigTime Piano Classics)",
+          "url": "https://www.youtube.com/watch?v=tsnH3gryZmw"
+        },
+        {
+          "videoId": "Nf7tzIwjG1M",
+          "videoTitle": "Habanera [Bizet] (BigTime Piano Classics)",
+          "url": "https://www.youtube.com/watch?v=Nf7tzIwjG1M"
+        },
+        {
+          "videoId": "BQC1Ev4hLpA",
+          "videoTitle": "Danse Macabre [Saint-Saens] (BigTime Piano Classics)",
+          "url": "https://www.youtube.com/watch?v=BQC1Ev4hLpA"
+        },
+        {
+          "videoId": "iyCs6PzIvRE",
+          "videoTitle": "Canon in D [Pachelbel] (BigTime Piano Classics)",
+          "url": "https://www.youtube.com/watch?v=iyCs6PzIvRE"
+        },
+        {
+          "videoId": "n_c9LLkD0oY",
+          "videoTitle": "Arioso [Bach] (BigTime Piano Classics)",
+          "url": "https://www.youtube.com/watch?v=n_c9LLkD0oY"
+        }
+      ]
+    },
+    {
+      "channelId": "amy-comparetto",
+      "channelName": "Amy Comparetto",
+      "playlistId": "PL7ucElDiXf1T0wDdnKmf5Ze20YK8y8FhL",
+      "playlistTitle": "BigTime Ragtime & Marches",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1T0wDdnKmf5Ze20YK8y8FhL",
+      "bookId": "bigtime-piano-ragtime-marches",
+      "tracks": [
+        {
+          "videoId": "OMpYcZN-FU4",
+          "videoTitle": "Wild Cherries Rag (BigTime Piano Ragtime & Marches)",
+          "url": "https://www.youtube.com/watch?v=OMpYcZN-FU4"
+        },
+        {
+          "videoId": "h2Mdx6GjvL0",
+          "videoTitle": "The Yankee Doodle Boy (BigTime Piano Ragtime & Marches)",
+          "url": "https://www.youtube.com/watch?v=h2Mdx6GjvL0"
+        },
+        {
+          "videoId": "Hqao0N7S5M4",
+          "videoTitle": "The Entertainer (BigTime Piano Ragtime & Marches)",
+          "url": "https://www.youtube.com/watch?v=Hqao0N7S5M4"
+        },
+        {
+          "videoId": "g_c6kPRwnx8",
+          "videoTitle": "Washington Post March (BigTime Piano Ragtime & Marches)",
+          "url": "https://www.youtube.com/watch?v=g_c6kPRwnx8"
+        },
+        {
+          "videoId": "Mp9CyZEt6BQ",
+          "videoTitle": "Solace [Joplin] (BigTime Piano Ragtime & Marches)",
+          "url": "https://www.youtube.com/watch?v=Mp9CyZEt6BQ"
+        },
+        {
+          "videoId": "laCQiiHgVcg",
+          "videoTitle": "March of the Toys (BigTime Piano Ragtime & Marches)",
+          "url": "https://www.youtube.com/watch?v=laCQiiHgVcg"
+        },
+        {
+          "videoId": "rVnKMmLbosU",
+          "videoTitle": "Funeral March of a Marionette (BigTime Piano Ragtime & Marches)",
+          "url": "https://www.youtube.com/watch?v=rVnKMmLbosU"
+        },
+        {
+          "videoId": "3GiQ175EUqw",
+          "videoTitle": "Entrance of the Gladiators (BigTime Piano Ragtime & Marches)",
+          "url": "https://www.youtube.com/watch?v=3GiQ175EUqw"
+        },
+        {
+          "videoId": "biC5XM8RZz4",
+          "videoTitle": "Dill Pickles Rag (BigTime Piano Ragtime & Marches)",
+          "url": "https://www.youtube.com/watch?v=biC5XM8RZz4"
+        },
+        {
+          "videoId": "V-HERXxkIBk",
+          "videoTitle": "Chatterbox Rag (BigTime Piano Ragtime & Marches)",
+          "url": "https://www.youtube.com/watch?v=V-HERXxkIBk"
+        },
+        {
+          "videoId": "bYRqbe_orOc",
+          "videoTitle": "Champagne Rag (BigTime Piano Ragtime & Marches)",
+          "url": "https://www.youtube.com/watch?v=bYRqbe_orOc"
+        }
+      ]
+    },
+    {
+      "channelId": "amy-comparetto",
+      "channelName": "Amy Comparetto",
+      "playlistId": "PL7ucElDiXf1RSuB4MmIEuEYB8txt2Ifne",
+      "playlistTitle": "BigTime Rock 'n' Roll",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1RSuB4MmIEuEYB8txt2Ifne",
+      "bookId": "bigtime-piano-rock-n-roll",
+      "tracks": [
+        {
+          "videoId": "YDmlh3dpWZo",
+          "videoTitle": "When a Man Loves a Woman [Percy Sledge] (BigTime Piano Rock 'n' Roll)",
+          "url": "https://www.youtube.com/watch?v=YDmlh3dpWZo"
+        },
+        {
+          "videoId": "DXcLfKkRgGg",
+          "videoTitle": "Walk, Don't Run [The Ventures] (BigTime Piano Rock 'n' Roll)",
+          "url": "https://www.youtube.com/watch?v=DXcLfKkRgGg"
+        },
+        {
+          "videoId": "K8R9Rmv7AbE",
+          "videoTitle": "The Game of Love [Wayne Fontana & The Mindbenders] (BigTime Piano Rock 'n' Roll)",
+          "url": "https://www.youtube.com/watch?v=K8R9Rmv7AbE"
+        },
+        {
+          "videoId": "VJcgnAiHIXs",
+          "videoTitle": "Strawberry Malt (BigTime Piano Rock 'n' Roll)",
+          "url": "https://www.youtube.com/watch?v=VJcgnAiHIXs"
+        },
+        {
+          "videoId": "4RJzwvVM1zI",
+          "videoTitle": "Rock Around the Clock [Bill Haley & His Comets] (BigTime Piano Rock 'n' Roll)",
+          "url": "https://www.youtube.com/watch?v=4RJzwvVM1zI"
+        },
+        {
+          "videoId": "i4TKWnySfHM",
+          "videoTitle": "Piano Man [Billy Joel] (BigTime Piano Rock 'n' Roll)",
+          "url": "https://www.youtube.com/watch?v=i4TKWnySfHM"
+        },
+        {
+          "videoId": "NS2DiEcTrtg",
+          "videoTitle": "My Special Angel [Bobby Vinton] (BigTime Piano Rock 'n' Roll)",
+          "url": "https://www.youtube.com/watch?v=NS2DiEcTrtg"
+        },
+        {
+          "videoId": "4-NF2rqb6PI",
+          "videoTitle": "I May Have Lost My Girlfriend, But I've Still Got My Car (BigTime Piano Rock 'n' Roll)",
+          "url": "https://www.youtube.com/watch?v=4-NF2rqb6PI"
+        },
+        {
+          "videoId": "VcIFrETxDGo",
+          "videoTitle": "I Heard It Through the Grapevine [Marvin Gaye] (BigTime Piano Rock 'n' Roll)",
+          "url": "https://www.youtube.com/watch?v=VcIFrETxDGo"
+        },
+        {
+          "videoId": "shIaujb-K0A",
+          "videoTitle": "Bad, Bad Leroy Brown [Jim Croce] (BigTime Piano Rock 'n' Roll)",
+          "url": "https://www.youtube.com/watch?v=shIaujb-K0A"
+        },
+        {
+          "videoId": "oCZshEUY1E0",
+          "videoTitle": "I Feel the Earth Move [Carole King] (BigTime Piano Rock 'n' Roll)",
+          "url": "https://www.youtube.com/watch?v=oCZshEUY1E0"
+        },
+        {
+          "videoId": "ZKkiAQKP0nk",
+          "videoTitle": "Great Balls of Fire [Jerry Lee Lewis] (BigTime Piano Rock 'n' Roll)",
+          "url": "https://www.youtube.com/watch?v=ZKkiAQKP0nk"
+        }
+      ]
+    },
+    {
+      "channelId": "amy-comparetto",
+      "channelName": "Amy Comparetto",
+      "playlistId": "PL7ucElDiXf1R91rFucnwIxH_zh9WGlFtt",
+      "playlistTitle": "BigTime Jazz & Blues",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1R91rFucnwIxH_zh9WGlFtt",
+      "bookId": "bigtime-piano-jazz-blues",
+      "tracks": [
+        {
+          "videoId": "DN4O9lUFW_s",
+          "videoTitle": "Satin Doll (BigTime Piano Jazz & Blues)",
+          "url": "https://www.youtube.com/watch?v=DN4O9lUFW_s"
+        },
+        {
+          "videoId": "_ZLCpy8hITk",
+          "videoTitle": "Night Train (BigTime Piano Jazz & Blues)",
+          "url": "https://www.youtube.com/watch?v=_ZLCpy8hITk"
+        },
+        {
+          "videoId": "nwl-dhtC1hg",
+          "videoTitle": "Perdido (BigTime Piano Jazz & Blues)",
+          "url": "https://www.youtube.com/watch?v=nwl-dhtC1hg"
+        },
+        {
+          "videoId": "9KV3mxTkMk4",
+          "videoTitle": "Misty (BigTime Piano Jazz & Blues)",
+          "url": "https://www.youtube.com/watch?v=9KV3mxTkMk4"
+        },
+        {
+          "videoId": "2TTsbL5L2Os",
+          "videoTitle": "Lullaby of Birdland (BigTime Piano Jazz & Blues)",
+          "url": "https://www.youtube.com/watch?v=2TTsbL5L2Os"
+        },
+        {
+          "videoId": "yRs3F8vzDHg",
+          "videoTitle": "Locomotive Blues (BigTime Piano Jazz & Blues)",
+          "url": "https://www.youtube.com/watch?v=yRs3F8vzDHg"
+        },
+        {
+          "videoId": "sKbH0himgrQ",
+          "videoTitle": "Georgia on My Mind (BigTime Piano Jazz & Blues)",
+          "url": "https://www.youtube.com/watch?v=sKbH0himgrQ"
+        },
+        {
+          "videoId": "qdb5UmvqYQ8",
+          "videoTitle": "Equinox (BigTime Piano Jazz & Blues)",
+          "url": "https://www.youtube.com/watch?v=qdb5UmvqYQ8"
+        },
+        {
+          "videoId": "cSwetd6nFeM",
+          "videoTitle": "Desafinado (BigTime Piano Jazz & Blues)",
+          "url": "https://www.youtube.com/watch?v=cSwetd6nFeM"
+        },
+        {
+          "videoId": "nutBsmbDRtA",
+          "videoTitle": "Cast Your Fate to the Wind (BigTime Piano Jazz & Blues)",
+          "url": "https://www.youtube.com/watch?v=nutBsmbDRtA"
+        },
+        {
+          "videoId": "YKRC145tJLI",
+          "videoTitle": "Autumn Leaves (BigTime Piano Jazz & Blues)",
+          "url": "https://www.youtube.com/watch?v=YKRC145tJLI"
+        },
+        {
+          "videoId": "mJuKuFxWvCs",
+          "videoTitle": "Big City Blues (BigTime Piano Jazz & Blues)",
+          "url": "https://www.youtube.com/watch?v=mJuKuFxWvCs"
+        },
+        {
+          "videoId": "rFJfvn21J8o",
+          "videoTitle": "All the Things You Are (BigTime Piano Jazz & Blues)",
+          "url": "https://www.youtube.com/watch?v=rFJfvn21J8o"
+        },
+        {
+          "videoId": "DWKvqT3sh18",
+          "videoTitle": "A Taste of Honey (BigTime Piano Jazz & Blues)",
+          "url": "https://www.youtube.com/watch?v=DWKvqT3sh18"
+        },
+        {
+          "videoId": "_OlB_PruA3A",
+          "videoTitle": "Take the \"A\" Train (BigTime Piano Jazz & Blues)",
+          "url": "https://www.youtube.com/watch?v=_OlB_PruA3A"
+        }
+      ]
+    },
+    {
+      "channelId": "amy-comparetto",
+      "channelName": "Amy Comparetto",
+      "playlistId": "PL7ucElDiXf1R2xCQIY-1eubrvRF47xnIp",
+      "playlistTitle": "ChordTime Rock 'n' Roll",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1R2xCQIY-1eubrvRF47xnIp",
+      "bookId": "chordtime-piano-rock-n-roll",
+      "tracks": [
+        {
+          "videoId": "mNwMsZ-iUKY",
+          "videoTitle": "You Really Got Me [Van Halen] (ChordTime Piano Rock 'n' Roll)",
+          "url": "https://www.youtube.com/watch?v=mNwMsZ-iUKY"
+        },
+        {
+          "videoId": "GOjgQXJqiZk",
+          "videoTitle": "Yesterday [The Beatles] (ChordTime Piano Rock 'n' Roll)",
+          "url": "https://www.youtube.com/watch?v=GOjgQXJqiZk"
+        },
+        {
+          "videoId": "BGkU9d_Vcyg",
+          "videoTitle": "Witch Doctor [Alvin and the Chipmunks] (ChordTime Piano Rock 'n' Roll)",
+          "url": "https://www.youtube.com/watch?v=BGkU9d_Vcyg"
+        },
+        {
+          "videoId": "UCrIqECW9Lc",
+          "videoTitle": "Wipe Out [Surfaris] (ChordTime Piano Rock 'n' Roll)",
+          "url": "https://www.youtube.com/watch?v=UCrIqECW9Lc"
+        },
+        {
+          "videoId": "sH4IIEMVzlI",
+          "videoTitle": "Surfin' Safari [The Beach Boys] (ChordTime Piano Rock 'n' Roll)",
+          "url": "https://www.youtube.com/watch?v=sH4IIEMVzlI"
+        },
+        {
+          "videoId": "XCXW2qqIh-E",
+          "videoTitle": "Rock Around the Clock [Bill Haley and His Comets] (ChordTime Piano Rock 'n' Roll)",
+          "url": "https://www.youtube.com/watch?v=XCXW2qqIh-E"
+        },
+        {
+          "videoId": "6k4mO3WAt2E",
+          "videoTitle": "Mr. Tambourine Man [Bob Dylan] (ChordTime Piano Rock 'n' Roll)",
+          "url": "https://www.youtube.com/watch?v=6k4mO3WAt2E"
+        },
+        {
+          "videoId": "AMHi21RqNwg",
+          "videoTitle": "Lost in the Fifties Tonight [Frank Sinatra] (ChordTime Piano Rock 'n' Roll)",
+          "url": "https://www.youtube.com/watch?v=AMHi21RqNwg"
+        },
+        {
+          "videoId": "XRFwO7ZSDp8",
+          "videoTitle": "Long Tall Texan [Lyle Lovett] (ChordTime Piano Rock 'n' Roll)",
+          "url": "https://www.youtube.com/watch?v=XRFwO7ZSDp8"
+        },
+        {
+          "videoId": "do3kyFGlNB0",
+          "videoTitle": "In the Midnight Hour [Wilson Pickett] (ChordTime Piano Rock 'n' Roll)",
+          "url": "https://www.youtube.com/watch?v=do3kyFGlNB0"
+        },
+        {
+          "videoId": "BhuTCxWhM34",
+          "videoTitle": "Crazy Little Thing Called Love [Queen] (ChordTime Piano Rock 'n' Roll)",
+          "url": "https://www.youtube.com/watch?v=BhuTCxWhM34"
+        },
+        {
+          "videoId": "dXP4IWfPW84",
+          "videoTitle": "Come Sail Away (ChordTime Piano Rock 'n' Roll)",
+          "url": "https://www.youtube.com/watch?v=dXP4IWfPW84"
+        },
+        {
+          "videoId": "3BwgD56AT_M",
+          "videoTitle": "Chantilly Lace [Big Bopper] (ChordTime Piano Rock 'n' Roll)",
+          "url": "https://www.youtube.com/watch?v=3BwgD56AT_M"
+        }
+      ]
+    },
+    {
+      "channelId": "amy-comparetto",
+      "channelName": "Amy Comparetto",
+      "playlistId": "PL7ucElDiXf1R8688nX1np0qphgw-Mcsqg",
+      "playlistTitle": "ShowTime Jazz & Blues",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1R8688nX1np0qphgw-Mcsqg",
+      "bookId": "showtime-piano-jazz-blues",
+      "tracks": [
+        {
+          "videoId": "gz3nbEos9vI",
+          "videoTitle": "You Are the Sunshine of My Life (ShowTime Piano Jazz & Blues)",
+          "url": "https://www.youtube.com/watch?v=gz3nbEos9vI"
+        },
+        {
+          "videoId": "aKPoSlDUlHU",
+          "videoTitle": "When the Red, Red Robin Comes Bob, Bob, Bobbin' Along (ShowTime Piano Jazz & Blues)",
+          "url": "https://www.youtube.com/watch?v=aKPoSlDUlHU"
+        },
+        {
+          "videoId": "HrFduwxrp4w",
+          "videoTitle": "The Surrey with the Fringe on Top [from Oklahoma] (ShowTime Piano Jazz & Blues)",
+          "url": "https://www.youtube.com/watch?v=HrFduwxrp4w"
+        },
+        {
+          "videoId": "scUeXSgMoW4",
+          "videoTitle": "The Rainbow Connection [from The Muppets]",
+          "url": "https://www.youtube.com/watch?v=scUeXSgMoW4"
+        },
+        {
+          "videoId": "y-G1Gmh6KzQ",
+          "videoTitle": "Swingin' Sam (ShowTime Piano Jazz & Blues)",
+          "url": "https://www.youtube.com/watch?v=y-G1Gmh6KzQ"
+        },
+        {
+          "videoId": "9vkAJXuqJL0",
+          "videoTitle": "Oh, You Beautiful Doll (ShowTime Piano Jazz & Blues)",
+          "url": "https://www.youtube.com/watch?v=9vkAJXuqJL0"
+        },
+        {
+          "videoId": "ZxUcodsQs9Q",
+          "videoTitle": "Mama Don't 'Low (ShowTime Piano Jazz & Blues)",
+          "url": "https://www.youtube.com/watch?v=ZxUcodsQs9Q"
+        },
+        {
+          "videoId": "xCCBBaEjiAE",
+          "videoTitle": "Loco-music-motion (ShowTime Piano Jazz & Blues)",
+          "url": "https://www.youtube.com/watch?v=xCCBBaEjiAE"
+        },
+        {
+          "videoId": "aQHfltE-r7A",
+          "videoTitle": "Bye Bye Blackbird (ShowTime Piano Jazz & Blues)",
+          "url": "https://www.youtube.com/watch?v=aQHfltE-r7A"
+        },
+        {
+          "videoId": "7ZzF_qcyAag",
+          "videoTitle": "Blue Moon (ShowTime Piano Jazz & Blues)",
+          "url": "https://www.youtube.com/watch?v=7ZzF_qcyAag"
+        }
+      ]
+    },
+    {
+      "channelId": "amy-comparetto",
+      "channelName": "Amy Comparetto",
+      "playlistId": "PL7ucElDiXf1S88lIrqSlxdoFYnDCCNT8z",
+      "playlistTitle": "ShowTime Favorites",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1S88lIrqSlxdoFYnDCCNT8z",
+      "bookId": "showtime-piano-favorites",
+      "tracks": [
+        {
+          "videoId": "cGq0ZMt9lWk",
+          "videoTitle": "The Three Doughs (ShowTime Piano Favorites)",
+          "url": "https://www.youtube.com/watch?v=cGq0ZMt9lWk"
+        },
+        {
+          "videoId": "breOPkQH6Os",
+          "videoTitle": "The Old Gray Mare (ShowTime Piano Favorites)",
+          "url": "https://www.youtube.com/watch?v=breOPkQH6Os"
+        },
+        {
+          "videoId": "uBtSYaK60TM",
+          "videoTitle": "The Centipede and the Frog (ShowTime Piano Favorites)",
+          "url": "https://www.youtube.com/watch?v=uBtSYaK60TM"
+        },
+        {
+          "videoId": "-R3sSUHXynQ",
+          "videoTitle": "The Ash Grove (ShowTime Piano Favorites)",
+          "url": "https://www.youtube.com/watch?v=-R3sSUHXynQ"
+        },
+        {
+          "videoId": "Sqk1TlHYVs4",
+          "videoTitle": "Shave and a Haircut (ShowTime Piano Favorites)",
+          "url": "https://www.youtube.com/watch?v=Sqk1TlHYVs4"
+        },
+        {
+          "videoId": "ndEB4slMFhg",
+          "videoTitle": "Peter, Peter (ShowTime Piano Favorites)",
+          "url": "https://www.youtube.com/watch?v=ndEB4slMFhg"
+        },
+        {
+          "videoId": "TOR0RaIZJVM",
+          "videoTitle": "Old King Cole (ShowTime Piano Favorites)",
+          "url": "https://www.youtube.com/watch?v=TOR0RaIZJVM"
+        },
+        {
+          "videoId": "xGHoVIpwDrk",
+          "videoTitle": "Off to Bed, Now (ShowTime Piano Favorites)",
+          "url": "https://www.youtube.com/watch?v=xGHoVIpwDrk"
+        },
+        {
+          "videoId": "eqW2m9TcXb0",
+          "videoTitle": "My Ma Gave Me a Nickel (ShowTime Piano Favorites)",
+          "url": "https://www.youtube.com/watch?v=eqW2m9TcXb0"
+        },
+        {
+          "videoId": "ZtGcfDDZzSg",
+          "videoTitle": "Music Alone Shall Live (ShowTime Piano Favorites)",
+          "url": "https://www.youtube.com/watch?v=ZtGcfDDZzSg"
+        },
+        {
+          "videoId": "aMDO6edID9s",
+          "videoTitle": "Michael Finnegan (ShowTime Piano Favorites)",
+          "url": "https://www.youtube.com/watch?v=aMDO6edID9s"
+        },
+        {
+          "videoId": "wjzuZkMLzDI",
+          "videoTitle": "Li'l Liza Jane (ShowTime Piano Favorites)",
+          "url": "https://www.youtube.com/watch?v=wjzuZkMLzDI"
+        },
+        {
+          "videoId": "D0iRpiUOF7A",
+          "videoTitle": "Irish Washerwoman (ShowTime Piano Favorites)",
+          "url": "https://www.youtube.com/watch?v=D0iRpiUOF7A"
+        },
+        {
+          "videoId": "7tzs8JeheDk",
+          "videoTitle": "Go Tell Aunt Rhody (ShowTime Piano Favorites)",
+          "url": "https://www.youtube.com/watch?v=7tzs8JeheDk"
+        },
+        {
+          "videoId": "5x2rNEw4gBY",
+          "videoTitle": "Give My Regards to Broadway (ShowTime Piano Favorites)",
+          "url": "https://www.youtube.com/watch?v=5x2rNEw4gBY"
+        },
+        {
+          "videoId": "ewFB-MlNY1M",
+          "videoTitle": "Boom Boom! (ShowTime Piano Favorites)",
+          "url": "https://www.youtube.com/watch?v=ewFB-MlNY1M"
+        },
+        {
+          "videoId": "sAV_YHTFUHg",
+          "videoTitle": "Bill Groggin's Goat (ShowTime Piano Favorites)",
+          "url": "https://www.youtube.com/watch?v=sAV_YHTFUHg"
+        }
+      ]
+    },
+    {
+      "channelId": "amy-comparetto",
+      "channelName": "Amy Comparetto",
+      "playlistId": "PL7ucElDiXf1TMIBCgyN9pHMC1w7K_-5ui",
+      "playlistTitle": "ShowTime Popular",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1TMIBCgyN9pHMC1w7K_-5ui",
+      "bookId": "showtime-piano-popular",
+      "tracks": [
+        {
+          "videoId": "jf-8Zuu1NCk",
+          "videoTitle": "The Perfect Nanny (ShowTime Piano Popular)",
+          "url": "https://www.youtube.com/watch?v=jf-8Zuu1NCk"
+        },
+        {
+          "videoId": "3V9qQUGfFR8",
+          "videoTitle": "Part of Your World (ShowTime Piano Popular)",
+          "url": "https://www.youtube.com/watch?v=3V9qQUGfFR8"
+        },
+        {
+          "videoId": "-qtc_AE--I8",
+          "videoTitle": "Over the Rainbow (ShowTime Piano Popular)",
+          "url": "https://www.youtube.com/watch?v=-qtc_AE--I8"
+        },
+        {
+          "videoId": "Zmc-_FYoXfc",
+          "videoTitle": "Olympic Fanfare (ShowTime Piano Popular)",
+          "url": "https://www.youtube.com/watch?v=Zmc-_FYoXfc"
+        },
+        {
+          "videoId": "kTYrvM3nPqs",
+          "videoTitle": "La Bamba (ShowTime Piano Popular)",
+          "url": "https://www.youtube.com/watch?v=kTYrvM3nPqs"
+        },
+        {
+          "videoId": "L148VeacYsw",
+          "videoTitle": "It's a Small World (ShowTime Piano Popular)",
+          "url": "https://www.youtube.com/watch?v=L148VeacYsw"
+        },
+        {
+          "videoId": "Jt67xbQGlxc",
+          "videoTitle": "I Just Can't Wait to Be King (ShowTime Piano Popular)",
+          "url": "https://www.youtube.com/watch?v=Jt67xbQGlxc"
+        },
+        {
+          "videoId": "4AVv2ChwnBE",
+          "videoTitle": "Hedwig's Theme (ShowTime Piano Popular)",
+          "url": "https://www.youtube.com/watch?v=4AVv2ChwnBE"
+        },
+        {
+          "videoId": "CxutU7lvIe4",
+          "videoTitle": "Happy Birthday (ShowTime Piano Popular)",
+          "url": "https://www.youtube.com/watch?v=CxutU7lvIe4"
+        }
+      ]
+    },
+    {
+      "channelId": "amy-comparetto",
+      "channelName": "Amy Comparetto",
+      "playlistId": "PL7ucElDiXf1S6aigwRv28w-tUeeHvwt5A",
+      "playlistTitle": "ShowTime Hits",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1S6aigwRv28w-tUeeHvwt5A",
+      "bookId": "showtime-piano-hits",
+      "tracks": [
+        {
+          "videoId": "eeiCZADCzpI",
+          "videoTitle": "Attention [Charlie Puth] (ShowTime Piano Hits)",
+          "url": "https://www.youtube.com/watch?v=eeiCZADCzpI"
+        },
+        {
+          "videoId": "RFH4xi3orqM",
+          "videoTitle": "Fake Love [BTS] (ShowTime Piano Hits)",
+          "url": "https://www.youtube.com/watch?v=RFH4xi3orqM"
+        },
+        {
+          "videoId": "vIyeSu85yRc",
+          "videoTitle": "Girls Like You [Maroon 5] (ShowTime Piano Hits)",
+          "url": "https://www.youtube.com/watch?v=vIyeSu85yRc"
+        },
+        {
+          "videoId": "Vt6LpMP-mvw",
+          "videoTitle": "Havana [Camila Cabello] (ShowTime Piano Hits)",
+          "url": "https://www.youtube.com/watch?v=Vt6LpMP-mvw"
+        },
+        {
+          "videoId": "jkv9xCdxTE0",
+          "videoTitle": "No Excuses [Meghan Trainor] (ShowTime Piano Hits)",
+          "url": "https://www.youtube.com/watch?v=jkv9xCdxTE0"
+        },
+        {
+          "videoId": "R-sxrM-XWUg",
+          "videoTitle": "No Roots [Alice Merton] (ShowTime Piano Hits)",
+          "url": "https://www.youtube.com/watch?v=R-sxrM-XWUg"
+        },
+        {
+          "videoId": "UYozBrwmW6Y",
+          "videoTitle": "No Tears Left to Cry [Ariana Grande] (ShowTime Piano Hits)",
+          "url": "https://www.youtube.com/watch?v=UYozBrwmW6Y"
+        },
+        {
+          "videoId": "uBWjOUSW03Q",
+          "videoTitle": "Say Something [Justin Timberlake] (ShowTime Piano Hits)",
+          "url": "https://www.youtube.com/watch?v=uBWjOUSW03Q"
+        },
+        {
+          "videoId": "3YDH4gG4JVM",
+          "videoTitle": "Stand By You [Rachel Platten] (ShowTime Piano Hits)",
+          "url": "https://www.youtube.com/watch?v=3YDH4gG4JVM"
+        },
+        {
+          "videoId": "M9_MUhcyLIw",
+          "videoTitle": "Whatever It Takes [Imagine Dragons] (ShowTime Piano Hits)",
+          "url": "https://www.youtube.com/watch?v=M9_MUhcyLIw"
+        }
+      ]
+    },
+    {
+      "channelId": "amy-comparetto",
+      "channelName": "Amy Comparetto",
+      "playlistId": "PL7ucElDiXf1QRb1gay78cyd1855B1Y3ev",
+      "playlistTitle": "ShowTime Kids' Songs",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1QRb1gay78cyd1855B1Y3ev",
+      "bookId": "showtime-piano-kids-songs",
+      "tracks": [
+        {
+          "videoId": "wUeHf8iMgnE",
+          "videoTitle": "What Do Witches Eat (ShowTime Piano Kids' Songs)",
+          "url": "https://www.youtube.com/watch?v=wUeHf8iMgnE"
+        },
+        {
+          "videoId": "CL37Hl7IoRc",
+          "videoTitle": "Tomorrow [from Annie] (ShowTime Piano Kids' Songs)",
+          "url": "https://www.youtube.com/watch?v=CL37Hl7IoRc"
+        },
+        {
+          "videoId": "UBsXaYR8Gf8",
+          "videoTitle": "The Pirates Who Don't Do Anything [from Veggie Tales] (ShowTime Piano Kids' Songs)",
+          "url": "https://www.youtube.com/watch?v=UBsXaYR8Gf8"
+        },
+        {
+          "videoId": "MQEzaGWgbbY",
+          "videoTitle": "The Hokey Pokey (ShowTime Piano Kids' Songs)",
+          "url": "https://www.youtube.com/watch?v=MQEzaGWgbbY"
+        },
+        {
+          "videoId": "3oKMW9If_Bw",
+          "videoTitle": "Shaggy Dog Bop (ShowTime Piano Kids' Songs)",
+          "url": "https://www.youtube.com/watch?v=3oKMW9If_Bw"
+        },
+        {
+          "videoId": "nQ21T77osG4",
+          "videoTitle": "Oompa-Loompa Doompadee-Doo (ShowTime Piano Kids' Songs)",
+          "url": "https://www.youtube.com/watch?v=nQ21T77osG4"
+        },
+        {
+          "videoId": "5nOCh5AEOaE",
+          "videoTitle": "Mail Myself to You (ShowTime Piano Kids' Songs)",
+          "url": "https://www.youtube.com/watch?v=5nOCh5AEOaE"
+        },
+        {
+          "videoId": "Ilak2vP4M5Q",
+          "videoTitle": "Jig Along Home (ShowTime Piano Kids' Songs)",
+          "url": "https://www.youtube.com/watch?v=Ilak2vP4M5Q"
+        },
+        {
+          "videoId": "0SCZKOUtrbI",
+          "videoTitle": "Chim Chim Cher-ee [from Mary Poppins] (ShowTime Piano Kids' Songs)",
+          "url": "https://www.youtube.com/watch?v=0SCZKOUtrbI"
+        },
+        {
+          "videoId": "NUjqpSKOO-M",
+          "videoTitle": "Bling Blang Build a House (ShowTime Piano Kids' Songs)",
+          "url": "https://www.youtube.com/watch?v=NUjqpSKOO-M"
+        }
+      ]
+    },
+    {
+      "channelId": "amy-comparetto",
+      "channelName": "Amy Comparetto",
+      "playlistId": "PL7ucElDiXf1SC_5k9vFdUP502Mox7kaOC",
+      "playlistTitle": "ShowTime Classics",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1SC_5k9vFdUP502Mox7kaOC",
+      "bookId": "showtime-piano-classics",
+      "tracks": [
+        {
+          "videoId": "zlIQWeEQ0hU",
+          "videoTitle": "Theme from Symphony No. 1 [Gustav Mahler] (ShowTime Piano Classics)",
+          "url": "https://www.youtube.com/watch?v=zlIQWeEQ0hU"
+        },
+        {
+          "videoId": "6_CRHItibKw",
+          "videoTitle": "Theme from Don Giovanni [Mozart] (ShowTime Piano Classics)",
+          "url": "https://www.youtube.com/watch?v=6_CRHItibKw"
+        },
+        {
+          "videoId": "yFafSe7WMFA",
+          "videoTitle": "The Merry Widow Waltz [Franz Lehar] (ShowTime Piano Classics)",
+          "url": "https://www.youtube.com/watch?v=yFafSe7WMFA"
+        },
+        {
+          "videoId": "eDK3tVaTebU",
+          "videoTitle": "Suitor's Song [Strauss] (ShowTime Piano Classics)",
+          "url": "https://www.youtube.com/watch?v=eDK3tVaTebU"
+        },
+        {
+          "videoId": "AWZnIjvQlIM",
+          "videoTitle": "Spring from \"The Four Seasons\" [Vivaldi] (ShowTime Piano Classics)",
+          "url": "https://www.youtube.com/watch?v=AWZnIjvQlIM"
+        },
+        {
+          "videoId": "Yoa7FrB4Wjg",
+          "videoTitle": "Prince of Denmark's March [Clarke] (ShowTime Piano Classics)",
+          "url": "https://www.youtube.com/watch?v=Yoa7FrB4Wjg"
+        },
+        {
+          "videoId": "1l2sXPScnd0",
+          "videoTitle": "Minuet [Paderewski] (ShowTime Piano Classics)",
+          "url": "https://www.youtube.com/watch?v=1l2sXPScnd0"
+        },
+        {
+          "videoId": "XfI8zB3io_E",
+          "videoTitle": "Liebestraum [Liszt] (ShowTime Piano Classics)",
+          "url": "https://www.youtube.com/watch?v=XfI8zB3io_E"
+        },
+        {
+          "videoId": "YZobX7LfqPE",
+          "videoTitle": "Egyptian Ballet Dance [Saint Saens] (ShowTime Piano Classics)",
+          "url": "https://www.youtube.com/watch?v=YZobX7LfqPE"
+        },
+        {
+          "videoId": "pxlsuQM7hSg",
+          "videoTitle": "Canon [Pachelbel] (ShowTime Piano Classics)",
+          "url": "https://www.youtube.com/watch?v=pxlsuQM7hSg"
+        }
+      ]
+    },
+    {
+      "channelId": "amy-comparetto",
+      "channelName": "Amy Comparetto",
+      "playlistId": "PL7ucElDiXf1T1kSILV-en5ypvjwJE6Svj",
+      "playlistTitle": "ShowTime Hymns",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1T1kSILV-en5ypvjwJE6Svj",
+      "bookId": "showtime-piano-hymns",
+      "tracks": [
+        {
+          "videoId": "4otAfptIzH4",
+          "videoTitle": "Wasn't That a Band? (ShowTime Piano Hymns)",
+          "url": "https://www.youtube.com/watch?v=4otAfptIzH4"
+        },
+        {
+          "videoId": "kD-vW95x7ww",
+          "videoTitle": "This Is the Day (ShowTime Piano Hymns)",
+          "url": "https://www.youtube.com/watch?v=kD-vW95x7ww"
+        },
+        {
+          "videoId": "x_VnbzsjqQQ",
+          "videoTitle": "Simple Gifts (ShowTime Piano Hymns)",
+          "url": "https://www.youtube.com/watch?v=x_VnbzsjqQQ"
+        },
+        {
+          "videoId": "u0SqXgrykWk",
+          "videoTitle": "Send the Light (ShowTime Piano Hymns)",
+          "url": "https://www.youtube.com/watch?v=u0SqXgrykWk"
+        },
+        {
+          "videoId": "wjwfbxRQU8M",
+          "videoTitle": "Rock-a My Soul (ShowTime Piano Hymns)",
+          "url": "https://www.youtube.com/watch?v=wjwfbxRQU8M"
+        },
+        {
+          "videoId": "eiiF7fNvh4g",
+          "videoTitle": "Praise God, from Whom All Blessings Flow (ShowTime Piano Hymns)",
+          "url": "https://www.youtube.com/watch?v=eiiF7fNvh4g"
+        },
+        {
+          "videoId": "dxYFJOUmU4A",
+          "videoTitle": "Michael, Row the Boat Ashore (ShowTime Piano Hymns)",
+          "url": "https://www.youtube.com/watch?v=dxYFJOUmU4A"
+        },
+        {
+          "videoId": "-Gk0CsSEUgI",
+          "videoTitle": "Lord, Speak to Me, that I May Speak (ShowTime Piano Hymns)",
+          "url": "https://www.youtube.com/watch?v=-Gk0CsSEUgI"
+        },
+        {
+          "videoId": "O2F61ew7P6Q",
+          "videoTitle": "Little David, Play Your Harp (ShowTime Piano Hymns)",
+          "url": "https://www.youtube.com/watch?v=O2F61ew7P6Q"
+        },
+        {
+          "videoId": "zCfWD0-06lc",
+          "videoTitle": "Jesus Tender Shepherd, Hear Me (ShowTime Piano Hymns)",
+          "url": "https://www.youtube.com/watch?v=zCfWD0-06lc"
+        },
+        {
+          "videoId": "6wQkvcNVp6A",
+          "videoTitle": "Ezekiel Saw the Wheel (ShowTime Piano Hymns)",
+          "url": "https://www.youtube.com/watch?v=6wQkvcNVp6A"
+        },
+        {
+          "videoId": "d5FKb9HQBW4",
+          "videoTitle": "Come, Thou Long Expected Jesus (ShowTime Piano Hymns)",
+          "url": "https://www.youtube.com/watch?v=d5FKb9HQBW4"
+        },
+        {
+          "videoId": "SjqpOh4pRIw",
+          "videoTitle": "Come Into His Presence (ShowTime Piano Hymns)",
+          "url": "https://www.youtube.com/watch?v=SjqpOh4pRIw"
+        },
+        {
+          "videoId": "72N8WZ6-DSg",
+          "videoTitle": "Dona Nobis Pacem (ShowTime Piano Hymns)",
+          "url": "https://www.youtube.com/watch?v=72N8WZ6-DSg"
+        }
+      ]
+    },
+    {
+      "channelId": "amy-comparetto",
+      "channelName": "Amy Comparetto",
+      "playlistId": "PL7ucElDiXf1S-cZrq_q1IeywWV6U2RMWl",
+      "playlistTitle": "ShowTime Christmas",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1S-cZrq_q1IeywWV6U2RMWl",
+      "bookId": "showtime-piano-christmas",
+      "tracks": [
+        {
+          "videoId": "WORq5G4UhPY",
+          "videoTitle": "Must Be Santa",
+          "url": "https://www.youtube.com/watch?v=WORq5G4UhPY"
+        },
+        {
+          "videoId": "BTYG1rii5Nc",
+          "videoTitle": "God Bless All",
+          "url": "https://www.youtube.com/watch?v=BTYG1rii5Nc"
+        },
+        {
+          "videoId": "qpC6WocoifY",
+          "videoTitle": "Up On the Housetop",
+          "url": "https://www.youtube.com/watch?v=qpC6WocoifY"
+        },
+        {
+          "videoId": "z3ZqWsTSfVA",
+          "videoTitle": "It Came Upon the Midnight Clear",
+          "url": "https://www.youtube.com/watch?v=z3ZqWsTSfVA"
+        },
+        {
+          "videoId": "gexx2a1jIZ4",
+          "videoTitle": "Frosty the Snowman",
+          "url": "https://www.youtube.com/watch?v=gexx2a1jIZ4"
+        },
+        {
+          "videoId": "-Z5ZZW6B13o",
+          "videoTitle": "Angels We Have Heard On High",
+          "url": "https://www.youtube.com/watch?v=-Z5ZZW6B13o"
+        },
+        {
+          "videoId": "WsaF8y5FfQA",
+          "videoTitle": "Silent Night",
+          "url": "https://www.youtube.com/watch?v=WsaF8y5FfQA"
+        },
+        {
+          "videoId": "YRfF_rCowng",
+          "videoTitle": "We Three Kings of Orient Are",
+          "url": "https://www.youtube.com/watch?v=YRfF_rCowng"
+        },
+        {
+          "videoId": "d3x3JmMxJ3M",
+          "videoTitle": "The Little Drummer Boy",
+          "url": "https://www.youtube.com/watch?v=d3x3JmMxJ3M"
+        },
+        {
+          "videoId": "grzsQFz7J-Q",
+          "videoTitle": "Santa Claus is Comin' to Town",
+          "url": "https://www.youtube.com/watch?v=grzsQFz7J-Q"
+        },
+        {
+          "videoId": "oBSyEULHViA",
+          "videoTitle": "Coventry Carol",
+          "url": "https://www.youtube.com/watch?v=oBSyEULHViA"
+        },
+        {
+          "videoId": "fviYnBzgMOs",
+          "videoTitle": "Ding, Dong Merrily On High",
+          "url": "https://www.youtube.com/watch?v=fviYnBzgMOs"
+        },
+        {
+          "videoId": "wJSSd9BwvSw",
+          "videoTitle": "Little Elf's Christmas",
+          "url": "https://www.youtube.com/watch?v=wJSSd9BwvSw"
+        }
+      ]
+    },
+    {
+      "channelId": "amy-comparetto",
+      "channelName": "Amy Comparetto",
+      "playlistId": "PL7ucElDiXf1S0Z6gWmieD61qAq8zR1bWv",
+      "playlistTitle": "ShowTime Disney",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1S0Z6gWmieD61qAq8zR1bWv",
+      "bookId": "showtime-piano-disney",
+      "tracks": [
+        {
+          "videoId": "p_J0VI8r9Og",
+          "videoTitle": "A Whole New World (ShowTime Piano Disney)",
+          "url": "https://www.youtube.com/watch?v=p_J0VI8r9Og"
+        },
+        {
+          "videoId": "KtMhBT_oNDA",
+          "videoTitle": "Almost There (ShowTime Piano Disney)",
+          "url": "https://www.youtube.com/watch?v=KtMhBT_oNDA"
+        },
+        {
+          "videoId": "0Idi6Ib6bwI",
+          "videoTitle": "Baroque Hoedown (ShowTime Piano Disney)",
+          "url": "https://www.youtube.com/watch?v=0Idi6Ib6bwI"
+        },
+        {
+          "videoId": "qMp4yTV3OSQ",
+          "videoTitle": "Chim Chim Cher-ee (ShowTime Piano Disney)",
+          "url": "https://www.youtube.com/watch?v=qMp4yTV3OSQ"
+        },
+        {
+          "videoId": "jyzEMhFb91w",
+          "videoTitle": "Colors of the Wind (ShowTime Piano Disney)",
+          "url": "https://www.youtube.com/watch?v=jyzEMhFb91w"
+        },
+        {
+          "videoId": "oAyeKejF_pg",
+          "videoTitle": "He's a Pirate (ShowTime Piano Disney)",
+          "url": "https://www.youtube.com/watch?v=oAyeKejF_pg"
+        },
+        {
+          "videoId": "Yj7SOLDkS_Q",
+          "videoTitle": "Proud Corazon (ShowTime Piano Disney)",
+          "url": "https://www.youtube.com/watch?v=Yj7SOLDkS_Q"
+        },
+        {
+          "videoId": "PlU3WH4VrKY",
+          "videoTitle": "Reflection (ShowTime Piano Disney)",
+          "url": "https://www.youtube.com/watch?v=PlU3WH4VrKY"
+        },
+        {
+          "videoId": "Teo5_P_pBEw",
+          "videoTitle": "Under the Sea (ShowTime Piano Disney)",
+          "url": "https://www.youtube.com/watch?v=Teo5_P_pBEw"
+        }
+      ]
+    },
+    {
+      "channelId": "amy-comparetto",
+      "channelName": "Amy Comparetto",
+      "playlistId": "PL7ucElDiXf1STyzZ90B-GcgJssXY3flOL",
+      "playlistTitle": "ShowTime Rock 'n' Roll",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1STyzZ90B-GcgJssXY3flOL",
+      "bookId": "showtime-piano-rock-n-roll",
+      "tracks": [
+        {
+          "videoId": "BFpDyHO6-bs",
+          "videoTitle": "Yakety Yak (ShowTime Piano Rock 'n' Roll)",
+          "url": "https://www.youtube.com/watch?v=BFpDyHO6-bs"
+        },
+        {
+          "videoId": "Z9evuVO1PI0",
+          "videoTitle": "Undercover Rock (ShowTime Piano Rock 'n' Roll)",
+          "url": "https://www.youtube.com/watch?v=Z9evuVO1PI0"
+        },
+        {
+          "videoId": "DUrtrthgGPg",
+          "videoTitle": "Twist and Shout (ShowTime Piano Rock 'n' Roll)",
+          "url": "https://www.youtube.com/watch?v=DUrtrthgGPg"
+        },
+        {
+          "videoId": "oHTi4mKF6KY",
+          "videoTitle": "The Loco Motion (ShowTime Piano Rock 'n' Roll)",
+          "url": "https://www.youtube.com/watch?v=oHTi4mKF6KY"
+        },
+        {
+          "videoId": "e9vtLskn3Rg",
+          "videoTitle": "Lollipop (ShowTime Piano Rock 'n' Roll)",
+          "url": "https://www.youtube.com/watch?v=e9vtLskn3Rg"
+        },
+        {
+          "videoId": "bsZNovTRXAA",
+          "videoTitle": "Lava Lamp (ShowTime Piano Rock 'n' Roll)",
+          "url": "https://www.youtube.com/watch?v=bsZNovTRXAA"
+        },
+        {
+          "videoId": "svxQFR8uQZk",
+          "videoTitle": "Baby Elephant Walk (ShowTime Piano Rock 'n' Roll)",
+          "url": "https://www.youtube.com/watch?v=svxQFR8uQZk"
+        },
+        {
+          "videoId": "vU-ZGPXHdMM",
+          "videoTitle": "At the Hop (ShowTime Piano Rock 'n' Roll)",
+          "url": "https://www.youtube.com/watch?v=vU-ZGPXHdMM"
+        },
+        {
+          "videoId": "gxDsphKRwH8",
+          "videoTitle": "Ain't No Mountain High Enough (ShowTime Piano Rock 'n' Roll)",
+          "url": "https://www.youtube.com/watch?v=gxDsphKRwH8"
+        },
+        {
+          "videoId": "InldjpYPyOE",
+          "videoTitle": "A Groovy Kind of Love (ShowTime Piano Rock 'n' Roll)",
+          "url": "https://www.youtube.com/watch?v=InldjpYPyOE"
+        }
+      ]
+    },
+    {
+      "channelId": "amy-comparetto",
+      "channelName": "Amy Comparetto",
+      "playlistId": "PL7ucElDiXf1SYkzXIa43sJVp0n0XaOq1_",
+      "playlistTitle": "ChordTime Ragtime & Marches",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1SYkzXIa43sJVp0n0XaOq1_",
+      "bookId": "chordtime-piano-ragtime-marches",
+      "tracks": [
+        {
+          "videoId": "L9PhTp0gN8c",
+          "videoTitle": "You're a Grand Old Flag (ChordTime Piano Ragtime & Marches)",
+          "url": "https://www.youtube.com/watch?v=L9PhTp0gN8c"
+        },
+        {
+          "videoId": "8hNcV3P18xs",
+          "videoTitle": "The Thunderer (ChordTime Piano Ragtime & Marches)",
+          "url": "https://www.youtube.com/watch?v=8hNcV3P18xs"
+        },
+        {
+          "videoId": "FJsQH_wT0GM",
+          "videoTitle": "The Stars and Stripes Forever (ChordTime Piano Ragtime & Marches)",
+          "url": "https://www.youtube.com/watch?v=FJsQH_wT0GM"
+        },
+        {
+          "videoId": "brj4IOqhgE8",
+          "videoTitle": "The Marines' Hymn (ChordTime Piano Ragtime & Marches)",
+          "url": "https://www.youtube.com/watch?v=brj4IOqhgE8"
+        },
+        {
+          "videoId": "WXcT_i7PLnA",
+          "videoTitle": "The Entertainer (ChordTime Piano Ragtime & Marches)",
+          "url": "https://www.youtube.com/watch?v=WXcT_i7PLnA"
+        },
+        {
+          "videoId": "zkSZ0lPOp6I",
+          "videoTitle": "The Caisson Song (ChordTime Piano Ragtime & Marches)",
+          "url": "https://www.youtube.com/watch?v=zkSZ0lPOp6I"
+        },
+        {
+          "videoId": "GrJmxDLWhZg",
+          "videoTitle": "Raincoat Rag (ChordTime Piano Ragtime & Marches)",
+          "url": "https://www.youtube.com/watch?v=GrJmxDLWhZg"
+        },
+        {
+          "videoId": "2OxxJfMfm0c",
+          "videoTitle": "Original Rags (ChordTime Piano Ragtime & Marches)",
+          "url": "https://www.youtube.com/watch?v=2OxxJfMfm0c"
+        },
+        {
+          "videoId": "sM8InFlbxy0",
+          "videoTitle": "Dalmatian Rag (ChordTime Piano Ragtime & Marches)",
+          "url": "https://www.youtube.com/watch?v=sM8InFlbxy0"
+        },
+        {
+          "videoId": "gF5UsU79ZCc",
+          "videoTitle": "Colonel Bogey March (ChordTime Piano Ragtime & Marches)",
+          "url": "https://www.youtube.com/watch?v=gF5UsU79ZCc"
+        },
+        {
+          "videoId": "B_sCf6HJ35I",
+          "videoTitle": "Astronaut March (ChordTime Piano Ragtime & Marches)",
+          "url": "https://www.youtube.com/watch?v=B_sCf6HJ35I"
+        },
+        {
+          "videoId": "d4hXQoNhtcc",
+          "videoTitle": "Alexander's Ragtime Band (ChordTime Piano Ragtime & Marches)",
+          "url": "https://www.youtube.com/watch?v=d4hXQoNhtcc"
+        },
+        {
+          "videoId": "sG4N9ISurFg",
+          "videoTitle": "Alexander March (ChordTime Piano Ragtime & Marches)",
+          "url": "https://www.youtube.com/watch?v=sG4N9ISurFg"
+        }
+      ]
+    },
+    {
+      "channelId": "amy-comparetto",
+      "channelName": "Amy Comparetto",
+      "playlistId": "PL7ucElDiXf1T-xKKJz-N7bOK55FBMZHvz",
+      "playlistTitle": "PlayTime Favorites",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1T-xKKJz-N7bOK55FBMZHvz",
+      "bookId": "playtime-piano-favorites",
+      "tracks": [
+        {
+          "videoId": "3M92C6PNcbo",
+          "videoTitle": "Down in the Valley (PlayTime Piano Favorites)",
+          "url": "https://www.youtube.com/watch?v=3M92C6PNcbo"
+        },
+        {
+          "videoId": "sLVbuafrTQo",
+          "videoTitle": "Grandfather's Clock (PlayTime Piano Favorites)",
+          "url": "https://www.youtube.com/watch?v=sLVbuafrTQo"
+        },
+        {
+          "videoId": "sZ1t_YnYGPc",
+          "videoTitle": "Camptown Races (PlayTime Piano Favorites)",
+          "url": "https://www.youtube.com/watch?v=sZ1t_YnYGPc"
+        },
+        {
+          "videoId": "fmiGdQ7gpxs",
+          "videoTitle": "Aura Lee (PlayTime Piano Favorites)",
+          "url": "https://www.youtube.com/watch?v=fmiGdQ7gpxs"
+        },
+        {
+          "videoId": "7Kn0L0oOTeg",
+          "videoTitle": "She'll Be Comin' 'Round the Mountain (PlayTime Piano Favorites)",
+          "url": "https://www.youtube.com/watch?v=7Kn0L0oOTeg"
+        },
+        {
+          "videoId": "AX4yqme7lT0",
+          "videoTitle": "Oh Dear, What Can the Matter Be? (PlayTime Piano Favorites)",
+          "url": "https://www.youtube.com/watch?v=AX4yqme7lT0"
+        },
+        {
+          "videoId": "NsTBmf2peH4",
+          "videoTitle": "Oh! Susanna (PlayTime Piano Favorites)",
+          "url": "https://www.youtube.com/watch?v=NsTBmf2peH4"
+        },
+        {
+          "videoId": "3f9foYPLNmo",
+          "videoTitle": "Home on the Range (PlayTime Piano Favorites)",
+          "url": "https://www.youtube.com/watch?v=3f9foYPLNmo"
+        },
+        {
+          "videoId": "PRI7ro6QXLA",
+          "videoTitle": "Reveille (PlayTime Piano Favorites)",
+          "url": "https://www.youtube.com/watch?v=PRI7ro6QXLA"
+        },
+        {
+          "videoId": "Hie0nc2IW8o",
+          "videoTitle": "Taps (PlayTime Piano Favorites)",
+          "url": "https://www.youtube.com/watch?v=Hie0nc2IW8o"
+        },
+        {
+          "videoId": "6K1RxgY1jks",
+          "videoTitle": "When the Saints Go Marching In",
+          "url": "https://www.youtube.com/watch?v=6K1RxgY1jks"
+        },
+        {
+          "videoId": "w2GKXLEU50I",
+          "videoTitle": "This Old Man (PlayTime Piano Favorites)",
+          "url": "https://www.youtube.com/watch?v=w2GKXLEU50I"
+        },
+        {
+          "videoId": "1EwqMC5uSlk",
+          "videoTitle": "Sweetly Sings the Donkey (PlayTime Piano Favorites)",
+          "url": "https://www.youtube.com/watch?v=1EwqMC5uSlk"
+        },
+        {
+          "videoId": "e912eKAB3rc",
+          "videoTitle": "Snake Dance (PlayTime Piano Favorites)",
+          "url": "https://www.youtube.com/watch?v=e912eKAB3rc"
+        },
+        {
+          "videoId": "n_Ca1hJjvI0",
+          "videoTitle": "Sleep, Baby Sleep (PlayTime Piano Favorites)",
+          "url": "https://www.youtube.com/watch?v=n_Ca1hJjvI0"
+        },
+        {
+          "videoId": "U-RKK-jlY4Q",
+          "videoTitle": "Good Night, Ladies! (PlayTime Piano Favorites)",
+          "url": "https://www.youtube.com/watch?v=U-RKK-jlY4Q"
+        },
+        {
+          "videoId": "nsIShrDzSZA",
+          "videoTitle": "Are You Sleeping (PlayTime Piano Favorites)",
+          "url": "https://www.youtube.com/watch?v=nsIShrDzSZA"
+        }
+      ]
+    },
+    {
+      "channelId": "amy-comparetto",
+      "channelName": "Amy Comparetto",
+      "playlistId": "PL7ucElDiXf1QgVrm4yrVy8MjcNyMSVZU4",
+      "playlistTitle": "PlayTime Popular",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1QgVrm4yrVy8MjcNyMSVZU4",
+      "bookId": "playtime-piano-popular",
+      "tracks": [
+        {
+          "videoId": "KW2nYkMM-QI",
+          "videoTitle": "This Land is Your Land (PlayTime Piano Popular)",
+          "url": "https://www.youtube.com/watch?v=KW2nYkMM-QI"
+        },
+        {
+          "videoId": "8se-z3qm73w",
+          "videoTitle": "ABC [The Jackson 5] (PlayTime Piano Popular)",
+          "url": "https://www.youtube.com/watch?v=8se-z3qm73w"
+        },
+        {
+          "videoId": "pQVzJV6Pt7E",
+          "videoTitle": "Take Me Out to the Ball Game (PlayTime Piano Popular)",
+          "url": "https://www.youtube.com/watch?v=pQVzJV6Pt7E"
+        },
+        {
+          "videoId": "1xG05rN2Ufs",
+          "videoTitle": "Star Wars Main Theme [John Williams] (PlayTime Piano Popular)",
+          "url": "https://www.youtube.com/watch?v=1xG05rN2Ufs"
+        },
+        {
+          "videoId": "80vda1FpT18",
+          "videoTitle": "Rocky Top (PlayTime Piano Popular)",
+          "url": "https://www.youtube.com/watch?v=80vda1FpT18"
+        },
+        {
+          "videoId": "XmRViX2lbdw",
+          "videoTitle": "Supercalifragilisticexpialidocious (PlayTime Piano Popular)",
+          "url": "https://www.youtube.com/watch?v=XmRViX2lbdw"
+        },
+        {
+          "videoId": "k-_lJSxmdxA",
+          "videoTitle": "Meet the Flintstones (PlayTime Piano Popular)",
+          "url": "https://www.youtube.com/watch?v=k-_lJSxmdxA"
+        },
+        {
+          "videoId": "ZITJwemM7CA",
+          "videoTitle": "Puff, the Magic Dragon (PlayTime Piano Popular)",
+          "url": "https://www.youtube.com/watch?v=ZITJwemM7CA"
+        },
+        {
+          "videoId": "95gPdK-QVOo",
+          "videoTitle": "Music Box Dancer (PlayTime Piano Popular)",
+          "url": "https://www.youtube.com/watch?v=95gPdK-QVOo"
+        },
+        {
+          "videoId": "_xfHCRdqnWs",
+          "videoTitle": "Do-Re-Mi (PlayTime Piano Popular)",
+          "url": "https://www.youtube.com/watch?v=_xfHCRdqnWs"
+        }
+      ]
+    },
+    {
+      "channelId": "amy-comparetto",
+      "channelName": "Amy Comparetto",
+      "playlistId": "PL7ucElDiXf1S095VuSvf22kRcROgG9zgc",
+      "playlistTitle": "PlayTime Classics",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1S095VuSvf22kRcROgG9zgc",
+      "bookId": "playtime-piano-classics",
+      "tracks": [
+        {
+          "videoId": "0nSi_WT84As",
+          "videoTitle": "Turkish March [Beethoven] (PlayTime Piano Classics)",
+          "url": "https://www.youtube.com/watch?v=0nSi_WT84As"
+        },
+        {
+          "videoId": "8p5PNcp_YLo",
+          "videoTitle": "Romance [Mozart] (PlayTime Piano Classics)",
+          "url": "https://www.youtube.com/watch?v=8p5PNcp_YLo"
+        },
+        {
+          "videoId": "T7gUQ4QZlVg",
+          "videoTitle": "Finale [Brahms] (PlayTime Piano Classics)",
+          "url": "https://www.youtube.com/watch?v=T7gUQ4QZlVg"
+        },
+        {
+          "videoId": "NSA0NNWgdSY",
+          "videoTitle": "Finale from \"New World\" Symphony [Dvorak] (PlayTime Piano Classics)",
+          "url": "https://www.youtube.com/watch?v=NSA0NNWgdSY"
+        },
+        {
+          "videoId": "Knt-rtSKdOs",
+          "videoTitle": "La Cinquantaine [Gabriel-Marie] (PlayTime Piano Classics)",
+          "url": "https://www.youtube.com/watch?v=Knt-rtSKdOs"
+        },
+        {
+          "videoId": "FqATA8VURNc",
+          "videoTitle": "Lullaby [Brahms] (PlayTime Piano Classics)",
+          "url": "https://www.youtube.com/watch?v=FqATA8VURNc"
+        },
+        {
+          "videoId": "w8eyqyIaz-s",
+          "videoTitle": "March Slav [Tchaikovsky] (PlayTime Piano Classics)",
+          "url": "https://www.youtube.com/watch?v=w8eyqyIaz-s"
+        },
+        {
+          "videoId": "nfic0YFEXoI",
+          "videoTitle": "Finale from Carnival of the Animals [Saint-Saens] (PlayTime Piano Classics)",
+          "url": "https://www.youtube.com/watch?v=nfic0YFEXoI"
+        },
+        {
+          "videoId": "t1QCeNaMlVQ",
+          "videoTitle": "Sleeping Beauty Waltz [Tchaikovsky] (PlayTime Piano Classics)",
+          "url": "https://www.youtube.com/watch?v=t1QCeNaMlVQ"
+        },
+        {
+          "videoId": "khUxwLwd-Uo",
+          "videoTitle": "The Elephant [Saint-Saens]",
+          "url": "https://www.youtube.com/watch?v=khUxwLwd-Uo"
+        },
+        {
+          "videoId": "_OPD2zyB-10",
+          "videoTitle": "The Trout [Schubert] (PlayTime Piano Classics)",
+          "url": "https://www.youtube.com/watch?v=_OPD2zyB-10"
+        },
+        {
+          "videoId": "pSEyEjhSAcA",
+          "videoTitle": "Country Dance [Beethoven] (PlayTime Piano Classics)",
+          "url": "https://www.youtube.com/watch?v=pSEyEjhSAcA"
+        }
+      ]
+    },
+    {
+      "channelId": "amy-comparetto",
+      "channelName": "Amy Comparetto",
+      "playlistId": "PL7ucElDiXf1Th2G2-nkGXvTDCVNfL5-5F",
+      "playlistTitle": "PlayTime Disney",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1Th2G2-nkGXvTDCVNfL5-5F",
+      "bookId": "playtime-piano-disney",
+      "tracks": [
+        {
+          "videoId": "64iZDO7f45U",
+          "videoTitle": "Beauty and the Beast (PlayTime Piano Disney)",
+          "url": "https://www.youtube.com/watch?v=64iZDO7f45U"
+        },
+        {
+          "videoId": "xYJ28Co4heE",
+          "videoTitle": "Gaston (PlayTime Piano Disney)",
+          "url": "https://www.youtube.com/watch?v=xYJ28Co4heE"
+        },
+        {
+          "videoId": "dT1bPtdYQo4",
+          "videoTitle": "Gummi Bears Theme (PlayTime Piano Disney)",
+          "url": "https://www.youtube.com/watch?v=dT1bPtdYQo4"
+        },
+        {
+          "videoId": "gfKHbv2lMvc",
+          "videoTitle": "I Just Can't Wait to Be King (PlayTime Piano Disney)",
+          "url": "https://www.youtube.com/watch?v=gfKHbv2lMvc"
+        },
+        {
+          "videoId": "9MVzQ7LIx9M",
+          "videoTitle": "Let It Go (PlayTime Piano Disney)",
+          "url": "https://www.youtube.com/watch?v=9MVzQ7LIx9M"
+        },
+        {
+          "videoId": "wQtBELtZl8s",
+          "videoTitle": "Let's Go Fly a Kite (PlayTime Piano Disney)",
+          "url": "https://www.youtube.com/watch?v=wQtBELtZl8s"
+        },
+        {
+          "videoId": "2--ad8A31cc",
+          "videoTitle": "Part of Your World (PlayTime Piano Disney)",
+          "url": "https://www.youtube.com/watch?v=2--ad8A31cc"
+        },
+        {
+          "videoId": "VPe6sN3k4O4",
+          "videoTitle": "Remember Me (PlayTime Piano Disney)",
+          "url": "https://www.youtube.com/watch?v=VPe6sN3k4O4"
+        },
+        {
+          "videoId": "Iwj519kKP4w",
+          "videoTitle": "A Spoonful of Sugar (PlayTime Piano Disney)",
+          "url": "https://www.youtube.com/watch?v=Iwj519kKP4w"
+        }
+      ]
+    },
+    {
+      "channelId": "amy-comparetto",
+      "channelName": "Amy Comparetto",
+      "playlistId": "PL7ucElDiXf1RMOos30ZsH7ewyE5XBndRx",
+      "playlistTitle": "PlayTime Jazz & Blues",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1RMOos30ZsH7ewyE5XBndRx",
+      "bookId": "playtime-piano-jazz-blues",
+      "tracks": [
+        {
+          "videoId": "hguabzvQcfo",
+          "videoTitle": "The Way You Look Tonight (PlayTime Piano Jazz & Blues)",
+          "url": "https://www.youtube.com/watch?v=hguabzvQcfo"
+        },
+        {
+          "videoId": "JBk6Shn_iG4",
+          "videoTitle": "The Blues Monster (PlayTime Piano Jazz & Blues)",
+          "url": "https://www.youtube.com/watch?v=JBk6Shn_iG4"
+        },
+        {
+          "videoId": "lT2I1AWJjY8",
+          "videoTitle": "Sugarfoot Rag (PlayTime Piano Jazz & Blues)",
+          "url": "https://www.youtube.com/watch?v=lT2I1AWJjY8"
+        },
+        {
+          "videoId": "v496ur87zaE",
+          "videoTitle": "Moon River (PlayTime Piano Jazz & Blues)",
+          "url": "https://www.youtube.com/watch?v=v496ur87zaE"
+        },
+        {
+          "videoId": "IJxyD1hTu-A",
+          "videoTitle": "Jeepers Creepers (PlayTime Piano Jazz & Blues)",
+          "url": "https://www.youtube.com/watch?v=IJxyD1hTu-A"
+        },
+        {
+          "videoId": "cQ7q3F_KX08",
+          "videoTitle": "It's Only a Paper Moon (PlayTime Piano Jazz & Blues)",
+          "url": "https://www.youtube.com/watch?v=cQ7q3F_KX08"
+        },
+        {
+          "videoId": "6u8R11jlTeo",
+          "videoTitle": "It Don't Mean a Thing if it Ain't Got That Swing (PlayTime Piano Jazz & Blues)",
+          "url": "https://www.youtube.com/watch?v=6u8R11jlTeo"
+        },
+        {
+          "videoId": "jhc9Yh1TzGs",
+          "videoTitle": "I'm Always Chasing Rainbows (PlayTime Piano Jazz & Blues)",
+          "url": "https://www.youtube.com/watch?v=jhc9Yh1TzGs"
+        },
+        {
+          "videoId": "QJWlweS_yBo",
+          "videoTitle": "Five Foot Two, Eyes of Blue (PlayTime Piano Jazz & Blues)",
+          "url": "https://www.youtube.com/watch?v=QJWlweS_yBo"
+        },
+        {
+          "videoId": "EtjjlWduPD0",
+          "videoTitle": "Don't Sit Under the Apple Tree (PlayTime Piano Jazz & Blues)",
+          "url": "https://www.youtube.com/watch?v=EtjjlWduPD0"
+        },
+        {
+          "videoId": "m3aO9lGmWaM",
+          "videoTitle": "Boogie Woogie Fever (PlayTime Piano Jazz & Blues)",
+          "url": "https://www.youtube.com/watch?v=m3aO9lGmWaM"
+        },
+        {
+          "videoId": "FZHjHWCzcmA",
+          "videoTitle": "Ain't She Sweet (PlayTime Piano Jazz & Blues)",
+          "url": "https://www.youtube.com/watch?v=FZHjHWCzcmA"
+        }
+      ]
+    },
+    {
+      "channelId": "amy-comparetto",
+      "channelName": "Amy Comparetto",
+      "playlistId": "PL7ucElDiXf1Sst9DA1NN8OX9aOk7GTpqi",
+      "playlistTitle": "PlayTime Kids' Songs",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1Sst9DA1NN8OX9aOk7GTpqi",
+      "bookId": "playtime-piano-kids-songs",
+      "tracks": [
+        {
+          "videoId": "pMnk4Xs-jC4",
+          "videoTitle": "Bob the Builder (PlayTime Piano Kids' Songs)",
+          "url": "https://www.youtube.com/watch?v=pMnk4Xs-jC4"
+        },
+        {
+          "videoId": "W5W4eNaX1hI",
+          "videoTitle": "Scooby Doo Main Title (PlayTime Piano Kids' Songs)",
+          "url": "https://www.youtube.com/watch?v=W5W4eNaX1hI"
+        },
+        {
+          "videoId": "10bZNW1L7yI",
+          "videoTitle": "The Lord is Good to Me (PlayTime Piano Kids' Songs)",
+          "url": "https://www.youtube.com/watch?v=10bZNW1L7yI"
+        },
+        {
+          "videoId": "osy_dEwGdM8",
+          "videoTitle": "C is for Cookie (PlayTime Piano Kids' Songs)",
+          "url": "https://www.youtube.com/watch?v=osy_dEwGdM8"
+        },
+        {
+          "videoId": "7jQyN62PYPQ",
+          "videoTitle": "Ferdinand the Bull (PlayTime Piano Kids' Songs)",
+          "url": "https://www.youtube.com/watch?v=7jQyN62PYPQ"
+        },
+        {
+          "videoId": "nqb0rmfzt50",
+          "videoTitle": "I Can Be Your Friend (PlayTime Piano Kids' Songs)",
+          "url": "https://www.youtube.com/watch?v=nqb0rmfzt50"
+        },
+        {
+          "videoId": "pRSakWmhzrU",
+          "videoTitle": "I Swallowed My Gum! (PlayTime Piano Kids' Songs)",
+          "url": "https://www.youtube.com/watch?v=pRSakWmhzrU"
+        },
+        {
+          "videoId": "-xMVRT3bTcw",
+          "videoTitle": "Let's Go Fly a Kite (PlayTime Piano Kids' Songs)",
+          "url": "https://www.youtube.com/watch?v=-xMVRT3bTcw"
+        },
+        {
+          "videoId": "bsrt-LyNSZk",
+          "videoTitle": "M-I-S-S-I-S-S-I-P-P-I (PlayTime Piano Kids' Songs)",
+          "url": "https://www.youtube.com/watch?v=bsrt-LyNSZk"
+        },
+        {
+          "videoId": "_lHp8yhvWQs",
+          "videoTitle": "Oh, What a Beautiful Morning (PlayTime Piano Kids' Songs)",
+          "url": "https://www.youtube.com/watch?v=_lHp8yhvWQs"
+        },
+        {
+          "videoId": "7QU0IfTh1V0",
+          "videoTitle": "Ten Chocolate Cookies (PlayTime Piano Kids' Songs)",
+          "url": "https://www.youtube.com/watch?v=7QU0IfTh1V0"
+        }
+      ]
+    },
+    {
+      "channelId": "amy-comparetto",
+      "channelName": "Amy Comparetto",
+      "playlistId": "PL7ucElDiXf1QmW1n16sTJjDYuBSD0Alp2",
+      "playlistTitle": "PlayTime Hymns",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1QmW1n16sTJjDYuBSD0Alp2",
+      "bookId": "playtime-piano-hymns",
+      "tracks": [
+        {
+          "videoId": "58StZ7GvQoM",
+          "videoTitle": "Come Thou Almighty King (PlayTime Piano Hymns)",
+          "url": "https://www.youtube.com/watch?v=58StZ7GvQoM"
+        },
+        {
+          "videoId": "H9ijYnx0POo",
+          "videoTitle": "For the Beauty of the Earth (PlayTime Piano Hymns)",
+          "url": "https://www.youtube.com/watch?v=H9ijYnx0POo"
+        },
+        {
+          "videoId": "a4Ds2rQzMG4",
+          "videoTitle": "Do Lord (PlayTime Piano Hymns)",
+          "url": "https://www.youtube.com/watch?v=a4Ds2rQzMG4"
+        },
+        {
+          "videoId": "cKZQGj5wPV4",
+          "videoTitle": "Fairest Lord Jesus (PlayTime Piano Hymns)",
+          "url": "https://www.youtube.com/watch?v=cKZQGj5wPV4"
+        },
+        {
+          "videoId": "s9f9jRx47WM",
+          "videoTitle": "Holy, Holy, Holy (PlayTime Piano Hymns)",
+          "url": "https://www.youtube.com/watch?v=s9f9jRx47WM"
+        },
+        {
+          "videoId": "JixpOqU38Fw",
+          "videoTitle": "Jesus Loves Me (PlayTime Piano Hymns)",
+          "url": "https://www.youtube.com/watch?v=JixpOqU38Fw"
+        },
+        {
+          "videoId": "yWUvqSFOifk",
+          "videoTitle": "Joyful, Joyful, We Adore Thee (PlayTime Piano Hymns)",
+          "url": "https://www.youtube.com/watch?v=yWUvqSFOifk"
+        },
+        {
+          "videoId": "-W3IdEQh4LE",
+          "videoTitle": "O Worship the King (PlayTime Piano Hymns)",
+          "url": "https://www.youtube.com/watch?v=-W3IdEQh4LE"
+        },
+        {
+          "videoId": "UaToTaLLDaU",
+          "videoTitle": "Stand Up, Stand Up for Jesus (PlayTime Piano Hymns)",
+          "url": "https://www.youtube.com/watch?v=UaToTaLLDaU"
+        },
+        {
+          "videoId": "FLvYVJBfViE",
+          "videoTitle": "This Little Light of Mine (PlayTime Piano Hymns)",
+          "url": "https://www.youtube.com/watch?v=FLvYVJBfViE"
+        },
+        {
+          "videoId": "C5MUPBTgXQA",
+          "videoTitle": "What a Friend We Have in Jesus (PlayTime Piano Hymns)",
+          "url": "https://www.youtube.com/watch?v=C5MUPBTgXQA"
+        }
+      ]
+    },
+    {
+      "channelId": "amy-comparetto",
+      "channelName": "Amy Comparetto",
+      "playlistId": "PL7ucElDiXf1QxBNa_ryloy5zyH50NbICP",
+      "playlistTitle": "PlayTime Rock 'n' Roll",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1QxBNa_ryloy5zyH50NbICP",
+      "bookId": "playtime-piano-rock-n-roll",
+      "tracks": [
+        {
+          "videoId": "u-xNIjAI3is",
+          "videoTitle": "Walk Right In [The Rooftop Singers] (PlayTime Piano Rock 'n' Roll)",
+          "url": "https://www.youtube.com/watch?v=u-xNIjAI3is"
+        },
+        {
+          "videoId": "6ChAiKCNN3k",
+          "videoTitle": "The Purple People Eater [Sheb Wooley] (PlayTime Piano Rock 'n' Roll)",
+          "url": "https://www.youtube.com/watch?v=6ChAiKCNN3k"
+        },
+        {
+          "videoId": "M1sRx5oun-M",
+          "videoTitle": "The Green Mosquito (PlayTime Piano Rock 'n' Roll)",
+          "url": "https://www.youtube.com/watch?v=M1sRx5oun-M"
+        },
+        {
+          "videoId": "wyhckFShmnY",
+          "videoTitle": "Surfer Girl [The Beach Boys] (PlayTime Piano Rock 'n' Roll)",
+          "url": "https://www.youtube.com/watch?v=wyhckFShmnY"
+        },
+        {
+          "videoId": "NRuDV3Aodqs",
+          "videoTitle": "Rockin' Robin [Michael Jackson] (PlayTime Piano Rock 'n' Roll)",
+          "url": "https://www.youtube.com/watch?v=NRuDV3Aodqs"
+        },
+        {
+          "videoId": "yLEx_RJQ9EE",
+          "videoTitle": "Rock Around the Clock (PlayTime Piano Rock 'n' Roll)",
+          "url": "https://www.youtube.com/watch?v=yLEx_RJQ9EE"
+        },
+        {
+          "videoId": "N8CdT-md3hE",
+          "videoTitle": "Peanut Butter (PlayTime Piano Rock 'n' Roll)",
+          "url": "https://www.youtube.com/watch?v=N8CdT-md3hE"
+        },
+        {
+          "videoId": "coQsO-zMc0k",
+          "videoTitle": "Cool Strut (PlayTime Piano Rock 'n' Roll)",
+          "url": "https://www.youtube.com/watch?v=coQsO-zMc0k"
+        },
+        {
+          "videoId": "4U3raMGvqmc",
+          "videoTitle": "Come Go With Me [The Del Vikings] (PlayTime Piano Rock 'n' Roll)",
+          "url": "https://www.youtube.com/watch?v=4U3raMGvqmc"
+        },
+        {
+          "videoId": "HaWnDhAtoi0",
+          "videoTitle": "Blue Suede Shoes [Elvis] (PlayTime Piano Rock 'n' Roll)",
+          "url": "https://www.youtube.com/watch?v=HaWnDhAtoi0"
+        }
+      ]
+    },
+    {
+      "channelId": "amy-comparetto",
+      "channelName": "Amy Comparetto",
+      "playlistId": "PL7ucElDiXf1SkBFTEXXZ6R6Oj5Km5vdAH",
+      "playlistTitle": "PlayTime Christmas",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1SkBFTEXXZ6R6Oj5Km5vdAH",
+      "bookId": "playtime-piano-christmas",
+      "tracks": [
+        {
+          "videoId": "Ebq1y7mSO80",
+          "videoTitle": "Jingle Bells",
+          "url": "https://www.youtube.com/watch?v=Ebq1y7mSO80"
+        },
+        {
+          "videoId": "vZM0gCX9xUo",
+          "videoTitle": "O Come, All Ye Faithful",
+          "url": "https://www.youtube.com/watch?v=vZM0gCX9xUo"
+        },
+        {
+          "videoId": "pBi-QhSdROc",
+          "videoTitle": "When Santa Claus Gets Your Letter",
+          "url": "https://www.youtube.com/watch?v=pBi-QhSdROc"
+        },
+        {
+          "videoId": "hL7Ep0kLh8A",
+          "videoTitle": "Silent Night",
+          "url": "https://www.youtube.com/watch?v=hL7Ep0kLh8A"
+        },
+        {
+          "videoId": "Cgg4HMo7VX4",
+          "videoTitle": "Away in a Manger",
+          "url": "https://www.youtube.com/watch?v=Cgg4HMo7VX4"
+        },
+        {
+          "videoId": "5cFzN2HhWag",
+          "videoTitle": "The First Noel",
+          "url": "https://www.youtube.com/watch?v=5cFzN2HhWag"
+        },
+        {
+          "videoId": "-ArB9gNSeCE",
+          "videoTitle": "Joy to the World",
+          "url": "https://www.youtube.com/watch?v=-ArB9gNSeCE"
+        },
+        {
+          "videoId": "-OAJic7zxzE",
+          "videoTitle": "Rudolph the Red Nosed Reindeer",
+          "url": "https://www.youtube.com/watch?v=-OAJic7zxzE"
+        },
+        {
+          "videoId": "OZT04WhWpyY",
+          "videoTitle": "A Holly Jolly Christmas",
+          "url": "https://www.youtube.com/watch?v=OZT04WhWpyY"
+        },
+        {
+          "videoId": "g-EfPV9WsAU",
+          "videoTitle": "The Night Before Christmas Song",
+          "url": "https://www.youtube.com/watch?v=g-EfPV9WsAU"
+        },
+        {
+          "videoId": "HOt_BpYuSS4",
+          "videoTitle": "Rockin' Around the Christmas Tree",
+          "url": "https://www.youtube.com/watch?v=HOt_BpYuSS4"
+        },
+        {
+          "videoId": "HpC2hBEdpyg",
+          "videoTitle": "We Wish You a Merry Christmas",
+          "url": "https://www.youtube.com/watch?v=HpC2hBEdpyg"
+        }
+      ]
+    },
+    {
+      "channelId": "amy-comparetto",
+      "channelName": "Amy Comparetto",
+      "playlistId": "PL7ucElDiXf1TIopIq6-tk0fhKXRXY9dZP",
+      "playlistTitle": "PreTime Classics",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1TIopIq6-tk0fhKXRXY9dZP",
+      "bookId": "pretime-piano-classics",
+      "tracks": [
+        {
+          "videoId": "SyoNVQwdaN0",
+          "videoTitle": "Trumpet Voluntary [Jeremiah Clarke] (PreTime Piano Classics)",
+          "url": "https://www.youtube.com/watch?v=SyoNVQwdaN0"
+        },
+        {
+          "videoId": "-9M-F1zhnlM",
+          "videoTitle": "The \"London\" Symphony [Franz Joseph Haydn] (PreTime Piano Classics)",
+          "url": "https://www.youtube.com/watch?v=-9M-F1zhnlM"
+        },
+        {
+          "videoId": "zgUUU17USHk",
+          "videoTitle": "The Can Can [Jaques Offenbach] (PreTime Piano Classics)",
+          "url": "https://www.youtube.com/watch?v=zgUUU17USHk"
+        },
+        {
+          "videoId": "IWtH16qiaGA",
+          "videoTitle": "Shepherd's Song [Beethoven] (PreTime Piano Classics)",
+          "url": "https://www.youtube.com/watch?v=IWtH16qiaGA"
+        },
+        {
+          "videoId": "rU7JoA7G3XA",
+          "videoTitle": "Ode to Joy [Beethoven] (PreTime Piano Classics)",
+          "url": "https://www.youtube.com/watch?v=rU7JoA7G3XA"
+        },
+        {
+          "videoId": "ATdkxx3HgOs",
+          "videoTitle": "Morning [Grieg] (PreTime Piano Classics)",
+          "url": "https://www.youtube.com/watch?v=ATdkxx3HgOs"
+        },
+        {
+          "videoId": "-47gm7OZ4_M",
+          "videoTitle": "Horn Call [Mozart] (PreTime Piano Classics)",
+          "url": "https://www.youtube.com/watch?v=-47gm7OZ4_M"
+        },
+        {
+          "videoId": "ku1GIZKVp9Y",
+          "videoTitle": "Bridal Chorus [Wagner] (PreTime Piano Classics)",
+          "url": "https://www.youtube.com/watch?v=ku1GIZKVp9Y"
+        },
+        {
+          "videoId": "o2pvBYevMo0",
+          "videoTitle": "A Little Night Music (PreTime Piano Classics)",
+          "url": "https://www.youtube.com/watch?v=o2pvBYevMo0"
+        }
+      ]
+    },
+    {
+      "channelId": "amy-comparetto",
+      "channelName": "Amy Comparetto",
+      "playlistId": "PL7ucElDiXf1SPLLIJYz-Est8_vJT_VwX1",
+      "playlistTitle": "PreTime Disney",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1SPLLIJYz-Est8_vJT_VwX1",
+      "bookId": "pretime-piano-disney",
+      "tracks": [
+        {
+          "videoId": "0gZcBkX04BA",
+          "videoTitle": "Do You Want to Build a Snowman (PreTime Piano Disney)",
+          "url": "https://www.youtube.com/watch?v=0gZcBkX04BA"
+        },
+        {
+          "videoId": "1tSUD91jojc",
+          "videoTitle": "I Just Can't Wait to Be King (PreTime Piano Disney)",
+          "url": "https://www.youtube.com/watch?v=1tSUD91jojc"
+        },
+        {
+          "videoId": "c8RHW6Xr8eg",
+          "videoTitle": "I See the Light (PreTime Piano Disney)",
+          "url": "https://www.youtube.com/watch?v=c8RHW6Xr8eg"
+        },
+        {
+          "videoId": "FZ2dnXIE_qA",
+          "videoTitle": "It's a Small World (PreTime Piano Disney)",
+          "url": "https://www.youtube.com/watch?v=FZ2dnXIE_qA"
+        },
+        {
+          "videoId": "5ObGraq2958",
+          "videoTitle": "Scales and Arpeggios from Aristocats (PreTime Piano Disney)",
+          "url": "https://www.youtube.com/watch?v=5ObGraq2958"
+        },
+        {
+          "videoId": "_DNOfTxV-5A",
+          "videoTitle": "Supercalifragilisticexpiealidocious (PreTime Piano Disney)",
+          "url": "https://www.youtube.com/watch?v=_DNOfTxV-5A"
+        },
+        {
+          "videoId": "-7ZvEHRAERs",
+          "videoTitle": "Step in Time from Mary Poppins (PreTime Piano Disney)",
+          "url": "https://www.youtube.com/watch?v=-7ZvEHRAERs"
+        },
+        {
+          "videoId": "-hBZdm-dq4M",
+          "videoTitle": "The Siamese Cat Song (PreTime Piano Disney)",
+          "url": "https://www.youtube.com/watch?v=-hBZdm-dq4M"
+        },
+        {
+          "videoId": "hY5P6dUgQC8",
+          "videoTitle": "Winnie the Pooh (PreTime Piano Disney)",
+          "url": "https://www.youtube.com/watch?v=hY5P6dUgQC8"
+        }
+      ]
+    },
+    {
+      "channelId": "amy-comparetto",
+      "channelName": "Amy Comparetto",
+      "playlistId": "PL7ucElDiXf1QOw3XBcAGKWv8F5T0Sa1Wi",
+      "playlistTitle": "PreTime Favorites",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1QOw3XBcAGKWv8F5T0Sa1Wi",
+      "bookId": "pretime-piano-favorites",
+      "tracks": [
+        {
+          "videoId": "M5RqAMLoZ28",
+          "videoTitle": "Yankee Doodle (PreTime Piano Favorites)",
+          "url": "https://www.youtube.com/watch?v=M5RqAMLoZ28"
+        },
+        {
+          "videoId": "ttydcECRFGc",
+          "videoTitle": "The Muffin Man (PreTime Piano Favorites)",
+          "url": "https://www.youtube.com/watch?v=ttydcECRFGc"
+        },
+        {
+          "videoId": "c3zFtX-32DU",
+          "videoTitle": "London Bridge (PreTime Piano Favorites)",
+          "url": "https://www.youtube.com/watch?v=c3zFtX-32DU"
+        },
+        {
+          "videoId": "hljTKE4z7m0",
+          "videoTitle": "The Wheels on the Bus (PreTime Piano Favorites)",
+          "url": "https://www.youtube.com/watch?v=hljTKE4z7m0"
+        },
+        {
+          "videoId": "p_SBCst6peQ",
+          "videoTitle": "Baa! Baa! Black Sheep (PreTime Piano Favorites)",
+          "url": "https://www.youtube.com/watch?v=p_SBCst6peQ"
+        },
+        {
+          "videoId": "0FYqRzL6pno",
+          "videoTitle": "On the Bridge (PreTime Piano Favorites)",
+          "url": "https://www.youtube.com/watch?v=0FYqRzL6pno"
+        },
+        {
+          "videoId": "f-KotRkP21A",
+          "videoTitle": "Hush, Little Baby (PreTime Piano Favorites)",
+          "url": "https://www.youtube.com/watch?v=f-KotRkP21A"
+        },
+        {
+          "videoId": "lm5czo2Khls",
+          "videoTitle": "Alouette (PreTime Piano Favorites)",
+          "url": "https://www.youtube.com/watch?v=lm5czo2Khls"
+        },
+        {
+          "videoId": "5GmIaZdpR5w",
+          "videoTitle": "Pop! Goes the Weasel (PreTime Piano Favorites)",
+          "url": "https://www.youtube.com/watch?v=5GmIaZdpR5w"
+        },
+        {
+          "videoId": "0waVw1UNrME",
+          "videoTitle": "Row, Row, Row Your Boat (PreTime Piano Favorites)",
+          "url": "https://www.youtube.com/watch?v=0waVw1UNrME"
+        },
+        {
+          "videoId": "jFpe0IGvlRo",
+          "videoTitle": "Eensie Weensie Spider (PreTime Piano Favorites)",
+          "url": "https://www.youtube.com/watch?v=jFpe0IGvlRo"
+        },
+        {
+          "videoId": "2JphLMjgSEM",
+          "videoTitle": "Shoo, Fly (PreTime Piano Favorites)",
+          "url": "https://www.youtube.com/watch?v=2JphLMjgSEM"
+        }
+      ]
+    },
+    {
+      "channelId": "amy-comparetto",
+      "channelName": "Amy Comparetto",
+      "playlistId": "PL7ucElDiXf1TsAOQjY0tUmogmp7ZeSgfw",
+      "playlistTitle": "PreTime Popular",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1TsAOQjY0tUmogmp7ZeSgfw",
+      "bookId": "pretime-piano-popular",
+      "tracks": [
+        {
+          "videoId": "HS008ORsqc4",
+          "videoTitle": "It's a Small World (PreTime Piano Popular)",
+          "url": "https://www.youtube.com/watch?v=HS008ORsqc4"
+        },
+        {
+          "videoId": "hwtwPLXAXTw",
+          "videoTitle": "Oompa Loompa (PreTime Piano Popular)",
+          "url": "https://www.youtube.com/watch?v=hwtwPLXAXTw"
+        },
+        {
+          "videoId": "QG6mGMZZZIQ",
+          "videoTitle": "Part of Your World (PreTime Piano Popular)",
+          "url": "https://www.youtube.com/watch?v=QG6mGMZZZIQ"
+        },
+        {
+          "videoId": "j7ESHXcNkkA",
+          "videoTitle": "I Just Can't Wait to Be King (PreTime Piano Popular)",
+          "url": "https://www.youtube.com/watch?v=j7ESHXcNkkA"
+        },
+        {
+          "videoId": "4cAYr1l_fCc",
+          "videoTitle": "The Merry Go Round Broke Down (PreTime Piano Popular)",
+          "url": "https://www.youtube.com/watch?v=4cAYr1l_fCc"
+        },
+        {
+          "videoId": "76IvnSZbcFo",
+          "videoTitle": "Scooby Doo Main Theme (PreTime Piano Popular)",
+          "url": "https://www.youtube.com/watch?v=76IvnSZbcFo"
+        },
+        {
+          "videoId": "VuyfLpldyiE",
+          "videoTitle": "If I Only Had a Brain (PreTime Piano Popular)",
+          "url": "https://www.youtube.com/watch?v=VuyfLpldyiE"
+        },
+        {
+          "videoId": "DnwTB2hNRfs",
+          "videoTitle": "The Candy Man (PreTime Piano Popular)",
+          "url": "https://www.youtube.com/watch?v=DnwTB2hNRfs"
+        },
+        {
+          "videoId": "yTgC-nwg768",
+          "videoTitle": "The Pirates Who Don't Do Anything (PreTime Piano Popular)",
+          "url": "https://www.youtube.com/watch?v=yTgC-nwg768"
+        },
+        {
+          "videoId": "1Yn3ykpwT8E",
+          "videoTitle": "Groove Tune (PreTime Piano Popular)",
+          "url": "https://www.youtube.com/watch?v=1Yn3ykpwT8E"
+        }
+      ]
+    },
+    {
+      "channelId": "amy-comparetto",
+      "channelName": "Amy Comparetto",
+      "playlistId": "PL7ucElDiXf1TAuLBy_SExG2oZlTQLiYdo",
+      "playlistTitle": "PreTime Kids' Songs",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1TAuLBy_SExG2oZlTQLiYdo",
+      "bookId": "pretime-piano-kids-songs",
+      "tracks": [
+        {
+          "videoId": "RlMtV-vqCD8",
+          "videoTitle": "A-Tisket A-Tasket (PreTime Piano Kids' Songs)",
+          "url": "https://www.youtube.com/watch?v=RlMtV-vqCD8"
+        },
+        {
+          "videoId": "eK6gGrO9esc",
+          "videoTitle": "The Dwarfs' Yodel Song (PreTime Piano Kids' Songs)",
+          "url": "https://www.youtube.com/watch?v=eK6gGrO9esc"
+        },
+        {
+          "videoId": "xBagc01AtoE",
+          "videoTitle": "Happy Birthday to You (PreTime Piano Kids' Songs)",
+          "url": "https://www.youtube.com/watch?v=xBagc01AtoE"
+        },
+        {
+          "videoId": "7EGD5HCcDQ8",
+          "videoTitle": "Mail Myself to You (PreTime Piano Kids' Songs)",
+          "url": "https://www.youtube.com/watch?v=7EGD5HCcDQ8"
+        },
+        {
+          "videoId": "q_vhszz2MhM",
+          "videoTitle": "Micky Mouse March (PreTime Piano Kids' Songs)",
+          "url": "https://www.youtube.com/watch?v=q_vhszz2MhM"
+        },
+        {
+          "videoId": "G0kBky8l-RE",
+          "videoTitle": "On Top of Spaghetti (PreTime Piano Kids' Songs)",
+          "url": "https://www.youtube.com/watch?v=G0kBky8l-RE"
+        },
+        {
+          "videoId": "z1Bto-zzme4",
+          "videoTitle": "B-I-N-G-O (PreTime Piano Kids' Songs)",
+          "url": "https://www.youtube.com/watch?v=z1Bto-zzme4"
+        },
+        {
+          "videoId": "eANUl-Iiym0",
+          "videoTitle": "The Train Song (PreTime Piano Kids' Songs)",
+          "url": "https://www.youtube.com/watch?v=eANUl-Iiym0"
+        },
+        {
+          "videoId": "xJ4X4APSKnk",
+          "videoTitle": "Winnie the Pooh (PreTime Piano Kids' Songs)",
+          "url": "https://www.youtube.com/watch?v=xJ4X4APSKnk"
+        }
+      ]
+    },
+    {
+      "channelId": "amy-comparetto",
+      "channelName": "Amy Comparetto",
+      "playlistId": "PL7ucElDiXf1SoBxrNsOiiAH3pGMCuh_YE",
+      "playlistTitle": "PreTime Jazz & Blues",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1SoBxrNsOiiAH3pGMCuh_YE",
+      "bookId": "pretime-piano-jazz-blues",
+      "tracks": [
+        {
+          "videoId": "cSmf8nmhgw0",
+          "videoTitle": "The King of Hearts (PreTime Piano Jazz & Blues)",
+          "url": "https://www.youtube.com/watch?v=cSmf8nmhgw0"
+        },
+        {
+          "videoId": "OBD1jT-s5ck",
+          "videoTitle": "A Fishy Story (PreTime Piano Jazz & Blues)",
+          "url": "https://www.youtube.com/watch?v=OBD1jT-s5ck"
+        },
+        {
+          "videoId": "vCHeJAJio3U",
+          "videoTitle": "Cool Breeze Waltz (PreTime Piano Jazz & Blues)",
+          "url": "https://www.youtube.com/watch?v=vCHeJAJio3U"
+        },
+        {
+          "videoId": "P8fuU2_OifA",
+          "videoTitle": "Dinosaur Stomp (PreTime Piano Jazz & Blues)",
+          "url": "https://www.youtube.com/watch?v=P8fuU2_OifA"
+        },
+        {
+          "videoId": "myDgLqOJaq8",
+          "videoTitle": "Hound Dog Blues (PreTime Piano Jazz & Blues)",
+          "url": "https://www.youtube.com/watch?v=myDgLqOJaq8"
+        },
+        {
+          "videoId": "4XOPZ9jZutc",
+          "videoTitle": "Ice Cream Blues (PreTime Piano Jazz & Blues)",
+          "url": "https://www.youtube.com/watch?v=4XOPZ9jZutc"
+        },
+        {
+          "videoId": "_RHub62EaKs",
+          "videoTitle": "Jazz Man (PreTime Piano Jazz & Blues)",
+          "url": "https://www.youtube.com/watch?v=_RHub62EaKs"
+        },
+        {
+          "videoId": "_Y8bjZqBCp8",
+          "videoTitle": "Jazz Walk (PreTime Piano Jazz & Blues)",
+          "url": "https://www.youtube.com/watch?v=_Y8bjZqBCp8"
+        },
+        {
+          "videoId": "9VBlHm8DKqQ",
+          "videoTitle": "Penguin Blues (PreTime Piano Jazz & Blues)",
+          "url": "https://www.youtube.com/watch?v=9VBlHm8DKqQ"
+        },
+        {
+          "videoId": "GOUkTj9-R20",
+          "videoTitle": "So Many Toys (PreTime Piano Jazz & Blues)",
+          "url": "https://www.youtube.com/watch?v=GOUkTj9-R20"
+        }
+      ]
+    },
+    {
+      "channelId": "amy-comparetto",
+      "channelName": "Amy Comparetto",
+      "playlistId": "PL7ucElDiXf1QEQiD0RCDZkLVQunDOVFvh",
+      "playlistTitle": "PreTime Hymns",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1QEQiD0RCDZkLVQunDOVFvh",
+      "bookId": "pretime-piano-hymns",
+      "tracks": [
+        {
+          "videoId": "xbCPh6vLV7M",
+          "videoTitle": "God is so Good (PreTime Piano Hymns)",
+          "url": "https://www.youtube.com/watch?v=xbCPh6vLV7M"
+        },
+        {
+          "videoId": "qfMLaOR_n4g",
+          "videoTitle": "The B-I-B-L-E (PreTime Piano Hymns)",
+          "url": "https://www.youtube.com/watch?v=qfMLaOR_n4g"
+        },
+        {
+          "videoId": "0itfbv8xd3I",
+          "videoTitle": "Whisper a Prayer (PreTime Piano Hymns)",
+          "url": "https://www.youtube.com/watch?v=0itfbv8xd3I"
+        },
+        {
+          "videoId": "iJ0RjfT2wwA",
+          "videoTitle": "I've Got the Joy, Joy, Joy (PreTime Piano Hymns)",
+          "url": "https://www.youtube.com/watch?v=iJ0RjfT2wwA"
+        },
+        {
+          "videoId": "ox6Af5K_e4A",
+          "videoTitle": "Oh How I Love Jesus (PreTime Piano Hymns)",
+          "url": "https://www.youtube.com/watch?v=ox6Af5K_e4A"
+        },
+        {
+          "videoId": "ajQaOt-L8iw",
+          "videoTitle": "Jesus Wants Me for a Sunbeam (PreTime Piano Hymns)",
+          "url": "https://www.youtube.com/watch?v=ajQaOt-L8iw"
+        },
+        {
+          "videoId": "IV2hf6XG2Zw",
+          "videoTitle": "Praise God, from Whom All Blessings Flow (PreTime Piano Hymns)",
+          "url": "https://www.youtube.com/watch?v=IV2hf6XG2Zw"
+        },
+        {
+          "videoId": "mINVlO6qKxM",
+          "videoTitle": "Praise Him! Praise Him! (PreTime Piano Hymns)",
+          "url": "https://www.youtube.com/watch?v=mINVlO6qKxM"
+        },
+        {
+          "videoId": "djtdltfhHfo",
+          "videoTitle": "Rejoice in the Lord Always (PreTime Piano Hymns)",
+          "url": "https://www.youtube.com/watch?v=djtdltfhHfo"
+        },
+        {
+          "videoId": "m9vDywAMRzg",
+          "videoTitle": "Deep and Wide (PreTime Piano Hymns)",
+          "url": "https://www.youtube.com/watch?v=m9vDywAMRzg"
+        }
+      ]
+    },
+    {
+      "channelId": "amy-comparetto",
+      "channelName": "Amy Comparetto",
+      "playlistId": "PL7ucElDiXf1S-Q0l8n9iBhjI34VPy9E4Y",
+      "playlistTitle": "FunTime Kids' Songs",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1S-Q0l8n9iBhjI34VPy9E4Y",
+      "bookId": "funtime-piano-kids-songs",
+      "tracks": [
+        {
+          "videoId": "X3PPbyy4i_w",
+          "videoTitle": "You've Got a Friend in Me [Toy Story] (FunTime Piano Kids' Songs)",
+          "url": "https://www.youtube.com/watch?v=X3PPbyy4i_w"
+        },
+        {
+          "videoId": "oX1p70qzP0E",
+          "videoTitle": "Yellow Submarine [The Beatles] (FunTime Piano Kids' Songs)",
+          "url": "https://www.youtube.com/watch?v=oX1p70qzP0E"
+        },
+        {
+          "videoId": "4kINkXzeCJQ",
+          "videoTitle": "Walking on Sunshine (FunTime Piano Kids' Songs)",
+          "url": "https://www.youtube.com/watch?v=4kINkXzeCJQ"
+        },
+        {
+          "videoId": "w2M11gEP5V8",
+          "videoTitle": "The Addams Family Theme (FunTime Piano Kids' Songs)",
+          "url": "https://www.youtube.com/watch?v=w2M11gEP5V8"
+        },
+        {
+          "videoId": "33KOJTO5o24",
+          "videoTitle": "Hello Muddah, Hello Fadduh! (FunTime Piano Kids' Songs)",
+          "url": "https://www.youtube.com/watch?v=33KOJTO5o24"
+        },
+        {
+          "videoId": "nBgj2iw4JgI",
+          "videoTitle": "Edelweiss [The Sound of Music] (FunTime Piano Kids' Songs)",
+          "url": "https://www.youtube.com/watch?v=nBgj2iw4JgI"
+        },
+        {
+          "videoId": "_JdIJ4m8_No",
+          "videoTitle": "Consider Yourself [Oliver] (FunTime Piano Kids' Songs)",
+          "url": "https://www.youtube.com/watch?v=_JdIJ4m8_No"
+        },
+        {
+          "videoId": "Pk5RB22rAv8",
+          "videoTitle": "Be Our Guest [Beauty and the Beast] (FunTime Piano Kids' Songs)",
+          "url": "https://www.youtube.com/watch?v=Pk5RB22rAv8"
+        },
+        {
+          "videoId": "_IaIXbq-dT0",
+          "videoTitle": "Arabian Nights [Aladdin] (FunTime Piano Kids' Songs)",
+          "url": "https://www.youtube.com/watch?v=_IaIXbq-dT0"
+        }
+      ]
+    },
+    {
+      "channelId": "amy-comparetto",
+      "channelName": "Amy Comparetto",
+      "playlistId": "PL7ucElDiXf1R1gZV7TKHFCjFtdwfZ9RGP",
+      "playlistTitle": "FunTime Ragtime & Marches",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1R1gZV7TKHFCjFtdwfZ9RGP",
+      "bookId": "funtime-piano-ragtime-marches",
+      "tracks": [
+        {
+          "videoId": "8OBCXblBqug",
+          "videoTitle": "When the Saints Go Marching In (FunTime Piano Ragtime & Marches)",
+          "url": "https://www.youtube.com/watch?v=8OBCXblBqug"
+        },
+        {
+          "videoId": "b82YwnSHVxQ",
+          "videoTitle": "The Stars and Stripes Forever (FunTime Piano Ragtime & Marches)",
+          "url": "https://www.youtube.com/watch?v=b82YwnSHVxQ"
+        },
+        {
+          "videoId": "p7uSi0l9oXM",
+          "videoTitle": "The Entertainer (FunTime Piano Ragtime & Marches)",
+          "url": "https://www.youtube.com/watch?v=p7uSi0l9oXM"
+        },
+        {
+          "videoId": "OFqpqAS2JS0",
+          "videoTitle": "The Easy Winners (FunTime Piano Ragtime & Marches)",
+          "url": "https://www.youtube.com/watch?v=OFqpqAS2JS0"
+        },
+        {
+          "videoId": "n_or3RtdNdU",
+          "videoTitle": "The Ants Came Marching (FunTime Piano Ragtime & Marches)",
+          "url": "https://www.youtube.com/watch?v=n_or3RtdNdU"
+        },
+        {
+          "videoId": "kuyvWtllikw",
+          "videoTitle": "Snowflake Rag (FunTime Piano Ragtime & Marches)",
+          "url": "https://www.youtube.com/watch?v=kuyvWtllikw"
+        },
+        {
+          "videoId": "Hwxi0aA_nFE",
+          "videoTitle": "Parade of the Tin Soldiers (FunTime Piano Ragtime & Marches)",
+          "url": "https://www.youtube.com/watch?v=Hwxi0aA_nFE"
+        },
+        {
+          "videoId": "Y3G54sQnC7A",
+          "videoTitle": "Maple Leaf Rag (FunTime Piano Ragtime & Marches)",
+          "url": "https://www.youtube.com/watch?v=Y3G54sQnC7A"
+        },
+        {
+          "videoId": "oCWP89dDh1I",
+          "videoTitle": "Glad Cat Rag (FunTime Piano Ragtime & Marches)",
+          "url": "https://www.youtube.com/watch?v=oCWP89dDh1I"
+        },
+        {
+          "videoId": "aVdCq61_Kws",
+          "videoTitle": "Dixie (FunTime Piano Ragtime & Marches)",
+          "url": "https://www.youtube.com/watch?v=aVdCq61_Kws"
+        },
+        {
+          "videoId": "qXuYKTPwQxw",
+          "videoTitle": "American Patrol (FunTime Piano Ragtime & Marches)",
+          "url": "https://www.youtube.com/watch?v=qXuYKTPwQxw"
+        }
+      ]
+    },
+    {
+      "channelId": "amy-comparetto",
+      "channelName": "Amy Comparetto",
+      "playlistId": "PL7ucElDiXf1R35l1nULY1U38Zn3em9haJ",
+      "playlistTitle": "FunTime Hymns",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1R35l1nULY1U38Zn3em9haJ",
+      "bookId": "funtime-piano-hymns",
+      "tracks": [
+        {
+          "videoId": "1Z2hAao0zxE",
+          "videoTitle": "While By the Sheep (FunTime Piano Hymns)",
+          "url": "https://www.youtube.com/watch?v=1Z2hAao0zxE"
+        },
+        {
+          "videoId": "E3vH7rBmK2Q",
+          "videoTitle": "Take My Life and Let It Be (FunTime Piano Hymns)",
+          "url": "https://www.youtube.com/watch?v=E3vH7rBmK2Q"
+        },
+        {
+          "videoId": "NW9XdW1u3zo",
+          "videoTitle": "Swing Low, Sweet Chariot (FunTime Piano Hymns)",
+          "url": "https://www.youtube.com/watch?v=NW9XdW1u3zo"
+        },
+        {
+          "videoId": "1yDPMTAoTMc",
+          "videoTitle": "Standin' in the Need of Prayer (FunTime Piano Hymns)",
+          "url": "https://www.youtube.com/watch?v=1yDPMTAoTMc"
+        },
+        {
+          "videoId": "1yYJ4Ec-Csg",
+          "videoTitle": "Savior, Like a Shepherd Lead Us (FunTime Piano Hymns)",
+          "url": "https://www.youtube.com/watch?v=1yYJ4Ec-Csg"
+        },
+        {
+          "videoId": "Wxhz0g3XDVk",
+          "videoTitle": "Rejoice, Ye Pure in Heart (FunTime Piano Hymns)",
+          "url": "https://www.youtube.com/watch?v=Wxhz0g3XDVk"
+        },
+        {
+          "videoId": "Iz9YAvBVLqI",
+          "videoTitle": "Now Thank We All Our God (FunTime Piano Hymns)",
+          "url": "https://www.youtube.com/watch?v=Iz9YAvBVLqI"
+        },
+        {
+          "videoId": "_kalPz-kcs0",
+          "videoTitle": "Joshua Fought the Battle of Jericho (FunTime Piano Hymns)",
+          "url": "https://www.youtube.com/watch?v=_kalPz-kcs0"
+        },
+        {
+          "videoId": "2zLdIY4kybY",
+          "videoTitle": "Jesus in the Morning (FunTime Piano Hymns)",
+          "url": "https://www.youtube.com/watch?v=2zLdIY4kybY"
+        },
+        {
+          "videoId": "x2nd4seQ6OA",
+          "videoTitle": "In the Cross of Christ I Glory (FunTime Piano Hymns)",
+          "url": "https://www.youtube.com/watch?v=x2nd4seQ6OA"
+        },
+        {
+          "videoId": "eJdEdHSjFoo",
+          "videoTitle": "Go Down, Moses (FunTime Piano Hymns)",
+          "url": "https://www.youtube.com/watch?v=eJdEdHSjFoo"
+        },
+        {
+          "videoId": "cIOUOGSxlu8",
+          "videoTitle": "Glory Be to the Father (FunTime Piano Hymns)",
+          "url": "https://www.youtube.com/watch?v=cIOUOGSxlu8"
+        },
+        {
+          "videoId": "9amL_Y88OZM",
+          "videoTitle": "Fairest Lord Jesus (FunTime Piano Hymns)",
+          "url": "https://www.youtube.com/watch?v=9amL_Y88OZM"
+        },
+        {
+          "videoId": "nwD_pWX99J8",
+          "videoTitle": "Every Time I Feel the Spirit (FunTime Piano Hymns)",
+          "url": "https://www.youtube.com/watch?v=nwD_pWX99J8"
+        },
+        {
+          "videoId": "kt_3ERdqASc",
+          "videoTitle": "Christ the Lord is Risen Today (FunTime Piano Hymns)",
+          "url": "https://www.youtube.com/watch?v=kt_3ERdqASc"
+        },
+        {
+          "videoId": "4yzA_Bp35f8",
+          "videoTitle": "America (FunTime Piano Hymns)",
+          "url": "https://www.youtube.com/watch?v=4yzA_Bp35f8"
+        },
+        {
+          "videoId": "JfNd56QRRKc",
+          "videoTitle": "Amen (FunTime Piano Hymns)",
+          "url": "https://www.youtube.com/watch?v=JfNd56QRRKc"
+        }
+      ]
+    },
+    {
+      "channelId": "amy-comparetto",
+      "channelName": "Amy Comparetto",
+      "playlistId": "PL7ucElDiXf1QCivPvB2SDCW6UR4Nkuc_3",
+      "playlistTitle": "FunTime Classics",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1QCivPvB2SDCW6UR4Nkuc_3",
+      "bookId": "funtime-piano-classics",
+      "tracks": [
+        {
+          "videoId": "ltnh6naX5uI",
+          "videoTitle": "Waltz [Brahms] (FunTime Piano Classics)",
+          "url": "https://www.youtube.com/watch?v=ltnh6naX5uI"
+        },
+        {
+          "videoId": "bAqZc3XBwwI",
+          "videoTitle": "Toreador's Song [Bizet] (FunTime Piano Classics)",
+          "url": "https://www.youtube.com/watch?v=bAqZc3XBwwI"
+        },
+        {
+          "videoId": "bDCYqeLTONo",
+          "videoTitle": "Theme from \"Unfinished\" Symphony [Schubert] (FunTime Piano Classics)",
+          "url": "https://www.youtube.com/watch?v=bDCYqeLTONo"
+        },
+        {
+          "videoId": "IAPvDqGKCNc",
+          "videoTitle": "Theme from Scheherazade [Rimsky-Korsakov] (FunTime Piano Classics)",
+          "url": "https://www.youtube.com/watch?v=IAPvDqGKCNc"
+        },
+        {
+          "videoId": "zLJOZGu2cAM",
+          "videoTitle": "Theme from Peter and the Wolf [Prokofiev] (FunTime Piano Classics)",
+          "url": "https://www.youtube.com/watch?v=zLJOZGu2cAM"
+        },
+        {
+          "videoId": "tPHPQKPy7D4",
+          "videoTitle": "Pomp and Circumstance [Elgar] (FunTime Piano Classics)",
+          "url": "https://www.youtube.com/watch?v=tPHPQKPy7D4"
+        },
+        {
+          "videoId": "WacJK9j2xPo",
+          "videoTitle": "Overture to The Barber of Seville [Rossini] (FunTime Piano Classics)",
+          "url": "https://www.youtube.com/watch?v=WacJK9j2xPo"
+        },
+        {
+          "videoId": "ZrdE5WoVfSg",
+          "videoTitle": "Musetta's Song [Puccini] (FunTime Piano Classics)",
+          "url": "https://www.youtube.com/watch?v=ZrdE5WoVfSg"
+        },
+        {
+          "videoId": "aqWFsPceZvI",
+          "videoTitle": "Light Cavalry Overture [Suppe] (FunTime Piano Classics)",
+          "url": "https://www.youtube.com/watch?v=aqWFsPceZvI"
+        },
+        {
+          "videoId": "82IbpJlZbRw",
+          "videoTitle": "In the Hall of the Mountain King [Grieg] (FunTime Piano Classics)",
+          "url": "https://www.youtube.com/watch?v=82IbpJlZbRw"
+        },
+        {
+          "videoId": "jO6r5hLA72E",
+          "videoTitle": "Eine Kleine Nachtmusik [Mozart] (FunTime Piano Classics)",
+          "url": "https://www.youtube.com/watch?v=jO6r5hLA72E"
+        },
+        {
+          "videoId": "bVBjEUnhZLE",
+          "videoTitle": "Dance of the Sugar Plum Fairy [Tchaikovsky] (FunTime Piano Classics)",
+          "url": "https://www.youtube.com/watch?v=bVBjEUnhZLE"
+        },
+        {
+          "videoId": "jgG-LcjjlxE",
+          "videoTitle": "Blue Danube Waltz [Strauss] (FunTime Piano Classics)",
+          "url": "https://www.youtube.com/watch?v=jgG-LcjjlxE"
+        }
+      ]
+    },
+    {
+      "channelId": "amy-comparetto",
+      "channelName": "Amy Comparetto",
+      "playlistId": "PL7ucElDiXf1TFZ3cEBAtTubL4eMmZ-ei0",
+      "playlistTitle": "FunTime Popular",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1TFZ3cEBAtTubL4eMmZ-ei0",
+      "bookId": "funtime-piano-popular",
+      "tracks": [
+        {
+          "videoId": "zBqpYnsBtYA",
+          "videoTitle": "The Phantom of the Opera (FunTime Piano Popular)",
+          "url": "https://www.youtube.com/watch?v=zBqpYnsBtYA"
+        },
+        {
+          "videoId": "mSr6Siiyjic",
+          "videoTitle": "The Lion Sleeps Tonight (FunTime Piano Popular)",
+          "url": "https://www.youtube.com/watch?v=mSr6Siiyjic"
+        },
+        {
+          "videoId": "1yQKqYI4xNg",
+          "videoTitle": "Star Wars Main Theme (FunTime Piano Popular)",
+          "url": "https://www.youtube.com/watch?v=1yQKqYI4xNg"
+        },
+        {
+          "videoId": "pCgebKPM1ow",
+          "videoTitle": "Pachelbel Canon (FunTime Piano Popular)",
+          "url": "https://www.youtube.com/watch?v=pCgebKPM1ow"
+        },
+        {
+          "videoId": "q1TMvhuwYyQ",
+          "videoTitle": "Music Box Dancer (FunTime Piano Popular)",
+          "url": "https://www.youtube.com/watch?v=q1TMvhuwYyQ"
+        },
+        {
+          "videoId": "zL1svoXoMzw",
+          "videoTitle": "Moonlight Sonata [Beethoven] (FunTime Piano Popular)",
+          "url": "https://www.youtube.com/watch?v=zL1svoXoMzw"
+        },
+        {
+          "videoId": "Dy7KhkEm3Vo",
+          "videoTitle": "La Bamba (FunTime Piano Popular)",
+          "url": "https://www.youtube.com/watch?v=Dy7KhkEm3Vo"
+        },
+        {
+          "videoId": "rLqHwgzqAns",
+          "videoTitle": "I Saw Her Standing There [The Beatles] (FunTime Piano Popular)",
+          "url": "https://www.youtube.com/watch?v=rLqHwgzqAns"
+        },
+        {
+          "videoId": "ZMS-MW3yDsc",
+          "videoTitle": "He's a Pirate! [Pirates of the Caribbean] (FunTime Piano Popular)",
+          "url": "https://www.youtube.com/watch?v=ZMS-MW3yDsc"
+        },
+        {
+          "videoId": "JAMaQrXcXt8",
+          "videoTitle": "Eleanor Rigby [The Beatles] (FunTime Piano Popular)",
+          "url": "https://www.youtube.com/watch?v=JAMaQrXcXt8"
+        },
+        {
+          "videoId": "59lK1V1GpnI",
+          "videoTitle": "Colors of the Wind [Pocahontas] (FunTime Piano Popular)",
+          "url": "https://www.youtube.com/watch?v=59lK1V1GpnI"
+        },
+        {
+          "videoId": "9p2FQZJapug",
+          "videoTitle": "A Whole New World [Aladdin] (FunTime Piano Popular)",
+          "url": "https://www.youtube.com/watch?v=9p2FQZJapug"
+        }
+      ]
+    },
+    {
+      "channelId": "amy-comparetto",
+      "channelName": "Amy Comparetto",
+      "playlistId": "PL7ucElDiXf1SGgmG4kKBPHIYnreUF8Kst",
+      "playlistTitle": "FunTime Favorites",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1SGgmG4kKBPHIYnreUF8Kst",
+      "bookId": "funtime-piano-favorites",
+      "tracks": [
+        {
+          "videoId": "uMljC24Frk0",
+          "videoTitle": "Two Guitars (FunTime Piano Favorites)",
+          "url": "https://www.youtube.com/watch?v=uMljC24Frk0"
+        },
+        {
+          "videoId": "UPRC-ptvGtA",
+          "videoTitle": "The Skaters' Waltz (FunTime Piano Favorites)",
+          "url": "https://www.youtube.com/watch?v=UPRC-ptvGtA"
+        },
+        {
+          "videoId": "mfciR15oZM4",
+          "videoTitle": "The Arkansas Traveler (FunTime Piano Favorites)",
+          "url": "https://www.youtube.com/watch?v=mfciR15oZM4"
+        },
+        {
+          "videoId": "eOdYN8zculo",
+          "videoTitle": "Song of the Volga Boatmen (FunTime Piano Favorites)",
+          "url": "https://www.youtube.com/watch?v=eOdYN8zculo"
+        },
+        {
+          "videoId": "AlIb_lsFT4Q",
+          "videoTitle": "Scarborough Fair (FunTime Piano Favorites)",
+          "url": "https://www.youtube.com/watch?v=AlIb_lsFT4Q"
+        },
+        {
+          "videoId": "gQNPUSLIzAU",
+          "videoTitle": "I've Been Working on the Railroad (FunTime Piano Favorites)",
+          "url": "https://www.youtube.com/watch?v=gQNPUSLIzAU"
+        },
+        {
+          "videoId": "_USdc9MQDpQ",
+          "videoTitle": "Hello, My Baby (FunTime Piano Favorites)",
+          "url": "https://www.youtube.com/watch?v=_USdc9MQDpQ"
+        },
+        {
+          "videoId": "zTIQcGLjKGw",
+          "videoTitle": "Greensleeves (FunTime Piano Favorites)",
+          "url": "https://www.youtube.com/watch?v=zTIQcGLjKGw"
+        },
+        {
+          "videoId": "Uaq_1yVyWog",
+          "videoTitle": "Give My Regards to Broadway (FunTime Piano Favorites)",
+          "url": "https://www.youtube.com/watch?v=Uaq_1yVyWog"
+        },
+        {
+          "videoId": "_kHDhQBMXAc",
+          "videoTitle": "Glow Worm (FunTime Piano Favorites)",
+          "url": "https://www.youtube.com/watch?v=_kHDhQBMXAc"
+        },
+        {
+          "videoId": "KsXeb329sRo",
+          "videoTitle": "Chopsticks (FunTime Piano Favorites)",
+          "url": "https://www.youtube.com/watch?v=KsXeb329sRo"
+        }
+      ]
+    },
+    {
+      "channelId": "amy-comparetto",
+      "channelName": "Amy Comparetto",
+      "playlistId": "PL7ucElDiXf1RBf_dbeKIA7mRdUytBvPw2",
+      "playlistTitle": "FunTime Hits",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1RBf_dbeKIA7mRdUytBvPw2",
+      "bookId": "funtime-piano-hits",
+      "tracks": [
+        {
+          "videoId": "9azyZ8x5IMQ",
+          "videoTitle": "Treat You Better [Shawn Mendes] (FunTime Piano Hits)",
+          "url": "https://www.youtube.com/watch?v=9azyZ8x5IMQ"
+        },
+        {
+          "videoId": "wh5UlBFuEIQ",
+          "videoTitle": "Roar [Katy Perry] (FunTime Piano Hits)",
+          "url": "https://www.youtube.com/watch?v=wh5UlBFuEIQ"
+        },
+        {
+          "videoId": "gC4EPW8ldM8",
+          "videoTitle": "Radioactive [Imagine Dragons] (FunTime Piano Hits)",
+          "url": "https://www.youtube.com/watch?v=gC4EPW8ldM8"
+        },
+        {
+          "videoId": "RElUVlKwQM4",
+          "videoTitle": "Photograph [Ed Sheeran] (FunTime Piano Hits)",
+          "url": "https://www.youtube.com/watch?v=RElUVlKwQM4"
+        },
+        {
+          "videoId": "P_XEmJsDssg",
+          "videoTitle": "Million Reasons [Lady Gaga] (FunTime Piano Hits)",
+          "url": "https://www.youtube.com/watch?v=P_XEmJsDssg"
+        },
+        {
+          "videoId": "Fky1lrB2T5g",
+          "videoTitle": "Love Yourself [Justin Bieber] (FunTime Piano Hits)",
+          "url": "https://www.youtube.com/watch?v=Fky1lrB2T5g"
+        },
+        {
+          "videoId": "nDSEHT4aL-c",
+          "videoTitle": "Lost Boy [Ruth B] (FunTime Piano Hits)",
+          "url": "https://www.youtube.com/watch?v=nDSEHT4aL-c"
+        },
+        {
+          "videoId": "a0mbRLXfxxA",
+          "videoTitle": "Fight Song [Rachel Platten] (FunTime Piano Hits)",
+          "url": "https://www.youtube.com/watch?v=a0mbRLXfxxA"
+        },
+        {
+          "videoId": "fVAYfKtaNuM",
+          "videoTitle": "Feel It Still [Portugal. The Man] (FunTime Piano Hits)",
+          "url": "https://www.youtube.com/watch?v=fVAYfKtaNuM"
+        },
+        {
+          "videoId": "5hbx_rXShwQ",
+          "videoTitle": "Can't Stop the Feeling [Justin Timberlake] (FunTime Piano Hits)",
+          "url": "https://www.youtube.com/watch?v=5hbx_rXShwQ"
+        },
+        {
+          "videoId": "lDOLQq8TKmo",
+          "videoTitle": "A Thousand Years [Christina Perri] (FunTime Piano Hits)",
+          "url": "https://www.youtube.com/watch?v=lDOLQq8TKmo"
+        }
+      ]
+    },
+    {
+      "channelId": "amy-comparetto",
+      "channelName": "Amy Comparetto",
+      "playlistId": "PL7ucElDiXf1Rps-UQiQU9syMZZP2c1j22",
+      "playlistTitle": "FunTime Disney",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1Rps-UQiQU9syMZZP2c1j22",
+      "bookId": "funtime-piano-disney",
+      "tracks": [
+        {
+          "videoId": "f2qUskjy9LE",
+          "videoTitle": "Be Our Guest [Beauty and the Beast] (FunTime Piano Disney)",
+          "url": "https://www.youtube.com/watch?v=f2qUskjy9LE"
+        },
+        {
+          "videoId": "F8MMB1k2UQ4",
+          "videoTitle": "Colors of the Wind [Pocahontas] (FunTime Piano Disney)",
+          "url": "https://www.youtube.com/watch?v=F8MMB1k2UQ4"
+        },
+        {
+          "videoId": "vBH0XBImuM4",
+          "videoTitle": "Cruella De Vil [101 Dalmatians] (FunTime Piano Disney)",
+          "url": "https://www.youtube.com/watch?v=vBH0XBImuM4"
+        },
+        {
+          "videoId": "gjaJCqRZ2A0",
+          "videoTitle": "Do You Want to Build a Snowman [Frozen] (FunTime Piano Disney)",
+          "url": "https://www.youtube.com/watch?v=gjaJCqRZ2A0"
+        },
+        {
+          "videoId": "lD-hbYcu8KA",
+          "videoTitle": "Ev'rybody Wants to Be a Cat [Aristocats] (FunTime Piano Disney)",
+          "url": "https://www.youtube.com/watch?v=lD-hbYcu8KA"
+        },
+        {
+          "videoId": "BUM4yNwWz-k",
+          "videoTitle": "Go the Distance [Hercules] (FunTime Piano Disney)",
+          "url": "https://www.youtube.com/watch?v=BUM4yNwWz-k"
+        },
+        {
+          "videoId": "Zla5E7998I0",
+          "videoTitle": "God Bless Us, Everyone [A Christmas Carol] (FunTime Piano Disney)",
+          "url": "https://www.youtube.com/watch?v=Zla5E7998I0"
+        },
+        {
+          "videoId": "v3EHA_ibfOA",
+          "videoTitle": "Remember Me [Coco] (FunTime Piano Disney)",
+          "url": "https://www.youtube.com/watch?v=v3EHA_ibfOA"
+        },
+        {
+          "videoId": "hlGGsAbuRHM",
+          "videoTitle": "Under the Sea [The Little Mermaid] (FunTime Piano Disney)",
+          "url": "https://www.youtube.com/watch?v=hlGGsAbuRHM"
+        },
+        {
+          "videoId": "SFwGnqXLxHw",
+          "videoTitle": "Zero to Hero [Hercules] (FunTime Piano Disney)",
+          "url": "https://www.youtube.com/watch?v=SFwGnqXLxHw"
+        },
+        {
+          "videoId": "dEANbUJlG_s",
+          "videoTitle": "When She Loved Me [Toy Story 2] (FunTime Piano Disney)",
+          "url": "https://www.youtube.com/watch?v=dEANbUJlG_s"
+        }
+      ]
+    },
+    {
+      "channelId": "amy-comparetto",
+      "channelName": "Amy Comparetto",
+      "playlistId": "PL7ucElDiXf1Roa0Ovl35kricWyQ8hZW3d",
+      "playlistTitle": "FunTime Rock 'n' Roll",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1Roa0Ovl35kricWyQ8hZW3d",
+      "bookId": "funtime-piano-rock-n-roll",
+      "tracks": [
+        {
+          "videoId": "6cM6J-MefDM",
+          "videoTitle": "The Last Night of Summer [The Garden District] (FunTime Piano Rock 'n' Roll)",
+          "url": "https://www.youtube.com/watch?v=6cM6J-MefDM"
+        },
+        {
+          "videoId": "I87gILyf_nI",
+          "videoTitle": "Stand By Me [Ben E. King] (FunTime Piano Rock 'n' Roll)",
+          "url": "https://www.youtube.com/watch?v=I87gILyf_nI"
+        },
+        {
+          "videoId": "lodelUn1u-s",
+          "videoTitle": "Runaround Sue [Dion DiMucci] (FunTime Piano Rock 'n' Roll)",
+          "url": "https://www.youtube.com/watch?v=lodelUn1u-s"
+        },
+        {
+          "videoId": "fqbJeOAeljc",
+          "videoTitle": "Rockin' Robin [Michael Jackson] (FunTime Piano Rock 'n' Roll)",
+          "url": "https://www.youtube.com/watch?v=fqbJeOAeljc"
+        },
+        {
+          "videoId": "C_1aoAK-rNE",
+          "videoTitle": "Rockin' Pneumonia and the Boogie Woogie Flu (FunTime Piano Rock 'n' Roll)",
+          "url": "https://www.youtube.com/watch?v=C_1aoAK-rNE"
+        },
+        {
+          "videoId": "UYg0A3QEiTM",
+          "videoTitle": "Mumbo Jumbo (FunTime Piano Rock 'n' Roll)",
+          "url": "https://www.youtube.com/watch?v=UYg0A3QEiTM"
+        },
+        {
+          "videoId": "Gd6AtoCvSOw",
+          "videoTitle": "Howl at the Moon (FunTime Piano Rock 'n' Roll)",
+          "url": "https://www.youtube.com/watch?v=Gd6AtoCvSOw"
+        },
+        {
+          "videoId": "Bt7WXkEvUT8",
+          "videoTitle": "Hound Dog [Elvis] (FunTime Piano Rock 'n' Roll)",
+          "url": "https://www.youtube.com/watch?v=Bt7WXkEvUT8"
+        },
+        {
+          "videoId": "B0Bb28T58NM",
+          "videoTitle": "Hey Jude [The Beatles] (FunTime Piano Rock 'n' Roll)",
+          "url": "https://www.youtube.com/watch?v=B0Bb28T58NM"
+        },
+        {
+          "videoId": "DPwvkOTvbvE",
+          "videoTitle": "Come Go With Me [The Del-Vikings] (FunTime Piano Rock 'n' Roll)",
+          "url": "https://www.youtube.com/watch?v=DPwvkOTvbvE"
+        },
+        {
+          "videoId": "DR0Fu4oreYk",
+          "videoTitle": "Bye Bye, Love [The Everly Brothers] (FunTime Piano Rock 'n' Roll)",
+          "url": "https://www.youtube.com/watch?v=DR0Fu4oreYk"
+        },
+        {
+          "videoId": "BF0slYtdcgU",
+          "videoTitle": "All I Have to Do is Dream [The Everly Brothers] (FunTime Piano Rock 'n' Roll)",
+          "url": "https://www.youtube.com/watch?v=BF0slYtdcgU"
+        }
+      ]
+    },
+    {
+      "channelId": "amy-comparetto",
+      "channelName": "Amy Comparetto",
+      "playlistId": "PL7ucElDiXf1QQh25-taZyqzgPqtyKUfTr",
+      "playlistTitle": "FunTime Jazz & Blues",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1QQh25-taZyqzgPqtyKUfTr",
+      "bookId": "funtime-piano-jazz-blues",
+      "tracks": [
+        {
+          "videoId": "KGin4rRPG4w",
+          "videoTitle": "This Masquerade (FunTime Piano Jazz & Blues)",
+          "url": "https://www.youtube.com/watch?v=KGin4rRPG4w"
+        },
+        {
+          "videoId": "YJpocWbqqI0",
+          "videoTitle": "Tuxedo Junction (FunTime Piano Jazz & Blues)",
+          "url": "https://www.youtube.com/watch?v=YJpocWbqqI0"
+        },
+        {
+          "videoId": "ZMbbO3oN28A",
+          "videoTitle": "The St. James Infirmary (FunTime Piano Jazz & Blues)",
+          "url": "https://www.youtube.com/watch?v=ZMbbO3oN28A"
+        },
+        {
+          "videoId": "5OzXh-5F_KY",
+          "videoTitle": "The Piano Playin' Chocolate Eater's Blues (FunTime Piano Jazz & Blues)",
+          "url": "https://www.youtube.com/watch?v=5OzXh-5F_KY"
+        },
+        {
+          "videoId": "dJPgfMw7KDU",
+          "videoTitle": "Royal Cat Blues (FunTime Piano Jazz & Blues)",
+          "url": "https://www.youtube.com/watch?v=dJPgfMw7KDU"
+        },
+        {
+          "videoId": "YY0ctWMRQIs",
+          "videoTitle": "Misty (FunTime Piano Jazz & Blues)",
+          "url": "https://www.youtube.com/watch?v=YY0ctWMRQIs"
+        },
+        {
+          "videoId": "h2kI67VD8LU",
+          "videoTitle": "Love Potion No. 9 (FunTime Piano Jazz & Blues)",
+          "url": "https://www.youtube.com/watch?v=h2kI67VD8LU"
+        },
+        {
+          "videoId": "c7wmUBx1G80",
+          "videoTitle": "In the Mood (FunTime Piano Jazz & Blues)",
+          "url": "https://www.youtube.com/watch?v=c7wmUBx1G80"
+        },
+        {
+          "videoId": "-rZil4I_WaY",
+          "videoTitle": "House of the Rising Sun (FunTime Piano Jazz & Blues)",
+          "url": "https://www.youtube.com/watch?v=-rZil4I_WaY"
+        },
+        {
+          "videoId": "oKdUMDTTJKY",
+          "videoTitle": "Frankie and Johnny (FunTime Piano Jazz & Blues)",
+          "url": "https://www.youtube.com/watch?v=oKdUMDTTJKY"
+        },
+        {
+          "videoId": "kynko9bfkAc",
+          "videoTitle": "Dallas Blues (FunTime Piano Jazz & Blues)",
+          "url": "https://www.youtube.com/watch?v=kynko9bfkAc"
+        },
+        {
+          "videoId": "bWdOlAGubUo",
+          "videoTitle": "Come On, Summer (FunTime Piano Jazz & Blues)",
+          "url": "https://www.youtube.com/watch?v=bWdOlAGubUo"
+        }
+      ]
+    },
+    {
+      "channelId": "amy-comparetto",
+      "channelName": "Amy Comparetto",
+      "playlistId": "PL7ucElDiXf1STNnCdtgBij-rineK9U3fB",
+      "playlistTitle": "FunTime Christmas",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1STNnCdtgBij-rineK9U3fB",
+      "bookId": "funtime-piano-christmas",
+      "tracks": [
+        {
+          "videoId": "FMweJJXRgzY",
+          "videoTitle": "Jingle Bells",
+          "url": "https://www.youtube.com/watch?v=FMweJJXRgzY"
+        },
+        {
+          "videoId": "KdDMlbDnABk",
+          "videoTitle": "Silent Night",
+          "url": "https://www.youtube.com/watch?v=KdDMlbDnABk"
+        },
+        {
+          "videoId": "tzpTtHfG71c",
+          "videoTitle": "Deck the Halls",
+          "url": "https://www.youtube.com/watch?v=tzpTtHfG71c"
+        },
+        {
+          "videoId": "A4jKRmgx0Uo",
+          "videoTitle": "God Rest Ye Merry, Gentlemen",
+          "url": "https://www.youtube.com/watch?v=A4jKRmgx0Uo"
+        },
+        {
+          "videoId": "bih73FAxAwE",
+          "videoTitle": "Rudolph the Red-Nosed Reindeer",
+          "url": "https://www.youtube.com/watch?v=bih73FAxAwE"
+        },
+        {
+          "videoId": "aEwabPqNWrI",
+          "videoTitle": "Rockin' Around the Christmas Tree",
+          "url": "https://www.youtube.com/watch?v=aEwabPqNWrI"
+        },
+        {
+          "videoId": "sykffLQkqms",
+          "videoTitle": "O Little Town of Bethlehem",
+          "url": "https://www.youtube.com/watch?v=sykffLQkqms"
+        },
+        {
+          "videoId": "mkd5Gr82WI0",
+          "videoTitle": "The Night Before Christmas",
+          "url": "https://www.youtube.com/watch?v=mkd5Gr82WI0"
+        },
+        {
+          "videoId": "ElCTUHp6-_c",
+          "videoTitle": "Carol of the Bells",
+          "url": "https://www.youtube.com/watch?v=ElCTUHp6-_c"
+        },
+        {
+          "videoId": "jBQ1rrwsd3M",
+          "videoTitle": "Angels We Have Heard on High",
+          "url": "https://www.youtube.com/watch?v=jBQ1rrwsd3M"
+        },
+        {
+          "videoId": "Pdu7hbpTauE",
+          "videoTitle": "O Come, All Ye Faithful",
+          "url": "https://www.youtube.com/watch?v=Pdu7hbpTauE"
+        },
+        {
+          "videoId": "LlVSQ5OFvuY",
+          "videoTitle": "I Heard the Bells on Christmas Day",
+          "url": "https://www.youtube.com/watch?v=LlVSQ5OFvuY"
+        },
+        {
+          "videoId": "DiXXmMde-BU",
+          "videoTitle": "Let It Snow!",
+          "url": "https://www.youtube.com/watch?v=DiXXmMde-BU"
+        },
+        {
+          "videoId": "Qrtmx7FvHjs",
+          "videoTitle": "The Most Wonderful Day of the Year",
+          "url": "https://www.youtube.com/watch?v=Qrtmx7FvHjs"
+        },
+        {
+          "videoId": "TR3TwvRnyK0",
+          "videoTitle": "We Wish You a Merry Christmas",
+          "url": "https://www.youtube.com/watch?v=TR3TwvRnyK0"
+        }
+      ]
+    },
+    {
+      "channelId": "amy-comparetto",
+      "channelName": "Amy Comparetto",
+      "playlistId": "PL7ucElDiXf1Q5RkzVNoHYgUU2OCeYLUdy",
+      "playlistTitle": "ChordTime chordtime+classics",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1Q5RkzVNoHYgUU2OCeYLUdy",
+      "bookId": "chordtime-piano-classics",
+      "tracks": [
+        {
+          "videoId": "cSifjTR1omw",
+          "videoTitle": "William Tell Overture [Rossini] (ChordTime Piano Classics)",
+          "url": "https://www.youtube.com/watch?v=cSifjTR1omw"
+        },
+        {
+          "videoId": "a7eOblTx0S0",
+          "videoTitle": "Trumpet Concerto in E flat [Haydn] (ChordTime Piano Classics)",
+          "url": "https://www.youtube.com/watch?v=a7eOblTx0S0"
+        },
+        {
+          "videoId": "5V_BdnHNkno",
+          "videoTitle": "Trepak [from Tchaikovsky's The Nutcracker] (ChordTime Piano Classics)",
+          "url": "https://www.youtube.com/watch?v=5V_BdnHNkno"
+        },
+        {
+          "videoId": "FGwg0qvypvM",
+          "videoTitle": "The Little Man in the Woods [Humperdinck] (ChordTime Piano Classics)",
+          "url": "https://www.youtube.com/watch?v=FGwg0qvypvM"
+        },
+        {
+          "videoId": "RgMqLxDcTxs",
+          "videoTitle": "Roses from the South [Johann Strauss, Jr.] (ChordTime Piano Classics)",
+          "url": "https://www.youtube.com/watch?v=RgMqLxDcTxs"
+        },
+        {
+          "videoId": "r2hX8c-wipU",
+          "videoTitle": "Rage Over the Lost Penny [Ludwig van Beethoven] (ChordTime Piano Classics)",
+          "url": "https://www.youtube.com/watch?v=r2hX8c-wipU"
+        },
+        {
+          "videoId": "5vnoOCxTU90",
+          "videoTitle": "Polovetzian Dance No. 17 [Borodin] (ChordTime Piano Classics)",
+          "url": "https://www.youtube.com/watch?v=5vnoOCxTU90"
+        },
+        {
+          "videoId": "221Ec3wevFs",
+          "videoTitle": "Pizzicato Polka [Strauss] (ChordTime Piano Classics)",
+          "url": "https://www.youtube.com/watch?v=221Ec3wevFs"
+        },
+        {
+          "videoId": "_ltPaDIbs6g",
+          "videoTitle": "March Militaire [Schubert] (ChordTime Piano Classics)",
+          "url": "https://www.youtube.com/watch?v=_ltPaDIbs6g"
+        },
+        {
+          "videoId": "HYlAPkwy2ps",
+          "videoTitle": "Laughing Song [14] (ChordTime Piano Classics)",
+          "url": "https://www.youtube.com/watch?v=HYlAPkwy2ps"
+        },
+        {
+          "videoId": "FLQFTzZwxi4",
+          "videoTitle": "Largo [from Dvorak's New World Symphony] (ChordTime Piano Classics)",
+          "url": "https://www.youtube.com/watch?v=FLQFTzZwxi4"
+        },
+        {
+          "videoId": "RFkcdzlbK8c",
+          "videoTitle": "La Donna e Mobile [from Verdi's Rigoletto] (ChordTime Piano Classics)",
+          "url": "https://www.youtube.com/watch?v=RFkcdzlbK8c"
+        },
+        {
+          "videoId": "EVvSnW_oUpU",
+          "videoTitle": "Aria [from Bach's Peasant Cantata] (ChordTime Piano Classics)",
+          "url": "https://www.youtube.com/watch?v=EVvSnW_oUpU"
+        },
+        {
+          "videoId": "dgOvqsWtBug",
+          "videoTitle": "\"Surprise\" Symphony [Haydn] (ChordTime Piano Classics)",
+          "url": "https://www.youtube.com/watch?v=dgOvqsWtBug"
+        }
+      ]
+    },
+    {
+      "channelId": "amy-comparetto",
+      "channelName": "Amy Comparetto",
+      "playlistId": "PL7ucElDiXf1QykCg7fdr_nwzvwzCtbvpZ",
+      "playlistTitle": "ChordTime chordtime+disney",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1QykCg7fdr_nwzvwzCtbvpZ",
+      "bookId": "chordtime-piano-disney",
+      "tracks": [
+        {
+          "videoId": "Bwd9d0-WFAY",
+          "videoTitle": "Be Our Guest [Beauty and the Beast] (ChordTime Piano Disney)",
+          "url": "https://www.youtube.com/watch?v=Bwd9d0-WFAY"
+        },
+        {
+          "videoId": "Hsr9XoB5124",
+          "videoTitle": "Bella Notte [Lady and the Tramp] (ChordTime Piano Disney)",
+          "url": "https://www.youtube.com/watch?v=Hsr9XoB5124"
+        },
+        {
+          "videoId": "0GZL-AU6hcg",
+          "videoTitle": "Belle [Beauty and the Beast] (ChordTime Piano Disney)",
+          "url": "https://www.youtube.com/watch?v=0GZL-AU6hcg"
+        },
+        {
+          "videoId": "rpwCRXCBrWU",
+          "videoTitle": "Circle of Life [The Lion King] (ChordTime Piano Disney)",
+          "url": "https://www.youtube.com/watch?v=rpwCRXCBrWU"
+        },
+        {
+          "videoId": "yY9uGiDyRyA",
+          "videoTitle": "Fathoms Below [The Little Mermaid] (ChordTime Piano Disney)",
+          "url": "https://www.youtube.com/watch?v=yY9uGiDyRyA"
+        },
+        {
+          "videoId": "NIiwoC8va4s",
+          "videoTitle": "I Just Can't Wait to Be King [The Lion King] (ChordTime Piano Disney)",
+          "url": "https://www.youtube.com/watch?v=NIiwoC8va4s"
+        },
+        {
+          "videoId": "N73cF2-OIxY",
+          "videoTitle": "How Far I'll Go [Moana] (ChordTime Piano Disney)",
+          "url": "https://www.youtube.com/watch?v=N73cF2-OIxY"
+        },
+        {
+          "videoId": "T8x6S6jbHts",
+          "videoTitle": "I've Got a Dream [Tangled] (ChordTime Piano Disney)",
+          "url": "https://www.youtube.com/watch?v=T8x6S6jbHts"
+        },
+        {
+          "videoId": "N_4tBdLg0s0",
+          "videoTitle": "Supercalifragilisticexpialidocious [Mary Poppins] (ChordTime Piano Disney)",
+          "url": "https://www.youtube.com/watch?v=N_4tBdLg0s0"
+        },
+        {
+          "videoId": "sKwYqbwXL9I",
+          "videoTitle": "The Bare Necessities [The Jungle Book] (ChordTime Piano Disney)",
+          "url": "https://www.youtube.com/watch?v=sKwYqbwXL9I"
+        }
+      ]
+    },
+    {
+      "channelId": "amy-comparetto",
+      "channelName": "Amy Comparetto",
+      "playlistId": "PL7ucElDiXf1SSZmXAPYzYCwioQVjTeTLz",
+      "playlistTitle": "ChordTime chordtime+favorites",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1SSZmXAPYzYCwioQVjTeTLz",
+      "bookId": "chordtime-piano-favorites",
+      "tracks": [
+        {
+          "videoId": "ZwcbTHWvl_I",
+          "videoTitle": "Where Has My Little Dog Gone? (ChordTime Piano Favorites)",
+          "url": "https://www.youtube.com/watch?v=ZwcbTHWvl_I"
+        },
+        {
+          "videoId": "kr9toQlvHoc",
+          "videoTitle": "The Mexican Clapping Song (ChordTime Piano Favorites)",
+          "url": "https://www.youtube.com/watch?v=kr9toQlvHoc"
+        },
+        {
+          "videoId": "8pffZqNGl2c",
+          "videoTitle": "Turkey in the Straw (ChordTime Piano Favorites)",
+          "url": "https://www.youtube.com/watch?v=8pffZqNGl2c"
+        },
+        {
+          "videoId": "MyQvwUkIBmw",
+          "videoTitle": "Three Blind Mice (ChordTime Piano Favorites)",
+          "url": "https://www.youtube.com/watch?v=MyQvwUkIBmw"
+        },
+        {
+          "videoId": "DzxQp-g-BQE",
+          "videoTitle": "The Great Meat Pie (ChordTime Piano Favorites)",
+          "url": "https://www.youtube.com/watch?v=DzxQp-g-BQE"
+        },
+        {
+          "videoId": "VEtUL3EHO18",
+          "videoTitle": "The Duke of York (ChordTime Piano Favorites)",
+          "url": "https://www.youtube.com/watch?v=VEtUL3EHO18"
+        },
+        {
+          "videoId": "Ejox6xectwk",
+          "videoTitle": "Skip to My Lou (ChordTime Piano Favorites)",
+          "url": "https://www.youtube.com/watch?v=Ejox6xectwk"
+        },
+        {
+          "videoId": "V1flmwSGIaI",
+          "videoTitle": "Rise and Shine (ChordTime Piano Favorites)",
+          "url": "https://www.youtube.com/watch?v=V1flmwSGIaI"
+        },
+        {
+          "videoId": "RwZrpX5kUCA",
+          "videoTitle": "Long, Long Ago (ChordTime Piano Favorites)",
+          "url": "https://www.youtube.com/watch?v=RwZrpX5kUCA"
+        },
+        {
+          "videoId": "A0k2oP3SdBg",
+          "videoTitle": "Hot Cross Buns (ChordTime Piano Favorites)",
+          "url": "https://www.youtube.com/watch?v=A0k2oP3SdBg"
+        },
+        {
+          "videoId": "PoKQ3_W1MkY",
+          "videoTitle": "Everybody Loves Saturday Night (ChordTime Piano Favorites)",
+          "url": "https://www.youtube.com/watch?v=PoKQ3_W1MkY"
+        },
+        {
+          "videoId": "ZQzkVeOwts4",
+          "videoTitle": "Down By the Riverside (ChordTime Piano Favorites)",
+          "url": "https://www.youtube.com/watch?v=ZQzkVeOwts4"
+        },
+        {
+          "videoId": "mLxmOIvNofA",
+          "videoTitle": "Auld Lang Syne (ChordTime Piano Favorites)",
+          "url": "https://www.youtube.com/watch?v=mLxmOIvNofA"
+        },
+        {
+          "videoId": "0VFoJ0cRcV4",
+          "videoTitle": "America (ChordTime Piano Favorites)",
+          "url": "https://www.youtube.com/watch?v=0VFoJ0cRcV4"
+        }
+      ]
+    },
+    {
+      "channelId": "amy-comparetto",
+      "channelName": "Amy Comparetto",
+      "playlistId": "PL7ucElDiXf1TQMiatMBCDrRC5oxJSuJBG",
+      "playlistTitle": "ChordTime chordtime+hits",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1TQMiatMBCDrRC5oxJSuJBG",
+      "bookId": "chordtime-piano-hits",
+      "tracks": [
+        {
+          "videoId": "5yooj4As7Pc",
+          "videoTitle": "Try Everything [Zootopia] (ChordTime Piano Hits)",
+          "url": "https://www.youtube.com/watch?v=5yooj4As7Pc"
+        },
+        {
+          "videoId": "3dcdcMkZqMM",
+          "videoTitle": "Thunder [Imagine Dragons] (ChordTime Piano Hits)",
+          "url": "https://www.youtube.com/watch?v=3dcdcMkZqMM"
+        },
+        {
+          "videoId": "6FbSClpxNVU",
+          "videoTitle": "This is Me [The Greatest Showman] (ChordTime Piano Hits)",
+          "url": "https://www.youtube.com/watch?v=6FbSClpxNVU"
+        },
+        {
+          "videoId": "Zr3FnGw17Iw",
+          "videoTitle": "The Middle [Zedd, Maren Morris, Grey] (ChordTime Piano Hits)",
+          "url": "https://www.youtube.com/watch?v=Zr3FnGw17Iw"
+        },
+        {
+          "videoId": "6yl8OSTQ8ew",
+          "videoTitle": "Rather Be [Clean Bandit] (ChordTime Piano Hits)",
+          "url": "https://www.youtube.com/watch?v=6yl8OSTQ8ew"
+        },
+        {
+          "videoId": "_k2pedwSk-0",
+          "videoTitle": "Perfect [Ed Sheeran] (ChordTime Piano Hits)",
+          "url": "https://www.youtube.com/watch?v=_k2pedwSk-0"
+        },
+        {
+          "videoId": "qvpZTp8gN-k",
+          "videoTitle": "Meant to Be [Bebe Rexha] (ChordTime Piano Hits)",
+          "url": "https://www.youtube.com/watch?v=qvpZTp8gN-k"
+        },
+        {
+          "videoId": "Jl1gySPLca0",
+          "videoTitle": "Like I'm Gonna Lose You [Meghan Trainor] (ChordTime Piano Hits)",
+          "url": "https://www.youtube.com/watch?v=Jl1gySPLca0"
+        },
+        {
+          "videoId": "dJG5t-lhwHs",
+          "videoTitle": "High Hopes [Panic! At the Disco] (ChordTime Piano Hits)",
+          "url": "https://www.youtube.com/watch?v=dJG5t-lhwHs"
+        },
+        {
+          "videoId": "cycOEoT8lys",
+          "videoTitle": "Brave [Sarah Bareilles] (ChordTime Piano Hits)",
+          "url": "https://www.youtube.com/watch?v=cycOEoT8lys"
+        }
+      ]
+    },
+    {
+      "channelId": "amy-comparetto",
+      "channelName": "Amy Comparetto",
+      "playlistId": "PL7ucElDiXf1SpLm6Lna2mL4rosZ77PGI-",
+      "playlistTitle": "ChordTime chordtime+jazz",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1SpLm6Lna2mL4rosZ77PGI-",
+      "bookId": "chordtime-piano-jazz-blues",
+      "tracks": [
+        {
+          "videoId": "eYssRvlkraw",
+          "videoTitle": "Whistle Stop Blues (ChordTime Piano Jazz & Blues)",
+          "url": "https://www.youtube.com/watch?v=eYssRvlkraw"
+        },
+        {
+          "videoId": "cctE46ntB2k",
+          "videoTitle": "Where is Love? (ChordTime Piano Jazz & Blues)",
+          "url": "https://www.youtube.com/watch?v=cctE46ntB2k"
+        },
+        {
+          "videoId": "U3AAtZCn4zg",
+          "videoTitle": "When the Saints Go Rockin' In (ChordTime Piano Jazz & Blues)",
+          "url": "https://www.youtube.com/watch?v=U3AAtZCn4zg"
+        },
+        {
+          "videoId": "SdXPxcTfkjc",
+          "videoTitle": "Watermelon Man (ChordTime Piano Jazz & Blues)",
+          "url": "https://www.youtube.com/watch?v=SdXPxcTfkjc"
+        },
+        {
+          "videoId": "74shQlsoI48",
+          "videoTitle": "Tuxedo Junction (ChordTime Piano Jazz & Blues)",
+          "url": "https://www.youtube.com/watch?v=74shQlsoI48"
+        },
+        {
+          "videoId": "KNRoypvjYD0",
+          "videoTitle": "Tea for Two (ChordTime Piano Jazz & Blues)",
+          "url": "https://www.youtube.com/watch?v=KNRoypvjYD0"
+        },
+        {
+          "videoId": "xUM-nIf8dzg",
+          "videoTitle": "Ol' Man River (ChordTime Piano Jazz & Blues)",
+          "url": "https://www.youtube.com/watch?v=xUM-nIf8dzg"
+        },
+        {
+          "videoId": "2_yUWcNKIKc",
+          "videoTitle": "Left Hand Louisian' (ChordTime Piano Jazz & Blues)",
+          "url": "https://www.youtube.com/watch?v=2_yUWcNKIKc"
+        },
+        {
+          "videoId": "eO2FiQz2dBE",
+          "videoTitle": "God Bless the Child (ChordTime Piano Jazz & Blues)",
+          "url": "https://www.youtube.com/watch?v=eO2FiQz2dBE"
+        },
+        {
+          "videoId": "M-vLHMdXT6I",
+          "videoTitle": "Do Wah Diddy Diddy (ChordTime Piano Jazz & Blues)",
+          "url": "https://www.youtube.com/watch?v=M-vLHMdXT6I"
+        },
+        {
+          "videoId": "Pacq18VS28E",
+          "videoTitle": "Dill Pickle Stomp (ChordTime Piano Jazz & Blues)",
+          "url": "https://www.youtube.com/watch?v=Pacq18VS28E"
+        },
+        {
+          "videoId": "WVzj-nR4Ovc",
+          "videoTitle": "Baby Face (ChordTime Piano Jazz & Blues)",
+          "url": "https://www.youtube.com/watch?v=WVzj-nR4Ovc"
+        },
+        {
+          "videoId": "uo2pAIHvylE",
+          "videoTitle": "Ain't Misbehavin' (ChordTime Piano Jazz & Blues)",
+          "url": "https://www.youtube.com/watch?v=uo2pAIHvylE"
+        }
+      ]
+    },
+    {
+      "channelId": "amy-comparetto",
+      "channelName": "Amy Comparetto",
+      "playlistId": "PL7ucElDiXf1Sy_WF57TA_6t987j2b6Mwj",
+      "playlistTitle": "ChordTime chordtime+popular",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1Sy_WF57TA_6t987j2b6Mwj",
+      "bookId": "chordtime-piano-popular",
+      "tracks": [
+        {
+          "videoId": "UzW18TB4Quc",
+          "videoTitle": "Meet The Flintstones (ChordTime Piano Popular)",
+          "url": "https://www.youtube.com/watch?v=UzW18TB4Quc"
+        },
+        {
+          "videoId": "-CcbIgg65Cw",
+          "videoTitle": "Angel of Music [from Phantom of the Opera] (ChordTime Piano Popular)",
+          "url": "https://www.youtube.com/watch?v=-CcbIgg65Cw"
+        },
+        {
+          "videoId": "k982QME6I0c",
+          "videoTitle": "Can You Feel the Love Tonight [The Lion King] (ChordTime Piano Popular)",
+          "url": "https://www.youtube.com/watch?v=k982QME6I0c"
+        },
+        {
+          "videoId": "kW57ADQKVJc",
+          "videoTitle": "Circle of Life [The Lion King] (ChordTime Piano Popular)",
+          "url": "https://www.youtube.com/watch?v=kW57ADQKVJc"
+        },
+        {
+          "videoId": "TbyepYUfBmA",
+          "videoTitle": "Do-Re-Mi [The Sound of Music] (ChordTime Piano Popular)",
+          "url": "https://www.youtube.com/watch?v=TbyepYUfBmA"
+        },
+        {
+          "videoId": "TE4CTfgKn0s",
+          "videoTitle": "Heart and Soul (ChordTime Piano Popular)",
+          "url": "https://www.youtube.com/watch?v=TE4CTfgKn0s"
+        },
+        {
+          "videoId": "Kb0MVYLSmj8",
+          "videoTitle": "Lean On Me (ChordTime Piano Popular)",
+          "url": "https://www.youtube.com/watch?v=Kb0MVYLSmj8"
+        },
+        {
+          "videoId": "Y7CAo5aiXUg",
+          "videoTitle": "She Loves You [The Beatles] (ChordTime Piano Popular)",
+          "url": "https://www.youtube.com/watch?v=Y7CAo5aiXUg"
+        },
+        {
+          "videoId": "Brq3e2XE6p8",
+          "videoTitle": "The Entertainer (ChordTime Piano Popular)",
+          "url": "https://www.youtube.com/watch?v=Brq3e2XE6p8"
+        },
+        {
+          "videoId": "-0TgFT2Lnek",
+          "videoTitle": "Thinking Out Loud (ChordTime Piano Popular)",
+          "url": "https://www.youtube.com/watch?v=-0TgFT2Lnek"
+        },
+        {
+          "videoId": "YOUeQtNdCQk",
+          "videoTitle": "Star Wars Main Theme (ChordTime Piano Popular)",
+          "url": "https://www.youtube.com/watch?v=YOUeQtNdCQk"
+        }
+      ]
+    },
+    {
+      "channelId": "amy-comparetto",
+      "channelName": "Amy Comparetto",
+      "playlistId": "PL7ucElDiXf1Sr39ndrlm48jm7hAoW0vBi",
+      "playlistTitle": "ChordTime chordtime+christmas",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1Sr39ndrlm48jm7hAoW0vBi",
+      "bookId": "chordtime-piano-christmas",
+      "tracks": [
+        {
+          "videoId": "6lhNwjzfwW0",
+          "videoTitle": "Silent Night",
+          "url": "https://www.youtube.com/watch?v=6lhNwjzfwW0"
+        },
+        {
+          "videoId": "fbnf_24fBIc",
+          "videoTitle": "Joy to the World",
+          "url": "https://www.youtube.com/watch?v=fbnf_24fBIc"
+        },
+        {
+          "videoId": "H8XfMBgLEU0",
+          "videoTitle": "Jingle Bells",
+          "url": "https://www.youtube.com/watch?v=H8XfMBgLEU0"
+        },
+        {
+          "videoId": "_VAORMfeT8I",
+          "videoTitle": "When Santa Claus Gets Your Letter",
+          "url": "https://www.youtube.com/watch?v=_VAORMfeT8I"
+        },
+        {
+          "videoId": "EnKYYYLtrnI",
+          "videoTitle": "Rockin' Around the Christmas Tree",
+          "url": "https://www.youtube.com/watch?v=EnKYYYLtrnI"
+        },
+        {
+          "videoId": "AWB7sLf6VRE",
+          "videoTitle": "Rudolph the Red-Nosed Reindeer",
+          "url": "https://www.youtube.com/watch?v=AWB7sLf6VRE"
+        },
+        {
+          "videoId": "HBveyf5bJSU",
+          "videoTitle": "The Night Before Christmas Song",
+          "url": "https://www.youtube.com/watch?v=HBveyf5bJSU"
+        },
+        {
+          "videoId": "zIORbaefZq8",
+          "videoTitle": "A Holly Jolly Christmas",
+          "url": "https://www.youtube.com/watch?v=zIORbaefZq8"
+        },
+        {
+          "videoId": "0OCERSOWwWQ",
+          "videoTitle": "Good King Wenceslas",
+          "url": "https://www.youtube.com/watch?v=0OCERSOWwWQ"
+        },
+        {
+          "videoId": "gPeqRZ2rCzs",
+          "videoTitle": "Away in a Manger",
+          "url": "https://www.youtube.com/watch?v=gPeqRZ2rCzs"
+        },
+        {
+          "videoId": "nzbyDuwl-LU",
+          "videoTitle": "Jolly Old Saint Nicholas",
+          "url": "https://www.youtube.com/watch?v=nzbyDuwl-LU"
+        },
+        {
+          "videoId": "DdSltApuZkY",
+          "videoTitle": "Deck the Halls",
+          "url": "https://www.youtube.com/watch?v=DdSltApuZkY"
+        },
+        {
+          "videoId": "a2kqUYE3NRI",
+          "videoTitle": "The Twelve Days of Christmas",
+          "url": "https://www.youtube.com/watch?v=a2kqUYE3NRI"
+        }
+      ]
+    },
+    {
+      "channelId": "amy-comparetto",
+      "channelName": "Amy Comparetto",
+      "playlistId": "PL7ucElDiXf1Rogw8DL6gIVy0a-a4LgLfK",
+      "playlistTitle": "ChordTime chordtime+kids",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1Rogw8DL6gIVy0a-a4LgLfK",
+      "bookId": "chordtime-piano-kids-songs",
+      "tracks": [
+        {
+          "videoId": "-BdcFbt4H8E",
+          "videoTitle": "Tingalayo (ChordTime Piano Kids' Songs)",
+          "url": "https://www.youtube.com/watch?v=-BdcFbt4H8E"
+        },
+        {
+          "videoId": "8ee831GpWlI",
+          "videoTitle": "The Teddy Bears' Picnic (ChordTime Piano Kids' Songs)",
+          "url": "https://www.youtube.com/watch?v=8ee831GpWlI"
+        },
+        {
+          "videoId": "Q5RCQd9YI20",
+          "videoTitle": "Rubber Duckie (ChordTime Piano Kids' Songs)",
+          "url": "https://www.youtube.com/watch?v=Q5RCQd9YI20"
+        },
+        {
+          "videoId": "UDTFAoEyK7s",
+          "videoTitle": "Pizza Time! (ChordTime Piano Kids' Songs)",
+          "url": "https://www.youtube.com/watch?v=UDTFAoEyK7s"
+        },
+        {
+          "videoId": "UBlIt80pL9k",
+          "videoTitle": "Oh! Susanna! (ChordTime Piano Kids' Songs)",
+          "url": "https://www.youtube.com/watch?v=UBlIt80pL9k"
+        },
+        {
+          "videoId": "myrcKWfHV9k",
+          "videoTitle": "New River Train (ChordTime Piano Kids' Songs)",
+          "url": "https://www.youtube.com/watch?v=myrcKWfHV9k"
+        },
+        {
+          "videoId": "tzqADOEvmSM",
+          "videoTitle": "Mama Paquita (ChordTime Piano Kids' Songs)",
+          "url": "https://www.youtube.com/watch?v=tzqADOEvmSM"
+        },
+        {
+          "videoId": "m3ufo1_Jx5g",
+          "videoTitle": "In a Cabin in the Woods (ChordTime Piano Kids' Songs)",
+          "url": "https://www.youtube.com/watch?v=m3ufo1_Jx5g"
+        },
+        {
+          "videoId": "nRo9AuvxcAY",
+          "videoTitle": "I Can't Spell Hippopotamus (ChordTime Piano Kids' Songs)",
+          "url": "https://www.youtube.com/watch?v=nRo9AuvxcAY"
+        },
+        {
+          "videoId": "U5g99emlrCI",
+          "videoTitle": "Happy Birthday to You (ChordTime Piano Kids' Songs)",
+          "url": "https://www.youtube.com/watch?v=U5g99emlrCI"
+        },
+        {
+          "videoId": "zNw9I0Yn2Oc",
+          "videoTitle": "Ding Dong! The Witch is Dead (ChordTime Piano Kids' Songs)",
+          "url": "https://www.youtube.com/watch?v=zNw9I0Yn2Oc"
+        },
+        {
+          "videoId": "AqrrDa5wttU",
+          "videoTitle": "Catch a Falling Star (ChordTime Piano Kids' Songs)",
+          "url": "https://www.youtube.com/watch?v=AqrrDa5wttU"
+        }
+      ]
+    },
+    {
+      "channelId": "karen-rock-music",
+      "channelName": "Karen Rock Music",
+      "playlistId": "PLfee9gwa8EdE5LL51z5oYDUW5ugiyWFfQ",
+      "playlistTitle": "Level 2B Ragtime & Marches Book - Piano Adventures",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PLfee9gwa8EdE5LL51z5oYDUW5ugiyWFfQ",
+      "bookId": "chordtime-piano-ragtime-marches",
+      "tracks": [
+        {
+          "videoId": "U7rV6FwCoSg",
+          "videoTitle": "The Caisson Song - Piano Adventures Level 2B ChordTime Piano Ragtime & Marches Book",
+          "url": "https://www.youtube.com/watch?v=U7rV6FwCoSg"
+        },
+        {
+          "videoId": "vtUbbKU0Cqw",
+          "videoTitle": "The Thunderer - Piano Adventures Level 2B ChordTime Piano Ragtime & Marches Book",
+          "url": "https://www.youtube.com/watch?v=vtUbbKU0Cqw"
+        }
+      ]
+    },
+    {
+      "channelId": "karen-rock-music",
+      "channelName": "Karen Rock Music",
+      "playlistId": "PLfee9gwa8EdEEbIQsYn-UCSMjQbBIEAiK",
+      "playlistTitle": "Level 1 PlayTime Rock 'n Roll Book",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PLfee9gwa8EdEEbIQsYn-UCSMjQbBIEAiK",
+      "bookId": "playtime-piano-rock-n-roll",
+      "tracks": [
+        {
+          "videoId": "nPv5vCoklCI",
+          "videoTitle": "Rockin' Robin - Level 1 PlayTime Piano Rock 'n Rock Piano Book",
+          "url": "https://www.youtube.com/watch?v=nPv5vCoklCI"
+        }
+      ]
+    },
+    {
+      "channelId": "karen-rock-music",
+      "channelName": "Karen Rock Music",
+      "playlistId": "PLfee9gwa8EdG_X96hidb1I5470I5iKUFc",
+      "playlistTitle": "Level 2A ShowTime Piano Disney - Piano Adventures",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PLfee9gwa8EdG_X96hidb1I5470I5iKUFc",
+      "bookId": "showtime-piano-disney",
+      "tracks": [
+        {
+          "videoId": "m92fIdxbeFc",
+          "videoTitle": "Under the Sea from The Little Mermaid - ShowTime Piano Level 2A Disney Book",
+          "url": "https://www.youtube.com/watch?v=m92fIdxbeFc"
+        },
+        {
+          "videoId": "g4NEZPgUFkk",
+          "videoTitle": "Chim Chim Cher-ee from Mary Poppins - ShowTime Piano Level 2A Disney Book",
+          "url": "https://www.youtube.com/watch?v=g4NEZPgUFkk"
+        },
+        {
+          "videoId": "yN8myOykVJA",
+          "videoTitle": "A Whole New World from Aladdin - ShowTime Piano Level 2A Disney Book",
+          "url": "https://www.youtube.com/watch?v=yN8myOykVJA"
+        },
+        {
+          "videoId": "HEm-eKEHT-8",
+          "videoTitle": "Proud Corazon from Coco - ShowTime Piano Level 2A Disney Book",
+          "url": "https://www.youtube.com/watch?v=HEm-eKEHT-8"
+        },
+        {
+          "videoId": "pl6235EL57o",
+          "videoTitle": "He's a Pirate from Pirates of the Caribbean- ShowTime Piano Level 2A Disney Book",
+          "url": "https://www.youtube.com/watch?v=pl6235EL57o"
+        },
+        {
+          "videoId": "Tmj2e3sHHj4",
+          "videoTitle": "Colors of the Wind from Pocahontas - ShowTime Piano Level 2A Disney Book",
+          "url": "https://www.youtube.com/watch?v=Tmj2e3sHHj4"
+        },
+        {
+          "videoId": "EkLe_AAnLPQ",
+          "videoTitle": "Baroque Hoedown from Disneyland - ShowTime Piano Level 2A Disney Book",
+          "url": "https://www.youtube.com/watch?v=EkLe_AAnLPQ"
+        },
+        {
+          "videoId": "Cb4hpt_XScE",
+          "videoTitle": "Reflection from Mulan - ShowTime Piano Level 2A Disney Book",
+          "url": "https://www.youtube.com/watch?v=Cb4hpt_XScE"
+        },
+        {
+          "videoId": "ofXl35PT2v8",
+          "videoTitle": "Almost There from The Princess and the Frog - ShowTime Piano Level 2A Disney Book",
+          "url": "https://www.youtube.com/watch?v=ofXl35PT2v8"
+        }
+      ]
+    },
+    {
+      "channelId": "karen-rock-music",
+      "channelName": "Karen Rock Music",
+      "playlistId": "PLfee9gwa8EdGYk0Szr6RFPsSCE2zo8wQ4",
+      "playlistTitle": "Level 2B ChordTime Piano Popular",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PLfee9gwa8EdGYk0Szr6RFPsSCE2zo8wQ4",
+      "bookId": "chordtime-piano-popular",
+      "tracks": [
+        {
+          "videoId": "FkW5UU8K8mU",
+          "videoTitle": "Lean On Me - Piano Adventures Level 2B ChordTime Popular Book",
+          "url": "https://www.youtube.com/watch?v=FkW5UU8K8mU"
+        },
+        {
+          "videoId": "fN8ygvjQfzQ",
+          "videoTitle": "The Entertainer - Piano Adventures Level 2B ChordTime Popular Book",
+          "url": "https://www.youtube.com/watch?v=fN8ygvjQfzQ"
+        },
+        {
+          "videoId": "5t9FXM7EO-4",
+          "videoTitle": "Do Re Mi - Piano Adventures Level 2B ChordTime Popular Book",
+          "url": "https://www.youtube.com/watch?v=5t9FXM7EO-4"
+        },
+        {
+          "videoId": "OTQwTo_G3S0",
+          "videoTitle": "Heart and Soul - Piano Adventures Level 2B ChordTime Popular Book",
+          "url": "https://www.youtube.com/watch?v=OTQwTo_G3S0"
+        },
+        {
+          "videoId": "IpeON9p4ngo",
+          "videoTitle": "Circle of Life - Piano Adventures Level 2B ChordTime Popular Book",
+          "url": "https://www.youtube.com/watch?v=IpeON9p4ngo"
+        },
+        {
+          "videoId": "sAVYNa9AFw0",
+          "videoTitle": "Star Wars Main Theme - Piano Adventures Level 2B ChordTime Popular Book",
+          "url": "https://www.youtube.com/watch?v=sAVYNa9AFw0"
+        },
+        {
+          "videoId": "Ndod0DiubRk",
+          "videoTitle": "Thinking Out Loud - Piano Adventures Level 2B ChordTime Popular Book",
+          "url": "https://www.youtube.com/watch?v=Ndod0DiubRk"
+        },
+        {
+          "videoId": "0_t7WrrvoAI",
+          "videoTitle": "Angel of Music - Piano Adventures Level 2B ChordTime Popular Book",
+          "url": "https://www.youtube.com/watch?v=0_t7WrrvoAI"
+        },
+        {
+          "videoId": "PY8x1fez3CA",
+          "videoTitle": "Meet the Flintstones - Piano Adventures Level 2B ChordTime Popular Book",
+          "url": "https://www.youtube.com/watch?v=PY8x1fez3CA"
+        },
+        {
+          "videoId": "sOV4al9s82k",
+          "videoTitle": "She Loves You - Piano Adventures Level 2B ChordTime Popular Book",
+          "url": "https://www.youtube.com/watch?v=sOV4al9s82k"
+        },
+        {
+          "videoId": "dfjqJN1Jm4c",
+          "videoTitle": "Can You Feel the Love Tonight - Piano Adventures Level 2B ChordTime Popular Book",
+          "url": "https://www.youtube.com/watch?v=dfjqJN1Jm4c"
+        }
+      ]
+    },
+    {
+      "channelId": "karen-rock-music",
+      "channelName": "Karen Rock Music",
+      "playlistId": "PLfee9gwa8EdGA2rNEwfPk_5Ptv4EJlcGG",
+      "playlistTitle": "Level 1 PlayTime Piano Disney",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PLfee9gwa8EdGA2rNEwfPk_5Ptv4EJlcGG",
+      "bookId": "playtime-piano-disney",
+      "tracks": [
+        {
+          "videoId": "-m_2tYGjfIQ",
+          "videoTitle": "Part of Your World - PlayTime Piano Level 1 Disney Book",
+          "url": "https://www.youtube.com/watch?v=-m_2tYGjfIQ"
+        },
+        {
+          "videoId": "HZeZo_rSWBE",
+          "videoTitle": "A Spoonful of Sugar - PlayTime Piano Level 1 Disney Book",
+          "url": "https://www.youtube.com/watch?v=HZeZo_rSWBE"
+        },
+        {
+          "videoId": "2ipKnOK-43w",
+          "videoTitle": "Let's Go Fly a Kite - PlayTime Piano Level 1 Disney Book",
+          "url": "https://www.youtube.com/watch?v=2ipKnOK-43w"
+        },
+        {
+          "videoId": "_S_k_0avMfk",
+          "videoTitle": "Beauty and the Beast - PlayTime Piano Level 1 Disney Book",
+          "url": "https://www.youtube.com/watch?v=_S_k_0avMfk"
+        },
+        {
+          "videoId": "A_hxcY7MFuE",
+          "videoTitle": "Gaston - PlayTime Piano Level 1 Disney Book",
+          "url": "https://www.youtube.com/watch?v=A_hxcY7MFuE"
+        },
+        {
+          "videoId": "ICMgiEM8Sk0",
+          "videoTitle": "Remember Me - PlayTime Piano Level 1 Disney Book",
+          "url": "https://www.youtube.com/watch?v=ICMgiEM8Sk0"
+        },
+        {
+          "videoId": "GV4iC6q6BQs",
+          "videoTitle": "I Just Can't Wait to Be King - PlayTime Piano Level 1 Disney Book",
+          "url": "https://www.youtube.com/watch?v=GV4iC6q6BQs"
+        },
+        {
+          "videoId": "JFpWR_3KSV8",
+          "videoTitle": "The Gummi Bears Theme - PlayTime Piano Level 1 Disney Book",
+          "url": "https://www.youtube.com/watch?v=JFpWR_3KSV8"
+        },
+        {
+          "videoId": "jReEeATkLKQ",
+          "videoTitle": "Let it Go - PlayTime Piano Level 1 Disney Book",
+          "url": "https://www.youtube.com/watch?v=jReEeATkLKQ"
+        }
+      ]
+    },
+    {
+      "channelId": "lets-play-piano-methods",
+      "channelName": "Let's Play Piano Methods",
+      "playlistId": "PL8hZtgRyL9WQwqgM5hZsVxLVNfQ5MCCrJ",
+      "playlistTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2",
+      "playlistUrl": "https://www.youtube.com/playlist?list=PL8hZtgRyL9WQwqgM5hZsVxLVNfQ5MCCrJ",
+      "bookId": "faber-lesson-2",
+      "tracks": [
+        {
+          "videoId": "Qdunv1RYHRo",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Pages 2 through 13, Music Fundamentals Review",
+          "url": "https://www.youtube.com/watch?v=Qdunv1RYHRo"
+        },
+        {
+          "videoId": "IvxeG1b5OnQ",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 16, Octave Warm-Up",
+          "url": "https://www.youtube.com/watch?v=IvxeG1b5OnQ"
+        },
+        {
+          "videoId": "6A5pf2K1vu8",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 14, Allegro Moderato",
+          "url": "https://www.youtube.com/watch?v=6A5pf2K1vu8"
+        },
+        {
+          "videoId": "WKVirMKQxuc",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 17, Cathedral Chimes",
+          "url": "https://www.youtube.com/watch?v=WKVirMKQxuc"
+        },
+        {
+          "videoId": "lzfd7n9pdfk",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 18, Niagara Falls",
+          "url": "https://www.youtube.com/watch?v=lzfd7n9pdfk"
+        },
+        {
+          "videoId": "uSPEkjJPViU",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 20, Pedal Exercise",
+          "url": "https://www.youtube.com/watch?v=uSPEkjJPViU"
+        },
+        {
+          "videoId": "VPJaEY8Dc84",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 21, Taps",
+          "url": "https://www.youtube.com/watch?v=VPJaEY8Dc84"
+        },
+        {
+          "videoId": "jKDEfa1LT-E",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 22, O Sole Mio!",
+          "url": "https://www.youtube.com/watch?v=jKDEfa1LT-E"
+        },
+        {
+          "videoId": "SeETV05lbZw",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 24, Yellow Bird",
+          "url": "https://www.youtube.com/watch?v=SeETV05lbZw"
+        },
+        {
+          "videoId": "nOMIXoZJ8nQ",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 26, Pedaling",
+          "url": "https://www.youtube.com/watch?v=nOMIXoZJ8nQ"
+        },
+        {
+          "videoId": "TxE64b6G9_s",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 28, Brahms' Lullaby",
+          "url": "https://www.youtube.com/watch?v=TxE64b6G9_s"
+        },
+        {
+          "videoId": "17gXzec9TWY",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 30, The F Major Scale",
+          "url": "https://www.youtube.com/watch?v=17gXzec9TWY"
+        },
+        {
+          "videoId": "rvC9QxVFR3s",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 32, Sloop John B",
+          "url": "https://www.youtube.com/watch?v=rvC9QxVFR3s"
+        },
+        {
+          "videoId": "67G-tS0UOHg",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 34, F Major Chords",
+          "url": "https://www.youtube.com/watch?v=67G-tS0UOHg"
+        },
+        {
+          "videoId": "Fh0bHk4mtkw",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 36, Allegro in F Major",
+          "url": "https://www.youtube.com/watch?v=Fh0bHk4mtkw"
+        },
+        {
+          "videoId": "MBhxxOTwp4s",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 38, The Lion Sleeps Tonight",
+          "url": "https://www.youtube.com/watch?v=MBhxxOTwp4s"
+        },
+        {
+          "videoId": "zhzTIqDmyyY",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 40, Scale Etude in F",
+          "url": "https://www.youtube.com/watch?v=zhzTIqDmyyY"
+        },
+        {
+          "videoId": "2YiwTXat9VU",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 41, Chord Caper",
+          "url": "https://www.youtube.com/watch?v=2YiwTXat9VU"
+        },
+        {
+          "videoId": "zFv5L-Zqjdw",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 42, The Londonderry Air",
+          "url": "https://www.youtube.com/watch?v=zFv5L-Zqjdw"
+        },
+        {
+          "videoId": "CtITlvNe_4A",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 44, Major and  Minor Triads",
+          "url": "https://www.youtube.com/watch?v=CtITlvNe_4A"
+        },
+        {
+          "videoId": "CVM6Q1qqtac",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 46, Malagueña",
+          "url": "https://www.youtube.com/watch?v=CVM6Q1qqtac"
+        },
+        {
+          "videoId": "hOYthinttXw",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 48, Long, Long Ago",
+          "url": "https://www.youtube.com/watch?v=hOYthinttXw"
+        },
+        {
+          "videoId": "WmnYh8leb5U",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 50, Major and Minor Triads",
+          "url": "https://www.youtube.com/watch?v=WmnYh8leb5U"
+        },
+        {
+          "videoId": "jRE8D8twNEw",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 52, Aura Lee",
+          "url": "https://www.youtube.com/watch?v=jRE8D8twNEw"
+        },
+        {
+          "videoId": "4SMNPlh_c9c",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 55, Westminster Chimes",
+          "url": "https://www.youtube.com/watch?v=4SMNPlh_c9c"
+        },
+        {
+          "videoId": "xGCq1Aj35Rs",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 57, Gavotte",
+          "url": "https://www.youtube.com/watch?v=xGCq1Aj35Rs"
+        },
+        {
+          "videoId": "eyGvgSPSce4",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 58, Swing Low, Sweet Chariot",
+          "url": "https://www.youtube.com/watch?v=eyGvgSPSce4"
+        },
+        {
+          "videoId": "eCnpnmRp6Ec",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Pages 60 and 61, 3-Minute Technique",
+          "url": "https://www.youtube.com/watch?v=eCnpnmRp6Ec"
+        },
+        {
+          "videoId": "Wglwi8Ar4eg",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 62, Song of Joy",
+          "url": "https://www.youtube.com/watch?v=Wglwi8Ar4eg"
+        },
+        {
+          "videoId": "rhiaA2ov5ug",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 64, Coffee House Boogie",
+          "url": "https://www.youtube.com/watch?v=rhiaA2ov5ug"
+        },
+        {
+          "videoId": "x6Q1RXEVjXY",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 66, Amen",
+          "url": "https://www.youtube.com/watch?v=x6Q1RXEVjXY"
+        },
+        {
+          "videoId": "GC0Qk8Jk67U",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 68, Looking Glass River",
+          "url": "https://www.youtube.com/watch?v=GC0Qk8Jk67U"
+        },
+        {
+          "videoId": "ze7Pg5x4wFk",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 70, Alberti Bass Study",
+          "url": "https://www.youtube.com/watch?v=ze7Pg5x4wFk"
+        },
+        {
+          "videoId": "yObNTD1g2IE",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 71, Eighth-Rest Study",
+          "url": "https://www.youtube.com/watch?v=yObNTD1g2IE"
+        },
+        {
+          "videoId": "w_i_nNvyEDg",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 73, Shenandoah",
+          "url": "https://www.youtube.com/watch?v=w_i_nNvyEDg"
+        },
+        {
+          "videoId": "9G7qwhy4v1Q",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 74, Deck the Keys with Dotted Quarters",
+          "url": "https://www.youtube.com/watch?v=9G7qwhy4v1Q"
+        },
+        {
+          "videoId": "mUFCHWfPJcg",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 76, Kum Ba Yah",
+          "url": "https://www.youtube.com/watch?v=mUFCHWfPJcg"
+        },
+        {
+          "videoId": "DL372UuqQec",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 78, Theme from Scheherazade",
+          "url": "https://www.youtube.com/watch?v=DL372UuqQec"
+        },
+        {
+          "videoId": "4Md9e0CkAA4",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 80, In My Red Convertible",
+          "url": "https://www.youtube.com/watch?v=4Md9e0CkAA4"
+        },
+        {
+          "videoId": "Tc8eLYysPvc",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 82, Dotted-Quarter March",
+          "url": "https://www.youtube.com/watch?v=Tc8eLYysPvc"
+        },
+        {
+          "videoId": "vuozMkP1jWw",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 83, Dotted-Quarter Arpeggios",
+          "url": "https://www.youtube.com/watch?v=vuozMkP1jWw"
+        },
+        {
+          "videoId": "_isETcBLnQE",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 84, Auld Lang Syne",
+          "url": "https://www.youtube.com/watch?v=_isETcBLnQE"
+        },
+        {
+          "videoId": "4j8zJUHNGKA",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 86, Theory of Minor Scales",
+          "url": "https://www.youtube.com/watch?v=4j8zJUHNGKA"
+        },
+        {
+          "videoId": "yWqnPBIdANM",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 88, Sakura",
+          "url": "https://www.youtube.com/watch?v=yWqnPBIdANM"
+        },
+        {
+          "videoId": "-rhGXFTzT9o",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 90, Etude in A Minor",
+          "url": "https://www.youtube.com/watch?v=-rhGXFTzT9o"
+        },
+        {
+          "videoId": "QlHIp5N5q8A",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 92, Primary Chords in A Minor",
+          "url": "https://www.youtube.com/watch?v=QlHIp5N5q8A"
+        },
+        {
+          "videoId": "FdeNgpi2GaI",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 94, Finale",
+          "url": "https://www.youtube.com/watch?v=FdeNgpi2GaI"
+        },
+        {
+          "videoId": "-9L3ixeBECc",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 96, Hava Nagila",
+          "url": "https://www.youtube.com/watch?v=-9L3ixeBECc"
+        },
+        {
+          "videoId": "CV4A6suJE9I",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Pages 98 and 99, Broken-Chord Etude",
+          "url": "https://www.youtube.com/watch?v=CV4A6suJE9I"
+        },
+        {
+          "videoId": "DcZcrda3pf4",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 102, 7th St. Blues",
+          "url": "https://www.youtube.com/watch?v=DcZcrda3pf4"
+        },
+        {
+          "videoId": "6mHbtP-vxbw",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 103, Land of the Silver Birch",
+          "url": "https://www.youtube.com/watch?v=6mHbtP-vxbw"
+        },
+        {
+          "videoId": "4CJPhSYUsW8",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 104, Give My Regards to Broadway",
+          "url": "https://www.youtube.com/watch?v=4CJPhSYUsW8"
+        },
+        {
+          "videoId": "B7-aC_F-ugc",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 106, Fanfare Etude",
+          "url": "https://www.youtube.com/watch?v=B7-aC_F-ugc"
+        },
+        {
+          "videoId": "DHfbYV9bpio",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 108, Mexican Clapping Song",
+          "url": "https://www.youtube.com/watch?v=DHfbYV9bpio"
+        },
+        {
+          "videoId": "QU_xfobBGEg",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 110, Key of D Minor",
+          "url": "https://www.youtube.com/watch?v=QU_xfobBGEg"
+        },
+        {
+          "videoId": "GWxXY3xRlQA",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 112, Primary Chords in D Minor",
+          "url": "https://www.youtube.com/watch?v=GWxXY3xRlQA"
+        },
+        {
+          "videoId": "XvBw62jBVKM",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 114, Habanera",
+          "url": "https://www.youtube.com/watch?v=XvBw62jBVKM"
+        },
+        {
+          "videoId": "qgM61C_UvHM",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 116, Joshua Fought the Battle of Jericho",
+          "url": "https://www.youtube.com/watch?v=qgM61C_UvHM"
+        },
+        {
+          "videoId": "2-0R3o06rRE",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Pg 118, Theme and Variations on D Minor Scale",
+          "url": "https://www.youtube.com/watch?v=2-0R3o06rRE"
+        },
+        {
+          "videoId": "QgtaxgyJEiY",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 120, Dark Eyes",
+          "url": "https://www.youtube.com/watch?v=QgtaxgyJEiY"
+        },
+        {
+          "videoId": "zB-Yyyr9EKw",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 122, Scarborough Fair",
+          "url": "https://www.youtube.com/watch?v=zB-Yyyr9EKw"
+        },
+        {
+          "videoId": "qE4OqFCPAps",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 124, New Time Signature",
+          "url": "https://www.youtube.com/watch?v=qE4OqFCPAps"
+        },
+        {
+          "videoId": "frR6Vvd9UM4",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 126, Campbells Are Coming",
+          "url": "https://www.youtube.com/watch?v=frR6Vvd9UM4"
+        },
+        {
+          "videoId": "GbEabqxlEUs",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 128, Funiculí, Funiculá",
+          "url": "https://www.youtube.com/watch?v=GbEabqxlEUs"
+        },
+        {
+          "videoId": "N7KOcEFQ51E",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 130, Chord Study In Two",
+          "url": "https://www.youtube.com/watch?v=N7KOcEFQ51E"
+        },
+        {
+          "videoId": "5AFZIqFM8BM",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 131, Pedal Study",
+          "url": "https://www.youtube.com/watch?v=5AFZIqFM8BM"
+        },
+        {
+          "videoId": "gvJYfPC_wIQ",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 132, Barcarolle",
+          "url": "https://www.youtube.com/watch?v=gvJYfPC_wIQ"
+        },
+        {
+          "videoId": "makxyTh1or8",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 135, March Slav",
+          "url": "https://www.youtube.com/watch?v=makxyTh1or8"
+        },
+        {
+          "videoId": "YXUIP-6Lb2E",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 136, The Erie Canal",
+          "url": "https://www.youtube.com/watch?v=YXUIP-6Lb2E"
+        },
+        {
+          "videoId": "OoAMthUGlaw",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 138, Morning",
+          "url": "https://www.youtube.com/watch?v=OoAMthUGlaw"
+        },
+        {
+          "videoId": "vfswQvs2lhk",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Pages 140 and 141, Scales",
+          "url": "https://www.youtube.com/watch?v=vfswQvs2lhk"
+        },
+        {
+          "videoId": "kYIbiE2Bs10",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 142, The Glow Worm",
+          "url": "https://www.youtube.com/watch?v=kYIbiE2Bs10"
+        },
+        {
+          "videoId": "QT5IJxpCD9Y",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 144, Key of E Minor",
+          "url": "https://www.youtube.com/watch?v=QT5IJxpCD9Y"
+        },
+        {
+          "videoId": "WoYbEkK19nY",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 146, Primary Chords in E Minor",
+          "url": "https://www.youtube.com/watch?v=WoYbEkK19nY"
+        },
+        {
+          "videoId": "I2DjThCsnz4",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 148, Lunar Eclipse",
+          "url": "https://www.youtube.com/watch?v=I2DjThCsnz4"
+        },
+        {
+          "videoId": "QdiUj0ZgvYM",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 150, Swan Lake",
+          "url": "https://www.youtube.com/watch?v=QdiUj0ZgvYM"
+        },
+        {
+          "videoId": "ZYIW4jHYOvk",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 152, E Minor Scale Study",
+          "url": "https://www.youtube.com/watch?v=ZYIW4jHYOvk"
+        },
+        {
+          "videoId": "RJ1fHumOU1w",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 153, E Minor Arpeggio Study",
+          "url": "https://www.youtube.com/watch?v=RJ1fHumOU1w"
+        },
+        {
+          "videoId": "mfvfBQ4I6tY",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 154, House of the Rising Sun",
+          "url": "https://www.youtube.com/watch?v=mfvfBQ4I6tY"
+        },
+        {
+          "videoId": "XxrXTYvCQZY",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 156, Key of D Major",
+          "url": "https://www.youtube.com/watch?v=XxrXTYvCQZY"
+        },
+        {
+          "videoId": "iPIOELCiEiQ",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 158, Primary Chords in D Major",
+          "url": "https://www.youtube.com/watch?v=iPIOELCiEiQ"
+        },
+        {
+          "videoId": "6pMrjxG3CjQ",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 160, Song of Joy",
+          "url": "https://www.youtube.com/watch?v=6pMrjxG3CjQ"
+        },
+        {
+          "videoId": "5LnCg0QlP4U",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 162, Gavotte in D Major",
+          "url": "https://www.youtube.com/watch?v=5LnCg0QlP4U"
+        },
+        {
+          "videoId": "Xe6UF3_WX50",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 164, Scale Study in D Major",
+          "url": "https://www.youtube.com/watch?v=Xe6UF3_WX50"
+        },
+        {
+          "videoId": "-42CbrZ1F4Y",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 165, Chord Study in D Major",
+          "url": "https://www.youtube.com/watch?v=-42CbrZ1F4Y"
+        },
+        {
+          "videoId": "F6rHUS5zAY0",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 166, Worried Man Blues",
+          "url": "https://www.youtube.com/watch?v=F6rHUS5zAY0"
+        },
+        {
+          "videoId": "GaTZf24Vi0I",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 168, One-Octave Arpeggios",
+          "url": "https://www.youtube.com/watch?v=GaTZf24Vi0I"
+        },
+        {
+          "videoId": "mQHWoVcbWNs",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 169, Eine Kleine Nachtmusik",
+          "url": "https://www.youtube.com/watch?v=mQHWoVcbWNs"
+        },
+        {
+          "videoId": "vUJ2Y78s9Vo",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 170, Wedding March",
+          "url": "https://www.youtube.com/watch?v=vUJ2Y78s9Vo"
+        },
+        {
+          "videoId": "sHuBkW6qo_I",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 172, Fiesta España",
+          "url": "https://www.youtube.com/watch?v=sHuBkW6qo_I"
+        },
+        {
+          "videoId": "1uwm_gRHTxc",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 174, Arpeggio Power",
+          "url": "https://www.youtube.com/watch?v=1uwm_gRHTxc"
+        },
+        {
+          "videoId": "YgvIkeVosKU",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 176, Liebestraum",
+          "url": "https://www.youtube.com/watch?v=YgvIkeVosKU"
+        },
+        {
+          "videoId": "rbKuHBCfiVc",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 179, Rhythm Warm-up",
+          "url": "https://www.youtube.com/watch?v=rbKuHBCfiVc"
+        },
+        {
+          "videoId": "TnZ5LSzGxO8",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 180, Sea Chantey",
+          "url": "https://www.youtube.com/watch?v=TnZ5LSzGxO8"
+        },
+        {
+          "videoId": "DTDPI8gkrjg",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 182,  Musetta's Waltz",
+          "url": "https://www.youtube.com/watch?v=DTDPI8gkrjg"
+        },
+        {
+          "videoId": "LTOOL7MxWE4",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 184, Rhythm Trainer",
+          "url": "https://www.youtube.com/watch?v=LTOOL7MxWE4"
+        },
+        {
+          "videoId": "5xU1ehLl_f4",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 185, Scale Journey",
+          "url": "https://www.youtube.com/watch?v=5xU1ehLl_f4"
+        },
+        {
+          "videoId": "WZdaQtHxPas",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 186, Nocturne",
+          "url": "https://www.youtube.com/watch?v=WZdaQtHxPas"
+        },
+        {
+          "videoId": "PSxpyYcNWrs",
+          "videoTitle": "Faber Adult Piano Adventures All-in-One Piano Book 2, Page 188, Pachelbel Canon",
+          "url": "https://www.youtube.com/watch?v=PSxpyYcNWrs"
+        }
+      ]
+    }
+  ],
+  "directSongLinks": [
+    {
+      "channelId": "karen-rock-music",
+      "songId": "faber-classics-1-liebestraum-dream-of-love",
+      "url": "https://www.youtube.com/watch?v=AF7oEYfsZ9Q",
+      "description": "Liebestraum - Piano Adventures Level 3B Lesson Book"
+    },
+    {
+      "channelId": "karen-rock-music",
+      "songId": "faber-lesson-2-liebestraum",
+      "url": "https://www.youtube.com/watch?v=AF7oEYfsZ9Q",
+      "description": "Liebestraum - Piano Adventures Level 3B Lesson Book"
+    },
+    {
+      "channelId": "karen-rock-music",
+      "songId": "faber-lesson-1-morning",
+      "url": "https://www.youtube.com/watch?v=gHs3w4_Glng",
+      "description": "Morning - Piano Adventures Level 3A Lesson Book"
+    },
+    {
+      "channelId": "karen-rock-music",
+      "songId": "faber-lesson-2-morning",
+      "url": "https://www.youtube.com/watch?v=gHs3w4_Glng",
+      "description": "Morning - Piano Adventures Level 3A Lesson Book"
+    },
+    {
+      "channelId": "karen-rock-music",
+      "songId": "faber-lesson-1-gavotte",
+      "url": "https://www.youtube.com/watch?v=vP_FUXSrPQI",
+      "description": "Gavotte - Piano Adventures Level 3B Lesson Book"
+    },
+    {
+      "channelId": "karen-rock-music",
+      "songId": "faber-lesson-2-gavotte",
+      "url": "https://www.youtube.com/watch?v=vP_FUXSrPQI",
+      "description": "Gavotte - Piano Adventures Level 3B Lesson Book"
+    },
+    {
+      "channelId": "karen-rock-music",
+      "songId": "faber-popular-1-pachelbel-canon",
+      "url": "https://www.youtube.com/watch?v=nudfgPA4xdc",
+      "description": "Pachelbel Canon - Piano Adventures Level 3B Lesson Book"
+    },
+    {
+      "channelId": "karen-rock-music",
+      "songId": "faber-lesson-2-pachelbel-canon",
+      "url": "https://www.youtube.com/watch?v=nudfgPA4xdc",
+      "description": "Pachelbel Canon - Piano Adventures Level 3B Lesson Book"
+    },
+    {
+      "channelId": "karen-rock-music",
+      "songId": "faber-classics-2-in-the-hall-of-the-mountain-king-from-peer-gynt",
+      "url": "https://www.youtube.com/watch?v=1XIR8XqFhLk",
+      "description": "In the Hall of the Mountain King - Piano Adventures Level 4 Lesson Book"
+    },
+    {
+      "channelId": "lets-play-piano-methods",
+      "songId": "faber-lesson-1-can-can",
+      "url": "https://www.youtube.com/watch?v=vJed3xf_cL8",
+      "description": "Alfred's Group Piano for Adults: Book 1, Page 36, The Can Can"
+    },
+    {
+      "channelId": "lets-play-piano-methods",
+      "songId": "faber-classics-1-barcarolle-from-the-tales-of-hoffmann",
+      "url": "https://www.youtube.com/watch?v=-4dtoOE17Lc",
+      "description": "Alfred's Group Piano for Adults: Book 1, Page 56, Barcarolle"
+    },
+    {
+      "channelId": "lets-play-piano-methods",
+      "songId": "faber-lesson-2-barcarolle",
+      "url": "https://www.youtube.com/watch?v=-4dtoOE17Lc",
+      "description": "Alfred's Group Piano for Adults: Book 1, Page 56, Barcarolle"
+    },
+    {
+      "channelId": "lets-play-piano-methods",
+      "songId": "faber-lesson-1-russian-folk-song",
+      "url": "https://www.youtube.com/watch?v=6I-FeheqowU",
+      "description": "Alfred's Group Piano for Adults: Book 2, Page 72, Russian Folk Song"
+    },
+    {
+      "channelId": "lets-play-piano-methods",
+      "songId": "faber-lesson-1-jingle-bells",
+      "url": "https://www.youtube.com/watch?v=LNrR2throug",
+      "description": "Alfred's Group Piano for Adults: Book 2, Page 109, Jingle Bells"
+    },
+    {
+      "channelId": "lets-play-piano-methods",
+      "songId": "faber-christmas-1-jingle-bells",
+      "url": "https://www.youtube.com/watch?v=LNrR2throug",
+      "description": "Alfred's Group Piano for Adults: Book 2, Page 109, Jingle Bells"
+    }
+  ]
+}

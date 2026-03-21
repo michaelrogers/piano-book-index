@@ -1,0 +1,71 @@
+---
+import type { DifficultyLabel } from '../lib/types';
+
+interface Props {
+  label: DifficultyLabel;
+  faberLevel?: string | null;
+  alfredLevel?: string | null;
+  size?: 'sm' | 'md';
+  orientation?: 'vertical' | 'horizontal';
+}
+
+const { label, faberLevel, alfredLevel, size = 'sm', orientation = 'vertical' } = Astro.props;
+
+const DIFFICULTY_LEVELS: DifficultyLabel[] = [
+  'Beginner',
+  'Early Intermediate',
+  'Intermediate',
+  'Late Intermediate',
+  'Early Advanced',
+  'Advanced',
+];
+
+const segmentFillColors: Record<DifficultyLabel, string> = {
+  'Beginner': 'bg-green-500',
+  'Early Intermediate': 'bg-yellow-500',
+  'Intermediate': 'bg-orange-500',
+  'Late Intermediate': 'bg-red-500',
+  'Early Advanced': 'bg-purple-500',
+  'Advanced': 'bg-pink-500',
+};
+
+const labelTextColors: Record<DifficultyLabel, string> = {
+  'Beginner': 'text-green-700 dark:text-green-400',
+  'Early Intermediate': 'text-yellow-700 dark:text-yellow-400',
+  'Intermediate': 'text-orange-700 dark:text-orange-400',
+  'Late Intermediate': 'text-red-700 dark:text-red-400',
+  'Early Advanced': 'text-purple-700 dark:text-purple-400',
+  'Advanced': 'text-pink-700 dark:text-pink-400',
+};
+
+const levelIndex = DIFFICULTY_LEVELS.indexOf(label);
+const fillColor = segmentFillColors[label];
+const barHeight = size === 'sm' ? 'h-1.5' : 'h-2';
+const barWidth = size === 'sm' ? 'w-5' : 'w-6';
+const textSize = size === 'sm' ? 'text-xs' : 'text-sm';
+const systemLevel = faberLevel || alfredLevel;
+const isHorizontal = orientation === 'horizontal';
+---
+
+<div class="flex items-center gap-2">
+  <div class:list={[isHorizontal ? 'flex flex-row gap-px' : 'flex flex-col gap-px']} title={label}>
+    {(isHorizontal ? DIFFICULTY_LEVELS : DIFFICULTY_LEVELS.slice().reverse()).map((_, ri) => {
+      const i = isHorizontal ? ri : DIFFICULTY_LEVELS.length - 1 - ri;
+      return (
+        <div
+          class:list={[
+            barHeight, barWidth,
+            isHorizontal ? 'first:rounded-l-sm last:rounded-r-sm' : 'first:rounded-t-sm last:rounded-b-sm',
+            i <= levelIndex ? fillColor : 'bg-gray-200 dark:bg-gray-700',
+          ]}
+        />
+      );
+    })}
+  </div>
+  <div class:list={['min-w-0 leading-tight', textSize]}>
+    <div class:list={['font-medium', labelTextColors[label]]}>{label}</div>
+    {systemLevel && (
+      <div class="text-gray-400 dark:text-gray-500">{systemLevel}</div>
+    )}
+  </div>
+</div>

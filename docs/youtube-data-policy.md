@@ -1,0 +1,218 @@
+# YouTube Data Policy
+
+## Trusted Sources
+
+Song data (titles, composers, page numbers) must come from **official publisher sources only** — Faber/Hal Leonard and Alfred. Never add songs to `src/data/songs.json` based on YouTube video titles; playlists may contain approximations, alternate arrangements, or bonus content not in the physical book.
+
+YouTube playlists are used **only for linking videos to existing songs**, not as a source of truth for the song catalog.
+
+## Trusted YouTube Channels
+
+Channels are listed in **priority order** — when multiple channels have a video for the same song, prefer the higher-ranked source.
+
+| Priority | Channel | Publisher Coverage | Channel URL |
+|---|---|---|---|
+| 1 | **92pianokeys** | Alfred's Basic Piano Library (Greatest Hits) | https://www.youtube.com/@92pianokeys40 |
+| 2 | **Amy Comparetto** | Faber Piano Adventures (PreTime through BigTime series) | https://www.youtube.com/@AmyComparetto |
+| 3 | **Karen Rock Music** | Faber Piano Adventures | https://www.youtube.com/@KarenRockMusic |
+| 4 | **Let's Play Piano Methods** | Faber Piano Adventures | https://www.youtube.com/@LetsPlayPianoMethods |
+
+Only these channels should be used for automated playlist-to-song linking. Other channels may be added manually on a per-song basis if verified.
+
+### Channel Priority Rationale
+
+When a song appears in multiple channel playlists, the highest-priority channel's video is preferred. This order is based on video quality, audio clarity, and completeness of book coverage. The priority is configured in `scripts/youtube-playlists-curated.json` via the `channels` array order.
+
+## Pipeline Overview
+
+1. **Playlist scraping** — `scripts/scrape-youtube-playlists.mjs` fetches playlist metadata from trusted channel pages, then fetches each playlist's video list.
+2. **Playlist-to-book mapping** — Scraped playlists are matched to books by word overlap (see Scraper Matching below). Verified mappings are stored in `scripts/youtube-playlists-curated.json`.
+3. **Title matching** — `scripts/link-youtube-playlists.mjs` normalizes song titles and video titles, then matches them within the same book (see Linker Title Matching below).
+4. **Direct song links** — For cross-channel matches (e.g., a video from a "PlayTime Classics" playlist that also matches an Adult PA song), `directSongLinks` entries in curated.json bypass playlist-based matching entirely.
+5. **Rendering** — Song pages embed matched videos via `YouTubeEmbed.tsx` (lazy-loaded with `client:visible`). Book pages show playlist links via `src/data/book-playlists.json`.
+
+## Key Files
+
+| File | Purpose |
+|---|---|
+| `scripts/youtube-playlists-curated.json` | Channel configs, playlist-to-book mappings with track lists, and direct song links |
+| `scripts/link-youtube-playlists.mjs` | Matching engine — normalizes titles, generates variants, resolves ambiguity, writes `youtubeLinks` to songs |
+| `scripts/scrape-youtube-playlists.mjs` | Scrapes channel playlist pages and fetches video lists; matches playlists to books by word overlap |
+| `scripts/youtube-unmatched-playlists.json` | Playlists found by the scraper that did not match any book (reviewed manually for false negatives) |
+| `src/data/songs.json` | Song records with `youtubeLinks` array (populated by the linker) |
+
+## Matching Strategies
+
+### Scraper: Playlist-to-Book Matching (`scrape-youtube-playlists.mjs`)
+
+The scraper discovers playlists on each trusted channel and attempts to match them to books using **word overlap scoring**.
+
+**Algorithm (`matchPlaylistToBook`):**
+1. Normalize both the playlist title and book title (see Title Normalization below).
+2. Split each into words, filtering out words ≤ 2 characters.
+3. Count how many book-title words appear in the playlist title.
+4. Score = `matchingWords / bookWords.length`.
+5. Accept a match if score ≥ 0.5 AND matchingWords ≥ 2.
+6. Keep the best-scoring book.
+
+**Known limitations:**
+- Produces false positives when playlist names overlap with multiple book series. For example, "PlayTime Piano Classics" (children's) matches "Adult Piano Adventures Classics" because "piano" and "classics" overlap. All scraper matches should be **manually reviewed** before committing.
+- The scraper writes unmatched playlists to `scripts/youtube-unmatched-playlists.json` for human review.
+- New scraper matches go into `playlistBookMappings` only after manual verification.
+
+### Linker: Title Normalization (`link-youtube-playlists.mjs`)
+
+**`normalizeTitle(text)`** — the core normalization used throughout matching:
+1. Lowercase
+2. `&` → `and`
+3. Strip parenthesized content: `(anything)` → removed
+4. Strip bracketed content: `[anything]` → removed
+5. Strip all non-alphanumeric characters (except spaces)
+6. Collapse whitespace, trim
+
+**Example normalizations:**
+| Input | Normalized |
+|---|---|
+| `Turkish March (from The Ruins of Athens) by Beethoven` | `turkish march by beethoven` |
+| `O Sole Mio! [Capua]` | `o sole mio capua` |
+| `Can't Help Falling in Love` | `cant help falling in love` |
+| `Rock & Roll Is Here to Stay` | `rock and roll is here to stay` |
+
+### Linker: Title Variant Generation (`titleVariants`)
+
+The linker generates **multiple search variants** from each normalized title to handle common discrepancies between video titles and song titles.
+
+**Variants generated from a base title:**
+1. **Base** — the normalized title as-is
+2. **Without leading "the"** — `the entertainer` → `entertainer`
+3. **Without "from/theme" suffix** — `morning from peer gynt` → `morning`
+4. **Without opus/number** — `minuet op 14 no 1` → `minuet`
+5. **Without "by" suffix** — `turkish march by beethoven` → `turkish march`
+6. **Combined: without "by" + without "the"** — handles both at once
+7. **Combined: without "by" + without "from/theme"** — handles both at once
+
+**Why "by" stripping matters:** Song titles in `songs.json` often include the composer as a suffix (e.g., `"Turkish March (from The Ruins of Athens) by Beethoven"`) because the `composer` field is frequently empty. Video titles typically don't include this suffix, so stripping it is critical for matching.
+
+### Linker: Video Title Extraction (`extractSongFromVideoTitle`)
+
+Some channels embed **book, page number, and song name** in their video titles. The linker extracts the song portion from these patterns:
+
+**Pattern 1 — "Book, Page X, Song Title":**
+- Example: `Faber Adult Piano Adventures All-in-One Piano Book 2, Page 22, O Sole Mio!`
+- Extracted: `O Sole Mio!`
+- Regex: `,\s*(?:Pages?\s+\d+(?:\s+(?:and|through)\s+\d+)?),\s*(.+)$`
+
+**Pattern 2 — "Song Title - Book Info":**
+- Example: `Lean On Me - Piano Adventures Level 2B ChordTime Popular Book`
+- Extracted: `Lean On Me`
+- Regex: `^(.+?)\s+-\s+(?:Piano Adventures|PlayTime|ShowTime|ChordTime|FunTime|BigTime|PreTime|Level|Alfred)`
+
+The extracted song name is then run through the same `titleVariants` pipeline for matching.
+
+### Linker: Composer Disambiguation
+
+When multiple songs in the same book match a video title (e.g., two different arrangements of "Song of Joy"), the linker uses **composer information** to disambiguate:
+
+1. **Extract composer from video title** — looks for `[Brahms]` brackets in the raw video title via `extractComposerFromVideoTitle`.
+2. **Extract composer from song title** — parses the `by Composer` suffix from the song title in `songs.json` via `extractComposerFromSongTitle`.
+3. **Compare** — normalizes both to last name only (`normalizeComposer` = `normalizeTitle(name).split(' ').pop()`) for accent-safe comparison (e.g., `Dvořák` → `dvorak`).
+4. If exactly one song's composer matches the video's composer, it wins. Otherwise the match is logged as **ambiguous** and skipped.
+
+**Sources checked for composer (in order):**
+1. Song's `composer` field (often empty `""`)
+2. Song title's `by ...` suffix (primary source in practice)
+
+### Linker: Match Resolution Flow
+
+For each video track in a playlist mapping:
+
+```
+video title
+  → generatetitleVariants(track.songTitle || track.videoTitle)
+  → if rawVideoTitle exists, also extractSongFromVideoTitle → titleVariants
+  → compare all variants against titleVariants of every song in the mapped book
+  → 0 matches: log as unmatched
+  → 1 match: link the video to the song
+  → 2+ matches: attempt composer disambiguation
+    → 1 match after disambiguation: link
+    → still ambiguous: log and skip
+```
+
+## Channel-Specific Strategies
+
+### 92pianokeys (2 playlist mappings)
+
+- **Coverage:** Alfred's Basic Adult Piano Course: Greatest Hits Books 1 & 2
+- **Video title format:** `Song Title (Difficulty Level Piano Solo)` — e.g., `Love Me Tender (Elementary Piano Solo)`
+- **Matching notes:** Parenthesized difficulty labels are stripped by normalization. Clean match rate is high because Alfred song titles are straightforward.
+
+### Amy Comparetto (54 playlist mappings)
+
+- **Coverage:** Faber Piano Adventures supplementary series — complete coverage of PreTime through BigTime across all genres (Classics, Disney, Popular, Hymns, Jazz & Blues, Rock 'n Roll, Kids' Songs, Favorites, Ragtime & Marches, Hits, Christmas). Also covers `faber-lesson-2` (Adult Piano Adventures All-in-One Book 2).
+- **Video title format:** `Song Title (SeriesTime Piano Genre)` — e.g., `Aladdin Medley (BigTime Piano Disney)`
+- **Matching notes:** Series/genre annotations in parentheses are stripped. This channel provides the bulk of all YouTube links (54 of 62 playlist mappings). Her `faber-lesson-2` playlist uses the format `Book, Page X, Song Title` which the `extractSongFromVideoTitle` function was specifically built to handle, yielding 90% coverage for that book.
+
+### Karen Rock Music (5 playlist mappings + 9 direct links)
+
+- **Coverage:** Faber Piano Adventures children's levels (Level 1, Level 2A, Level 2B, etc.) and Alfred's Premier Piano Course series. No dedicated Adult PA playlists.
+- **Video title format:** `Song Title [Composer] (Level X Book)` — e.g., `Liebestraum [Liszt] (Level 5 Lesson Book)`
+- **Matching notes:** Bracketed composer names are used by the composer disambiguation system. The `[Composer]` bracket is stripped during normalization but captured first by `extractComposerFromVideoTitle`. Direct song links are used for cross-matching — classical pieces in her children's-level playlists that also appear in Adult PA books (e.g., Liebestraum, Morning from Peer Gynt, Gavotte, In the Hall of the Mountain King, Pachelbel Canon).
+
+### Let's Play Piano Methods (1 playlist mapping + 6 direct links)
+
+- **Coverage:** Faber Piano Adventures children's levels. Limited dedicated playlists.
+- **Video title format:** `Song Title - Piano Adventures Level XY SeriesTime Genre Book` — e.g., `Can Can - Piano Adventures Level 2A PlayTime Piano Classics Book`
+- **Matching notes:** The `Song Title - Book Info` pattern is handled by `extractSongFromVideoTitle` pattern 2. Direct song links used for cross-matching common pieces (Can Can, Barcarolle, Russian Folk Song, Jingle Bells).
+
+## Two Linking Mechanisms
+
+### 1. Playlist Book Mappings
+
+Standard path: an entire YouTube playlist is mapped to a single `bookId`. Every video in the playlist is matched against songs in that book.
+
+```json
+{
+  "channelId": "amy-comparetto",
+  "playlistId": "PL7ucElDiXf1QUj75w-GuTHi5cw4dpXrsx",
+  "playlistTitle": "BigTime Disney",
+  "bookId": "bigtime-piano-disney",
+  "tracks": [{ "videoId": "...", "videoTitle": "...", "url": "..." }]
+}
+```
+
+### 2. Direct Song Links
+
+For videos that belong to a playlist for a *different* book but happen to match a song in a target book (cross-channel / cross-book matches). These bypass playlist-based matching entirely and link a specific video to a specific song by `songId`.
+
+```json
+{
+  "channelId": "karen-rock-music",
+  "songId": "faber-classics-1-liebestraum-dream-of-love",
+  "url": "https://www.youtube.com/watch?v=AF7oEYfsZ9Q",
+  "description": "Liebestraum from Karen Rock Music Level 5 Lesson Book"
+}
+```
+
+Direct links are used when:
+- A classical piece appears in multiple book series at different difficulty levels
+- The channel has no playlist dedicated to the target book
+- Individual videos from unrelated playlists are verified to match target songs
+
+## Rules
+
+- **Never auto-add songs from playlists.** If a video has no matching song in `songs.json`, it stays unmatched.
+- **Scraper matches require manual review.** The word-overlap heuristic produces false positives (especially across book series with similar names).
+- **Ambiguous matches** (multiple songs match one video title, after composer disambiguation) are skipped and logged.
+- **Re-linking is safe** — the linker skips songs that already have the same video URL (canonical form: `https://www.youtube.com/watch?v=VIDEO_ID`).
+- **Dry run first** — always run `node scripts/link-youtube-playlists.mjs --dry-run` before committing changes.
+
+## YouTube-Sourced Track Listings
+
+For books where no publisher track listing is available, a trusted YouTube playlist made specifically for that book can be used to **backport a track listing**. This creates songs from video titles and sets `trackListingSource: "youtube-playlist"` on the book.
+
+This is a lower-confidence source than `publisher-website` or `manual-entry`, but provides value for books that have no other track listing. The playlist must:
+1. Be from one of the trusted channels above
+2. Be explicitly mapped to a single book (not a general "favorites" or "level" playlist)
+3. Have video titles that clearly correspond to individual songs
+
+Books with `youtube-playlist` as their track listing source will not show page numbers (since playlists don't provide them) but will have verified song titles and linked videos.

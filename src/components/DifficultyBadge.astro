@@ -1,0 +1,25 @@
+---
+import type { DifficultyLabel } from '../lib/types';
+
+interface Props {
+  label: DifficultyLabel;
+  size?: 'sm' | 'md';
+}
+
+const { label, size = 'sm' } = Astro.props;
+
+const colorMap: Record<DifficultyLabel, string> = {
+  'Beginner': 'bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-400',
+  'Early Intermediate': 'bg-yellow-100 text-yellow-800 dark:bg-yellow-900/30 dark:text-yellow-400',
+  'Intermediate': 'bg-orange-100 text-orange-800 dark:bg-orange-900/30 dark:text-orange-400',
+  'Late Intermediate': 'bg-red-100 text-red-800 dark:bg-red-900/30 dark:text-red-400',
+  'Early Advanced': 'bg-purple-100 text-purple-800 dark:bg-purple-900/30 dark:text-purple-400',
+  'Advanced': 'bg-pink-100 text-pink-800 dark:bg-pink-900/30 dark:text-pink-400',
+};
+
+const sizeClasses = size === 'sm' ? 'px-2 py-0.5 text-xs' : 'px-3 py-1 text-sm';
+---
+
+<span class:list={['inline-flex items-center rounded-full font-medium', colorMap[label], sizeClasses]}>
+  {label}
+</span>

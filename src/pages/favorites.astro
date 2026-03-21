@@ -1,0 +1,20 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import FavoritesList from '../components/FavoritesList.tsx';
+import { buildSearchIndex } from '../lib/data';
+
+const searchIndex = buildSearchIndex();
+---
+
+<BaseLayout title="Favorites" description="Your favorited songs and practice progress">
+  <h1 class="text-2xl font-bold text-gray-900 dark:text-gray-100">
+    ♥ Favorites
+  </h1>
+  <p class="mt-1 text-sm text-gray-500 dark:text-gray-400">
+    Track your practice progress across all your piano books.
+  </p>
+
+  <div class="mt-6">
+    <FavoritesList client:load songs={searchIndex} />
+  </div>
+</BaseLayout>

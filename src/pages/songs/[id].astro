@@ -1,0 +1,185 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import TrackListing from '../../components/TrackListing.astro';
+import YouTubeEmbed from '../../components/YouTubeEmbed.tsx';
+import FavoriteToggle from '../../components/FavoriteToggle.tsx';
+import { getSongs, getBookById, getSongBookContext } from '../../lib/data';
+import type { Song } from '../../lib/types';
+
+export function getStaticPaths() {
+  const songs = getSongs();
+  return songs.map((song) => ({
+    params: { id: song.id },
+    props: { song },
+  }));
+}
+
+interface Props {
+  song: Song;
+}
+
+const { song } = Astro.props;
+const book = getBookById(song.bookId);
+const songContext = getSongBookContext(song.id);
+const bookHasVideos = songContext?.songs.some((s) => s.youtubeLinks.length > 0) ?? false;
+---
+
+<BaseLayout title={song.title} description={`${song.title} by ${song.composer} — found in ${book?.title ?? 'Unknown Book'}`}>
+  {/* Compact book header bar */}
+  {book && (
+    <div class="mb-6 flex items-center gap-3 rounded-lg border border-gray-200 bg-white px-3 py-2 dark:border-gray-800 dark:bg-gray-900">
+      <div class="shrink-0">
+        {book.coverImage ? (
+          <img src={book.coverImage} alt={book.title} class="h-10 w-8 rounded object-cover shadow-sm" />
+        ) : (
+          <div class="flex h-10 w-8 items-center justify-center rounded bg-gray-100 text-sm dark:bg-gray-800">🎹</div>
+        )}
+      </div>
+      <div class="min-w-0 flex-1">
+        <a href={`/books/${book.id}`} class="text-sm font-medium text-gray-900 hover:text-piano-700 dark:text-gray-100 dark:hover:text-piano-400">
+          {book.title}
+        </a>
+        <p class="text-xs text-gray-500 dark:text-gray-400">
+          {book.series} &middot; {book.seriesLevel}
+        </p>
+      </div>
+      <a href={`/books/${book.id}`} class="shrink-0 text-xs text-piano-600 hover:text-piano-700 dark:text-piano-400 dark:hover:text-piano-300">
+        View Book →
+      </a>
+    </div>
+  )}
+
+  <div>
+    {/* Song Title & Meta */}
+    <h1 class="text-2xl font-bold text-gray-900 dark:text-gray-100">
+      {song.title}
+    </h1>
+    <p class="mt-1 text-gray-600 dark:text-gray-400">
+      {song.composer}
+      {song.arranger && song.arranger !== song.composer && (
+        <span class="text-sm text-gray-500 dark:text-gray-500"> · arr. {song.arranger}</span>
+      )}
+      {song.pageNumber && (
+        <span class="text-sm text-gray-500 dark:text-gray-500"> · Page {song.pageNumber}</span>
+      )}
+    </p>
+
+    {/* Favorite Toggle */}
+    <div class="mt-3">
+      <FavoriteToggle client:load songId={song.id} />
+    </div>
+
+    {/* YouTube Videos */}
+    {song.youtubeLinks.length > 0 && (
+      <div class="mt-6">
+        {/* <h2 class="text-lg font-semibold text-gray-900 dark:text-gray-100">
+          Video{song.youtubeLinks.length > 1 ? `s (${song.youtubeLinks.length})` : ''}
+        </h2> */}
+        <div class="mt-3 space-y-4" id="video-container">
+          {song.youtubeLinks.map((link) => (
+            <YouTubeEmbed
+              client:load
+              url={link.url}
+              artist={link.artist}
+              description={link.description}
+              playlistId={link.playlistId}
+            />
+          ))}
+        </div>
+      </div>
+    )}
+
+    {/* Notes */}
+    {song.notes && (
+      <div class="mt-6">
+        <h2 class="text-sm font-semibold text-gray-900 dark:text-gray-100">Notes</h2>
+        <p class="mt-1 text-sm text-gray-700 dark:text-gray-300">{song.notes}</p>
+      </div>
+    )}
+  </div>
+
+  {/* In-book track listing */}
+  {book && songContext && (
+    <div class="mt-8">
+      <TrackListing
+        songs={songContext.songs}
+        currentSongId={song.id}
+        bookHasVideos={bookHasVideos}
+        bookId={book.id}
+        showAutoplay={true}
+      />
+    </div>
+  )}
+
+  <script is:inline>
+    (function() {
+      var toggle = document.getElementById('autoplay-toggle');
+      if (!toggle) return;
+
+      var params = new URLSearchParams(window.location.search);
+      var isAutoplay = params.get('autoplay') === '1';
+
+      function applyState() {
+        if (isAutoplay) {
+          toggle.classList.add('bg-red-50', 'border-red-300', 'text-red-600', 'dark:bg-red-900/20', 'dark:border-red-800', 'dark:text-red-400');
+          toggle.classList.remove('border-gray-300', 'text-gray-500', 'dark:border-gray-700', 'dark:text-gray-400');
+        } else {
+          toggle.classList.remove('bg-red-50', 'border-red-300', 'text-red-600', 'dark:bg-red-900/20', 'dark:border-red-800', 'dark:text-red-400');
+          toggle.classList.add('border-gray-300', 'text-gray-500', 'dark:border-gray-700', 'dark:text-gray-400');
+        }
+
+        document.querySelectorAll('[data-track-link]').forEach(function(link) {
+          var href = link.getAttribute('href');
+          if (!href) return;
+          var base = href.split('?')[0];
+          link.setAttribute('href', isAutoplay ? base + '?autoplay=1' : base);
+        });
+      }
+
+      toggle.addEventListener('click', function() {
+        isAutoplay = !isAutoplay;
+        var url = new URL(window.location.href);
+        if (isAutoplay) {
+          url.searchParams.set('autoplay', '1');
+        } else {
+          url.searchParams.delete('autoplay');
+        }
+        history.replaceState(null, '', url);
+        applyState();
+      });
+
+      applyState();
+
+      if (isAutoplay) {
+        var container = document.getElementById('video-container');
+        if (container) {
+          container.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+      }
+
+      // Scroll current track into view in listing
+      var current = document.querySelector('#track-listing [aria-current="page"]');
+      if (current) {
+        current.scrollIntoView({ block: 'nearest' });
+      }
+
+      // When autoplay is on and video ends, advance to next track
+      window.addEventListener('yt-video-ended', function() {
+        if (!isAutoplay) return;
+        var currentTrack = document.querySelector('#track-listing [aria-current="page"]');
+        if (!currentTrack) return;
+        var nextLi = currentTrack.closest('li');
+        if (!nextLi) return;
+        var nextSibling = nextLi.nextElementSibling;
+        if (!nextSibling) return;
+        var nextLink = nextSibling.querySelector('[data-track-link]');
+        if (nextLink) {
+          var href = nextLink.getAttribute('href');
+          if (href) {
+            window.location.href = href.split('?')[0] + '?autoplay=1';
+          }
+        }
+      });
+    })();
+  </script>
+</BaseLayout>

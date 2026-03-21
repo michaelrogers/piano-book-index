@@ -1,0 +1,39 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import BookFilter from '../../components/BookFilter.tsx';
+import { getBooks, getSongsByBook, getBookSeries } from '../../lib/data';
+
+const books = getBooks();
+const seriesList = getBookSeries();
+
+const bookInfos = books.map((b) => {
+  const songs = getSongsByBook(b.id);
+  const firstSong = songs[0];
+  return {
+    id: b.id,
+    title: b.title,
+    series: b.series,
+    seriesLevel: b.seriesLevel,
+    bookType: b.bookType,
+    coverImage: b.coverImage,
+    songCount: songs.length,
+    hasRealIndex: songs.some((s) => s.pageNumber !== null),
+    hasConfidentSource: !!b.trackListingSource,
+    hasVideos: songs.some((s) => s.youtubeLinks && s.youtubeLinks.length > 0),
+    difficultyLabel: firstSong?.difficulty.label ?? null,
+    faberLevel: firstSong?.difficulty.faberLevel ?? null,
+  };
+});
+---
+
+<BaseLayout title="Book Catalog">
+  <div class="mb-6">
+    <h1 class="text-2xl font-bold text-gray-900 dark:text-gray-100">
+      Book Catalog
+    </h1>
+    <p class="mt-1 text-sm text-gray-600 dark:text-gray-400">
+      {books.length} books across {seriesList.length} series
+    </p>
+  </div>
+  <BookFilter client:load books={bookInfos} seriesList={seriesList} />
+</BaseLayout>

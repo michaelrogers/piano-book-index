@@ -1,0 +1,80 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import DifficultyBadge from '../components/DifficultyBadge.astro';
+import { getDifficultyMap } from '../lib/data';
+
+const difficultyMap = getDifficultyMap();
+---
+
+<BaseLayout title="Difficulty Reference" description="Compare difficulty levels across Faber and Alfred piano method book series">
+  <div class="mb-6">
+    <h1 class="text-2xl font-bold text-gray-900 dark:text-gray-100">
+      Difficulty Reference
+    </h1>
+    <p class="mt-1 text-sm text-gray-600 dark:text-gray-400">
+      How difficulty levels compare across different piano method book series
+    </p>
+  </div>
+
+  {/* Desktop table */}
+  <div class="hidden overflow-hidden rounded-lg border border-gray-200 dark:border-gray-800 sm:block">
+    <table class="w-full text-sm">
+      <thead>
+        <tr class="bg-gray-50 dark:bg-gray-900">
+          <th class="px-4 py-3 text-left font-semibold text-gray-700 dark:text-gray-300">Level</th>
+          <th class="px-4 py-3 text-left font-semibold text-gray-700 dark:text-gray-300">Faber</th>
+          <th class="px-4 py-3 text-left font-semibold text-gray-700 dark:text-gray-300">Alfred</th>
+          <th class="px-4 py-3 text-left font-semibold text-gray-700 dark:text-gray-300">Description</th>
+        </tr>
+      </thead>
+      <tbody class="divide-y divide-gray-200 dark:divide-gray-800">
+        {difficultyMap.map((row) => (
+          <tr class="bg-white dark:bg-gray-950 hover:bg-gray-50 dark:hover:bg-gray-900">
+            <td class="px-4 py-3">
+              <a href={`/books?difficulty=${encodeURIComponent(row.label)}`} class="hover:opacity-80">
+                <DifficultyBadge label={row.label} size="md" />
+              </a>
+            </td>
+            <td class="px-4 py-3 text-gray-600 dark:text-gray-400">{row.faberLevel}</td>
+            <td class="px-4 py-3 text-gray-600 dark:text-gray-400">{row.alfredLevel}</td>
+            <td class="px-4 py-3 text-gray-600 dark:text-gray-400">{row.description}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+
+  {/* Mobile cards */}
+  <div class="space-y-4 sm:hidden">
+    {difficultyMap.map((row) => (
+      <a href={`/books?difficulty=${encodeURIComponent(row.label)}`} class="block rounded-lg border border-gray-200 bg-white p-4 transition-colors hover:border-piano-300 dark:border-gray-800 dark:bg-gray-900 dark:hover:border-piano-700">
+        <div class="mb-3">
+          <DifficultyBadge label={row.label} size="md" />
+        </div>
+        <dl class="space-y-2 text-sm">
+          <div>
+            <dt class="font-medium text-gray-700 dark:text-gray-300">Faber Level</dt>
+            <dd class="text-gray-600 dark:text-gray-400">{row.faberLevel}</dd>
+          </div>
+          <div>
+            <dt class="font-medium text-gray-700 dark:text-gray-300">Alfred Level</dt>
+            <dd class="text-gray-600 dark:text-gray-400">{row.alfredLevel}</dd>
+          </div>
+          <div>
+            <dt class="font-medium text-gray-700 dark:text-gray-300">Description</dt>
+            <dd class="text-gray-600 dark:text-gray-400">{row.description}</dd>
+          </div>
+        </dl>
+      </a>
+    ))}
+  </div>
+
+  <div class="mt-8 rounded-lg bg-gray-50 p-4 text-sm text-gray-600 dark:bg-gray-900 dark:text-gray-400">
+    <h3 class="font-semibold text-gray-700 dark:text-gray-300">About These Levels</h3>
+    <p class="mt-2">
+      Each publisher uses their own grading system. This table provides an approximate mapping between
+      Faber Adult Piano Adventures and Alfred's Basic Adult Piano Course levels, plus a descriptive label
+      used throughout this site. Individual songs may vary — these are general guidelines.
+    </p>
+  </div>
+</BaseLayout>

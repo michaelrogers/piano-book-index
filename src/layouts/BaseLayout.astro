@@ -1,0 +1,174 @@
+---
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = 'Browse and search piano songs across Faber and Alfred method book series' } = Astro.props;
+const currentPath = Astro.url.pathname;
+
+import '../styles/global.css';
+import ThemeToggle from '../components/ThemeToggle.tsx';
+---
+
+<!doctype html>
+<html lang="en" class="dark:bg-gray-950">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#7e22ce" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="apple-touch-icon" href="/icon-192.png" />
+    <title>{title} | Piano Book Index</title>
+    <script is:inline>
+      (function() {
+        var t = localStorage.getItem('theme');
+        var d = t === 'dark' || (!t || t === 'system') && window.matchMedia('(prefers-color-scheme: dark)').matches;
+        document.documentElement.classList.toggle('dark', d);
+      })();
+    </script>
+  </head>
+  <body class="min-h-screen bg-gray-50 text-gray-900 dark:bg-gray-950 dark:text-gray-100">
+    <header class="sticky top-0 z-50 border-b border-gray-200 bg-white/80 backdrop-blur dark:border-gray-800 dark:bg-gray-950/80">
+      <nav class="mx-auto flex max-w-5xl items-center justify-between px-4 py-3">
+        <a href="/" class="text-lg font-bold text-piano-700 dark:text-piano-400">
+          🎹 Piano Book Index
+        </a>
+        <ul class="flex items-center gap-1 text-sm">
+          <li>
+            <ThemeToggle client:load />
+          </li>
+          <li>
+            <a
+              href="/"
+              class:list={[
+                'rounded-md px-3 py-2 transition-colors hover:bg-gray-100 dark:hover:bg-gray-800',
+                currentPath === '/' && 'bg-piano-100 font-medium text-piano-700 dark:bg-piano-900/30 dark:text-piano-400',
+              ]}
+            >
+              Search
+            </a>
+          </li>
+          <li>
+            <a
+              href="/books"
+              class:list={[
+                'rounded-md px-3 py-2 transition-colors hover:bg-gray-100 dark:hover:bg-gray-800',
+                currentPath.startsWith('/books') && 'bg-piano-100 font-medium text-piano-700 dark:bg-piano-900/30 dark:text-piano-400',
+              ]}
+            >
+              Books
+            </a>
+          </li>
+          <li>
+            <a
+              href="/favorites"
+              class:list={[
+                'rounded-md px-3 py-2 transition-colors hover:bg-gray-100 dark:hover:bg-gray-800',
+                currentPath === '/favorites' && 'bg-piano-100 font-medium text-piano-700 dark:bg-piano-900/30 dark:text-piano-400',
+              ]}
+            >
+              ♥ Favorites
+            </a>
+          </li>
+          <li>
+            <a
+              href="/difficulty"
+              class:list={[
+                'rounded-md px-3 py-2 transition-colors hover:bg-gray-100 dark:hover:bg-gray-800',
+                currentPath === '/difficulty' && 'bg-piano-100 font-medium text-piano-700 dark:bg-piano-900/30 dark:text-piano-400',
+              ]}
+            >
+              Difficulty
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="mx-auto max-w-5xl px-4 py-6">
+      <slot />
+    </main>
+
+    <footer class="border-t border-gray-200 py-6 text-center text-xs text-gray-500 dark:border-gray-800 dark:text-gray-600">
+      Piano Book Index &mdash; Personal reference tool
+    </footer>
+
+    <script is:inline>
+      const applyOwnershipState = () => {
+        const ownedIds = new Set();
+        for (let i = 0; i < localStorage.length; i += 1) {
+          const key = localStorage.key(i);
+          if (!key || !key.startsWith('owned:')) continue;
+          if (localStorage.getItem(key) === 'true') {
+            ownedIds.add(key.replace('owned:', ''));
+          }
+        }
+
+        document.querySelectorAll('[data-owned-card][data-book-id]').forEach((el) => {
+          const bookId = el.getAttribute('data-book-id');
+          const isOwned = Boolean(bookId && ownedIds.has(bookId));
+          el.classList.toggle('owned-book', isOwned);
+          el.setAttribute('data-owned', isOwned ? 'true' : 'false');
+        });
+
+        document.querySelectorAll('[data-owned-indicator][data-book-id]').forEach((el) => {
+          const bookId = el.getAttribute('data-book-id');
+          const isOwned = Boolean(bookId && ownedIds.has(bookId));
+          el.classList.toggle('hidden', !isOwned);
+        });
+      };
+
+      applyOwnershipState();
+      window.addEventListener('storage', applyOwnershipState);
+      window.addEventListener('owned-books-changed', applyOwnershipState);
+      document.addEventListener('astro:after-swap', applyOwnershipState);
+
+      const applyFavoritesState = () => {
+        const favIds = new Set();
+        for (let i = 0; i < localStorage.length; i += 1) {
+          const key = localStorage.key(i);
+          if (!key || !key.startsWith('fav:')) continue;
+          favIds.add(key.replace('fav:', ''));
+        }
+
+        document.querySelectorAll('[data-fav-toggle][data-song-id]').forEach((el) => {
+          const songId = el.getAttribute('data-song-id');
+          const isFav = Boolean(songId && favIds.has(songId));
+          el.textContent = isFav ? '♥' : '♡';
+          if (isFav) {
+            el.classList.add('text-pink-500', 'dark:text-pink-400');
+            el.classList.remove('text-gray-300', 'dark:text-gray-600');
+          } else {
+            el.classList.remove('text-pink-500', 'dark:text-pink-400');
+            el.classList.add('text-gray-300', 'dark:text-gray-600');
+          }
+        });
+      };
+
+      const handleFavToggleClick = (e) => {
+        const btn = e.target.closest('[data-fav-toggle][data-song-id]');
+        if (!btn) return;
+        const songId = btn.getAttribute('data-song-id');
+        if (!songId) return;
+        const key = 'fav:' + songId;
+        const existing = localStorage.getItem(key);
+        if (existing) {
+          localStorage.removeItem(key);
+          window.dispatchEvent(new CustomEvent('favorites-changed', { detail: { songId, status: null, removed: true } }));
+        } else {
+          localStorage.setItem(key, JSON.stringify({ status: 'want-to-learn', favoritedAt: Date.now() }));
+          window.dispatchEvent(new CustomEvent('favorites-changed', { detail: { songId, status: 'want-to-learn', removed: false } }));
+        }
+        applyFavoritesState();
+      };
+
+      document.addEventListener('click', handleFavToggleClick);
+      applyFavoritesState();
+      window.addEventListener('storage', applyFavoritesState);
+      window.addEventListener('favorites-changed', applyFavoritesState);
+      document.addEventListener('astro:after-swap', applyFavoritesState);
+    </script>
+  </body>
+</html>
