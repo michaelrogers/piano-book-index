@@ -77,7 +77,7 @@ export function getDifficultyMap(): DifficultyMapping[] {
 }
 
 export function getBookSeries(): string[] {
-  return [...new Set(books.map((b) => b.series))];
+  return [...new Set(books.map((b) => b.series).filter(Boolean))] as string[];
 }
 
 export function getGenres(): string[] {

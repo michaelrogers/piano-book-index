@@ -1,41 +1,23 @@
 import { useState, useEffect } from 'preact/hooks';
 
-type Theme = 'light' | 'dark' | 'system';
-
-const icons: Record<Theme, string> = {
-  light: '☀️',
-  dark: '🌙',
-  system: '💻',
-};
+type Theme = 'light' | 'dark';
 
 function applyTheme(theme: Theme) {
-  const isDark =
-    theme === 'dark' ||
-    (theme === 'system' && window.matchMedia('(prefers-color-scheme: dark)').matches);
-  document.documentElement.classList.toggle('dark', isDark);
+  document.documentElement.classList.toggle('dark', theme === 'dark');
 }
 
 export default function ThemeToggle() {
-  const [theme, setTheme] = useState<Theme>('system');
+  const [theme, setTheme] = useState<Theme>('light');
 
   useEffect(() => {
     const stored = localStorage.getItem('theme') as Theme | null;
-    if (stored === 'light' || stored === 'dark' || stored === 'system') {
+    if (stored === 'light' || stored === 'dark') {
       setTheme(stored);
     }
-
-    const mq = window.matchMedia('(prefers-color-scheme: dark)');
-    const handler = () => {
-      const current = localStorage.getItem('theme') as Theme | null;
-      if (!current || current === 'system') applyTheme('system');
-    };
-    mq.addEventListener('change', handler);
-    return () => mq.removeEventListener('change', handler);
   }, []);
 
-  const cycle = () => {
-    const order: Theme[] = ['light', 'dark', 'system'];
-    const next = order[(order.indexOf(theme) + 1) % order.length];
+  const toggle = () => {
+    const next: Theme = theme === 'light' ? 'dark' : 'light';
     setTheme(next);
     localStorage.setItem('theme', next);
     applyTheme(next);
@@ -43,11 +25,11 @@ export default function ThemeToggle() {
 
   return (
     <button
-      onClick={cycle}
+      onClick={toggle}
       title={`Theme: ${theme}`}
-      class="rounded-md px-2 py-1.5 text-sm transition-colors hover:bg-gray-100 dark:hover:bg-gray-800"
+      class="rounded-md px-2 py-1.5 text-sm font-medium text-gray-600 transition-colors hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-800"
     >
-      {icons[theme]}
+      {theme === 'light' ? 'Dark' : 'Light'}
     </button>
   );
 }

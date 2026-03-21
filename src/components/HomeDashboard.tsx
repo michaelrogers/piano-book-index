@@ -109,14 +109,14 @@ export default function HomeDashboard({ songs, totalBooks }: Props) {
           <div class="text-2xl font-bold text-piano-600 dark:text-piano-400">{totalBooks}</div>
           <div class="text-xs text-gray-500 dark:text-gray-400">Books</div>
         </div>
-        <div class="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-700 dark:bg-gray-900">
+        <a href="/books?owned=1" class="rounded-lg border border-gray-200 bg-white p-4 transition-colors hover:border-emerald-300 dark:border-gray-700 dark:bg-gray-900 dark:hover:border-emerald-700">
           <div class="text-2xl font-bold text-emerald-600 dark:text-emerald-400">{ownedCount}</div>
           <div class="text-xs text-gray-500 dark:text-gray-400">In Library</div>
-        </div>
-        <div class="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-700 dark:bg-gray-900">
+        </a>
+        <a href="/favorites" class="rounded-lg border border-gray-200 bg-white p-4 transition-colors hover:border-pink-300 dark:border-gray-700 dark:bg-gray-900 dark:hover:border-pink-700">
           <div class="text-2xl font-bold text-pink-600 dark:text-pink-400">{favorites.length}</div>
           <div class="text-xs text-gray-500 dark:text-gray-400">Favorites</div>
-        </div>
+        </a>
       </div>
 
       {/* Practice status breakdown */}

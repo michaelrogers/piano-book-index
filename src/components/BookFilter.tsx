@@ -94,6 +94,7 @@ export default function BookFilter({ books, seriesList, publisherList }: Props) 
   const [diffMax, setDiffMax] = useState<number | null>(null);
   const [selectedPublisher, setSelectedPublisher] = useState('');
   const [hideLessonBooks, setHideLessonBooks] = useState(true);
+  const [showOnlyOwned, setShowOnlyOwned] = useState(false);
   const [ownedBookIds, setOwnedBookIds] = useState<Set<string>>(new Set());
 
   const [initialized, setInitialized] = useState(false);
@@ -121,6 +122,9 @@ export default function BookFilter({ books, seriesList, publisherList }: Props) 
     if (pub && publisherList.includes(pub)) {
       setSelectedPublisher(pub);
     }
+    if (params.get('owned') === '1') {
+      setShowOnlyOwned(true);
+    }
     setInitialized(true);
   }, []);
 
@@ -132,8 +136,9 @@ export default function BookFilter({ books, seriesList, publisherList }: Props) 
       series: selectedSeries,
       publisher: selectedPublisher,
       lesson: hideLessonBooks ? '' : '1',
+      owned: showOnlyOwned ? '1' : '',
     });
-  }, [diffMin, diffMax, selectedSeries, selectedPublisher, hideLessonBooks, initialized]);
+  }, [diffMin, diffMax, selectedSeries, selectedPublisher, hideLessonBooks, showOnlyOwned, initialized]);
 
   useEffect(() => {
     const loadOwnedBooks = () => {
@@ -175,9 +180,13 @@ export default function BookFilter({ books, seriesList, publisherList }: Props) 
     ? afterDifficulty.filter((b) => b.publisher === selectedPublisher)
     : afterDifficulty;
 
-  const filtered = selectedSeries
-    ? afterPublisher.filter((b) => b.series === selectedSeries)
+  const afterOwned = showOnlyOwned
+    ? afterPublisher.filter((b) => ownedBookIds.has(b.id))
     : afterPublisher;
+
+  const filtered = selectedSeries
+    ? afterOwned.filter((b) => b.series === selectedSeries)
+    : afterOwned;
 
   // Sort: owned books first, then books with no songs to the bottom
   const sorted = [...filtered].sort((a, b) => {
@@ -208,6 +217,16 @@ export default function BookFilter({ books, seriesList, publisherList }: Props) 
           <span class="text-gray-600 dark:text-gray-300">Hide lesson books</span>
         </label>
 
+        <label class="inline-flex cursor-pointer items-center gap-1.5 rounded-full border border-gray-300 px-3 py-2 text-sm dark:border-gray-700">
+          <input
+            type="checkbox"
+            checked={showOnlyOwned}
+            onChange={(e) => setShowOnlyOwned((e.target as HTMLInputElement).checked)}
+            class="accent-emerald-600"
+          />
+          <span class="text-gray-600 dark:text-gray-300">My Library</span>
+        </label>
+
         <select
           value={selectedPublisher}
           onChange={(e) => setSelectedPublisher((e.target as HTMLSelectElement).value)}
@@ -227,10 +246,10 @@ export default function BookFilter({ books, seriesList, publisherList }: Props) 
               : 'bg-gray-100 text-gray-600 hover:bg-gray-200 dark:bg-gray-800 dark:text-gray-400 dark:hover:bg-gray-700'
           }`}
         >
-          All ({afterPublisher.length})
+          All ({afterOwned.length})
         </button>
         {seriesList.map((s) => {
-          const count = afterPublisher.filter((b) => b.series === s).length;
+          const count = afterOwned.filter((b) => b.series === s).length;
           return (
             <button
               key={s}
