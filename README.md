@@ -1,43 +1,15 @@
-# Astro Starter Kit: Minimal
+# Piano Book Index
 
-```sh
-npm create astro@latest -- --template minimal
-```
+A personal reference site for indexing songs across piano method books. Browse by book, search by song title or composer, track practice progress, and find YouTube tutorials — all in one place.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## What it does
 
-## 🚀 Project Structure
+- **Book catalog** — Browse and filter books by publisher, series, and difficulty level. Mark which books you own.
+- **Song index** — Search 1,300+ songs across 96 books with fuzzy search by title, composer, or genre.
+- **YouTube links** — Embedded tutorial videos matched to individual songs from trusted piano channels.
+- **Practice tracking** — Favorite songs and track your progress: want to learn, learning, practiced, mastered.
+- **Difficulty reference** — Compare difficulty scales across Faber, Alfred, and other publishers.
 
-Inside of your Astro project, you'll see the following folders and files:
+## Tech
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
-
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Static site built with Astro and deployed to Cloudflare Pages. All data lives in JSON files — no backend, no database. User state (owned books, favorites) stored in localStorage.
