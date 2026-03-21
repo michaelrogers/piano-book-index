@@ -121,7 +121,7 @@ export default function FavoritesList({ songs }: Props) {
             </h2>
             <div class="mt-2 divide-y divide-gray-100 overflow-hidden rounded-lg border border-gray-200 bg-white dark:divide-gray-800 dark:border-gray-800 dark:bg-gray-900">
               {items.map((song) => (
-                <div key={song.id} class="group flex items-center gap-3 px-3 py-2">
+                <div key={song.id} class="group flex items-center gap-3 px-3 py-3">
                   <a href={`/songs/${song.id}`} class="flex min-w-0 flex-1 items-center gap-3">
                     <div class="shrink-0">
                       {song.bookCoverImage ? (
@@ -154,7 +154,7 @@ export default function FavoritesList({ songs }: Props) {
                     <select
                       value={song.favData.status}
                       onChange={(e) => changeStatus(song.id, (e.target as HTMLSelectElement).value as PracticeStatus)}
-                      class="rounded border border-gray-200 bg-gray-50 px-1.5 py-0.5 text-xs text-gray-600 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-400"
+                      class="rounded border border-gray-200 bg-gray-50 px-2 py-1.5 text-sm text-gray-600 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-400"
                     >
                       {STATUS_OPTIONS.map((opt) => (
                         <option key={opt.value} value={opt.value}>{opt.label}</option>
@@ -162,10 +162,10 @@ export default function FavoritesList({ songs }: Props) {
                     </select>
                     <button
                       onClick={() => removeFavorite(song.id)}
-                      class="rounded p-1 text-gray-300 hover:bg-red-50 hover:text-red-500 dark:text-gray-600 dark:hover:bg-red-900/20 dark:hover:text-red-400"
+                      class="rounded p-2 text-gray-300 hover:bg-red-50 hover:text-red-500 dark:text-gray-600 dark:hover:bg-red-900/20 dark:hover:text-red-400"
                       title="Remove from favorites"
                     >
-                      <svg class="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" /></svg>
+                      <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" /></svg>
                     </button>
                   </div>
                 </div>

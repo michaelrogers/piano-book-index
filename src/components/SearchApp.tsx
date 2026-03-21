@@ -175,11 +175,11 @@ export default function SearchApp({ songs, genres, series, publishers }: Props) 
       </div>
 
       {/* Filters */}
-      <div class="mt-3 flex flex-wrap gap-2">
+      <div class="mt-3 flex flex-nowrap gap-2 overflow-x-auto pb-2 sm:flex-wrap sm:overflow-visible sm:pb-0">
         <select
           value={selectedDifficulty}
           onChange={(e) => setSelectedDifficulty((e.target as HTMLSelectElement).value)}
-          class="rounded-lg border border-gray-300 bg-white px-3 py-1.5 text-sm dark:border-gray-700 dark:bg-gray-900 dark:text-gray-100"
+          class="shrink-0 rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm dark:border-gray-700 dark:bg-gray-900 dark:text-gray-100"
         >
           <option value="">All Levels</option>
           {DIFFICULTY_LABELS.map((d) => (
@@ -190,7 +190,7 @@ export default function SearchApp({ songs, genres, series, publishers }: Props) 
         <select
           value={selectedGenre}
           onChange={(e) => setSelectedGenre((e.target as HTMLSelectElement).value)}
-          class="rounded-lg border border-gray-300 bg-white px-3 py-1.5 text-sm dark:border-gray-700 dark:bg-gray-900 dark:text-gray-100"
+          class="shrink-0 rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm dark:border-gray-700 dark:bg-gray-900 dark:text-gray-100"
         >
           <option value="">All Genres</option>
           {genres.map((g) => (
@@ -201,7 +201,7 @@ export default function SearchApp({ songs, genres, series, publishers }: Props) 
         <select
           value={selectedSeries}
           onChange={(e) => setSelectedSeries((e.target as HTMLSelectElement).value)}
-          class="rounded-lg border border-gray-300 bg-white px-3 py-1.5 text-sm dark:border-gray-700 dark:bg-gray-900 dark:text-gray-100"
+          class="shrink-0 rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm dark:border-gray-700 dark:bg-gray-900 dark:text-gray-100"
         >
           <option value="">All Series</option>
           {series.map((s) => (
@@ -212,7 +212,7 @@ export default function SearchApp({ songs, genres, series, publishers }: Props) 
         <select
           value={selectedPublisher}
           onChange={(e) => setSelectedPublisher((e.target as HTMLSelectElement).value)}
-          class="rounded-lg border border-gray-300 bg-white px-3 py-1.5 text-sm dark:border-gray-700 dark:bg-gray-900 dark:text-gray-100"
+          class="shrink-0 rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm dark:border-gray-700 dark:bg-gray-900 dark:text-gray-100"
         >
           <option value="">All Publishers</option>
           {publishers.map((p) => (
@@ -220,7 +220,7 @@ export default function SearchApp({ songs, genres, series, publishers }: Props) 
           ))}
         </select>
 
-        <label class="inline-flex cursor-pointer items-center gap-1.5 rounded-lg border border-gray-300 px-3 py-1.5 text-sm dark:border-gray-700">
+        <label class="inline-flex shrink-0 cursor-pointer items-center gap-1.5 rounded-lg border border-gray-300 px-3 py-2 text-sm dark:border-gray-700">
           <input
             type="checkbox"
             checked={onlyOwned}
@@ -230,7 +230,7 @@ export default function SearchApp({ songs, genres, series, publishers }: Props) 
           <span class="text-gray-600 dark:text-gray-300">In Library only</span>
         </label>
 
-        <label class="inline-flex cursor-pointer items-center gap-1.5 rounded-lg border border-gray-300 px-3 py-1.5 text-sm dark:border-gray-700">
+        <label class="inline-flex shrink-0 cursor-pointer items-center gap-1.5 rounded-lg border border-gray-300 px-3 py-2 text-sm dark:border-gray-700">
           <input
             type="checkbox"
             checked={hideLessonBooks}
@@ -248,7 +248,7 @@ export default function SearchApp({ songs, genres, series, publishers }: Props) 
               setSelectedSeries('');
               setSelectedPublisher('');
             }}
-            class="rounded-lg px-3 py-1.5 text-sm text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200"
+            class="shrink-0 rounded-lg px-3 py-2 text-sm text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200"
           >
             Clear filters
           </button>
