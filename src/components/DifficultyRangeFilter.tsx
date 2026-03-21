@@ -56,7 +56,7 @@ export default function DifficultyRangeFilter({ min, max, onChange }: Props) {
   return (
     <div class="flex flex-col gap-1">
       <div class="flex items-center gap-1">
-        <div class="flex cursor-pointer gap-px" role="group" aria-label="Difficulty range filter">
+        <div class="flex min-w-0 flex-1 cursor-pointer gap-px" role="group" aria-label="Difficulty range filter">
           {LABELS.map((label, i) => (
             <button
               key={label}
@@ -64,7 +64,7 @@ export default function DifficultyRangeFilter({ min, max, onChange }: Props) {
               onClick={() => handleClick(i)}
               title={label}
               aria-pressed={isActive(i)}
-              class={`h-7 w-8 transition-all first:rounded-l-md last:rounded-r-md sm:w-10 ${SEGMENT_COLORS[i]} ${
+              class={`h-7 min-w-0 flex-1 transition-all first:rounded-l-md last:rounded-r-md ${SEGMENT_COLORS[i]} ${
                 !hasSelection
                   ? 'opacity-40 hover:opacity-70'
                   : isActive(i)
@@ -78,7 +78,7 @@ export default function DifficultyRangeFilter({ min, max, onChange }: Props) {
           <button
             type="button"
             onClick={() => onChange(null, null)}
-            class="ml-1 rounded p-1 text-xs text-gray-400 hover:text-gray-600 dark:hover:text-gray-300"
+            class="ml-1 shrink-0 rounded p-1 text-xs text-gray-400 hover:text-gray-600 dark:hover:text-gray-300"
             title="Clear difficulty filter"
           >
             <svg class="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
@@ -89,7 +89,7 @@ export default function DifficultyRangeFilter({ min, max, onChange }: Props) {
         {SHORT_LABELS.map((sl, i) => (
           <span
             key={sl}
-            class={`w-8 text-center sm:w-10 ${isActive(i) ? 'font-medium text-gray-600 dark:text-gray-300' : ''}`}
+            class={`min-w-0 flex-1 text-center ${isActive(i) ? 'font-medium text-gray-600 dark:text-gray-300' : ''}`}
           >
             {sl}
           </span>
