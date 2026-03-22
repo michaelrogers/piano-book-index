@@ -96,8 +96,8 @@ export default function BookFilter({ books, seriesList, publisherList }: Props) 
   const [hideLessonBooks, setHideLessonBooks] = useState(true);
   const [showOnlyOwned, setShowOnlyOwned] = useState(false);
   const [ownedBookIds, setOwnedBookIds] = useState<Set<string>>(new Set());
-
   const [initialized, setInitialized] = useState(false);
+  const [filtersOpen, setFiltersOpen] = useState(false);
 
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
@@ -124,6 +124,10 @@ export default function BookFilter({ books, seriesList, publisherList }: Props) 
     }
     if (params.get('owned') === '1') {
       setShowOnlyOwned(true);
+    }
+    // Auto-expand filters if any are set from URL
+    if (dmin !== null || series || pub || params.get('owned') === '1') {
+      setFiltersOpen(true);
     }
     setInitialized(true);
   }, []);
@@ -200,71 +204,93 @@ export default function BookFilter({ books, seriesList, publisherList }: Props) 
 
   return (
     <div>
-      {/* Difficulty range */}
-      <div class="mb-3">
-        <DifficultyRangeFilter min={diffMin} max={diffMax} onChange={(mn, mx) => { setDiffMin(mn); setDiffMax(mx); }} />
-      </div>
-
-      {/* Filter row */}
-      <div class="flex flex-wrap items-center gap-2">
-        <label class="inline-flex cursor-pointer items-center gap-1.5 rounded-full border border-gray-300 px-3 py-2 text-sm dark:border-gray-700">
-          <input
-            type="checkbox"
-            checked={hideLessonBooks}
-            onChange={(e) => setHideLessonBooks((e.target as HTMLInputElement).checked)}
-            class="accent-piano-600"
-          />
-          <span class="text-gray-600 dark:text-gray-300">Hide lesson books</span>
-        </label>
-
-        <label class="inline-flex cursor-pointer items-center gap-1.5 rounded-full border border-gray-300 px-3 py-2 text-sm dark:border-gray-700">
-          <input
-            type="checkbox"
-            checked={showOnlyOwned}
-            onChange={(e) => setShowOnlyOwned((e.target as HTMLInputElement).checked)}
-            class="accent-emerald-600"
-          />
-          <span class="text-gray-600 dark:text-gray-300">My Library</span>
-        </label>
-
-        <select
-          value={selectedPublisher}
-          onChange={(e) => setSelectedPublisher((e.target as HTMLSelectElement).value)}
-          class="rounded-full border border-gray-300 bg-white px-3 py-2 text-sm dark:border-gray-700 dark:bg-gray-900 dark:text-gray-100"
-        >
-          <option value="">All Publishers</option>
-          {publisherList.map((p) => (
-            <option key={p} value={p}>{p}</option>
-          ))}
-        </select>
-
-        <button
-          onClick={() => setSelectedSeries('')}
-          class={`rounded-full px-3 py-2 text-sm font-medium transition-colors ${
-            !selectedSeries
-              ? 'bg-piano-600 text-white'
-              : 'bg-gray-100 text-gray-600 hover:bg-gray-200 dark:bg-gray-800 dark:text-gray-400 dark:hover:bg-gray-700'
-          }`}
-        >
-          All ({afterOwned.length})
-        </button>
-        {seriesList.map((s) => {
-          const count = afterOwned.filter((b) => b.series === s).length;
-          return (
+      {/* Collapsible filters */}
+      {(() => {
+        const activeFilterCount = (diffMin !== null ? 1 : 0) + (selectedPublisher ? 1 : 0) + (showOnlyOwned ? 1 : 0) + (selectedSeries ? 1 : 0);
+        return (
+          <div class="mb-4">
             <button
-              key={s}
-              onClick={() => setSelectedSeries(s)}
-              class={`rounded-full px-3 py-2 text-sm font-medium transition-colors ${
-                selectedSeries === s
-                  ? 'bg-piano-600 text-white'
-                  : 'bg-gray-100 text-gray-600 hover:bg-gray-200 dark:bg-gray-800 dark:text-gray-400 dark:hover:bg-gray-700'
-              }`}
+              type="button"
+              onClick={() => setFiltersOpen(!filtersOpen)}
+              class="flex items-center gap-1.5 text-sm font-medium text-gray-600 dark:text-gray-400"
             >
-              {s} ({count})
+              <svg class={`h-4 w-4 transition-transform ${filtersOpen ? 'rotate-90' : ''}`} fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" /></svg>
+              Filters
+              {activeFilterCount > 0 && (
+                <span class="rounded-full bg-piano-100 px-1.5 py-0.5 text-xs font-medium text-piano-700 dark:bg-piano-900/40 dark:text-piano-300">{activeFilterCount}</span>
+              )}
             </button>
-          );
-        })}
-      </div>
+
+            {filtersOpen && (
+              <div class="mt-2 space-y-3">
+                {/* Difficulty range */}
+                <DifficultyRangeFilter min={diffMin} max={diffMax} onChange={(mn, mx) => { setDiffMin(mn); setDiffMax(mx); }} />
+
+                {/* Filter row */}
+                <div class="flex flex-wrap items-center gap-2">
+                  <label class="inline-flex cursor-pointer items-center gap-1.5 rounded-full border border-gray-300 px-3 py-2 text-sm dark:border-gray-700">
+                    <input
+                      type="checkbox"
+                      checked={hideLessonBooks}
+                      onChange={(e) => setHideLessonBooks((e.target as HTMLInputElement).checked)}
+                      class="accent-piano-600"
+                    />
+                    <span class="text-gray-600 dark:text-gray-300">Hide lesson books</span>
+                  </label>
+
+                  <label class="inline-flex cursor-pointer items-center gap-1.5 rounded-full border border-gray-300 px-3 py-2 text-sm dark:border-gray-700">
+                    <input
+                      type="checkbox"
+                      checked={showOnlyOwned}
+                      onChange={(e) => setShowOnlyOwned((e.target as HTMLInputElement).checked)}
+                      class="accent-emerald-600"
+                    />
+                    <span class="text-gray-600 dark:text-gray-300">My Library</span>
+                  </label>
+
+                  <select
+                    value={selectedPublisher}
+                    onChange={(e) => setSelectedPublisher((e.target as HTMLSelectElement).value)}
+                    class="rounded-full border border-gray-300 bg-white px-3 py-2 text-sm dark:border-gray-700 dark:bg-gray-900 dark:text-gray-100"
+                  >
+                    <option value="">All Publishers</option>
+                    {publisherList.map((p) => (
+                      <option key={p} value={p}>{p}</option>
+                    ))}
+                  </select>
+
+                  <button
+                    onClick={() => setSelectedSeries('')}
+                    class={`rounded-full px-3 py-2 text-sm font-medium transition-colors ${
+                      !selectedSeries
+                        ? 'bg-piano-600 text-white'
+                        : 'bg-gray-100 text-gray-600 hover:bg-gray-200 dark:bg-gray-800 dark:text-gray-400 dark:hover:bg-gray-700'
+                    }`}
+                  >
+                    All ({afterOwned.length})
+                  </button>
+                  {seriesList.map((s) => {
+                    const count = afterOwned.filter((b) => b.series === s).length;
+                    return (
+                      <button
+                        key={s}
+                        onClick={() => setSelectedSeries(s)}
+                        class={`rounded-full px-3 py-2 text-sm font-medium transition-colors ${
+                          selectedSeries === s
+                            ? 'bg-piano-600 text-white'
+                            : 'bg-gray-100 text-gray-600 hover:bg-gray-200 dark:bg-gray-800 dark:text-gray-400 dark:hover:bg-gray-700'
+                        }`}
+                      >
+                        {s} ({count})
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
+            )}
+          </div>
+        );
+      })()}
 
       {/* Book grid */}
       <div class="mt-6 grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4">

@@ -18,7 +18,7 @@ import PWAInstallPrompt from '../components/PWAInstallPrompt.tsx';
 <html lang="en" class="dark:bg-gray-950">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
     <meta name="description" content={description} />
     <meta name="theme-color" content="#7e22ce" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -102,13 +102,20 @@ import PWAInstallPrompt from '../components/PWAInstallPrompt.tsx';
           <div class="hidden sm:block">
             <ThemeToggle client:load />
           </div>
-          <!-- Mobile drawer -->
-          <div class="sm:hidden">
-            <MobileDrawer client:load currentPath={currentPath} />
-          </div>
+          <!-- Mobile hamburger (static HTML, no JS dependency) -->
+          <button
+            id="mobile-menu-btn"
+            class="rounded-md p-2 text-gray-500 transition-colors hover:bg-gray-100 sm:hidden dark:text-gray-400 dark:hover:bg-gray-800"
+            aria-label="Open menu"
+          >
+            <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+          </button>
         </div>
       </nav>
     </header>
+    <MobileDrawer client:load currentPath={currentPath} />
 
     <main class="mx-auto max-w-5xl px-4 py-6" id="main-content">
       <slot />

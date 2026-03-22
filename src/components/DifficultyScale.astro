@@ -47,8 +47,8 @@ const systemLevel = faberLevel || alfredLevel;
 const isHorizontal = orientation === 'horizontal';
 ---
 
-<div class="flex items-center gap-2">
-  <div class:list={[isHorizontal ? 'flex flex-row gap-px' : 'flex flex-col gap-px']} title={label}>
+<div class="flex items-center gap-2 overflow-hidden">
+  <div class:list={['shrink-0', isHorizontal ? 'flex flex-row gap-px' : 'flex flex-col gap-px']} title={label}>
     {(isHorizontal ? DIFFICULTY_LEVELS : DIFFICULTY_LEVELS.slice().reverse()).map((_, ri) => {
       const i = isHorizontal ? ri : DIFFICULTY_LEVELS.length - 1 - ri;
       return (
@@ -63,7 +63,7 @@ const isHorizontal = orientation === 'horizontal';
     })}
   </div>
   <div class:list={['min-w-0 leading-tight', textSize]}>
-    <div class:list={['font-medium', labelTextColors[label]]}>{label}</div>
+    <div class:list={['font-medium truncate', labelTextColors[label]]}>{label}</div>
     {systemLevel && (
       <div class="text-gray-400 dark:text-gray-500">{systemLevel}</div>
     )}

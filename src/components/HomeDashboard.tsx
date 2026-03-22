@@ -91,21 +91,21 @@ export default function HomeDashboard({ songs, totalBooks }: Props) {
     <div class="space-y-8">
       {/* Stats */}
       <div class="grid grid-cols-2 gap-3 sm:grid-cols-4">
-        <div class="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-700 dark:bg-gray-900">
-          <div class="text-2xl font-bold text-piano-600 dark:text-piano-400">{songs.length}</div>
-          <div class="text-xs text-gray-500 dark:text-gray-400">Songs</div>
-        </div>
-        <div class="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-700 dark:bg-gray-900">
-          <div class="text-2xl font-bold text-piano-600 dark:text-piano-400">{totalBooks}</div>
-          <div class="text-xs text-gray-500 dark:text-gray-400">Books</div>
-        </div>
-        <a href="/books?owned=1" class="rounded-lg border border-gray-200 bg-white p-4 transition-colors hover:border-emerald-300 dark:border-gray-700 dark:bg-gray-900 dark:hover:border-emerald-700">
+        <a href="/books?owned=1" class="rounded-lg border border-gray-200 bg-white p-4 transition-colors hover:border-emerald-300 hover:shadow-sm dark:border-gray-700 dark:bg-gray-900 dark:hover:border-emerald-700">
           <div class="text-2xl font-bold text-emerald-600 dark:text-emerald-400">{ownedCount}</div>
           <div class="text-xs text-gray-500 dark:text-gray-400">In Library</div>
         </a>
-        <a href="/favorites" class="rounded-lg border border-gray-200 bg-white p-4 transition-colors hover:border-pink-300 dark:border-gray-700 dark:bg-gray-900 dark:hover:border-pink-700">
+        <a href="/favorites" class="rounded-lg border border-gray-200 bg-white p-4 transition-colors hover:border-pink-300 hover:shadow-sm dark:border-gray-700 dark:bg-gray-900 dark:hover:border-pink-700">
           <div class="text-2xl font-bold text-pink-600 dark:text-pink-400">{favorites.length}</div>
           <div class="text-xs text-gray-500 dark:text-gray-400">Favorites</div>
+        </a>
+        <a href="/search" class="rounded-lg border border-gray-200 bg-white p-4 transition-colors hover:border-piano-300 hover:shadow-sm dark:border-gray-700 dark:bg-gray-900 dark:hover:border-piano-600">
+          <div class="text-2xl font-bold text-piano-600 dark:text-piano-400">{songs.length}</div>
+          <div class="text-xs text-gray-500 dark:text-gray-400">Songs</div>
+        </a>
+        <a href="/books" class="rounded-lg border border-gray-200 bg-white p-4 transition-colors hover:border-piano-300 hover:shadow-sm dark:border-gray-700 dark:bg-gray-900 dark:hover:border-piano-600">
+          <div class="text-2xl font-bold text-piano-600 dark:text-piano-400">{totalBooks}</div>
+          <div class="text-xs text-gray-500 dark:text-gray-400">Books</div>
         </a>
       </div>
 
@@ -199,24 +199,27 @@ export default function HomeDashboard({ songs, totalBooks }: Props) {
       <div class="grid grid-cols-3 gap-3">
         <a
           href="/search"
-          class="flex flex-col items-center gap-2 rounded-lg border border-gray-200 bg-white p-4 transition-colors hover:border-piano-300 dark:border-gray-700 dark:bg-gray-900 dark:hover:border-piano-600"
+          class="flex flex-col items-center gap-1.5 rounded-lg border border-gray-200 bg-white px-3 py-4 text-center transition-all hover:border-piano-300 hover:shadow-sm active:scale-[0.98] dark:border-gray-700 dark:bg-gray-900 dark:hover:border-piano-600"
         >
           <svg class="h-6 w-6 text-piano-600 dark:text-piano-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" /></svg>
-          <div class="text-xs font-medium text-gray-900 dark:text-gray-100">Search</div>
+          <div class="text-xs font-medium text-gray-900 dark:text-gray-100">Search Songs</div>
+          <svg class="h-3.5 w-3.5 text-gray-400 dark:text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" /></svg>
         </a>
         <a
           href="/books"
-          class="flex flex-col items-center gap-2 rounded-lg border border-gray-200 bg-white p-4 transition-colors hover:border-piano-300 dark:border-gray-700 dark:bg-gray-900 dark:hover:border-piano-600"
+          class="flex flex-col items-center gap-1.5 rounded-lg border border-gray-200 bg-white px-3 py-4 text-center transition-all hover:border-piano-300 hover:shadow-sm active:scale-[0.98] dark:border-gray-700 dark:bg-gray-900 dark:hover:border-piano-600"
         >
           <svg class="h-6 w-6 text-piano-600 dark:text-piano-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25" /></svg>
-          <div class="text-xs font-medium text-gray-900 dark:text-gray-100">Books</div>
+          <div class="text-xs font-medium text-gray-900 dark:text-gray-100">Browse Books</div>
+          <svg class="h-3.5 w-3.5 text-gray-400 dark:text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" /></svg>
         </a>
         <a
           href="/favorites"
-          class="flex flex-col items-center gap-2 rounded-lg border border-gray-200 bg-white p-4 transition-colors hover:border-piano-300 dark:border-gray-700 dark:bg-gray-900 dark:hover:border-piano-600"
+          class="flex flex-col items-center gap-1.5 rounded-lg border border-gray-200 bg-white px-3 py-4 text-center transition-all hover:border-piano-300 hover:shadow-sm active:scale-[0.98] dark:border-gray-700 dark:bg-gray-900 dark:hover:border-piano-600"
         >
           <svg class="h-6 w-6 text-pink-500 dark:text-pink-400" fill="currentColor" viewBox="0 0 24 24"><path d="M11.645 20.91l-.007-.003-.022-.012a15.247 15.247 0 01-.383-.218 25.18 25.18 0 01-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0112 5.052 5.5 5.5 0 0116.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 01-4.244 3.17 15.247 15.247 0 01-.383.219l-.022.012-.007.004-.003.001a.752.752 0 01-.704 0l-.003-.001z" /></svg>
           <div class="text-xs font-medium text-gray-900 dark:text-gray-100">Favorites</div>
+          <svg class="h-3.5 w-3.5 text-gray-400 dark:text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" /></svg>
         </a>
       </div>
     </div>

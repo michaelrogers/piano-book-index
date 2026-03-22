@@ -42,6 +42,7 @@ export default function SearchApp({ songs, genres, series, publishers }: Props) 
   const [ownedBookIds, setOwnedBookIds] = useState<Set<string>>(new Set());
   const [favSongIds, setFavSongIds] = useState<Set<string>>(new Set());
   const [initialized, setInitialized] = useState(false);
+  const [filtersOpen, setFiltersOpen] = useState(false);
 
   // Close genre dropdown on outside click
   useEffect(() => {
@@ -73,6 +74,10 @@ export default function SearchApp({ songs, genres, series, publishers }: Props) 
     if (params.get('publisher')) setSelectedPublisher(params.get('publisher')!);
     if (params.get('owned') === '1') setOnlyOwned(true);
     if (params.get('lesson') === '1') setHideLessonBooks(false);
+    // Auto-expand filters if any are set from URL
+    if (dmin !== null || genreParam || params.get('series') || params.get('publisher') || params.get('owned') === '1') {
+      setFiltersOpen(true);
+    }
     setInitialized(true);
   }, []);
 
@@ -196,13 +201,30 @@ export default function SearchApp({ songs, genres, series, publishers }: Props) 
         </svg>
       </div>
 
-      {/* Difficulty range */}
-      <div class="mt-3">
-        <DifficultyRangeFilter min={diffMin} max={diffMax} onChange={(mn, mx) => { setDiffMin(mn); setDiffMax(mx); }} />
-      </div>
+      {/* Collapsible filters */}
+      {(() => {
+        const activeFilterCount = (diffMin !== null ? 1 : 0) + (selectedGenres.size > 0 ? 1 : 0) + (selectedSeries ? 1 : 0) + (selectedPublisher ? 1 : 0) + (onlyOwned ? 1 : 0);
+        return (
+          <div class="mt-3">
+            <button
+              type="button"
+              onClick={() => setFiltersOpen(!filtersOpen)}
+              class="flex items-center gap-1.5 text-sm font-medium text-gray-600 dark:text-gray-400"
+            >
+              <svg class={`h-4 w-4 transition-transform ${filtersOpen ? 'rotate-90' : ''}`} fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" /></svg>
+              Filters
+              {activeFilterCount > 0 && (
+                <span class="rounded-full bg-piano-100 px-1.5 py-0.5 text-xs font-medium text-piano-700 dark:bg-piano-900/40 dark:text-piano-300">{activeFilterCount}</span>
+              )}
+            </button>
 
-      {/* Filters */}
-      <div class="mt-3 grid grid-cols-2 gap-2 sm:flex sm:flex-wrap">
+            {filtersOpen && (
+              <div class="mt-2 space-y-3">
+                {/* Difficulty range */}
+                <DifficultyRangeFilter min={diffMin} max={diffMax} onChange={(mn, mx) => { setDiffMin(mn); setDiffMax(mx); }} />
+
+                {/* Filters */}
+                <div class="grid grid-cols-2 gap-2 sm:flex sm:flex-wrap">
         <div ref={genreRef} class="relative">
           <button
             type="button"
@@ -294,9 +316,14 @@ export default function SearchApp({ songs, genres, series, publishers }: Props) 
             Clear filters
           </button>
         )}
-      </div>
+              </div>
+              </div>
+            )}
+          </div>
+        );
+      })()}
 
-      {/* Genre pills */}
+      {/* Genre pills (always visible if active) */}
       {selectedGenres.size > 0 && (
         <div class="mt-2 flex flex-wrap gap-1.5">
           {[...selectedGenres].map((g) => (
