@@ -10,6 +10,7 @@ const currentPath = Astro.url.pathname.replace(/\/+$/, '') || '/';
 import '../styles/global.css';
 import ThemeToggle from '../components/ThemeToggle.tsx';
 import MobileDrawer from '../components/MobileDrawer.tsx';
+import PWABottomNav from '../components/PWABottomNav.tsx';
 import PWAInstallPrompt from '../components/PWAInstallPrompt.tsx';
 ---
 
@@ -109,14 +110,15 @@ import PWAInstallPrompt from '../components/PWAInstallPrompt.tsx';
       </nav>
     </header>
 
-    <main class="mx-auto max-w-5xl px-4 py-6">
+    <main class="mx-auto max-w-5xl px-4 py-6" id="main-content">
       <slot />
     </main>
 
-    <footer class="border-t border-gray-200 py-6 text-center text-xs text-gray-500 dark:border-gray-800 dark:text-gray-600">
+    <footer class="border-t border-gray-200 py-6 text-center text-xs text-gray-500 dark:border-gray-800 dark:text-gray-600" id="page-footer">
       Piano Book Index &mdash; Personal reference tool
     </footer>
 
+    <PWABottomNav client:load currentPath={currentPath} />
     <PWAInstallPrompt client:load />
 
     <script is:inline>
@@ -198,6 +200,18 @@ import PWAInstallPrompt from '../components/PWAInstallPrompt.tsx';
       if ('serviceWorker' in navigator) {
         navigator.serviceWorker.register('/sw.js');
       }
+
+      // In standalone PWA mode, add bottom padding for the tab bar
+      (function() {
+        var isStandalone = navigator.standalone === true ||
+          window.matchMedia('(display-mode: standalone)').matches;
+        if (isStandalone && window.innerWidth < 640) {
+          var main = document.getElementById('main-content');
+          var footer = document.getElementById('page-footer');
+          if (main) main.style.paddingBottom = '5rem';
+          if (footer) footer.style.marginBottom = '4rem';
+        }
+      })();
     </script>
   </body>
 </html>

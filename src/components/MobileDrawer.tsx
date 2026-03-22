@@ -1,4 +1,5 @@
-import { useState, useEffect, useRef } from 'preact/hooks';
+import { useState, useEffect } from 'preact/hooks';
+import { createPortal } from 'preact/compat';
 import ThemeToggle from './ThemeToggle';
 
 interface Props {
@@ -13,9 +14,19 @@ const navItems = [
   { href: '/difficulty', label: 'Difficulty Reference', matchExact: true },
 ];
 
+function isStandalone(): boolean {
+  if (typeof window === 'undefined') return false;
+  return (navigator as any).standalone === true ||
+    window.matchMedia('(display-mode: standalone)').matches;
+}
+
 export default function MobileDrawer({ currentPath }: Props) {
   const [open, setOpen] = useState(false);
-  const panelRef = useRef<HTMLDivElement>(null);
+  const [standalone, setStandalone] = useState(false);
+
+  useEffect(() => {
+    setStandalone(isStandalone());
+  }, []);
 
   useEffect(() => {
     if (open) {
@@ -34,6 +45,9 @@ export default function MobileDrawer({ currentPath }: Props) {
     return () => document.removeEventListener('keydown', onKey);
   }, []);
 
+  // In standalone PWA mode, hide the hamburger (bottom tab bar handles nav)
+  if (standalone) return null;
+
   const isActive = (item: typeof navItems[0]) =>
     item.matchExact ? currentPath === item.href : currentPath.startsWith(item.href);
 
@@ -50,8 +64,8 @@ export default function MobileDrawer({ currentPath }: Props) {
         </svg>
       </button>
 
-      {/* Overlay + drawer */}
-      {open && (
+      {/* Overlay + drawer — portaled to body to escape header stacking context */}
+      {open && createPortal(
         <div class="fixed inset-0 z-[100]" role="dialog" aria-modal="true">
           {/* Backdrop */}
           <div
@@ -60,7 +74,6 @@ export default function MobileDrawer({ currentPath }: Props) {
           />
           {/* Panel */}
           <div
-            ref={panelRef}
             class="absolute right-0 top-0 flex h-full w-72 max-w-[80vw] flex-col bg-white shadow-xl dark:bg-gray-950 animate-slide-in-right"
           >
             {/* Header */}
@@ -109,7 +122,8 @@ export default function MobileDrawer({ currentPath }: Props) {
               </div>
             </div>
           </div>
-        </div>
+        </div>,
+        document.body
       )}
     </>
   );
