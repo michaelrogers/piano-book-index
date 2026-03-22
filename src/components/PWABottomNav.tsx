@@ -58,15 +58,15 @@ export default function PWABottomNav({ currentPath }: Props) {
     tab.matchExact ? currentPath === tab.href : currentPath.startsWith(tab.href);
 
   return (
-    <nav class="fixed inset-x-0 bottom-0 z-50 border-t border-gray-200 bg-white/95 backdrop-blur safe-bottom sm:hidden dark:border-gray-800 dark:bg-gray-950/95">
-      <div class="mx-auto grid max-w-lg grid-cols-4">
+    <nav class="fixed inset-x-0 bottom-0 z-50 border-t border-gray-200 bg-white/95 backdrop-blur sm:hidden dark:border-gray-800 dark:bg-gray-950/95">
+      <div class="mx-auto grid max-w-lg grid-cols-4 pb-[env(safe-area-inset-bottom,0px)]">
         {tabs.map((tab) => {
           const active = isActive(tab);
           return (
             <a
               key={tab.href}
               href={tab.href}
-              class={`flex flex-col items-center gap-0.5 py-2 text-[11px] transition-colors ${
+              class={`flex flex-col items-center gap-0.5 pt-2 pb-1 text-[11px] transition-colors ${
                 active
                   ? 'text-piano-600 dark:text-piano-400'
                   : 'text-gray-500 dark:text-gray-400'

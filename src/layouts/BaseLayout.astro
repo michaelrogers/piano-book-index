@@ -18,7 +18,7 @@ import PWAInstallPrompt from '../components/PWAInstallPrompt.tsx';
 <html lang="en" class="dark:bg-gray-950">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <meta name="description" content={description} />
     <meta name="theme-color" content="#7e22ce" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -35,7 +35,7 @@ import PWAInstallPrompt from '../components/PWAInstallPrompt.tsx';
     </script>
   </head>
   <body class="min-h-screen bg-gray-50 text-gray-900 dark:bg-gray-950 dark:text-gray-100">
-    <header class="sticky top-0 z-50 border-b border-gray-200 bg-white/80 backdrop-blur dark:border-gray-800 dark:bg-gray-950/80">
+    <header class="sticky top-0 z-50 border-b border-gray-200 bg-white/80 backdrop-blur safe-top dark:border-gray-800 dark:bg-gray-950/80">
       <nav class="mx-auto flex max-w-5xl items-center justify-between px-4 py-3">
         <a href="/" class="flex items-center gap-2 text-lg font-bold text-piano-700 dark:text-piano-400">
           <svg class="h-6 w-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -209,7 +209,7 @@ import PWAInstallPrompt from '../components/PWAInstallPrompt.tsx';
           var main = document.getElementById('main-content');
           var footer = document.getElementById('page-footer');
           if (main) main.style.paddingBottom = '5rem';
-          if (footer) footer.style.marginBottom = '4rem';
+          if (footer) footer.style.marginBottom = '5rem';
         }
       })();
     </script>

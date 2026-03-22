@@ -38,7 +38,7 @@ const statusColors: Record<PracticeStatus, string> = {
 export default function HomeDashboard({ songs, totalBooks }: Props) {
   const [favorites, setFavorites] = useState<FavEntry[]>([]);
   const [ownedCount, setOwnedCount] = useState(0);
-  const [randomSong, setRandomSong] = useState<SongSummary | null>(null);
+  const [randomSongs, setRandomSongs] = useState<SongSummary[]>([]);
 
   const loadState = () => {
     const favs: FavEntry[] = [];
@@ -62,9 +62,10 @@ export default function HomeDashboard({ songs, totalBooks }: Props) {
 
   useEffect(() => {
     loadState();
-    // Pick a random song
+    // Pick 3 random songs (non-repeating)
     if (songs.length > 0) {
-      setRandomSong(songs[Math.floor(Math.random() * songs.length)]);
+      const shuffled = [...songs].sort(() => Math.random() - 0.5);
+      setRandomSongs(shuffled.slice(0, 3));
     }
     window.addEventListener('favorites-changed', loadState);
     window.addEventListener('owned-books-changed', loadState);
@@ -88,17 +89,6 @@ export default function HomeDashboard({ songs, totalBooks }: Props) {
 
   return (
     <div class="space-y-8">
-      {/* Quick search */}
-      <a
-        href="/search"
-        class="flex items-center gap-3 rounded-xl border border-gray-200 bg-white px-4 py-3 shadow-sm transition-colors hover:border-piano-300 hover:bg-gray-50 dark:border-gray-700 dark:bg-gray-900 dark:hover:border-piano-600 dark:hover:bg-gray-800"
-      >
-        <svg class="h-5 w-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-        </svg>
-        <span class="text-gray-500 dark:text-gray-400">Search songs by title, composer, or genre...</span>
-      </a>
-
       {/* Stats */}
       <div class="grid grid-cols-2 gap-3 sm:grid-cols-4">
         <div class="rounded-lg border border-gray-200 bg-white p-4 dark:border-gray-700 dark:bg-gray-900">
@@ -176,56 +166,57 @@ export default function HomeDashboard({ songs, totalBooks }: Props) {
         </div>
       )}
 
-      {/* Random song suggestion */}
-      {randomSong && (
+      {/* Random song suggestions */}
+      {randomSongs.length > 0 && (
         <div>
           <h2 class="mb-3 text-lg font-semibold text-gray-900 dark:text-gray-100">Try Something New</h2>
-          <a
-            href={`/songs/${randomSong.id}`}
-            class="flex items-center gap-4 rounded-lg border border-gray-200 bg-white p-4 transition-colors hover:border-piano-300 hover:bg-gray-50 dark:border-gray-700 dark:bg-gray-900 dark:hover:border-piano-600 dark:hover:bg-gray-800"
-          >
-            <div class="shrink-0">
-              {randomSong.bookCoverImage ? (
-                <img src={randomSong.bookCoverImage} alt="" class="h-14 w-11 rounded object-cover shadow-sm" />
-              ) : (
-                <div class="flex h-14 w-11 items-center justify-center rounded bg-gray-100 dark:bg-gray-800">
-                  <svg class="h-5 w-5 text-gray-300 dark:text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="m9 9 10.5-3m0 6.553v3.75a2.25 2.25 0 0 1-1.632 2.163l-1.32.377a1.803 1.803 0 0 1-.99-3.467l2.31-.66a2.25 2.25 0 0 0 1.632-2.163zm0 0V4.5l-10.5 3v6.75m0 0v3.75a2.25 2.25 0 0 1-1.632 2.163l-1.32.377a1.803 1.803 0 0 1-.99-3.467l2.31-.66A2.25 2.25 0 0 0 4.5 15V4.5" /></svg>
+          <div class="-mx-4 flex gap-3 overflow-x-auto px-4 pb-2 snap-x snap-mandatory scrollbar-hide">
+            {randomSongs.map((song) => (
+              <a
+                key={song.id}
+                href={`/songs/${song.id}`}
+                class="flex w-44 shrink-0 snap-start flex-col overflow-hidden rounded-lg border border-gray-200 bg-white transition-colors hover:border-piano-300 dark:border-gray-700 dark:bg-gray-900 dark:hover:border-piano-600"
+              >
+                <div class="flex h-16 items-center justify-center bg-gray-50 dark:bg-gray-800/50">
+                  {song.bookCoverImage ? (
+                    <img src={song.bookCoverImage} alt="" class="h-14 w-11 rounded object-cover shadow-sm" />
+                  ) : (
+                    <svg class="h-6 w-6 text-gray-300 dark:text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="m9 9 10.5-3m0 6.553v3.75a2.25 2.25 0 0 1-1.632 2.163l-1.32.377a1.803 1.803 0 0 1-.99-3.467l2.31-.66a2.25 2.25 0 0 0 1.632-2.163zm0 0V4.5l-10.5 3v6.75m0 0v3.75a2.25 2.25 0 0 1-1.632 2.163l-1.32.377a1.803 1.803 0 0 1-.99-3.467l2.31-.66A2.25 2.25 0 0 0 4.5 15V4.5" /></svg>
+                  )}
                 </div>
-              )}
-            </div>
-            <div class="min-w-0 flex-1">
-              <div class="text-base font-medium text-gray-900 dark:text-gray-100">{randomSong.title}</div>
-              <div class="text-sm text-gray-500 dark:text-gray-400">{randomSong.composer}</div>
-              <div class="mt-1 text-xs text-gray-400 dark:text-gray-500">{randomSong.bookTitle} · {randomSong.difficultyLabel}</div>
-            </div>
-            <svg class="h-5 w-5 shrink-0 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
-            </svg>
-          </a>
+                <div class="flex flex-1 flex-col p-3">
+                  <div class="line-clamp-2 text-sm font-medium leading-snug text-gray-900 dark:text-gray-100">{song.title}</div>
+                  <div class="mt-1 truncate text-xs text-gray-500 dark:text-gray-400">{song.composer}</div>
+                  <div class="mt-auto pt-1.5 truncate text-[11px] text-gray-400 dark:text-gray-500">{song.difficultyLabel}</div>
+                </div>
+              </a>
+            ))}
+          </div>
         </div>
       )}
 
       {/* Quick links */}
-      <div class="grid grid-cols-2 gap-3">
+      <div class="grid grid-cols-3 gap-3">
+        <a
+          href="/search"
+          class="flex flex-col items-center gap-2 rounded-lg border border-gray-200 bg-white p-4 transition-colors hover:border-piano-300 dark:border-gray-700 dark:bg-gray-900 dark:hover:border-piano-600"
+        >
+          <svg class="h-6 w-6 text-piano-600 dark:text-piano-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" /></svg>
+          <div class="text-xs font-medium text-gray-900 dark:text-gray-100">Search</div>
+        </a>
         <a
           href="/books"
-          class="flex items-center gap-3 rounded-lg border border-gray-200 bg-white p-4 transition-colors hover:border-piano-300 dark:border-gray-700 dark:bg-gray-900 dark:hover:border-piano-600"
+          class="flex flex-col items-center gap-2 rounded-lg border border-gray-200 bg-white p-4 transition-colors hover:border-piano-300 dark:border-gray-700 dark:bg-gray-900 dark:hover:border-piano-600"
         >
           <svg class="h-6 w-6 text-piano-600 dark:text-piano-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25" /></svg>
-          <div>
-            <div class="text-sm font-medium text-gray-900 dark:text-gray-100">Browse Books</div>
-            <div class="text-xs text-gray-500 dark:text-gray-400">{totalBooks} books</div>
-          </div>
+          <div class="text-xs font-medium text-gray-900 dark:text-gray-100">Books</div>
         </a>
         <a
           href="/favorites"
-          class="flex items-center gap-3 rounded-lg border border-gray-200 bg-white p-4 transition-colors hover:border-piano-300 dark:border-gray-700 dark:bg-gray-900 dark:hover:border-piano-600"
+          class="flex flex-col items-center gap-2 rounded-lg border border-gray-200 bg-white p-4 transition-colors hover:border-piano-300 dark:border-gray-700 dark:bg-gray-900 dark:hover:border-piano-600"
         >
           <svg class="h-6 w-6 text-pink-500 dark:text-pink-400" fill="currentColor" viewBox="0 0 24 24"><path d="M11.645 20.91l-.007-.003-.022-.012a15.247 15.247 0 01-.383-.218 25.18 25.18 0 01-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0112 5.052 5.5 5.5 0 0116.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 01-4.244 3.17 15.247 15.247 0 01-.383.219l-.022.012-.007.004-.003.001a.752.752 0 01-.704 0l-.003-.001z" /></svg>
-          <div>
-            <div class="text-sm font-medium text-gray-900 dark:text-gray-100">Favorites</div>
-            <div class="text-xs text-gray-500 dark:text-gray-400">{favorites.length} songs</div>
-          </div>
+          <div class="text-xs font-medium text-gray-900 dark:text-gray-100">Favorites</div>
         </a>
       </div>
     </div>
