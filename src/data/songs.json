@@ -8378,9 +8378,9 @@
     "notes": ""
   },
   {
-    "id": "pretime-piano-kids-songs-9-songs-a-tisket-a-tasket",
-    "title": "9 songs: A-Tisket, A-Tasket",
-    "composer": "",
+    "id": "pretime-piano-kids-songs-a-tisket-a-tasket",
+    "title": "A-Tisket, A-Tasket",
+    "composer": "Traditional",
     "arranger": "Nancy and Randall Faber",
     "genre": "Kids' Songs",
     "bookId": "pretime-piano-kids-songs",
@@ -8390,7 +8390,15 @@
       "faberLevel": "Primer",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=RlMtV-vqCD8",
+        "artist": "Amy Comparetto",
+        "description": "PreTime Kids' Songs",
+        "playlistId": "PL7ucElDiXf1TAuLBy_SExG2oZlTQLiYdo",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1TAuLBy_SExG2oZlTQLiYdo"
+      }
+    ],
     "notes": ""
   },
   {
@@ -15897,8 +15905,8 @@
     "notes": ""
   },
   {
-    "id": "chordtime-piano-kids-songs-12-songs-including-catch-a-falling-star",
-    "title": "12 songs, including: Catch a Falling Star",
+    "id": "chordtime-piano-kids-songs-catch-a-falling-star",
+    "title": "Catch a Falling Star",
     "composer": "",
     "arranger": "Nancy and Randall Faber",
     "genre": "Kids' Songs",
@@ -15909,7 +15917,15 @@
       "faberLevel": "Level 2B",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=AqrrDa5wttU",
+        "artist": "Amy Comparetto",
+        "description": "ChordTime chordtime+kids",
+        "playlistId": "PL7ucElDiXf1Rogw8DL6gIVy0a-a4LgLfK",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1Rogw8DL6gIVy0a-a4LgLfK"
+      }
+    ],
     "notes": ""
   },
   {
@@ -16000,6 +16016,174 @@
     "youtubeLinks": [
       {
         "url": "https://www.youtube.com/watch?v=Q5RCQd9YI20",
+        "artist": "Amy Comparetto",
+        "description": "ChordTime chordtime+kids",
+        "playlistId": "PL7ucElDiXf1Rogw8DL6gIVy0a-a4LgLfK",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1Rogw8DL6gIVy0a-a4LgLfK"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "id": "chordtime-piano-kids-songs-i-cant-spell-hippopotamus",
+    "title": "I Can't Spell Hippopotamus",
+    "composer": "",
+    "arranger": "Nancy and Randall Faber",
+    "genre": "Kids' Songs",
+    "bookId": "chordtime-piano-kids-songs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Early Intermediate",
+      "faberLevel": "Level 2B",
+      "alfredLevel": null
+    },
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=nRo9AuvxcAY",
+        "artist": "Amy Comparetto",
+        "description": "ChordTime chordtime+kids",
+        "playlistId": "PL7ucElDiXf1Rogw8DL6gIVy0a-a4LgLfK",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1Rogw8DL6gIVy0a-a4LgLfK"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "id": "chordtime-piano-kids-songs-in-a-cabin-in-the-woods",
+    "title": "In a Cabin in the Woods",
+    "composer": "Traditional",
+    "arranger": "Nancy and Randall Faber",
+    "genre": "Kids' Songs",
+    "bookId": "chordtime-piano-kids-songs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Early Intermediate",
+      "faberLevel": "Level 2B",
+      "alfredLevel": null
+    },
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=m3ufo1_Jx5g",
+        "artist": "Amy Comparetto",
+        "description": "ChordTime chordtime+kids",
+        "playlistId": "PL7ucElDiXf1Rogw8DL6gIVy0a-a4LgLfK",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1Rogw8DL6gIVy0a-a4LgLfK"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "id": "chordtime-piano-kids-songs-mama-paquita",
+    "title": "Mama Paquita",
+    "composer": "Traditional",
+    "arranger": "Nancy and Randall Faber",
+    "genre": "Kids' Songs",
+    "bookId": "chordtime-piano-kids-songs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Early Intermediate",
+      "faberLevel": "Level 2B",
+      "alfredLevel": null
+    },
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=tzqADOEvmSM",
+        "artist": "Amy Comparetto",
+        "description": "ChordTime chordtime+kids",
+        "playlistId": "PL7ucElDiXf1Rogw8DL6gIVy0a-a4LgLfK",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1Rogw8DL6gIVy0a-a4LgLfK"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "id": "chordtime-piano-kids-songs-new-river-train",
+    "title": "New River Train",
+    "composer": "Traditional",
+    "arranger": "Nancy and Randall Faber",
+    "genre": "Kids' Songs",
+    "bookId": "chordtime-piano-kids-songs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Early Intermediate",
+      "faberLevel": "Level 2B",
+      "alfredLevel": null
+    },
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=myrcKWfHV9k",
+        "artist": "Amy Comparetto",
+        "description": "ChordTime chordtime+kids",
+        "playlistId": "PL7ucElDiXf1Rogw8DL6gIVy0a-a4LgLfK",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1Rogw8DL6gIVy0a-a4LgLfK"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "id": "chordtime-piano-kids-songs-pizza-time",
+    "title": "Pizza Time!",
+    "composer": "Nancy Faber",
+    "arranger": "Nancy and Randall Faber",
+    "genre": "Kids' Songs",
+    "bookId": "chordtime-piano-kids-songs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Early Intermediate",
+      "faberLevel": "Level 2B",
+      "alfredLevel": null
+    },
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=UDTFAoEyK7s",
+        "artist": "Amy Comparetto",
+        "description": "ChordTime chordtime+kids",
+        "playlistId": "PL7ucElDiXf1Rogw8DL6gIVy0a-a4LgLfK",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1Rogw8DL6gIVy0a-a4LgLfK"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "id": "chordtime-piano-kids-songs-the-teddy-bears-picnic",
+    "title": "The Teddy Bears' Picnic",
+    "composer": "John W. Bratton",
+    "arranger": "Nancy and Randall Faber",
+    "genre": "Kids' Songs",
+    "bookId": "chordtime-piano-kids-songs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Early Intermediate",
+      "faberLevel": "Level 2B",
+      "alfredLevel": null
+    },
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=8ee831GpWlI",
+        "artist": "Amy Comparetto",
+        "description": "ChordTime chordtime+kids",
+        "playlistId": "PL7ucElDiXf1Rogw8DL6gIVy0a-a4LgLfK",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1Rogw8DL6gIVy0a-a4LgLfK"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "id": "chordtime-piano-kids-songs-tingalayo",
+    "title": "Tingalayo",
+    "composer": "Traditional",
+    "arranger": "Nancy and Randall Faber",
+    "genre": "Kids' Songs",
+    "bookId": "chordtime-piano-kids-songs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Early Intermediate",
+      "faberLevel": "Level 2B",
+      "alfredLevel": null
+    },
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=-BdcFbt4H8E",
         "artist": "Amy Comparetto",
         "description": "ChordTime chordtime+kids",
         "playlistId": "PL7ucElDiXf1Rogw8DL6gIVy0a-a4LgLfK",
@@ -18877,9 +19061,9 @@
     "notes": ""
   },
   {
-    "id": "funtime-piano-popular-12-songs-carefully-graded-for-students-to-enjoy-including-co",
-    "title": "12 songs carefully graded for students to enjoy, including: Colors of the Wind",
-    "composer": "",
+    "id": "funtime-piano-popular-a-whole-new-world",
+    "title": "A Whole New World",
+    "composer": "Alan Menken",
     "arranger": "Nancy and Randall Faber",
     "genre": "Popular",
     "bookId": "funtime-piano-popular",
@@ -18889,7 +19073,39 @@
       "faberLevel": "Level 3A-3B",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=9p2FQZJapug",
+        "artist": "Amy Comparetto",
+        "description": "FunTime Popular",
+        "playlistId": "PL7ucElDiXf1TFZ3cEBAtTubL4eMmZ-ei0",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1TFZ3cEBAtTubL4eMmZ-ei0"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "id": "funtime-piano-popular-colors-of-the-wind",
+    "title": "Colors of the Wind",
+    "composer": "Alan Menken",
+    "arranger": "Nancy and Randall Faber",
+    "genre": "Popular",
+    "bookId": "funtime-piano-popular",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": "Level 3A-3B",
+      "alfredLevel": null
+    },
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=59lK1V1GpnI",
+        "artist": "Amy Comparetto",
+        "description": "FunTime Popular",
+        "playlistId": "PL7ucElDiXf1TFZ3cEBAtTubL4eMmZ-ei0",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1TFZ3cEBAtTubL4eMmZ-ei0"
+      }
+    ],
     "notes": ""
   },
   {
@@ -19002,6 +19218,126 @@
       "alfredLevel": null
     },
     "youtubeLinks": [],
+    "notes": ""
+  },
+  {
+    "id": "funtime-piano-popular-hes-a-pirate",
+    "title": "He's a Pirate",
+    "composer": "Klaus Badelt",
+    "arranger": "Nancy and Randall Faber",
+    "genre": "Popular",
+    "bookId": "funtime-piano-popular",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": "Level 3A-3B",
+      "alfredLevel": null
+    },
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=ZMS-MW3yDsc",
+        "artist": "Amy Comparetto",
+        "description": "FunTime Popular",
+        "playlistId": "PL7ucElDiXf1TFZ3cEBAtTubL4eMmZ-ei0",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1TFZ3cEBAtTubL4eMmZ-ei0"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "id": "funtime-piano-popular-i-saw-her-standing-there",
+    "title": "I Saw Her Standing There",
+    "composer": "John Lennon and Paul McCartney",
+    "arranger": "Nancy and Randall Faber",
+    "genre": "Popular",
+    "bookId": "funtime-piano-popular",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": "Level 3A-3B",
+      "alfredLevel": null
+    },
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=rLqHwgzqAns",
+        "artist": "Amy Comparetto",
+        "description": "FunTime Popular",
+        "playlistId": "PL7ucElDiXf1TFZ3cEBAtTubL4eMmZ-ei0",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1TFZ3cEBAtTubL4eMmZ-ei0"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "id": "funtime-piano-popular-moonlight-sonata",
+    "title": "Moonlight Sonata",
+    "composer": "Ludwig van Beethoven",
+    "arranger": "Nancy and Randall Faber",
+    "genre": "Popular",
+    "bookId": "funtime-piano-popular",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": "Level 3A-3B",
+      "alfredLevel": null
+    },
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=zL1svoXoMzw",
+        "artist": "Amy Comparetto",
+        "description": "FunTime Popular",
+        "playlistId": "PL7ucElDiXf1TFZ3cEBAtTubL4eMmZ-ei0",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1TFZ3cEBAtTubL4eMmZ-ei0"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "id": "funtime-piano-popular-music-box-dancer",
+    "title": "Music Box Dancer",
+    "composer": "Frank Mills",
+    "arranger": "Nancy and Randall Faber",
+    "genre": "Popular",
+    "bookId": "funtime-piano-popular",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": "Level 3A-3B",
+      "alfredLevel": null
+    },
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=q1TMvhuwYyQ",
+        "artist": "Amy Comparetto",
+        "description": "FunTime Popular",
+        "playlistId": "PL7ucElDiXf1TFZ3cEBAtTubL4eMmZ-ei0",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1TFZ3cEBAtTubL4eMmZ-ei0"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "id": "funtime-piano-popular-the-phantom-of-the-opera",
+    "title": "The Phantom of the Opera",
+    "composer": "Andrew Lloyd Webber",
+    "arranger": "Nancy and Randall Faber",
+    "genre": "Popular",
+    "bookId": "funtime-piano-popular",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": "Level 3A-3B",
+      "alfredLevel": null
+    },
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=zBqpYnsBtYA",
+        "artist": "Amy Comparetto",
+        "description": "FunTime Popular",
+        "playlistId": "PL7ucElDiXf1TFZ3cEBAtTubL4eMmZ-ei0",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1TFZ3cEBAtTubL4eMmZ-ei0"
+      }
+    ],
     "notes": ""
   },
   {

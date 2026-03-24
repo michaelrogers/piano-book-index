@@ -34,23 +34,23 @@ function DifficultyScale({ label, faberLevel }: { label: DifficultyLabel; faberL
   const fillColor = segmentFillColors[label];
 
   return (
-    <div class="flex items-center gap-2">
+    <div class="flex flex-col gap-1">
       <div class="flex flex-row gap-px" title={label}>
         {DIFFICULTY_LEVELS.map((_, i) => {
           return (
             <div
               key={i}
-              class={`h-1.5 w-5 first:rounded-l-sm last:rounded-r-sm ${
+              class={`h-1.5 flex-1 first:rounded-l-sm last:rounded-r-sm ${
                 i <= levelIndex ? fillColor : 'bg-gray-200 dark:bg-gray-700'
               }`}
             />
           );
         })}
       </div>
-      <div class="min-w-0 text-xs leading-tight">
-        <div class={`font-medium ${labelTextColors[label]}`}>{label}</div>
+      <div class="text-xs leading-tight">
+        <span class={`font-medium ${labelTextColors[label]}`}>{label}</span>
         {faberLevel && (
-          <div class="text-gray-400 dark:text-gray-500">{faberLevel}</div>
+          <span class="text-gray-400 dark:text-gray-500"> · {faberLevel}</span>
         )}
       </div>
     </div>

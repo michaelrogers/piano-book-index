@@ -208,7 +208,7 @@ import PWAInstallPrompt from '../components/PWAInstallPrompt.tsx';
         navigator.serviceWorker.register('/sw.js');
       }
 
-      // In standalone PWA mode, add bottom padding for the tab bar
+      // In standalone PWA mode, add bottom padding for the tab bar and hide footer
       (function() {
         var isStandalone = navigator.standalone === true ||
           window.matchMedia('(display-mode: standalone)').matches;
@@ -216,7 +216,7 @@ import PWAInstallPrompt from '../components/PWAInstallPrompt.tsx';
           var main = document.getElementById('main-content');
           var footer = document.getElementById('page-footer');
           if (main) main.style.paddingBottom = '5rem';
-          if (footer) footer.style.marginBottom = '5rem';
+          if (footer) footer.style.display = 'none';
         }
       })();
     </script>
