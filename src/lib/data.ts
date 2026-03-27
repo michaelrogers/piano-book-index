@@ -3,11 +3,13 @@ import booksData from '../data/books.json';
 import songsData from '../data/songs.json';
 import difficultyMapData from '../data/difficulty-map.json';
 import bookPlaylistsData from '../data/book-playlists.json';
+import songLinksData from '../data/song-links.json';
 
 const books: Book[] = booksData as Book[];
 const songs: Song[] = songsData as Song[];
 const difficultyMap: DifficultyMapping[] = difficultyMapData as DifficultyMapping[];
 const bookPlaylists: BookPlaylist[] = bookPlaylistsData as BookPlaylist[];
+const songLinks: Record<string, string[]> = songLinksData;
 const songOrderIndex = new Map(songs.map((song, i) => [song.id, i]));
 
 export function getBooks(): Book[] {
@@ -134,4 +136,39 @@ export function buildSearchIndex(): SongSearchItem[] {
 /** Get YouTube playlists for a book */
 export function getPlaylistsForBook(bookId: string): BookPlaylist[] {
   return bookPlaylists.filter((p) => p.bookId === bookId);
+}
+
+const DIFFICULTY_ORDER: Record<string, number> = {
+  'Beginner': 0,
+  'Early Intermediate': 1,
+  'Intermediate': 2,
+  'Late Intermediate': 3,
+  'Early Advanced': 4,
+  'Advanced': 5,
+};
+
+// Build reverse lookup: songId → normalized key
+const songToLinkKey = new Map<string, string>();
+for (const [key, ids] of Object.entries(songLinks)) {
+  for (const id of ids) {
+    songToLinkKey.set(id, key);
+  }
+}
+
+/** Check if a song appears in other books */
+export function hasRelatedSongs(songId: string): boolean {
+  return songToLinkKey.has(songId);
+}
+
+/** Get the same song in other books, sorted by difficulty */
+export function getRelatedSongs(songId: string): Song[] {
+  const key = songToLinkKey.get(songId);
+  if (!key) return [];
+  const ids = songLinks[key];
+  if (!ids) return [];
+  return ids
+    .filter((id) => id !== songId)
+    .map((id) => getSongById(id))
+    .filter((s): s is Song => s !== undefined)
+    .sort((a, b) => (DIFFICULTY_ORDER[a.difficulty.label] ?? 99) - (DIFFICULTY_ORDER[b.difficulty.label] ?? 99));
 }

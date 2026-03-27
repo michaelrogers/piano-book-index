@@ -398,13 +398,39 @@ After a successful build, spot-check:
 - The book detail page lists all songs
 - Song detail pages show YouTube embeds (for linked songs)
 - Difficulty badges display correctly
+- Songs that appear in other books show an "Also in Other Books" section
 
 ---
 
-## Step 12: Commit
+## Step 12: Link Duplicate Songs
+
+Regenerate cross-book song links so that songs appearing in multiple books are linked together:
 
 ```bash
-git add src/data/books.json src/data/songs.json src/data/book-playlists.json scripts/youtube-playlists-curated.json public/covers/{bookId}.jpg
+node scripts/link-duplicate-songs.mjs
+```
+
+This normalizes all song titles and groups matching songs across different books. It writes `src/data/song-links.json`, which the site reads at build time to display "Also in Other Books" on song detail pages.
+
+Review the output:
+- **Groups**: Number of unique songs that appear in 2+ books
+- **Title variations**: Logged when matched songs have slightly different titles (e.g., parenthetical suffixes). Review these for false positives.
+- **Largest groups**: Shows the most-duplicated songs and their books.
+
+The script uses composer matching to avoid false positives (e.g., different "Minuet" pieces by different composers won't be linked).
+
+After running, rebuild to include the updated links:
+
+```bash
+npm run build
+```
+
+---
+
+## Step 13: Commit
+
+```bash
+git add src/data/books.json src/data/songs.json src/data/book-playlists.json src/data/song-links.json scripts/youtube-playlists-curated.json public/covers/{bookId}.jpg
 git commit -m "Add {book title}"
 ```
 
@@ -419,6 +445,7 @@ Include any modified scripts if you edited them (e.g., adding playlists to `scra
 | `src/data/books.json` | All book metadata | Adding/editing a book |
 | `src/data/songs.json` | All song metadata + YouTube links | Adding songs, running linker |
 | `src/data/book-playlists.json` | Book → playlist mapping (auto-generated) | Running linker |
+| `src/data/song-links.json` | Cross-book song links (auto-generated) | Running `link-duplicate-songs.mjs` |
 | `src/data/difficulty-map.json` | Difficulty level reference | Rarely (only if scale changes) |
 | `scripts/youtube-playlists-curated.json` | Curated YouTube channel/playlist/track data | Adding playlists or direct links |
 | `public/covers/{bookId}.jpg` | Cover image | Adding a new book |

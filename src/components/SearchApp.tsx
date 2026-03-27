@@ -43,6 +43,19 @@ export default function SearchApp({ songs, genres, series, publishers }: Props) 
   const [favSongIds, setFavSongIds] = useState<Set<string>>(new Set());
   const [initialized, setInitialized] = useState(false);
   const [filtersOpen, setFiltersOpen] = useState(false);
+  const [debouncedQuery, setDebouncedQuery] = useState('');
+  const [displayLimit, setDisplayLimit] = useState(50);
+
+  // Debounce search query
+  useEffect(() => {
+    const timer = setTimeout(() => setDebouncedQuery(query), 150);
+    return () => clearTimeout(timer);
+  }, [query]);
+
+  // Reset display limit when filters change
+  useEffect(() => {
+    setDisplayLimit(50);
+  }, [debouncedQuery, diffMin, diffMax, selectedGenres, selectedSeries, selectedPublisher, onlyOwned, hideLessonBooks]);
 
   // Close genre dropdown on outside click
   useEffect(() => {
@@ -154,9 +167,11 @@ export default function SearchApp({ songs, genres, series, publishers }: Props) 
     [songs],
   );
 
+  const hasActiveFilter = debouncedQuery.trim() || diffMin !== null || selectedGenres.size > 0 || selectedSeries || selectedPublisher || onlyOwned;
+
   const results = useMemo(() => {
-    let filtered = query.trim()
-      ? fuse.search(query).map((r) => r.item)
+    let filtered = debouncedQuery.trim()
+      ? fuse.search(debouncedQuery).map((r) => r.item)
       : songs;
 
     if (diffMin !== null && diffMax !== null) {
@@ -183,7 +198,7 @@ export default function SearchApp({ songs, genres, series, publishers }: Props) 
       filtered = filtered.filter((s) => ownedBookIds.has(s.bookId));
     }
     return filtered;
-  }, [query, diffMin, diffMax, selectedGenres, selectedSeries, selectedPublisher, onlyOwned, hideLessonBooks, ownedBookIds, fuse, songs]);
+  }, [debouncedQuery, diffMin, diffMax, selectedGenres, selectedSeries, selectedPublisher, onlyOwned, hideLessonBooks, ownedBookIds, fuse, songs]);
 
   return (
     <div>
@@ -345,12 +360,15 @@ export default function SearchApp({ songs, genres, series, publishers }: Props) 
 
       {/* Results count */}
       <p class="mt-4 text-sm text-gray-500 dark:text-gray-400">
-        {results.length} {results.length === 1 ? 'song' : 'songs'} found
+        {hasActiveFilter
+          ? `${results.length} ${results.length === 1 ? 'song' : 'songs'} found`
+          : `${songs.length} songs — type to search or apply filters`}
       </p>
 
       {/* Results list */}
+      {hasActiveFilter && (
       <div class="mt-3 divide-y divide-gray-100 overflow-hidden rounded-lg border border-gray-200 bg-white dark:divide-gray-800 dark:border-gray-800 dark:bg-gray-900">
-        {results.map((song) => (
+        {results.slice(0, displayLimit).map((song) => (
           <a
             key={song.id}
             href={`/songs/${song.id}`}
@@ -392,9 +410,19 @@ export default function SearchApp({ songs, genres, series, publishers }: Props) 
             </div>
           </a>
         ))}
+        {results.length > displayLimit && (
+          <button
+            type="button"
+            onClick={() => setDisplayLimit((l) => l + 50)}
+            class="w-full px-3 py-3 text-center text-sm font-medium text-piano-600 hover:bg-gray-50 dark:text-piano-400 dark:hover:bg-gray-800"
+          >
+            Show more ({results.length - displayLimit} remaining)
+          </button>
+        )}
       </div>
+      )}
 
-      {results.length === 0 && (
+      {hasActiveFilter && results.length === 0 && (
         <div class="mt-8 text-center text-gray-500 dark:text-gray-400">
           <svg class="mx-auto h-10 w-10 text-gray-300 dark:text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="m9 9 10.5-3m0 6.553v3.75a2.25 2.25 0 0 1-1.632 2.163l-1.32.377a1.803 1.803 0 0 1-.99-3.467l2.31-.66a2.25 2.25 0 0 0 1.632-2.163zm0 0V4.5l-10.5 3v6.75m0 0v3.75a2.25 2.25 0 0 1-1.632 2.163l-1.32.377a1.803 1.803 0 0 1-.99-3.467l2.31-.66A2.25 2.25 0 0 0 4.5 15V4.5" /></svg>
           <p class="mt-2">No songs found. Try a different search or adjust filters.</p>
