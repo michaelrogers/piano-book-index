@@ -18285,8 +18285,8 @@
     "notes": ""
   },
   {
-    "id": "funtime-piano-hymns-d-are-these-favorite-hymns-to-sing-and-enjoy-amen",
-    "title": "d are these favorite hymns to sing and enjoy: Amen",
+    "id": "funtime-piano-hymns-amen",
+    "title": "Amen",
     "composer": "",
     "arranger": "Nancy and Randall Faber",
     "genre": "Hymns",
@@ -32122,5 +32122,1541 @@
     },
     "youtubeLinks": [],
     "notes": null
+  },
+  {
+    "id": "alfred-popular-hits-1-best-day-of-my-life",
+    "title": "Best Day of My Life",
+    "composer": "Zachary Barnett / James Adam Shelley / Matthew Sanchez / David Rublin / Shep Goodman / Aaron Accetta",
+    "arranger": "Tom Gerou",
+    "genre": "Pop/Rock",
+    "bookId": "alfred-popular-hits-1",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Beginner",
+      "faberLevel": null,
+      "alfredLevel": "Level 1"
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "alfred-popular-hits-1-big-yellow-taxi",
+    "title": "Big Yellow Taxi",
+    "composer": "Joni Mitchell",
+    "arranger": "Tom Gerou",
+    "genre": "Pop/Rock",
+    "bookId": "alfred-popular-hits-1",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Beginner",
+      "faberLevel": null,
+      "alfredLevel": "Level 1"
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "alfred-popular-hits-1-bye-bye-love",
+    "title": "Bye Bye Love",
+    "composer": "Felice Bryant / Boudleaux Bryant",
+    "arranger": "Tom Gerou",
+    "genre": "Pop/Rock",
+    "bookId": "alfred-popular-hits-1",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Beginner",
+      "faberLevel": null,
+      "alfredLevel": "Level 1"
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "alfred-popular-hits-1-clouds",
+    "title": "Clouds",
+    "composer": "Zach Sobiech",
+    "arranger": "Tom Gerou",
+    "genre": "Pop/Rock",
+    "bookId": "alfred-popular-hits-1",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Beginner",
+      "faberLevel": null,
+      "alfredLevel": "Level 1"
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "alfred-popular-hits-1-dont-stop-believin",
+    "title": "Don't Stop Believin'",
+    "composer": "Steve Perry / Neal Schon / Jonathan Cain",
+    "arranger": "Tom Gerou",
+    "genre": "Pop/Rock",
+    "bookId": "alfred-popular-hits-1",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Beginner",
+      "faberLevel": null,
+      "alfredLevel": "Level 1"
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "alfred-popular-hits-1-everything-is-awesome",
+    "title": "Everything Is Awesome",
+    "composer": "Shawn Patterson / Joshua Bartholomew / Lisa Harriton / Akiva Schaffer / Andrew Samberg / Jorma Taccone",
+    "arranger": "Tom Gerou",
+    "genre": "Film",
+    "bookId": "alfred-popular-hits-1",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Beginner",
+      "faberLevel": null,
+      "alfredLevel": "Level 1"
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "alfred-popular-hits-1-flicker",
+    "title": "Flicker",
+    "composer": "Niall Horan",
+    "arranger": "Tom Gerou",
+    "genre": "Pop/Rock",
+    "bookId": "alfred-popular-hits-1",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Beginner",
+      "faberLevel": null,
+      "alfredLevel": "Level 1"
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "alfred-popular-hits-1-i-could-have-danced-all-night",
+    "title": "I Could Have Danced All Night",
+    "composer": "Frederick Loewe / Alan Jay Lerner",
+    "arranger": "Tom Gerou",
+    "genre": "Broadway",
+    "bookId": "alfred-popular-hits-1",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Beginner",
+      "faberLevel": null,
+      "alfredLevel": "Level 1"
+    },
+    "youtubeLinks": [],
+    "notes": "From My Fair Lady"
+  },
+  {
+    "id": "alfred-popular-hits-1-i-got-you-babe",
+    "title": "I Got You Babe",
+    "composer": "Sonny Bono",
+    "arranger": "Tom Gerou",
+    "genre": "Pop/Rock",
+    "bookId": "alfred-popular-hits-1",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Beginner",
+      "faberLevel": null,
+      "alfredLevel": "Level 1"
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "alfred-popular-hits-1-i-love-paris",
+    "title": "I Love Paris",
+    "composer": "Cole Porter",
+    "arranger": "Tom Gerou",
+    "genre": "Broadway",
+    "bookId": "alfred-popular-hits-1",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Beginner",
+      "faberLevel": null,
+      "alfredLevel": "Level 1"
+    },
+    "youtubeLinks": [],
+    "notes": "From Can-Can"
+  },
+  {
+    "id": "alfred-popular-hits-1-ill-stand-by-you",
+    "title": "I'll Stand by You",
+    "composer": "Chrissie Hynde / Tom Kelly / Billy Steinberg",
+    "arranger": "Tom Gerou",
+    "genre": "Pop/Rock",
+    "bookId": "alfred-popular-hits-1",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Beginner",
+      "faberLevel": null,
+      "alfredLevel": "Level 1"
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "alfred-popular-hits-1-james-bond-theme",
+    "title": "James Bond Theme",
+    "composer": "Monty Norman",
+    "arranger": "Tom Gerou",
+    "genre": "Film",
+    "bookId": "alfred-popular-hits-1",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Beginner",
+      "faberLevel": null,
+      "alfredLevel": "Level 1"
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "alfred-popular-hits-1-let-it-go",
+    "title": "Let It Go",
+    "composer": "Kristen Anderson-Lopez / Robert Lopez",
+    "arranger": "Tom Gerou",
+    "genre": "Film",
+    "bookId": "alfred-popular-hits-1",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Beginner",
+      "faberLevel": null,
+      "alfredLevel": "Level 1"
+    },
+    "youtubeLinks": [],
+    "notes": "From Frozen"
+  },
+  {
+    "id": "alfred-popular-hits-1-mamma-mia",
+    "title": "Mamma Mia",
+    "composer": "Benny Andersson / Björn Ulvaeus / Stig Anderson",
+    "arranger": "Tom Gerou",
+    "genre": "Pop/Rock",
+    "bookId": "alfred-popular-hits-1",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Beginner",
+      "faberLevel": null,
+      "alfredLevel": "Level 1"
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "alfred-popular-hits-1-over-the-rainbow",
+    "title": "Over the Rainbow",
+    "composer": "Harold Arlen / E.Y. Harburg",
+    "arranger": "Tom Gerou",
+    "genre": "Film",
+    "bookId": "alfred-popular-hits-1",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Beginner",
+      "faberLevel": null,
+      "alfredLevel": "Level 1"
+    },
+    "youtubeLinks": [],
+    "notes": "From The Wizard of Oz"
+  },
+  {
+    "id": "alfred-popular-hits-1-raiders-march",
+    "title": "Raiders March",
+    "composer": "John Williams",
+    "arranger": "Tom Gerou",
+    "genre": "Film",
+    "bookId": "alfred-popular-hits-1",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Beginner",
+      "faberLevel": null,
+      "alfredLevel": "Level 1"
+    },
+    "youtubeLinks": [],
+    "notes": "From Raiders of the Lost Ark"
+  },
+  {
+    "id": "alfred-popular-hits-1-the-rose",
+    "title": "The Rose",
+    "composer": "Amanda McBroom",
+    "arranger": "Tom Gerou",
+    "genre": "Pop/Rock",
+    "bookId": "alfred-popular-hits-1",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Beginner",
+      "faberLevel": null,
+      "alfredLevel": "Level 1"
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "alfred-popular-hits-1-star-wars-main-theme",
+    "title": "Star Wars (Main Theme)",
+    "composer": "John Williams",
+    "arranger": "Tom Gerou",
+    "genre": "Film",
+    "bookId": "alfred-popular-hits-1",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Beginner",
+      "faberLevel": null,
+      "alfredLevel": "Level 1"
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "alfred-popular-hits-1-take-my-breath-away",
+    "title": "Take My Breath Away",
+    "composer": "Giorgio Moroder / Tom Whitlock",
+    "arranger": "Tom Gerou",
+    "genre": "Film",
+    "bookId": "alfred-popular-hits-1",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Beginner",
+      "faberLevel": null,
+      "alfredLevel": "Level 1"
+    },
+    "youtubeLinks": [],
+    "notes": "From Top Gun"
+  },
+  {
+    "id": "alfred-popular-hits-1-a-teenager-in-love",
+    "title": "A Teenager in Love",
+    "composer": "Doc Pomus / Mort Shuman",
+    "arranger": "Tom Gerou",
+    "genre": "Pop/Rock",
+    "bookId": "alfred-popular-hits-1",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Beginner",
+      "faberLevel": null,
+      "alfredLevel": "Level 1"
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "alfred-popular-hits-1-try-to-remember",
+    "title": "Try to Remember",
+    "composer": "Harvey Schmidt / Tom Jones",
+    "arranger": "Tom Gerou",
+    "genre": "Broadway",
+    "bookId": "alfred-popular-hits-1",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Beginner",
+      "faberLevel": null,
+      "alfredLevel": "Level 1"
+    },
+    "youtubeLinks": [],
+    "notes": "From The Fantasticks"
+  },
+  {
+    "id": "alfred-popular-hits-1-you-raise-me-up",
+    "title": "You Raise Me Up",
+    "composer": "Brendan Graham / Rolf Løvland",
+    "arranger": "Tom Gerou",
+    "genre": "Pop/Rock",
+    "bookId": "alfred-popular-hits-1",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Beginner",
+      "faberLevel": null,
+      "alfredLevel": "Level 1"
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "alfred-popular-hits-3-ashokan-farewell",
+    "title": "Ashokan Farewell",
+    "composer": "Jay Ungar",
+    "arranger": "Tom Gerou",
+    "genre": "Classical",
+    "bookId": "alfred-popular-hits-3",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": "Level 3"
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "alfred-popular-hits-3-cabaret",
+    "title": "Cabaret",
+    "composer": "John Kander / Fred Ebb",
+    "arranger": "Tom Gerou",
+    "genre": "Broadway",
+    "bookId": "alfred-popular-hits-3",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": "Level 3"
+    },
+    "youtubeLinks": [],
+    "notes": "From Cabaret"
+  },
+  {
+    "id": "alfred-popular-hits-3-dear-theodosia",
+    "title": "Dear Theodosia",
+    "composer": "Lin-Manuel Miranda",
+    "arranger": "Tom Gerou",
+    "genre": "Broadway",
+    "bookId": "alfred-popular-hits-3",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": "Level 3"
+    },
+    "youtubeLinks": [],
+    "notes": "From Hamilton"
+  },
+  {
+    "id": "alfred-popular-hits-3-downton-abbey-theme",
+    "title": "Downton Abbey (Theme)",
+    "composer": "John Lunn",
+    "arranger": "Tom Gerou",
+    "genre": "Film",
+    "bookId": "alfred-popular-hits-3",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": "Level 3"
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "alfred-popular-hits-3-the-good-the-bad-and-the-ugly-main-title",
+    "title": "The Good, the Bad and the Ugly (Main Title)",
+    "composer": "Ennio Morricone",
+    "arranger": "Tom Gerou",
+    "genre": "Film",
+    "bookId": "alfred-popular-hits-3",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": "Level 3"
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "alfred-popular-hits-3-happy-together",
+    "title": "Happy Together",
+    "composer": "Garry Bonner / Alan Gordon",
+    "arranger": "Tom Gerou",
+    "genre": "Pop/Rock",
+    "bookId": "alfred-popular-hits-3",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": "Level 3"
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "alfred-popular-hits-3-ill-be-there-for-you",
+    "title": "I'll Be There for You",
+    "composer": "Michael Skloff / Allee Willis / David Crane / Marta Kauffman / Phil Solem / Danny Wilde",
+    "arranger": "Tom Gerou",
+    "genre": "Film",
+    "bookId": "alfred-popular-hits-3",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": "Level 3"
+    },
+    "youtubeLinks": [],
+    "notes": "Theme from Friends"
+  },
+  {
+    "id": "alfred-popular-hits-3-the-imperial-march",
+    "title": "The Imperial March",
+    "composer": "John Williams",
+    "arranger": "Tom Gerou",
+    "genre": "Film",
+    "bookId": "alfred-popular-hits-3",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": "Level 3"
+    },
+    "youtubeLinks": [],
+    "notes": "From Star Wars: The Empire Strikes Back"
+  },
+  {
+    "id": "alfred-popular-hits-3-little-shop-of-horrors",
+    "title": "Little Shop of Horrors",
+    "composer": "Alan Menken / Howard Ashman",
+    "arranger": "Tom Gerou",
+    "genre": "Broadway",
+    "bookId": "alfred-popular-hits-3",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": "Level 3"
+    },
+    "youtubeLinks": [],
+    "notes": "From Little Shop of Horrors"
+  },
+  {
+    "id": "alfred-popular-hits-3-oh-the-thinks-you-can-think",
+    "title": "Oh, the Thinks You Can Think!",
+    "composer": "Stephen Flaherty / Lynn Ahrens",
+    "arranger": "Tom Gerou",
+    "genre": "Broadway",
+    "bookId": "alfred-popular-hits-3",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": "Level 3"
+    },
+    "youtubeLinks": [],
+    "notes": "From Seussical the Musical"
+  },
+  {
+    "id": "alfred-popular-hits-3-one",
+    "title": "One",
+    "composer": "Harry Nilsson",
+    "arranger": "Tom Gerou",
+    "genre": "Pop/Rock",
+    "bookId": "alfred-popular-hits-3",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": "Level 3"
+    },
+    "youtubeLinks": [],
+    "notes": "Is the Loneliest Number"
+  },
+  {
+    "id": "alfred-popular-hits-3-rhapsody-in-blue-selected-themes",
+    "title": "Rhapsody in Blue (Selected Themes)",
+    "composer": "George Gershwin",
+    "arranger": "Tom Gerou",
+    "genre": "Classical",
+    "bookId": "alfred-popular-hits-3",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": "Level 3"
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "alfred-popular-hits-3-shallow",
+    "title": "Shallow",
+    "composer": "Lady Gaga / Mark Ronson / Anthony Rossomando / Andrew Wyatt",
+    "arranger": "Tom Gerou",
+    "genre": "Film",
+    "bookId": "alfred-popular-hits-3",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": "Level 3"
+    },
+    "youtubeLinks": [],
+    "notes": "From A Star Is Born"
+  },
+  {
+    "id": "alfred-popular-hits-3-someone-to-watch-over-me",
+    "title": "Someone to Watch Over Me",
+    "composer": "George Gershwin / Ira Gershwin",
+    "arranger": "Tom Gerou",
+    "genre": "Broadway",
+    "bookId": "alfred-popular-hits-3",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": "Level 3"
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "alfred-greatest-hits-3-getting-to-know-you",
+    "title": "Getting to Know You",
+    "composer": "",
+    "arranger": "",
+    "genre": "Mixed Repertoire",
+    "bookId": "alfred-greatest-hits-3",
+    "pageNumber": 2,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": "Level 3"
+    },
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=71cq8XB-T78",
+        "artist": "Let's Play Piano Methods",
+        "description": "Let's Play Piano Methods - alfred-greatest-hits-3",
+        "playlistId": "PL8hZtgRyL9WQlYLjT1CxiE33XYfNCTGZ_",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL8hZtgRyL9WQlYLjT1CxiE33XYfNCTGZ_"
+      }
+    ],
+    "notes": "Song data sourced from YouTube playlist (Let's Play Piano Methods)."
+  },
+  {
+    "id": "alfred-greatest-hits-3-the-odd-couple",
+    "title": "The Odd Couple",
+    "composer": "",
+    "arranger": "",
+    "genre": "Mixed Repertoire",
+    "bookId": "alfred-greatest-hits-3",
+    "pageNumber": 4,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": "Level 3"
+    },
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=tWmM5vbXkBc",
+        "artist": "Let's Play Piano Methods",
+        "description": "Let's Play Piano Methods - alfred-greatest-hits-3",
+        "playlistId": "PL8hZtgRyL9WQlYLjT1CxiE33XYfNCTGZ_",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL8hZtgRyL9WQlYLjT1CxiE33XYfNCTGZ_"
+      }
+    ],
+    "notes": "Song data sourced from YouTube playlist (Let's Play Piano Methods)."
+  },
+  {
+    "id": "alfred-greatest-hits-3-cant-help-falling-in-love",
+    "title": "Can't Help Falling in Love",
+    "composer": "",
+    "arranger": "",
+    "genre": "Mixed Repertoire",
+    "bookId": "alfred-greatest-hits-3",
+    "pageNumber": 6,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": "Level 3"
+    },
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=XXJM9cqylTE",
+        "artist": "Let's Play Piano Methods",
+        "description": "Let's Play Piano Methods - alfred-greatest-hits-3",
+        "playlistId": "PL8hZtgRyL9WQlYLjT1CxiE33XYfNCTGZ_",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL8hZtgRyL9WQlYLjT1CxiE33XYfNCTGZ_"
+      }
+    ],
+    "notes": "Song data sourced from YouTube playlist (Let's Play Piano Methods)."
+  },
+  {
+    "id": "alfred-greatest-hits-3-i-love-lucy",
+    "title": "I Love Lucy",
+    "composer": "",
+    "arranger": "",
+    "genre": "Mixed Repertoire",
+    "bookId": "alfred-greatest-hits-3",
+    "pageNumber": 8,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": "Level 3"
+    },
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=Z2sV-CgI0aw",
+        "artist": "Let's Play Piano Methods",
+        "description": "Let's Play Piano Methods - alfred-greatest-hits-3",
+        "playlistId": "PL8hZtgRyL9WQlYLjT1CxiE33XYfNCTGZ_",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL8hZtgRyL9WQlYLjT1CxiE33XYfNCTGZ_"
+      }
+    ],
+    "notes": "Song data sourced from YouTube playlist (Let's Play Piano Methods)."
+  },
+  {
+    "id": "alfred-greatest-hits-3-speak-softly-love",
+    "title": "Speak Softly, Love",
+    "composer": "",
+    "arranger": "",
+    "genre": "Mixed Repertoire",
+    "bookId": "alfred-greatest-hits-3",
+    "pageNumber": 10,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": "Level 3"
+    },
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=1b7AKoxyviY",
+        "artist": "Let's Play Piano Methods",
+        "description": "Let's Play Piano Methods - alfred-greatest-hits-3",
+        "playlistId": "PL8hZtgRyL9WQlYLjT1CxiE33XYfNCTGZ_",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL8hZtgRyL9WQlYLjT1CxiE33XYfNCTGZ_"
+      }
+    ],
+    "notes": "Song data sourced from YouTube playlist (Let's Play Piano Methods)."
+  },
+  {
+    "id": "alfred-greatest-hits-3-y-m-c-a",
+    "title": "Y.M.C.A.",
+    "composer": "",
+    "arranger": "",
+    "genre": "Mixed Repertoire",
+    "bookId": "alfred-greatest-hits-3",
+    "pageNumber": 12,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": "Level 3"
+    },
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=y8I7nNbfzK4",
+        "artist": "Let's Play Piano Methods",
+        "description": "Let's Play Piano Methods - alfred-greatest-hits-3",
+        "playlistId": "PL8hZtgRyL9WQlYLjT1CxiE33XYfNCTGZ_",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL8hZtgRyL9WQlYLjT1CxiE33XYfNCTGZ_"
+      }
+    ],
+    "notes": "Song data sourced from YouTube playlist (Let's Play Piano Methods)."
+  },
+  {
+    "id": "alfred-greatest-hits-3-till-there-was-you",
+    "title": "Till There Was You",
+    "composer": "",
+    "arranger": "",
+    "genre": "Mixed Repertoire",
+    "bookId": "alfred-greatest-hits-3",
+    "pageNumber": 14,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": "Level 3"
+    },
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=ingRjmVSEDI",
+        "artist": "Let's Play Piano Methods",
+        "description": "Let's Play Piano Methods - alfred-greatest-hits-3",
+        "playlistId": "PL8hZtgRyL9WQlYLjT1CxiE33XYfNCTGZ_",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL8hZtgRyL9WQlYLjT1CxiE33XYfNCTGZ_"
+      }
+    ],
+    "notes": "Song data sourced from YouTube playlist (Let's Play Piano Methods)."
+  },
+  {
+    "id": "alfred-greatest-hits-3-a-time-for-us",
+    "title": "A Time for Us",
+    "composer": "",
+    "arranger": "",
+    "genre": "Mixed Repertoire",
+    "bookId": "alfred-greatest-hits-3",
+    "pageNumber": 16,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": "Level 3"
+    },
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=MTwjdFScESM",
+        "artist": "Let's Play Piano Methods",
+        "description": "Let's Play Piano Methods - alfred-greatest-hits-3",
+        "playlistId": "PL8hZtgRyL9WQlYLjT1CxiE33XYfNCTGZ_",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL8hZtgRyL9WQlYLjT1CxiE33XYfNCTGZ_"
+      }
+    ],
+    "notes": "Song data sourced from YouTube playlist (Let's Play Piano Methods)."
+  },
+  {
+    "id": "alfred-greatest-hits-3-youll-be-in-my-heart",
+    "title": "You'll Be in My Heart",
+    "composer": "",
+    "arranger": "",
+    "genre": "Mixed Repertoire",
+    "bookId": "alfred-greatest-hits-3",
+    "pageNumber": 18,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": "Level 3"
+    },
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=LeGuQuyukdw",
+        "artist": "Let's Play Piano Methods",
+        "description": "Let's Play Piano Methods - alfred-greatest-hits-3",
+        "playlistId": "PL8hZtgRyL9WQlYLjT1CxiE33XYfNCTGZ_",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL8hZtgRyL9WQlYLjT1CxiE33XYfNCTGZ_"
+      }
+    ],
+    "notes": "Song data sourced from YouTube playlist (Let's Play Piano Methods)."
+  },
+  {
+    "id": "alfred-greatest-hits-3-the-way-we-were",
+    "title": "The Way We Were",
+    "composer": "",
+    "arranger": "",
+    "genre": "Mixed Repertoire",
+    "bookId": "alfred-greatest-hits-3",
+    "pageNumber": 21,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": "Level 3"
+    },
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=WJ4zFfLKfIk",
+        "artist": "Let's Play Piano Methods",
+        "description": "Let's Play Piano Methods - alfred-greatest-hits-3",
+        "playlistId": "PL8hZtgRyL9WQlYLjT1CxiE33XYfNCTGZ_",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL8hZtgRyL9WQlYLjT1CxiE33XYfNCTGZ_"
+      }
+    ],
+    "notes": "Song data sourced from YouTube playlist (Let's Play Piano Methods)."
+  },
+  {
+    "id": "alfred-greatest-hits-3-where-do-i-begin",
+    "title": "Where Do I Begin",
+    "composer": "",
+    "arranger": "",
+    "genre": "Mixed Repertoire",
+    "bookId": "alfred-greatest-hits-3",
+    "pageNumber": 24,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": "Level 3"
+    },
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=rh2g_MwaAtQ",
+        "artist": "Let's Play Piano Methods",
+        "description": "Let's Play Piano Methods - alfred-greatest-hits-3",
+        "playlistId": "PL8hZtgRyL9WQlYLjT1CxiE33XYfNCTGZ_",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL8hZtgRyL9WQlYLjT1CxiE33XYfNCTGZ_"
+      }
+    ],
+    "notes": "Song data sourced from YouTube playlist (Let's Play Piano Methods)."
+  },
+  {
+    "id": "alfred-greatest-hits-3-when-i-fall-in-love",
+    "title": "When I Fall In Love",
+    "composer": "",
+    "arranger": "",
+    "genre": "Mixed Repertoire",
+    "bookId": "alfred-greatest-hits-3",
+    "pageNumber": 28,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": "Level 3"
+    },
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=ZVUgW-jimaw",
+        "artist": "Let's Play Piano Methods",
+        "description": "Let's Play Piano Methods - alfred-greatest-hits-3",
+        "playlistId": "PL8hZtgRyL9WQlYLjT1CxiE33XYfNCTGZ_",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL8hZtgRyL9WQlYLjT1CxiE33XYfNCTGZ_"
+      }
+    ],
+    "notes": "Song data sourced from YouTube playlist (Let's Play Piano Methods)."
+  },
+  {
+    "id": "alfred-greatest-hits-3-puttin-on-the-ritz",
+    "title": "Puttin' on the Ritz",
+    "composer": "",
+    "arranger": "",
+    "genre": "Mixed Repertoire",
+    "bookId": "alfred-greatest-hits-3",
+    "pageNumber": 30,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": "Level 3"
+    },
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=52yGExpH2pE",
+        "artist": "Let's Play Piano Methods",
+        "description": "Let's Play Piano Methods - alfred-greatest-hits-3",
+        "playlistId": "PL8hZtgRyL9WQlYLjT1CxiE33XYfNCTGZ_",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL8hZtgRyL9WQlYLjT1CxiE33XYfNCTGZ_"
+      }
+    ],
+    "notes": "Song data sourced from YouTube playlist (Let's Play Piano Methods)."
+  },
+  {
+    "id": "alfred-greatest-hits-3-she-loves-you",
+    "title": "She Loves You",
+    "composer": "",
+    "arranger": "",
+    "genre": "Mixed Repertoire",
+    "bookId": "alfred-greatest-hits-3",
+    "pageNumber": 32,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": "Level 3"
+    },
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=56GsVvFibqI",
+        "artist": "Let's Play Piano Methods",
+        "description": "Let's Play Piano Methods - alfred-greatest-hits-3",
+        "playlistId": "PL8hZtgRyL9WQlYLjT1CxiE33XYfNCTGZ_",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL8hZtgRyL9WQlYLjT1CxiE33XYfNCTGZ_"
+      }
+    ],
+    "notes": "Song data sourced from YouTube playlist (Let's Play Piano Methods)."
+  },
+  {
+    "id": "alfred-greatest-hits-3-wishing-you-were-somehow-here-again",
+    "title": "Wishing You Were Somehow Here Again",
+    "composer": "",
+    "arranger": "",
+    "genre": "Mixed Repertoire",
+    "bookId": "alfred-greatest-hits-3",
+    "pageNumber": 34,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": "Level 3"
+    },
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=BmwOgODt7As",
+        "artist": "Let's Play Piano Methods",
+        "description": "Let's Play Piano Methods - alfred-greatest-hits-3",
+        "playlistId": "PL8hZtgRyL9WQlYLjT1CxiE33XYfNCTGZ_",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL8hZtgRyL9WQlYLjT1CxiE33XYfNCTGZ_"
+      }
+    ],
+    "notes": "Song data sourced from YouTube playlist (Let's Play Piano Methods)."
+  },
+  {
+    "id": "alfred-greatest-hits-3-my-funny-valentine",
+    "title": "My Funny Valentine",
+    "composer": "",
+    "arranger": "",
+    "genre": "Mixed Repertoire",
+    "bookId": "alfred-greatest-hits-3",
+    "pageNumber": 38,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": "Level 3"
+    },
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=wQZczmhUSA8",
+        "artist": "Let's Play Piano Methods",
+        "description": "Let's Play Piano Methods - alfred-greatest-hits-3",
+        "playlistId": "PL8hZtgRyL9WQlYLjT1CxiE33XYfNCTGZ_",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL8hZtgRyL9WQlYLjT1CxiE33XYfNCTGZ_"
+      }
+    ],
+    "notes": "Song data sourced from YouTube playlist (Let's Play Piano Methods)."
+  },
+  {
+    "id": "alfred-greatest-hits-3-splish-splash",
+    "title": "Splish Splash",
+    "composer": "",
+    "arranger": "",
+    "genre": "Mixed Repertoire",
+    "bookId": "alfred-greatest-hits-3",
+    "pageNumber": 40,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": "Level 3"
+    },
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=Ww7O_HttoQc",
+        "artist": "Let's Play Piano Methods",
+        "description": "Let's Play Piano Methods - alfred-greatest-hits-3",
+        "playlistId": "PL8hZtgRyL9WQlYLjT1CxiE33XYfNCTGZ_",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL8hZtgRyL9WQlYLjT1CxiE33XYfNCTGZ_"
+      }
+    ],
+    "notes": "Song data sourced from YouTube playlist (Let's Play Piano Methods)."
+  },
+  {
+    "id": "alfred-greatest-hits-3-blue-bayou",
+    "title": "Blue Bayou",
+    "composer": "",
+    "arranger": "",
+    "genre": "Mixed Repertoire",
+    "bookId": "alfred-greatest-hits-3",
+    "pageNumber": 44,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": "Level 3"
+    },
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=4RdvFYGWYy4",
+        "artist": "Let's Play Piano Methods",
+        "description": "Let's Play Piano Methods - alfred-greatest-hits-3",
+        "playlistId": "PL8hZtgRyL9WQlYLjT1CxiE33XYfNCTGZ_",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL8hZtgRyL9WQlYLjT1CxiE33XYfNCTGZ_"
+      }
+    ],
+    "notes": "Song data sourced from YouTube playlist (Let's Play Piano Methods)."
+  },
+  {
+    "id": "alfred-greatest-hits-3-i-dreamed-a-dream",
+    "title": "I Dreamed a Dream",
+    "composer": "",
+    "arranger": "",
+    "genre": "Mixed Repertoire",
+    "bookId": "alfred-greatest-hits-3",
+    "pageNumber": 46,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": "Level 3"
+    },
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=j2K7a9CzmKE",
+        "artist": "Let's Play Piano Methods",
+        "description": "Let's Play Piano Methods - alfred-greatest-hits-3",
+        "playlistId": "PL8hZtgRyL9WQlYLjT1CxiE33XYfNCTGZ_",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL8hZtgRyL9WQlYLjT1CxiE33XYfNCTGZ_"
+      }
+    ],
+    "notes": "Song data sourced from YouTube playlist (Let's Play Piano Methods)."
+  },
+  {
+    "id": "alfred-greatest-hits-3-written-in-the-stars",
+    "title": "Written in the Stars",
+    "composer": "",
+    "arranger": "",
+    "genre": "Mixed Repertoire",
+    "bookId": "alfred-greatest-hits-3",
+    "pageNumber": 50,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": "Level 3"
+    },
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=Yo_UBGDwbMA",
+        "artist": "Let's Play Piano Methods",
+        "description": "Let's Play Piano Methods - alfred-greatest-hits-3",
+        "playlistId": "PL8hZtgRyL9WQlYLjT1CxiE33XYfNCTGZ_",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL8hZtgRyL9WQlYLjT1CxiE33XYfNCTGZ_"
+      }
+    ],
+    "notes": "Song data sourced from YouTube playlist (Let's Play Piano Methods)."
+  },
+  {
+    "id": "alfred-greatest-hits-3-reflection",
+    "title": "Reflection",
+    "composer": "",
+    "arranger": "",
+    "genre": "Mixed Repertoire",
+    "bookId": "alfred-greatest-hits-3",
+    "pageNumber": 54,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": "Level 3"
+    },
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=c8T4jbYxcrc",
+        "artist": "Let's Play Piano Methods",
+        "description": "Let's Play Piano Methods - alfred-greatest-hits-3",
+        "playlistId": "PL8hZtgRyL9WQlYLjT1CxiE33XYfNCTGZ_",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL8hZtgRyL9WQlYLjT1CxiE33XYfNCTGZ_"
+      }
+    ],
+    "notes": "Song data sourced from YouTube playlist (Let's Play Piano Methods)."
+  },
+  {
+    "id": "alfred-popular-hits-2-firework",
+    "title": "Firework",
+    "composer": "",
+    "arranger": "Tom Gerou",
+    "genre": "Popular",
+    "bookId": "alfred-popular-hits-2",
+    "pageNumber": 2,
+    "difficulty": {
+      "label": "Early Intermediate",
+      "faberLevel": null,
+      "alfredLevel": "Level 2"
+    },
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=Fz1Gadiimjs",
+        "artist": "Let's Play Piano Methods",
+        "description": "Let's Play Piano Methods - alfred-popular-hits-2",
+        "playlistId": "PL8hZtgRyL9WTbgw5zLVI6KCo7ans6qyOs",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL8hZtgRyL9WTbgw5zLVI6KCo7ans6qyOs"
+      }
+    ],
+    "notes": "Song data sourced from YouTube playlist (Let's Play Piano Methods)."
+  },
+  {
+    "id": "alfred-popular-hits-2-embraceable-you",
+    "title": "Embraceable You",
+    "composer": "",
+    "arranger": "Tom Gerou",
+    "genre": "Popular",
+    "bookId": "alfred-popular-hits-2",
+    "pageNumber": 4,
+    "difficulty": {
+      "label": "Early Intermediate",
+      "faberLevel": null,
+      "alfredLevel": "Level 2"
+    },
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=arXevfh3R3A",
+        "artist": "Let's Play Piano Methods",
+        "description": "Let's Play Piano Methods - alfred-popular-hits-2",
+        "playlistId": "PL8hZtgRyL9WTbgw5zLVI6KCo7ans6qyOs",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL8hZtgRyL9WTbgw5zLVI6KCo7ans6qyOs"
+      }
+    ],
+    "notes": "Song data sourced from YouTube playlist (Let's Play Piano Methods)."
+  },
+  {
+    "id": "alfred-popular-hits-2-the-wind-beneath-my-wings",
+    "title": "The Wind Beneath My Wings",
+    "composer": "",
+    "arranger": "Tom Gerou",
+    "genre": "Popular",
+    "bookId": "alfred-popular-hits-2",
+    "pageNumber": 6,
+    "difficulty": {
+      "label": "Early Intermediate",
+      "faberLevel": null,
+      "alfredLevel": "Level 2"
+    },
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=Qhj3VEw5KUs",
+        "artist": "Let's Play Piano Methods",
+        "description": "Let's Play Piano Methods - alfred-popular-hits-2",
+        "playlistId": "PL8hZtgRyL9WTbgw5zLVI6KCo7ans6qyOs",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL8hZtgRyL9WTbgw5zLVI6KCo7ans6qyOs"
+      }
+    ],
+    "notes": "Song data sourced from YouTube playlist (Let's Play Piano Methods)."
+  },
+  {
+    "id": "alfred-popular-hits-2-bring-it-on-home-to-me",
+    "title": "Bring It On Home to Me",
+    "composer": "",
+    "arranger": "Tom Gerou",
+    "genre": "Popular",
+    "bookId": "alfred-popular-hits-2",
+    "pageNumber": 8,
+    "difficulty": {
+      "label": "Early Intermediate",
+      "faberLevel": null,
+      "alfredLevel": "Level 2"
+    },
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=_R9I52TqvpU",
+        "artist": "Let's Play Piano Methods",
+        "description": "Let's Play Piano Methods - alfred-popular-hits-2",
+        "playlistId": "PL8hZtgRyL9WTbgw5zLVI6KCo7ans6qyOs",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL8hZtgRyL9WTbgw5zLVI6KCo7ans6qyOs"
+      }
+    ],
+    "notes": "Song data sourced from YouTube playlist (Let's Play Piano Methods)."
+  },
+  {
+    "id": "alfred-popular-hits-2-at-last",
+    "title": "At Last",
+    "composer": "",
+    "arranger": "Tom Gerou",
+    "genre": "Popular",
+    "bookId": "alfred-popular-hits-2",
+    "pageNumber": 10,
+    "difficulty": {
+      "label": "Early Intermediate",
+      "faberLevel": null,
+      "alfredLevel": "Level 2"
+    },
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=xdFK3_Q1jYs",
+        "artist": "Let's Play Piano Methods",
+        "description": "Let's Play Piano Methods - alfred-popular-hits-2",
+        "playlistId": "PL8hZtgRyL9WTbgw5zLVI6KCo7ans6qyOs",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL8hZtgRyL9WTbgw5zLVI6KCo7ans6qyOs"
+      }
+    ],
+    "notes": "Song data sourced from YouTube playlist (Let's Play Piano Methods)."
+  },
+  {
+    "id": "alfred-popular-hits-2-my-funny-valentine",
+    "title": "My Funny Valentine",
+    "composer": "",
+    "arranger": "Tom Gerou",
+    "genre": "Popular",
+    "bookId": "alfred-popular-hits-2",
+    "pageNumber": 12,
+    "difficulty": {
+      "label": "Early Intermediate",
+      "faberLevel": null,
+      "alfredLevel": "Level 2"
+    },
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=syHkDUK2d3g",
+        "artist": "Let's Play Piano Methods",
+        "description": "Let's Play Piano Methods - alfred-popular-hits-2",
+        "playlistId": "PL8hZtgRyL9WTbgw5zLVI6KCo7ans6qyOs",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL8hZtgRyL9WTbgw5zLVI6KCo7ans6qyOs"
+      }
+    ],
+    "notes": "Song data sourced from YouTube playlist (Let's Play Piano Methods)."
+  },
+  {
+    "id": "alfred-popular-hits-2-hedwigs-theme",
+    "title": "Hedwig's Theme",
+    "composer": "",
+    "arranger": "Tom Gerou",
+    "genre": "Popular",
+    "bookId": "alfred-popular-hits-2",
+    "pageNumber": 14,
+    "difficulty": {
+      "label": "Early Intermediate",
+      "faberLevel": null,
+      "alfredLevel": "Level 2"
+    },
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=fs7bJl4HQzM",
+        "artist": "Let's Play Piano Methods",
+        "description": "Let's Play Piano Methods - alfred-popular-hits-2",
+        "playlistId": "PL8hZtgRyL9WTbgw5zLVI6KCo7ans6qyOs",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL8hZtgRyL9WTbgw5zLVI6KCo7ans6qyOs"
+      }
+    ],
+    "notes": "Song data sourced from YouTube playlist (Let's Play Piano Methods)."
+  },
+  {
+    "id": "alfred-popular-hits-2-havana",
+    "title": "Havana",
+    "composer": "",
+    "arranger": "Tom Gerou",
+    "genre": "Popular",
+    "bookId": "alfred-popular-hits-2",
+    "pageNumber": 16,
+    "difficulty": {
+      "label": "Early Intermediate",
+      "faberLevel": null,
+      "alfredLevel": "Level 2"
+    },
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=iksS9y2T22c",
+        "artist": "Let's Play Piano Methods",
+        "description": "Let's Play Piano Methods - alfred-popular-hits-2",
+        "playlistId": "PL8hZtgRyL9WTbgw5zLVI6KCo7ans6qyOs",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL8hZtgRyL9WTbgw5zLVI6KCo7ans6qyOs"
+      }
+    ],
+    "notes": "Song data sourced from YouTube playlist (Let's Play Piano Methods)."
+  },
+  {
+    "id": "alfred-popular-hits-2-youll-be-back",
+    "title": "You'll Be Back",
+    "composer": "",
+    "arranger": "Tom Gerou",
+    "genre": "Popular",
+    "bookId": "alfred-popular-hits-2",
+    "pageNumber": 18,
+    "difficulty": {
+      "label": "Early Intermediate",
+      "faberLevel": null,
+      "alfredLevel": "Level 2"
+    },
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=eJiQAdf9YCM",
+        "artist": "Let's Play Piano Methods",
+        "description": "Let's Play Piano Methods - alfred-popular-hits-2",
+        "playlistId": "PL8hZtgRyL9WTbgw5zLVI6KCo7ans6qyOs",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL8hZtgRyL9WTbgw5zLVI6KCo7ans6qyOs"
+      }
+    ],
+    "notes": "Song data sourced from YouTube playlist (Let's Play Piano Methods)."
+  },
+  {
+    "id": "alfred-popular-hits-2-get-smart",
+    "title": "Get Smart",
+    "composer": "",
+    "arranger": "Tom Gerou",
+    "genre": "Popular",
+    "bookId": "alfred-popular-hits-2",
+    "pageNumber": 20,
+    "difficulty": {
+      "label": "Early Intermediate",
+      "faberLevel": null,
+      "alfredLevel": "Level 2"
+    },
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=HVbLECiz1f0",
+        "artist": "Let's Play Piano Methods",
+        "description": "Let's Play Piano Methods - alfred-popular-hits-2",
+        "playlistId": "PL8hZtgRyL9WTbgw5zLVI6KCo7ans6qyOs",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL8hZtgRyL9WTbgw5zLVI6KCo7ans6qyOs"
+      }
+    ],
+    "notes": "Song data sourced from YouTube playlist (Let's Play Piano Methods)."
+  },
+  {
+    "id": "alfred-popular-hits-2-they-cant-take-that-away-from-me",
+    "title": "They Can't Take That Away from Me",
+    "composer": "",
+    "arranger": "Tom Gerou",
+    "genre": "Popular",
+    "bookId": "alfred-popular-hits-2",
+    "pageNumber": 22,
+    "difficulty": {
+      "label": "Early Intermediate",
+      "faberLevel": null,
+      "alfredLevel": "Level 2"
+    },
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=plkIH8D63uM",
+        "artist": "Let's Play Piano Methods",
+        "description": "Let's Play Piano Methods - alfred-popular-hits-2",
+        "playlistId": "PL8hZtgRyL9WTbgw5zLVI6KCo7ans6qyOs",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL8hZtgRyL9WTbgw5zLVI6KCo7ans6qyOs"
+      }
+    ],
+    "notes": "Song data sourced from YouTube playlist (Let's Play Piano Methods)."
+  },
+  {
+    "id": "alfred-popular-hits-2-princess-leias-theme",
+    "title": "Princess Leia's Theme",
+    "composer": "",
+    "arranger": "Tom Gerou",
+    "genre": "Popular",
+    "bookId": "alfred-popular-hits-2",
+    "pageNumber": 24,
+    "difficulty": {
+      "label": "Early Intermediate",
+      "faberLevel": null,
+      "alfredLevel": "Level 2"
+    },
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=EnWPcXvZPS0",
+        "artist": "Let's Play Piano Methods",
+        "description": "Let's Play Piano Methods - alfred-popular-hits-2",
+        "playlistId": "PL8hZtgRyL9WTbgw5zLVI6KCo7ans6qyOs",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL8hZtgRyL9WTbgw5zLVI6KCo7ans6qyOs"
+      }
+    ],
+    "notes": "Song data sourced from YouTube playlist (Let's Play Piano Methods)."
+  },
+  {
+    "id": "alfred-popular-hits-2-the-magnificent-seven",
+    "title": "The Magnificent Seven",
+    "composer": "",
+    "arranger": "Tom Gerou",
+    "genre": "Popular",
+    "bookId": "alfred-popular-hits-2",
+    "pageNumber": 26,
+    "difficulty": {
+      "label": "Early Intermediate",
+      "faberLevel": null,
+      "alfredLevel": "Level 2"
+    },
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=MxEiO1G0FFk",
+        "artist": "Let's Play Piano Methods",
+        "description": "Let's Play Piano Methods - alfred-popular-hits-2",
+        "playlistId": "PL8hZtgRyL9WTbgw5zLVI6KCo7ans6qyOs",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL8hZtgRyL9WTbgw5zLVI6KCo7ans6qyOs"
+      }
+    ],
+    "notes": "Song data sourced from YouTube playlist (Let's Play Piano Methods)."
+  },
+  {
+    "id": "alfred-popular-hits-2-mia-and-sebastians-theme",
+    "title": "Mia & Sebastian's Theme",
+    "composer": "",
+    "arranger": "Tom Gerou",
+    "genre": "Popular",
+    "bookId": "alfred-popular-hits-2",
+    "pageNumber": 28,
+    "difficulty": {
+      "label": "Early Intermediate",
+      "faberLevel": null,
+      "alfredLevel": "Level 2"
+    },
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=EqW9wvHoxjU",
+        "artist": "Let's Play Piano Methods",
+        "description": "Let's Play Piano Methods - alfred-popular-hits-2",
+        "playlistId": "PL8hZtgRyL9WTbgw5zLVI6KCo7ans6qyOs",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL8hZtgRyL9WTbgw5zLVI6KCo7ans6qyOs"
+      }
+    ],
+    "notes": "Song data sourced from YouTube playlist (Let's Play Piano Methods)."
+  },
+  {
+    "id": "alfred-popular-hits-2-greatest-love-of-all",
+    "title": "Greatest Love of All",
+    "composer": "",
+    "arranger": "Tom Gerou",
+    "genre": "Popular",
+    "bookId": "alfred-popular-hits-2",
+    "pageNumber": 30,
+    "difficulty": {
+      "label": "Early Intermediate",
+      "faberLevel": null,
+      "alfredLevel": "Level 2"
+    },
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=VV0bdiKKmds",
+        "artist": "Let's Play Piano Methods",
+        "description": "Let's Play Piano Methods - alfred-popular-hits-2",
+        "playlistId": "PL8hZtgRyL9WTbgw5zLVI6KCo7ans6qyOs",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL8hZtgRyL9WTbgw5zLVI6KCo7ans6qyOs"
+      }
+    ],
+    "notes": "Song data sourced from YouTube playlist (Let's Play Piano Methods)."
+  },
+  {
+    "id": "alfred-popular-hits-2-as-time-goes-by",
+    "title": "As Time Goes By",
+    "composer": "",
+    "arranger": "Tom Gerou",
+    "genre": "Popular",
+    "bookId": "alfred-popular-hits-2",
+    "pageNumber": 32,
+    "difficulty": {
+      "label": "Early Intermediate",
+      "faberLevel": null,
+      "alfredLevel": "Level 2"
+    },
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=okAdPWIHTfU",
+        "artist": "Let's Play Piano Methods",
+        "description": "Let's Play Piano Methods - alfred-popular-hits-2",
+        "playlistId": "PL8hZtgRyL9WTbgw5zLVI6KCo7ans6qyOs",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL8hZtgRyL9WTbgw5zLVI6KCo7ans6qyOs"
+      }
+    ],
+    "notes": "Song data sourced from YouTube playlist (Let's Play Piano Methods)."
+  },
+  {
+    "id": "alfred-popular-hits-2-the-man-i-love",
+    "title": "The Man I Love",
+    "composer": "",
+    "arranger": "Tom Gerou",
+    "genre": "Popular",
+    "bookId": "alfred-popular-hits-2",
+    "pageNumber": 34,
+    "difficulty": {
+      "label": "Early Intermediate",
+      "faberLevel": null,
+      "alfredLevel": "Level 2"
+    },
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=7WHmyq7aeqo",
+        "artist": "Let's Play Piano Methods",
+        "description": "Let's Play Piano Methods - alfred-popular-hits-2",
+        "playlistId": "PL8hZtgRyL9WTbgw5zLVI6KCo7ans6qyOs",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL8hZtgRyL9WTbgw5zLVI6KCo7ans6qyOs"
+      }
+    ],
+    "notes": "Song data sourced from YouTube playlist (Let's Play Piano Methods)."
+  },
+  {
+    "id": "alfred-popular-hits-2-fever",
+    "title": "Fever",
+    "composer": "",
+    "arranger": "Tom Gerou",
+    "genre": "Popular",
+    "bookId": "alfred-popular-hits-2",
+    "pageNumber": 36,
+    "difficulty": {
+      "label": "Early Intermediate",
+      "faberLevel": null,
+      "alfredLevel": "Level 2"
+    },
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=PKwxJjaLINw",
+        "artist": "Let's Play Piano Methods",
+        "description": "Let's Play Piano Methods - alfred-popular-hits-2",
+        "playlistId": "PL8hZtgRyL9WTbgw5zLVI6KCo7ans6qyOs",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL8hZtgRyL9WTbgw5zLVI6KCo7ans6qyOs"
+      }
+    ],
+    "notes": "Song data sourced from YouTube playlist (Let's Play Piano Methods)."
+  },
+  {
+    "id": "alfred-popular-hits-2-everywhere-you-look",
+    "title": "Everywhere You Look",
+    "composer": "",
+    "arranger": "Tom Gerou",
+    "genre": "Popular",
+    "bookId": "alfred-popular-hits-2",
+    "pageNumber": 38,
+    "difficulty": {
+      "label": "Early Intermediate",
+      "faberLevel": null,
+      "alfredLevel": "Level 2"
+    },
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=7U3Hwf1ZvZE",
+        "artist": "Let's Play Piano Methods",
+        "description": "Let's Play Piano Methods - alfred-popular-hits-2",
+        "playlistId": "PL8hZtgRyL9WTbgw5zLVI6KCo7ans6qyOs",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL8hZtgRyL9WTbgw5zLVI6KCo7ans6qyOs"
+      }
+    ],
+    "notes": "Song data sourced from YouTube playlist (Let's Play Piano Methods)."
   }
 ]

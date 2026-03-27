@@ -1356,5 +1356,61 @@
     "description": "A treasury of over 160 familiar songs that everyone loves to sing. Features favorite folk songs, golden hits, songs for children, holiday songs, carols, and best-loved songs from around the world. Arranged by Amy Appleby for piano, vocal, and guitar.",
     "amazonUrl": null,
     "trackListingSource": "publisher-website"
+  },
+  {
+    "id": "alfred-popular-hits-1",
+    "title": "Alfred's Basic Adult Piano Course: Popular Hits Level 1",
+    "series": "Alfred Popular Hits",
+    "seriesLevel": "Level 1",
+    "bookType": "companion",
+    "publisher": "Alfred Music",
+    "isbn": "978-1470640583",
+    "coverImage": "/covers/alfred-popular-hits-1.jpg",
+    "pageCount": 40,
+    "description": "Popular songs arranged at Level 1 by Tom Gerou, correlating with Alfred's Basic Adult Piano Course Lesson Book 1. Features hits from movies, Broadway, TV, and pop including Don't Stop Believin', Let It Go, Over the Rainbow, and Star Wars.",
+    "amazonUrl": "https://www.amazon.com/dp/1470640589",
+    "trackListingSource": "publisher-website"
+  },
+  {
+    "id": "alfred-popular-hits-3",
+    "title": "Alfred's Basic Adult Piano Course: Popular Hits Level 3",
+    "series": "Alfred Popular Hits",
+    "seriesLevel": "Level 3",
+    "bookType": "companion",
+    "publisher": "Alfred Music",
+    "isbn": "978-1470641696",
+    "coverImage": "/covers/alfred-popular-hits-3.jpg",
+    "pageCount": 36,
+    "description": "Popular songs arranged at Level 3 by Tom Gerou, correlating with Alfred's Basic Adult Piano Course Lesson Book 3. Features hits including Shallow, Rhapsody in Blue, The Imperial March, and the Downton Abbey theme.",
+    "amazonUrl": "https://www.amazon.com/dp/1470641690",
+    "trackListingSource": "publisher-website"
+  },
+  {
+    "id": "alfred-greatest-hits-3",
+    "title": "Alfred's Basic Adult Piano Course: Greatest Hits Book 3",
+    "series": "Alfred Greatest Hits",
+    "seriesLevel": "Level 3",
+    "bookType": "companion",
+    "publisher": "Alfred Music",
+    "isbn": "978-0739002193",
+    "coverImage": "/covers/alfred-greatest-hits-3.jpg",
+    "pageCount": 64,
+    "description": "Popular and classical pieces arranged at Level 3 difficulty, correlating with Alfred's Basic Adult Piano Course Lesson Book 3.",
+    "amazonUrl": "https://www.amazon.com/dp/0739002198",
+    "trackListingSource": "youtube-playlist"
+  },
+  {
+    "id": "alfred-popular-hits-2",
+    "title": "Alfred's Basic Adult Piano Course: Popular Hits Level 2",
+    "series": "Alfred Popular Hits",
+    "seriesLevel": "Level 2",
+    "bookType": "companion",
+    "publisher": "Alfred Music",
+    "isbn": "978-1470640590",
+    "coverImage": "/covers/alfred-popular-hits-2.jpg",
+    "pageCount": 48,
+    "description": "Popular songs arranged by Tom Gerou at early intermediate level, correlating with Alfred's Basic Adult Piano Course Level 2.",
+    "amazonUrl": "https://www.amazon.com/dp/1470640597",
+    "trackListingSource": "youtube-playlist"
   }
 ]

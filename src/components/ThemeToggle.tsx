@@ -2,25 +2,24 @@ import { useState, useEffect } from 'preact/hooks';
 
 type Theme = 'light' | 'dark';
 
-function applyTheme(theme: Theme) {
-  document.documentElement.classList.toggle('dark', theme === 'dark');
+function getEffectiveTheme(): Theme {
+  const stored = localStorage.getItem('theme');
+  if (stored === 'light' || stored === 'dark') return stored;
+  return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
 }
 
 export default function ThemeToggle() {
   const [theme, setTheme] = useState<Theme>('light');
 
   useEffect(() => {
-    const stored = localStorage.getItem('theme') as Theme | null;
-    if (stored === 'light' || stored === 'dark') {
-      setTheme(stored);
-    }
+    setTheme(getEffectiveTheme());
   }, []);
 
   const toggle = () => {
     const next: Theme = theme === 'light' ? 'dark' : 'light';
     setTheme(next);
     localStorage.setItem('theme', next);
-    applyTheme(next);
+    document.documentElement.classList.toggle('dark', next === 'dark');
   };
 
   return (

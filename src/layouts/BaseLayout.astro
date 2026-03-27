@@ -32,7 +32,8 @@ import PWAInstallPrompt from '../components/PWAInstallPrompt.tsx';
     <script is:inline>
       (function() {
         var t = localStorage.getItem('theme');
-        document.documentElement.classList.toggle('dark', t === 'dark');
+        var dark = t === 'dark' || (!t && window.matchMedia('(prefers-color-scheme: dark)').matches);
+        document.documentElement.classList.toggle('dark', dark);
       })();
     </script>
   </head>

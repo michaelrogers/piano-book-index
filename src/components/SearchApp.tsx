@@ -163,15 +163,28 @@ export default function SearchApp({ songs, genres, series, publishers }: Props) 
         ],
         threshold: 0.35,
         ignoreLocation: true,
+        includeScore: true,
       }),
     [songs],
   );
 
   const hasActiveFilter = debouncedQuery.trim() || diffMin !== null || selectedGenres.size > 0 || selectedSeries || selectedPublisher || onlyOwned;
 
+  const fuseResults = useMemo(
+    () => (debouncedQuery.trim() ? fuse.search(debouncedQuery) : null),
+    [debouncedQuery, fuse],
+  );
+
+  const searchScores = useMemo(() => {
+    if (!fuseResults) return new Map<string, number>();
+    const map = new Map<string, number>();
+    for (const r of fuseResults) map.set(r.item.id, r.score ?? 1);
+    return map;
+  }, [fuseResults]);
+
   const results = useMemo(() => {
-    let filtered = debouncedQuery.trim()
-      ? fuse.search(debouncedQuery).map((r) => r.item)
+    let filtered = fuseResults
+      ? fuseResults.map((r) => r.item)
       : songs;
 
     if (diffMin !== null && diffMax !== null) {
@@ -368,7 +381,10 @@ export default function SearchApp({ songs, genres, series, publishers }: Props) 
       {/* Results list */}
       {hasActiveFilter && (
       <div class="mt-3 divide-y divide-gray-100 overflow-hidden rounded-lg border border-gray-200 bg-white dark:divide-gray-800 dark:border-gray-800 dark:bg-gray-900">
-        {results.slice(0, displayLimit).map((song) => (
+        {results.slice(0, displayLimit).map((song) => {
+          const score = searchScores.get(song.id);
+          const isWeakMatch = score !== undefined && score > 0.15;
+          return (
           <a
             key={song.id}
             href={`/songs/${song.id}`}
@@ -376,7 +392,7 @@ export default function SearchApp({ songs, genres, series, publishers }: Props) 
               ownedBookIds.has(song.bookId)
                 ? 'bg-emerald-50/40 dark:bg-emerald-900/10'
                 : ''
-            }`}
+            } ${isWeakMatch ? 'opacity-50' : ''}`}
           >
             <div class="shrink-0">
               {song.bookCoverImage ? (
@@ -409,7 +425,8 @@ export default function SearchApp({ songs, genres, series, publishers }: Props) 
               </p>
             </div>
           </a>
-        ))}
+          );
+        })}
         {results.length > displayLimit && (
           <button
             type="button"

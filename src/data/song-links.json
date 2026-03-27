@@ -82,6 +82,10 @@
     "bigtime-piano-favorites-clair-de-lune",
     "lepc-clair-de-lune"
   ],
+  "downton abbey": [
+    "faber-popular-1-downton-abbey-theme",
+    "alfred-popular-hits-3-downton-abbey-theme"
+  ],
   "do re mi": [
     "faber-popular-1-do-re-mi",
     "playtime-piano-popular-do-re-mi",
@@ -125,21 +129,23 @@
   ],
   "over the rainbow": [
     "faber-popular-2-over-the-rainbow",
-    "alfred-gh2-over-the-rainbow",
-    "showtime-piano-popular-over-the-rainbow",
-    "aio1-over-the-rainbow"
+    "alfred-gh2-over-the-rainbow"
   ],
   "aint no mountain high enough": [
     "faber-popular-2-aint-no-mountain-high-enough",
     "showtime-piano-rock-n-roll-aint-no-mountain-high-enough"
   ],
-  "let it go": [
-    "faber-popular-2-let-it-go",
-    "playtime-piano-disney-let-it-go-frozen"
+  "ashokan farewell": [
+    "faber-popular-2-ashokan-farewell",
+    "alfred-popular-hits-3-ashokan-farewell"
   ],
   "singin in the rain": [
     "faber-popular-2-singin-in-the-rain",
     "aio1-singin-in-the-rain"
+  ],
+  "james bond theme": [
+    "faber-popular-2-the-james-bond-theme",
+    "alfred-popular-hits-1-james-bond-theme"
   ],
   "hey jude": [
     "faber-popular-2-hey-jude",
@@ -152,10 +158,6 @@
   "stand by me": [
     "faber-popular-2-stand-by-me",
     "funtime-piano-rock-n-roll-stand-by-me"
-  ],
-  "you raise me up": [
-    "faber-popular-2-you-raise-me-up",
-    "bigtime-piano-popular-you-raise-me-up"
   ],
   "piano man": [
     "faber-popular-2-piano-man",
@@ -590,7 +592,8 @@
   ],
   "she loves you": [
     "alfred-gh1-she-loves-you",
-    "chordtime-piano-popular-she-loves-you"
+    "chordtime-piano-popular-she-loves-you",
+    "alfred-greatest-hits-3-she-loves-you"
   ],
   "blue suede shoes": [
     "alfred-gh1-blue-suede-shoes",
@@ -746,7 +749,8 @@
     "playtime-piano-popular-star-wars",
     "chordtime-piano-popular-star-wars",
     "funtime-piano-popular-star-wars",
-    "bigtime-piano-popular-star-wars-main-theme"
+    "bigtime-piano-popular-star-wars-main-theme",
+    "alfred-popular-hits-1-star-wars-main-theme"
   ],
   "take me out to the ballgame": [
     "playtime-piano-popular-take-me-out-to-the-ballgame",
@@ -765,6 +769,10 @@
     "showtime-piano-disney-hes-a-pirate-pirates-of-the-caribbean-the-curse-of-the-black",
     "funtime-piano-popular-hes-a-pirate"
   ],
+  "reflection": [
+    "showtime-piano-disney-reflection-mulan",
+    "alfred-greatest-hits-3-reflection"
+  ],
   "under the sea": [
     "showtime-piano-disney-under-the-sea-the-little-mermaid",
     "funtime-piano-disney-under-the-sea-the-little-mermaid"
@@ -780,6 +788,10 @@
   "old gray mare": [
     "showtime-piano-favorites-the-old-gray-mare",
     "library-family-singalongs-the-old-gray-mare"
+  ],
+  "havana": [
+    "showtime-piano-hits-havana-camila-cabello",
+    "alfred-popular-hits-2-havana"
   ],
   "michael row the boat ashore": [
     "showtime-piano-hymns-michael-row-the-boat-ashore",
@@ -799,6 +811,10 @@
     "showtime-piano-kids-songs-the-hokey-pokey",
     "aio2-the-hokey-pokey",
     "library-family-singalongs-the-hokey-pokey"
+  ],
+  "hedwigs theme": [
+    "showtime-piano-popular-hedwigs-theme-from-harry-potter-and-the-sorcerers-stone",
+    "alfred-popular-hits-2-hedwigs-theme"
   ],
   "be our guest": [
     "chordtime-piano-disney-be-our-guest-beauty-and-the-beast",
@@ -886,6 +902,10 @@
     "funtime-piano-popular-i-saw-her-standing-there",
     "bigtime-piano-popular-i-saw-her-standing-there"
   ],
+  "bye bye love": [
+    "funtime-piano-rock-n-roll-bye-bye-love",
+    "alfred-popular-hits-1-bye-bye-love"
+  ],
   "beautiful dreamer": [
     "bigtime-piano-favorites-beautiful-dreamer-nfmc-bulletin-selection",
     "library-family-singalongs-beautiful-dreamer"
@@ -905,6 +925,10 @@
   "theme from the moonlight sonata": [
     "bigtime-piano-favorites-theme-from-the-moonlight-sonata",
     "lepc-theme-from-the-moonlight-sonata"
+  ],
+  "firework": [
+    "bigtime-piano-hits-firework-katy-perry",
+    "alfred-popular-hits-2-firework"
   ],
   "deep river": [
     "bigtime-piano-hymns-deep-river",
@@ -931,6 +955,10 @@
     "aio1-on-top-of-old-smoky",
     "library-family-singalongs-on-top-of-old-smoky"
   ],
+  "at last": [
+    "aio1-at-last",
+    "alfred-popular-hits-2-at-last"
+  ],
   "mexican hat dance": [
     "aio1-mexican-hat-dance",
     "aio2-mexican-hat-dance"
@@ -954,5 +982,9 @@
   "all through the night": [
     "lepc-all-through-the-night",
     "library-family-singalongs-all-through-the-night"
+  ],
+  "my funny valentine": [
+    "alfred-greatest-hits-3-my-funny-valentine",
+    "alfred-popular-hits-2-my-funny-valentine"
   ]
 }
