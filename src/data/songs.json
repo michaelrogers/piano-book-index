@@ -29578,5 +29578,2549 @@
     },
     "youtubeLinks": [],
     "notes": ""
+  },
+  {
+    "id": "library-family-singalongs-all-the-pretty-little-horses",
+    "title": "All the Pretty Little Horses",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-all-through-the-night",
+    "title": "All Through the Night",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-alouette",
+    "title": "Alouette",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-amazing-grace",
+    "title": "Amazing Grace",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Hymn",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-america-the-beautiful",
+    "title": "America, the Beautiful",
+    "composer": "Samuel A. Ward",
+    "arranger": "Amy Appleby",
+    "genre": "Patriotic",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-and-the-band-played-on",
+    "title": "And the Band Played On",
+    "composer": "Charles B. Ward",
+    "arranger": "Amy Appleby",
+    "genre": "Pop",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-angels-we-have-heard-on-high",
+    "title": "Angels We Have Heard on High",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Holiday",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-around-her-neck-she-wore-a-yellow-ribbon",
+    "title": "Around Her Neck She Wore a Yellow Ribbon",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-auld-lang-syne",
+    "title": "Auld Lang Syne",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-aura-lee",
+    "title": "Aura Lee",
+    "composer": "George R. Poulton",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-away-in-a-manger",
+    "title": "Away in a Manger",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Holiday",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-b-i-n-g-o",
+    "title": "B-I-N-G-O",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-barbara-allen",
+    "title": "Barbara Allen",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-battle-hymn-of-the-republic",
+    "title": "Battle Hymn of the Republic",
+    "composer": "Julia Ward Howe",
+    "arranger": "Amy Appleby",
+    "genre": "Patriotic",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-beautiful-dreamer",
+    "title": "Beautiful Dreamer",
+    "composer": "Stephen Foster",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-blow-the-man-down",
+    "title": "Blow the Man Down",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-blue-tail-fly-jimmy-crack-corn",
+    "title": "Blue Tail Fly (Jimmy Crack Corn)",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-brahms-lullaby",
+    "title": "Brahms Lullaby",
+    "composer": "Johannes Brahms",
+    "arranger": "Amy Appleby",
+    "genre": "Classical",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-buffalo-gals",
+    "title": "Buffalo Gals",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-camptown-races",
+    "title": "Camptown Races",
+    "composer": "Stephen Foster",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-carolina-in-the-morning",
+    "title": "Carolina in the Morning",
+    "composer": "Walter Donaldson",
+    "arranger": "Amy Appleby",
+    "genre": "Pop",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-carry-me-back-to-old-virginny",
+    "title": "Carry Me Back to Old Virginny",
+    "composer": "James A. Bland",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-cielito-lindo",
+    "title": "Cielito Lindo",
+    "composer": "Quirino Mendoza y Cortés",
+    "arranger": "Amy Appleby",
+    "genre": "Latin",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-clementine",
+    "title": "Clementine",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-cockles-and-mussels",
+    "title": "Cockles and Mussels",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-daisy-bell",
+    "title": "Daisy Bell",
+    "composer": "Harry Dacre",
+    "arranger": "Amy Appleby",
+    "genre": "Pop",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-danny-boy",
+    "title": "Danny Boy",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-deck-the-hall",
+    "title": "Deck the Hall",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Holiday",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-do-your-ears-hang-low",
+    "title": "Do Your Ears Hang Low",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-down-by-the-old-mill-stream",
+    "title": "Down by the Old Mill Stream",
+    "composer": "Tell Taylor",
+    "arranger": "Amy Appleby",
+    "genre": "Pop",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-down-in-the-valley",
+    "title": "Down in the Valley",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-for-hes-a-jolly-good-fellow",
+    "title": "For He's a Jolly Good Fellow",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-froggy-went-a-courtin",
+    "title": "Froggy Went A-Courtin'",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-get-on-board-little-children",
+    "title": "Get on Board, Little Children",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-git-along-little-dogies",
+    "title": "Git Along Little Dogies",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-give-my-regards-to-broadway",
+    "title": "Give My Regards to Broadway",
+    "composer": "George M. Cohan",
+    "arranger": "Amy Appleby",
+    "genre": "Broadway",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-glow-worm",
+    "title": "Glow Worm",
+    "composer": "Paul Lincke",
+    "arranger": "Amy Appleby",
+    "genre": "Pop",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-go-tell-aunt-rhody",
+    "title": "Go Tell Aunt Rhody",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-go-tell-it-on-the-mountain",
+    "title": "Go, Tell It on the Mountain",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Hymn",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-goodnight-ladies",
+    "title": "Goodnight, Ladies",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-greensleeves",
+    "title": "Greensleeves",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-hail-hail-the-gangs-all-here",
+    "title": "Hail Hail the Gang's All Here",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Pop",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-hanukkah-song",
+    "title": "Hanukkah Song",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Holiday",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-hark-the-herald-angels-sing",
+    "title": "Hark, the Herald Angels Sing",
+    "composer": "Felix Mendelssohn",
+    "arranger": "Amy Appleby",
+    "genre": "Holiday",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-havah-nagilah",
+    "title": "Havah Nagilah",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-hes-got-the-whole-world-in-his-hands",
+    "title": "He's Got the Whole World in His Hands",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Hymn",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-here-we-go-round-the-mulberry-bush",
+    "title": "Here We Go Round the Mulberry Bush",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-hey-diddle-diddle",
+    "title": "Hey Diddle, Diddle",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-home-on-the-range",
+    "title": "Home on the Range",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-home-sweet-home",
+    "title": "Home, Sweet Home",
+    "composer": "Henry Bishop",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-hush-little-baby",
+    "title": "Hush, Little Baby",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-i-dream-of-jeanie",
+    "title": "I Dream of Jeanie",
+    "composer": "Stephen Foster",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-i-love-a-piano",
+    "title": "I Love a Piano",
+    "composer": "Irving Berlin",
+    "arranger": "Amy Appleby",
+    "genre": "Broadway",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-i-love-you-truly",
+    "title": "I Love You Truly",
+    "composer": "Carrie Jacobs-Bond",
+    "arranger": "Amy Appleby",
+    "genre": "Pop",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-i-ride-an-old-paint",
+    "title": "I Ride an Old Paint",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-im-a-yankee-doodle-dandy",
+    "title": "I'm a Yankee Doodle Dandy",
+    "composer": "George M. Cohan",
+    "arranger": "Amy Appleby",
+    "genre": "Broadway",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-ive-been-workin-on-the-railroad",
+    "title": "I've Been Workin' on the Railroad",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-if-youre-happy-and-you-know-it",
+    "title": "If You're Happy and You Know It",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-in-the-evening-by-the-moonlight",
+    "title": "In the Evening by the Moonlight",
+    "composer": "James A. Bland",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-in-the-good-old-summertime",
+    "title": "In the Good Old Summertime",
+    "composer": "George Evans",
+    "arranger": "Amy Appleby",
+    "genre": "Pop",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-jingle-bells",
+    "title": "Jingle Bells",
+    "composer": "James Pierpont",
+    "arranger": "Amy Appleby",
+    "genre": "Holiday",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-joy-to-the-world",
+    "title": "Joy to the World",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Holiday",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-kentucky-babe",
+    "title": "Kentucky Babe",
+    "composer": "Adam Geibel",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-kumbayah",
+    "title": "Kumbayah",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Hymn",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-lil-liza-jane",
+    "title": "L'il Liza Jane",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-la-bamba",
+    "title": "La Bamba",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Latin",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-let-me-call-you-sweetheart",
+    "title": "Let Me Call You Sweetheart",
+    "composer": "Leo Friedman",
+    "arranger": "Amy Appleby",
+    "genre": "Pop",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-let-my-people-go",
+    "title": "Let My People Go",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Hymn",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-listen-to-the-mockingbird",
+    "title": "Listen to the Mockingbird",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-loch-lomond",
+    "title": "Loch Lomond",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-long-long-ago",
+    "title": "Long, Long Ago",
+    "composer": "Thomas Haynes Bayly",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-looby-loo",
+    "title": "Looby Loo",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-m-o-t-h-e-r",
+    "title": "M-O-T-H-E-R",
+    "composer": "Theodore Morse",
+    "arranger": "Amy Appleby",
+    "genre": "Pop",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-mary-had-a-little-lamb",
+    "title": "Mary Had a Little Lamb",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-marys-a-grand-old-name",
+    "title": "Mary's a Grand Old Name",
+    "composer": "George M. Cohan",
+    "arranger": "Amy Appleby",
+    "genre": "Broadway",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-meet-me-in-st-louis-louis",
+    "title": "Meet Me in St. Louis, Louis",
+    "composer": "Kerry Mills",
+    "arranger": "Amy Appleby",
+    "genre": "Pop",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-michael-row-the-boat-ashore",
+    "title": "Michael, Row the Boat Ashore",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-mister-rabbit",
+    "title": "Mister Rabbit",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-moonlight-bay",
+    "title": "Moonlight Bay",
+    "composer": "Percy Wenrich",
+    "arranger": "Amy Appleby",
+    "genre": "Pop",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-my-bonnie",
+    "title": "My Bonnie",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-my-gal-sal",
+    "title": "My Gal Sal",
+    "composer": "Paul Dresser",
+    "arranger": "Amy Appleby",
+    "genre": "Pop",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-my-wild-irish-rose",
+    "title": "My Wild Irish Rose",
+    "composer": "Chauncey Olcott",
+    "arranger": "Amy Appleby",
+    "genre": "Pop",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-o-christmas-tree",
+    "title": "O Christmas Tree",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Holiday",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-o-come-all-ye-faithful",
+    "title": "O Come All Ye Faithful",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Holiday",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-o-how-lovely-is-the-evening",
+    "title": "O How Lovely Is the Evening",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-oh-dear-what-can-the-matter-be",
+    "title": "Oh Dear What Can the Matter Be",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-oh-susanna",
+    "title": "Oh Susanna",
+    "composer": "Stephen Foster",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-old-macdonald",
+    "title": "Old MacDonald",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-on-the-banks-of-the-wabash",
+    "title": "On the Banks of the Wabash",
+    "composer": "Paul Dresser",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-on-top-of-old-smoky",
+    "title": "On Top of Old Smoky",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-over-the-river-and-through-the-woods",
+    "title": "Over the River and Through the Woods",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Holiday",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-over-there",
+    "title": "Over There",
+    "composer": "George M. Cohan",
+    "arranger": "Amy Appleby",
+    "genre": "Patriotic",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-pat-a-pan",
+    "title": "Pat-A-Pan",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Holiday",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-polly-wolly-doodle",
+    "title": "Polly-Wolly-Doodle",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-pop-goes-the-weasel",
+    "title": "Pop Goes the Weasel",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-pussy-cat-pussy-cat",
+    "title": "Pussy Cat, Pussy Cat",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-rally-round-the-flag",
+    "title": "Rally Round the Flag",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Patriotic",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-red-river-valley",
+    "title": "Red River Valley",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-rock-a-bye-baby",
+    "title": "Rock-a-Bye, Baby",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-row-row-row-your-boat",
+    "title": "Row, Row, Row Your Boat",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-sailing-sailing",
+    "title": "Sailing, Sailing",
+    "composer": "Godfrey Marks",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-santa-lucia",
+    "title": "Santa Lucia",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-scarborough-fair",
+    "title": "Scarborough Fair",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-shell-be-comin-round-the-mountain",
+    "title": "She'll Be Comin' Round the Mountain",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-shenandoah",
+    "title": "Shenandoah",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-shine-on-harvest-moon",
+    "title": "Shine on Harvest Moon",
+    "composer": "Nora Bayes",
+    "arranger": "Amy Appleby",
+    "genre": "Pop",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-silent-night",
+    "title": "Silent Night",
+    "composer": "Franz Xaver Gruber",
+    "arranger": "Amy Appleby",
+    "genre": "Holiday",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-sing-a-song-of-sixpence",
+    "title": "Sing a Song of Sixpence",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-skip-to-my-lou",
+    "title": "Skip to My Lou",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-song-of-the-volga-boatman",
+    "title": "Song of the Volga Boatman",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-stodola-pumpa",
+    "title": "Stodola Pumpa",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-sweet-and-low",
+    "title": "Sweet and Low",
+    "composer": "Joseph Barnby",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-swing-low-sweet-chariot",
+    "title": "Swing Low, Sweet Chariot",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Hymn",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-ta-ra-ra-boom-de-ay",
+    "title": "Ta-Ra-Ra Boom-De-Ay",
+    "composer": "Henry Sayers",
+    "arranger": "Amy Appleby",
+    "genre": "Pop",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-take-me-out-to-the-ballgame",
+    "title": "Take Me Out to the Ballgame",
+    "composer": "Albert Von Tilzer",
+    "arranger": "Amy Appleby",
+    "genre": "Pop",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-ten-little-sailors",
+    "title": "Ten Little Sailors",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-the-alphabet-song",
+    "title": "The Alphabet Song",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-the-animal-fair",
+    "title": "The Animal Fair",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-the-ants-go-marching",
+    "title": "The Ants Go Marching",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-the-banana-boat-song",
+    "title": "The Banana Boat Song",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-the-bear-went-over-the-mountain",
+    "title": "The Bear Went Over the Mountain",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-the-big-rock-candy-mountain",
+    "title": "The Big Rock Candy Mountain",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-the-caissons-go-rolling-along",
+    "title": "The Caissons Go Rolling Along",
+    "composer": "Edmund L. Gruber",
+    "arranger": "Amy Appleby",
+    "genre": "Patriotic",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-the-crawdad-song",
+    "title": "The Crawdad Song",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-the-eency-weency-spider",
+    "title": "The Eency, Weency Spider",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-the-erie-canal",
+    "title": "The Erie Canal",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-the-farmer-in-the-dell",
+    "title": "The Farmer in the Dell",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-the-first-nowell",
+    "title": "The First Nowell",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Holiday",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-the-flowers-that-bloom-in-the-spring",
+    "title": "The Flowers That Bloom in the Spring",
+    "composer": "Arthur Sullivan",
+    "arranger": "Amy Appleby",
+    "genre": "Classical",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-the-fox",
+    "title": "The Fox",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-the-hokey-pokey",
+    "title": "The Hokey Pokey",
+    "composer": "Larry LaPrise",
+    "arranger": "Amy Appleby",
+    "genre": "Pop",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-the-muffin-man",
+    "title": "The Muffin Man",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-the-old-folks-at-home",
+    "title": "The Old Folks at Home",
+    "composer": "Stephen Foster",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-the-old-gray-mare",
+    "title": "The Old Gray Mare",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-the-orchestra",
+    "title": "The Orchestra",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-the-riddle-song",
+    "title": "The Riddle Song",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-the-sidewalks-of-new-york",
+    "title": "The Sidewalks of New York",
+    "composer": "Charles B. Lawlor",
+    "arranger": "Amy Appleby",
+    "genre": "Pop",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-the-skye-boat-song",
+    "title": "The Skye Boat Song",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-the-sloop-john-b",
+    "title": "The Sloop John B.",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-the-streets-of-laredo",
+    "title": "The Streets of Laredo",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-the-twelve-days-of-christmas",
+    "title": "The Twelve Days of Christmas",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Holiday",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-the-wabash-cannonball",
+    "title": "The Wabash Cannonball",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-the-wheels-on-the-bus",
+    "title": "The Wheels on the Bus",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-the-yellow-rose-of-texas",
+    "title": "The Yellow Rose of Texas",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-therell-be-a-hot-time-in-the-old-town-tonight",
+    "title": "There'll Be a Hot Time in the Old Town Tonight",
+    "composer": "Theodore Metz",
+    "arranger": "Amy Appleby",
+    "genre": "Pop",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-theres-a-hole-in-the-bucket",
+    "title": "There's a Hole in the Bucket",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-this-old-man",
+    "title": "This Old Man",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-under-the-bamboo-tree",
+    "title": "Under the Bamboo Tree",
+    "composer": "Bob Cole",
+    "arranger": "Amy Appleby",
+    "genre": "Pop",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-vive-lamour",
+    "title": "Vive L'amour",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-we-gather-together",
+    "title": "We Gather Together",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Holiday",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-we-wish-you-a-merry-christmas",
+    "title": "We Wish You a Merry Christmas",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Holiday",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-when-johnny-comes-marching-home",
+    "title": "When Johnny Comes Marching Home",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Patriotic",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-when-the-saints-go-marching-in",
+    "title": "When the Saints Go Marching In",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Hymn",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-where-oh-where-has-my-little-dog-gone",
+    "title": "Where Oh Where Has My Little Dog Gone",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-wimoweh",
+    "title": "Wimoweh",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Folk",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-yankee-doodle",
+    "title": "Yankee Doodle",
+    "composer": "Traditional",
+    "arranger": "Amy Appleby",
+    "genre": "Patriotic",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-you-made-me-love-you",
+    "title": "You Made Me Love You",
+    "composer": "James V. Monaco",
+    "arranger": "Amy Appleby",
+    "genre": "Pop",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-you-tell-me-your-dream",
+    "title": "You Tell Me Your Dream",
+    "composer": "Charles N. Daniels",
+    "arranger": "Amy Appleby",
+    "genre": "Pop",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
+  },
+  {
+    "id": "library-family-singalongs-youre-a-grand-old-flag",
+    "title": "You're a Grand Old Flag",
+    "composer": "George M. Cohan",
+    "arranger": "Amy Appleby",
+    "genre": "Patriotic",
+    "bookId": "library-family-singalongs",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Intermediate",
+      "faberLevel": null,
+      "alfredLevel": null
+    },
+    "youtubeLinks": [],
+    "notes": null
   }
 ]

@@ -1342,5 +1342,19 @@
     "description": "The final book in the All-in-One series, featuring intermediate-level lesson, theory, and solo content including classical pieces and original compositions.",
     "amazonUrl": "https://www.amazon.com/dp/0739000683",
     "trackListingSource": "youtube-playlist"
+  },
+  {
+    "id": "library-family-singalongs",
+    "title": "The Library of Family Singalongs",
+    "series": "Library of Series",
+    "seriesLevel": null,
+    "bookType": "companion",
+    "publisher": "Music Sales America",
+    "isbn": "978-0825634987",
+    "coverImage": "/covers/library-family-singalongs.jpg",
+    "pageCount": 240,
+    "description": "A treasury of over 160 familiar songs that everyone loves to sing. Features favorite folk songs, golden hits, songs for children, holiday songs, carols, and best-loved songs from around the world. Arranged by Amy Appleby for piano, vocal, and guitar.",
+    "amazonUrl": null,
+    "trackListingSource": "publisher-website"
   }
 ]
