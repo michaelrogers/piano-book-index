@@ -45,6 +45,7 @@ export default function SearchApp({ songs, genres, series, publishers }: Props) 
   const [filtersOpen, setFiltersOpen] = useState(false);
   const [debouncedQuery, setDebouncedQuery] = useState('');
   const [displayLimit, setDisplayLimit] = useState(50);
+  const [randomSongs, setRandomSongs] = useState<SongSearchItem[]>([]);
 
   // Debounce search query
   useEffect(() => {
@@ -90,6 +91,11 @@ export default function SearchApp({ songs, genres, series, publishers }: Props) 
     // Auto-expand filters if any are set from URL
     if (dmin !== null || genreParam || params.get('series') || params.get('publisher') || params.get('owned') === '1') {
       setFiltersOpen(true);
+    }
+    // Pick 6 random suggestions for empty state
+    if (songs.length > 0) {
+      const shuffled = [...songs].sort(() => Math.random() - 0.5);
+      setRandomSongs(shuffled.slice(0, 6));
     }
     setInitialized(true);
   }, []);
@@ -377,6 +383,35 @@ export default function SearchApp({ songs, genres, series, publishers }: Props) 
           ? `${results.length} ${results.length === 1 ? 'song' : 'songs'} found`
           : `${songs.length} songs — type to search or apply filters`}
       </p>
+
+      {/* Song suggestions when idle */}
+      {!hasActiveFilter && randomSongs.length > 0 && (
+        <div class="mt-6">
+          <h2 class="mb-3 text-sm font-semibold text-gray-700 dark:text-gray-300">Try Something New</h2>
+          <div class="-mx-4 flex gap-3 overflow-x-auto px-4 pb-2 snap-x snap-mandatory scrollbar-hide">
+            {randomSongs.map((song) => (
+              <a
+                key={song.id}
+                href={`/songs/${song.id}`}
+                class="flex w-44 shrink-0 snap-start flex-col overflow-hidden rounded-lg border border-gray-200 bg-white transition-colors hover:border-piano-300 dark:border-gray-700 dark:bg-gray-900 dark:hover:border-piano-600"
+              >
+                <div class="flex h-16 items-center justify-center bg-gray-50 dark:bg-gray-800/50">
+                  {song.bookCoverImage ? (
+                    <img src={song.bookCoverImage} alt="" class="h-14 w-11 rounded object-cover shadow-sm" />
+                  ) : (
+                    <svg class="h-6 w-6 text-gray-300 dark:text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="m9 9 10.5-3m0 6.553v3.75a2.25 2.25 0 0 1-1.632 2.163l-1.32.377a1.803 1.803 0 0 1-.99-3.467l2.31-.66a2.25 2.25 0 0 0 1.632-2.163zm0 0V4.5l-10.5 3v6.75m0 0v3.75a2.25 2.25 0 0 1-1.632 2.163l-1.32.377a1.803 1.803 0 0 1-.99-3.467l2.31-.66A2.25 2.25 0 0 0 4.5 15V4.5" /></svg>
+                  )}
+                </div>
+                <div class="flex flex-1 flex-col p-3">
+                  <div class="line-clamp-2 text-sm font-medium leading-snug text-gray-900 dark:text-gray-100">{song.title}</div>
+                  <div class="mt-1 truncate text-xs text-gray-500 dark:text-gray-400">{song.composer}</div>
+                  <div class="mt-auto pt-1.5 truncate text-[11px] text-gray-400 dark:text-gray-500">{song.difficultyLabel}</div>
+                </div>
+              </a>
+            ))}
+          </div>
+        </div>
+      )}
 
       {/* Results list */}
       {hasActiveFilter && (

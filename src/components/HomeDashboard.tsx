@@ -65,7 +65,7 @@ export default function HomeDashboard({ songs, totalBooks }: Props) {
     // Pick 3 random songs (non-repeating)
     if (songs.length > 0) {
       const shuffled = [...songs].sort(() => Math.random() - 0.5);
-      setRandomSongs(shuffled.slice(0, 3));
+      setRandomSongs(shuffled.slice(0, 7));
     }
     window.addEventListener('favorites-changed', loadState);
     window.addEventListener('owned-books-changed', loadState);
@@ -79,8 +79,9 @@ export default function HomeDashboard({ songs, totalBooks }: Props) {
 
   const activeSongs = favorites
     .filter((f) => f.status === 'learning' || f.status === 'want-to-learn')
-    .sort((a, b) => b.favoritedAt - a.favoritedAt)
-    .slice(0, 6);
+    .sort((a, b) => b.favoritedAt - a.favoritedAt);
+
+  const displayActive = activeSongs.slice(0, 4);
 
   const statusCounts: Record<string, number> = {};
   for (const f of favorites) {
@@ -130,11 +131,18 @@ export default function HomeDashboard({ songs, totalBooks }: Props) {
       )}
 
       {/* Quick resume */}
-      {activeSongs.length > 0 && (
+      {displayActive.length > 0 && (
         <div>
-          <h2 class="mb-3 text-lg font-semibold text-gray-900 dark:text-gray-100">Continue Practicing</h2>
+          <div class="mb-3 flex items-center justify-between">
+            <h2 class="text-lg font-semibold text-gray-900 dark:text-gray-100">Continue Practicing</h2>
+            {activeSongs.length > 4 && (
+              <a href="/favorites?status=learning" class="text-sm text-piano-600 hover:text-piano-700 dark:text-piano-400 dark:hover:text-piano-300">
+                View all ({activeSongs.length})
+              </a>
+            )}
+          </div>
           <div class="divide-y divide-gray-100 overflow-hidden rounded-lg border border-gray-200 bg-white dark:divide-gray-800 dark:border-gray-800 dark:bg-gray-900">
-            {activeSongs.map((fav) => {
+            {displayActive.map((fav) => {
               const song = songMap.get(fav.songId);
               if (!song) return null;
               return (
