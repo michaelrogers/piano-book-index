@@ -29,8 +29,9 @@ When a song appears in multiple channel playlists, the highest-priority channel'
 1. **Playlist scraping** — `scripts/scrape-youtube-playlists.mjs` fetches playlist metadata from trusted channel pages, then fetches each playlist's video list.
 2. **Playlist-to-book mapping** — Scraped playlists are matched to books by word overlap (see Scraper Matching below). Verified mappings are stored in `scripts/youtube-playlists-curated.json`.
 3. **Title matching** — `scripts/link-youtube-playlists.mjs` normalizes song titles and video titles, then matches them within the same book (see Linker Title Matching below).
-4. **Direct song links** — For cross-channel matches (e.g., a video from a "PlayTime Classics" playlist that also matches an Adult PA song), `directSongLinks` entries in curated.json bypass playlist-based matching entirely.
-5. **Rendering** — Song pages embed matched videos via `YouTubeEmbed.tsx` (lazy-loaded with `client:visible`). Book pages show playlist links via `src/data/book-playlists.json`.
+4. **Rendering** — Song pages embed matched videos via `YouTubeEmbed.tsx` (lazy-loaded with `client:visible`). Book pages show playlist links via `src/data/book-playlists.json`.
+
+> **Note:** The `directSongLinks` mechanism (step 4 in earlier versions of this pipeline) is **deprecated**. It cross-linked videos between books, violating the 1:1 mapping rule. See "Direct Song Links (DEPRECATED)" below.
 
 ## Key Files
 
@@ -218,9 +219,11 @@ Standard path: an entire YouTube playlist is mapped to a single `bookId`. Every 
 }
 ```
 
-### 2. Direct Song Links
+### 2. Direct Song Links (DEPRECATED)
 
-For videos that belong to a playlist for a *different* book but happen to match a song in a target book (cross-channel / cross-book matches). These bypass playlist-based matching entirely and link a specific video to a specific song by `songId`.
+> **This mechanism is deprecated and should not be used for new links.** It violates the 1:1 video-to-song mapping rule — a video recorded for one book's arrangement must not be cross-linked to a different book that has its own arrangement. Existing `directSongLinks` entries in `youtube-playlists-curated.json` should be audited and removed.
+
+The `directSongLinks` array previously allowed linking a video to a specific song by `songId`, bypassing playlist-based matching. This was used to give video coverage to books that lacked dedicated playlists (e.g., linking Karen Rock Music's Level 3B Lesson Book videos to Adult PA Classics Book 1). However, different books contain **different arrangements** of the same piece — a Level 3B arrangement of Liebestraum is not the same as the Adult PA Classics arrangement. Cross-linking misrepresents what the student will actually play.
 
 ```json
 {
@@ -231,13 +234,13 @@ For videos that belong to a playlist for a *different* book but happen to match 
 }
 ```
 
-Direct links are used when:
-- A classical piece appears in multiple book series at different difficulty levels
-- The channel has no playlist dedicated to the target book
-- Individual videos from unrelated playlists are verified to match target songs
+**Why this was wrong:** The video above is Karen Rock Music playing the Level 3B Lesson Book arrangement. The song `faber-classics-1-liebestraum-dream-of-love` is from Adult Piano Adventures Classics Book 1 — a completely different arrangement. Linking them misleads the user.
+
+**Migration path:** If a book needs video coverage, find or wait for a playlist dedicated to that specific book. Do not borrow videos from other books' playlists.
 
 ## Rules
 
+- **1:1 video-to-song mapping.** A YouTube video must only be linked to the song in the book whose playlist it belongs to. Even if the same song title appears in multiple books (e.g., "Canon in D" in both ChordTime Classics and BigTime Classics), each book has a **different arrangement** at a different difficulty level. A video recorded for one arrangement must not be linked to another book's version of that song. There are no exceptions to this rule.
 - **Never auto-add songs from playlists.** If a video has no matching song in `songs.json`, it stays unmatched.
 - **Scraper matches require manual review.** The word-overlap heuristic produces false positives (especially across book series with similar names).
 - **Ambiguous matches** (multiple songs match one video title, after composer disambiguation) are skipped and logged.

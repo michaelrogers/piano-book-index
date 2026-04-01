@@ -56,6 +56,7 @@ scripts/         — Node.js utilities (YouTube scraping, coverage reports, data
 - User-specific state (owned books, notes) in `localStorage` — per-device, no auth needed.
 - Favorites use `fav:${songId}` localStorage keys with `{status, favoritedAt}` values; synced via `favorites-changed` custom event.
 - YouTube embeds are inline iframes (`youtube-nocookie.com`), lazy-loaded with `client:visible`.
+- YouTube video-to-song mapping is strictly 1:1: a video belongs only to the book whose playlist it came from. Different books have different arrangements of the same song — never cross-link videos between books. The `directSongLinks` mechanism is deprecated and should not be used.
 - Difficulty uses a dual-scale: descriptive labels + optional Faber/Alfred native levels with a reference comparison page.
 - Mobile-first design optimized for iPhone Safari with PWA manifest for "Add to Home Screen".
 - Deployed to GitHub Pages via GitHub Actions on push to `main`.
