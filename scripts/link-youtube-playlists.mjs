@@ -9,6 +9,8 @@ function normalizeTitle(text) {
   return String(text || '')
     .toLowerCase()
     .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+    .replace(/['\u2018\u2019\u201A\u0060]/g, "'")
+    .replace(/["\u201C\u201D\u201E]/g, '"')
     .replace(/&/g, ' and ')
     .replace(/\([^)]*\)/g, ' ')
     .replace(/\[[^\]]*\]/g, ' ')
@@ -44,6 +46,15 @@ function extractSongFromVideoTitle(videoTitle) {
   // Pattern 5: "Song Title [Composer] (Easy Piano Classics - Book ...)" (Amy format)
   const amyClassicsMatch = text.match(/^(.+?)(?:\s+\[[^\]]+\])?\s+\(Easy Piano Classics/i);
   if (amyClassicsMatch) return amyClassicsMatch[1].trim();
+  // Pattern 6: "Song Title [Composer] (SeriesName Piano Genre)" (Faber Amy format)
+  const faberAmyMatch = text.match(/^(.+?)(?:\s+\[[^\]]+\])?\s+\((?:Pre|Play|Show|Chord|Fun|Big|Duet)Time\s+Piano/i);
+  if (faberAmyMatch) return faberAmyMatch[1].trim();
+  // Pattern 7: "Song Title, Artist (Difficulty Piano Solo)" (Alfred format with trailing artist)
+  const alfredArtistMatch = text.match(/^(.+?),\s*(?:Beatles|The\s+\w+)\s+\(/i);
+  if (alfredArtistMatch) return alfredArtistMatch[1].trim();
+  // Pattern 8: 'Song Title from "Movie" (Difficulty Piano Solo)' (Alfred format with movie source)
+  const alfredFromMatch = text.match(/^(.+?)\s+from\s+["\u201c].+?["\u201d]\s+\(/i);
+  if (alfredFromMatch) return alfredFromMatch[1].trim();
   return null;
 }
 
@@ -91,6 +102,13 @@ function titleVariants(text) {
   variants.add(base.replace(/\bthemes\b/, 'theme'));
   // Strip "overture theme" → "overture" for matching variants
   variants.add(base.replace(/\boverture theme\b/, 'overture'));
+  // Strip "main theme" suffix ("star wars main theme" → "star wars")
+  variants.add(base.replace(/\s+main\s+theme$/, '').trim());
+  // Strip trailing " from ..." for non-theme/finale titles
+  // e.g. "tomorrow from annie" → "tomorrow", "spring from the four seasons" → "spring"
+  if (!/^(theme|finale)\b/.test(base)) {
+    variants.add(base.replace(/\s+from\s+.+$/, '').trim());
+  }
   return [...variants].filter(Boolean);
 }
 
@@ -126,11 +144,22 @@ function extractComposerFromSongTitle(title) {
 }
 
 function findSongMatchInBook(bookSongs, requestedTitle, rawVideoTitle) {
-  // Try matching with the full requested title first
-  const requestedVariants = new Set(titleVariants(requestedTitle));
-
   // If we have a raw video title, also try extracting just the song portion
   const extracted = rawVideoTitle ? extractSongFromVideoTitle(rawVideoTitle) : null;
+
+  // Phase 1: Try strict normalized title match first (no broad variants)
+  const strictNorm = new Set([normalizeTitle(requestedTitle)]);
+  if (extracted) strictNorm.add(normalizeTitle(extracted));
+
+  const strictMatches = bookSongs.filter((song) => {
+    return strictNorm.has(normalizeTitle(song.title));
+  });
+  if (strictMatches.length === 1) {
+    return { song: strictMatches[0], ambiguous: false };
+  }
+
+  // Phase 2: Try matching with title variants (broader)
+  const requestedVariants = new Set(titleVariants(requestedTitle));
   if (extracted) {
     for (const v of titleVariants(extracted)) requestedVariants.add(v);
   }
@@ -187,7 +216,28 @@ function findSongMatchInBook(bookSongs, requestedTitle, rawVideoTitle) {
     return { song: null, ambiguous: true };
   }
 
+  // Fallback: fuzzy word-subset matching for close title mismatches
+  const fuzzyTitle = extracted || requestedTitle;
+  const fuzzyMatches = bookSongs.filter(song => fuzzyWordMatch(fuzzyTitle, song.title));
+  if (fuzzyMatches.length === 1) {
+    return { song: fuzzyMatches[0], ambiguous: false };
+  }
+
   return { song: null, ambiguous: false };
+}
+
+// Fuzzy word-subset match: check if all significant words from one title
+// appear in the other (handles minor word differences like "on" being dropped)
+function fuzzyWordMatch(a, b) {
+  const wordsA = normalizeTitle(a).split(' ').filter(w => w.length > 2);
+  const wordsB = normalizeTitle(b).split(' ').filter(w => w.length > 2);
+  if (wordsA.length === 0 || wordsB.length === 0) return false;
+  // Shorter set must be a subset of the longer
+  const [shorter, longer] = wordsA.length <= wordsB.length ? [wordsA, wordsB] : [wordsB, wordsA];
+  const longSet = new Set(longer);
+  const matched = shorter.filter(w => longSet.has(w)).length;
+  // At least 80% of shorter words match, and at least 3 words match
+  return matched >= Math.max(3, Math.ceil(shorter.length * 0.8));
 }
 
 function applyLinkToSong(song, channelName, url, description, playlistId, playlistUrl) {

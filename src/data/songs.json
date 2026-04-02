@@ -381,6 +381,13 @@
         "url": "https://www.youtube.com/watch?v=pAcfW8Lim_U",
         "artist": "Karen Rock Music",
         "description": "Spring from Karen Rock Music"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=3XusT8av1LA",
+        "artist": "Piano Adventures",
+        "description": "Adult Piano Adventures Classics Book 1",
+        "playlistId": "PLROQq1cZUMn_tJxX2UelnAkgxlQRdfZRs",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn_tJxX2UelnAkgxlQRdfZRs"
       }
     ],
     "notes": ""
@@ -961,6 +968,13 @@
         "url": "https://www.youtube.com/watch?v=zS_rlqvTH5c",
         "artist": "Karen Rock Music",
         "description": "O mio babbino caro (from Gianni Schicchi) from Karen Rock Music"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=vICNH4GxTnc",
+        "artist": "Piano Adventures",
+        "description": "Adult Piano Adventures Classics Book 1",
+        "playlistId": "PLROQq1cZUMn_tJxX2UelnAkgxlQRdfZRs",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn_tJxX2UelnAkgxlQRdfZRs"
       }
     ],
     "notes": ""
@@ -1248,7 +1262,15 @@
       "faberLevel": "Book 2",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=n3sK4rocr8k",
+        "artist": "Piano Adventures",
+        "description": "Adult Piano Adventures Classics Book 2",
+        "playlistId": "PLROQq1cZUMn8vTb9RKSo_h1eL81v4J9tu",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn8vTb9RKSo_h1eL81v4J9tu"
+      }
+    ],
     "notes": ""
   },
   {
@@ -1288,7 +1310,15 @@
       "faberLevel": "Book 2",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=2yWnu0nHOIk",
+        "artist": "Piano Adventures",
+        "description": "Adult Piano Adventures Classics Book 2",
+        "playlistId": "PLROQq1cZUMn8vTb9RKSo_h1eL81v4J9tu",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLROQq1cZUMn8vTb9RKSo_h1eL81v4J9tu"
+      }
+    ],
     "notes": ""
   },
   {
@@ -6838,7 +6868,15 @@
       "faberLevel": null,
       "alfredLevel": "Level 1"
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=dY_mSZOhq70",
+        "artist": "92pianokeys",
+        "description": "Alfred's Greatest Hits Level 1",
+        "playlistId": "PLIx-hGjmqNJH3_R1-VFSuqHNBwTiW9cAn",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLIx-hGjmqNJH3_R1-VFSuqHNBwTiW9cAn"
+      }
+    ],
     "notes": ""
   },
   {
@@ -7162,6 +7200,174 @@
     "notes": ""
   },
   {
+    "id": "alfred-gh2-theres-no-business-like-show-business",
+    "title": "There's No Business Like Show Business",
+    "composer": "Irving Berlin",
+    "arranger": "",
+    "genre": "Broadway",
+    "bookId": "alfred-greatest-hits-2",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Early Intermediate",
+      "faberLevel": null,
+      "alfredLevel": "Level 2"
+    },
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=-4lKNkn2bKc",
+        "artist": "92pianokeys",
+        "description": "Alfred's Greatest Hits Level 2",
+        "playlistId": "PLIx-hGjmqNJGepF4pv83jakxJY5N_A1Ua",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLIx-hGjmqNJGepF4pv83jakxJY5N_A1Ua"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "id": "alfred-gh2-my-heart-will-go-on",
+    "title": "My Heart Will Go On",
+    "composer": "James Horner",
+    "arranger": "",
+    "genre": "Film",
+    "bookId": "alfred-greatest-hits-2",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Early Intermediate",
+      "faberLevel": null,
+      "alfredLevel": "Level 2"
+    },
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=NejMVO9W3Z0",
+        "artist": "92pianokeys",
+        "description": "Alfred's Greatest Hits Level 2",
+        "playlistId": "PLIx-hGjmqNJGepF4pv83jakxJY5N_A1Ua",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLIx-hGjmqNJGepF4pv83jakxJY5N_A1Ua"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "id": "alfred-gh2-que-sera-sera-whatever-will-be-will-be",
+    "title": "Que Sera, Sera (Whatever Will Be, Will Be)",
+    "composer": "Jay Livingston, Ray Evans",
+    "arranger": "",
+    "genre": "Film",
+    "bookId": "alfred-greatest-hits-2",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Early Intermediate",
+      "faberLevel": null,
+      "alfredLevel": "Level 2"
+    },
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=34JgJ_b7rtI",
+        "artist": "92pianokeys",
+        "description": "Alfred's Greatest Hits Level 2",
+        "playlistId": "PLIx-hGjmqNJGepF4pv83jakxJY5N_A1Ua",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLIx-hGjmqNJGepF4pv83jakxJY5N_A1Ua"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "id": "alfred-gh2-beauty-and-the-beast",
+    "title": "Beauty and the Beast",
+    "composer": "Alan Menken",
+    "arranger": "",
+    "genre": "Disney",
+    "bookId": "alfred-greatest-hits-2",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Early Intermediate",
+      "faberLevel": null,
+      "alfredLevel": "Level 2"
+    },
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=07bw4ukBAQU",
+        "artist": "92pianokeys",
+        "description": "Alfred's Greatest Hits Level 2",
+        "playlistId": "PLIx-hGjmqNJGepF4pv83jakxJY5N_A1Ua",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLIx-hGjmqNJGepF4pv83jakxJY5N_A1Ua"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "id": "alfred-gh2-yesterday",
+    "title": "Yesterday",
+    "composer": "John Lennon, Paul McCartney",
+    "arranger": "",
+    "genre": "Pop/Rock",
+    "bookId": "alfred-greatest-hits-2",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Early Intermediate",
+      "faberLevel": null,
+      "alfredLevel": "Level 2"
+    },
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=gT6-o3y4CiQ",
+        "artist": "92pianokeys",
+        "description": "Alfred's Greatest Hits Level 2",
+        "playlistId": "PLIx-hGjmqNJGepF4pv83jakxJY5N_A1Ua",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLIx-hGjmqNJGepF4pv83jakxJY5N_A1Ua"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "id": "alfred-gh2-think-of-me",
+    "title": "Think of Me",
+    "composer": "Andrew Lloyd Webber",
+    "arranger": "",
+    "genre": "Broadway",
+    "bookId": "alfred-greatest-hits-2",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Early Intermediate",
+      "faberLevel": null,
+      "alfredLevel": "Level 2"
+    },
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=h4zgeLFXOpI",
+        "artist": "92pianokeys",
+        "description": "Alfred's Greatest Hits Level 2",
+        "playlistId": "PLIx-hGjmqNJGepF4pv83jakxJY5N_A1Ua",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLIx-hGjmqNJGepF4pv83jakxJY5N_A1Ua"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "id": "alfred-gh2-this-is-the-moment",
+    "title": "This Is the Moment",
+    "composer": "Frank Wildhorn",
+    "arranger": "",
+    "genre": "Broadway",
+    "bookId": "alfred-greatest-hits-2",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Early Intermediate",
+      "faberLevel": null,
+      "alfredLevel": "Level 2"
+    },
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=ZSSQVU-apaw",
+        "artist": "92pianokeys",
+        "description": "Alfred's Greatest Hits Level 2",
+        "playlistId": "PLIx-hGjmqNJGepF4pv83jakxJY5N_A1Ua",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLIx-hGjmqNJGepF4pv83jakxJY5N_A1Ua"
+      }
+    ],
+    "notes": ""
+  },
+  {
     "id": "pretime-piano-christmas-jolly-old-saint-nicholas",
     "title": "Jolly Old Saint Nicholas",
     "composer": "",
@@ -7318,7 +7524,15 @@
       "faberLevel": "Primer",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=-9M-F1zhnlM",
+        "artist": "Amy Comparetto",
+        "description": "PreTime Classics",
+        "playlistId": "PL7ucElDiXf1TIopIq6-tk0fhKXRXY9dZP",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1TIopIq6-tk0fhKXRXY9dZP"
+      }
+    ],
     "notes": ""
   },
   {
@@ -7726,7 +7940,15 @@
       "faberLevel": "Primer",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=ox6Af5K_e4A",
+        "artist": "Amy Comparetto",
+        "description": "PreTime Hymns",
+        "playlistId": "PL7ucElDiXf1QEQiD0RCDZkLVQunDOVFvh",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1QEQiD0RCDZkLVQunDOVFvh"
+      }
+    ],
     "notes": ""
   },
   {
@@ -10172,7 +10394,15 @@
       "faberLevel": "Level 1",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=1xG05rN2Ufs",
+        "artist": "Amy Comparetto",
+        "description": "PlayTime Popular",
+        "playlistId": "PL7ucElDiXf1QgVrm4yrVy8MjcNyMSVZU4",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1QgVrm4yrVy8MjcNyMSVZU4"
+      }
+    ],
     "notes": ""
   },
   {
@@ -10201,7 +10431,7 @@
   },
   {
     "id": "playtime-piano-popular-take-me-out-to-the-ballgame",
-    "title": "Take Me Out to the Ballgame",
+    "title": "Take Me Out to the Ball Game",
     "composer": "",
     "arranger": "Nancy and Randall Faber",
     "genre": "Popular",
@@ -11191,6 +11421,30 @@
     "notes": ""
   },
   {
+    "id": "showtime-piano-favorites-lil-liza-jane",
+    "title": "Li'l Liza Jane",
+    "composer": "",
+    "arranger": "Nancy and Randall Faber",
+    "genre": "",
+    "bookId": "showtime-piano-favorites",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Early Intermediate",
+      "faberLevel": "Level 2A",
+      "alfredLevel": null
+    },
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=wjzuZkMLzDI",
+        "artist": "Amy Comparetto",
+        "description": "ShowTime Favorites",
+        "playlistId": "PL7ucElDiXf1S88lIrqSlxdoFYnDCCNT8z",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1S88lIrqSlxdoFYnDCCNT8z"
+      }
+    ],
+    "notes": ""
+  },
+  {
     "id": "showtime-piano-hymns-come-into-his-presence",
     "title": "Come into His Presence",
     "composer": "",
@@ -11323,7 +11577,15 @@
       "faberLevel": "Level 2A",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=O2F61ew7P6Q",
+        "artist": "Amy Comparetto",
+        "description": "ShowTime Hymns",
+        "playlistId": "PL7ucElDiXf1T1kSILV-en5ypvjwJE6Svj",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1T1kSILV-en5ypvjwJE6Svj"
+      }
+    ],
     "notes": ""
   },
   {
@@ -13075,7 +13337,15 @@
       "faberLevel": "Level 2B",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=M-vLHMdXT6I",
+        "artist": "Amy Comparetto",
+        "description": "ChordTime chordtime+jazz",
+        "playlistId": "PL7ucElDiXf1SpLm6Lna2mL4rosZ77PGI-",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1SpLm6Lna2mL4rosZ77PGI-"
+      }
+    ],
     "notes": ""
   },
   {
@@ -13913,7 +14183,22 @@
       "faberLevel": "Level 2B",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=YOUeQtNdCQk",
+        "artist": "Amy Comparetto",
+        "description": "ChordTime chordtime+popular",
+        "playlistId": "PL7ucElDiXf1Sy_WF57TA_6t987j2b6Mwj",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1Sy_WF57TA_6t987j2b6Mwj"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=sAVYNa9AFw0",
+        "artist": "Karen Rock Music",
+        "description": "Level 2B ChordTime Piano Popular",
+        "playlistId": "PLfee9gwa8EdGYk0Szr6RFPsSCE2zo8wQ4",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLfee9gwa8EdGYk0Szr6RFPsSCE2zo8wQ4"
+      }
+    ],
     "notes": ""
   },
   {
@@ -14480,7 +14765,15 @@
       "faberLevel": "Level 3A-3B",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=mkd5Gr82WI0",
+        "artist": "Amy Comparetto",
+        "description": "FunTime Christmas",
+        "playlistId": "PL7ucElDiXf1STNnCdtgBij-rineK9U3fB",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1STNnCdtgBij-rineK9U3fB"
+      }
+    ],
     "notes": ""
   },
   {
@@ -15776,7 +16069,15 @@
       "faberLevel": "Level 3A-3B",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=1yQKqYI4xNg",
+        "artist": "Amy Comparetto",
+        "description": "FunTime Popular",
+        "playlistId": "PL7ucElDiXf1TFZ3cEBAtTubL4eMmZ-ei0",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1TFZ3cEBAtTubL4eMmZ-ei0"
+      }
+    ],
     "notes": ""
   },
   {
@@ -17041,22 +17342,6 @@
         "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1TgW8ozEb13NobTKCft1QDZ"
       }
     ],
-    "notes": ""
-  },
-  {
-    "id": "bigtime-piano-popular-star-wars-main-theme",
-    "title": "Star Wars (Main Theme)",
-    "composer": "",
-    "arranger": "Nancy and Randall Faber",
-    "genre": "Popular",
-    "bookId": "bigtime-piano-popular",
-    "pageNumber": null,
-    "difficulty": {
-      "label": "Late Intermediate",
-      "faberLevel": "Level 4",
-      "alfredLevel": null
-    },
-    "youtubeLinks": [],
     "notes": ""
   },
   {
@@ -18863,7 +19148,15 @@
       "faberLevel": null,
       "alfredLevel": "Level 1"
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=eT23ZgFeCCA",
+        "artist": "92pianokeys",
+        "description": "Alfred's Adult All-In-One Level 1",
+        "playlistId": "PLIx-hGjmqNJE9M_m1oMkNl8BRdATc1m8d",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLIx-hGjmqNJE9M_m1oMkNl8BRdATc1m8d"
+      }
+    ],
     "notes": ""
   },
   {
@@ -20087,7 +20380,15 @@
       "faberLevel": null,
       "alfredLevel": "Level 2"
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=6oSWleuwBuw",
+        "artist": "92pianokeys",
+        "description": "Alfred's Adult All-In-One Level 2",
+        "playlistId": "PLIx-hGjmqNJEm1DLb4A6uYnrzJUl_tzCe",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLIx-hGjmqNJEm1DLb4A6uYnrzJUl_tzCe"
+      }
+    ],
     "notes": ""
   },
   {
@@ -20175,7 +20476,15 @@
       "faberLevel": null,
       "alfredLevel": "Level 2"
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=jT-2F2jO0nE",
+        "artist": "92pianokeys",
+        "description": "Alfred's Adult All-In-One Level 2",
+        "playlistId": "PLIx-hGjmqNJEm1DLb4A6uYnrzJUl_tzCe",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLIx-hGjmqNJEm1DLb4A6uYnrzJUl_tzCe"
+      }
+    ],
     "notes": ""
   },
   {
@@ -20487,7 +20796,15 @@
       "faberLevel": null,
       "alfredLevel": "Level 2"
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=mb4ZaVRDq1E",
+        "artist": "92pianokeys",
+        "description": "Alfred's Adult All-In-One Level 2",
+        "playlistId": "PLIx-hGjmqNJEm1DLb4A6uYnrzJUl_tzCe",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLIx-hGjmqNJEm1DLb4A6uYnrzJUl_tzCe"
+      }
+    ],
     "notes": ""
   },
   {
@@ -21335,7 +21652,15 @@
       "faberLevel": null,
       "alfredLevel": "Level 2"
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=JYPgD0DKxNI",
+        "artist": "92pianokeys",
+        "description": "Alfred's Adult All-In-One Level 2",
+        "playlistId": "PLIx-hGjmqNJEm1DLb4A6uYnrzJUl_tzCe",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLIx-hGjmqNJEm1DLb4A6uYnrzJUl_tzCe"
+      }
+    ],
     "notes": ""
   },
   {
@@ -21743,7 +22068,15 @@
       "faberLevel": null,
       "alfredLevel": "Level 3"
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=geF8aNTLn3Y",
+        "artist": "92pianokeys",
+        "description": "Alfred's Adult All-In-One Level 3",
+        "playlistId": "PLIx-hGjmqNJH9V3NTh6g3jl7unuNUTQvt",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLIx-hGjmqNJH9V3NTh6g3jl7unuNUTQvt"
+      }
+    ],
     "notes": ""
   },
   {
@@ -22279,7 +22612,15 @@
       "faberLevel": null,
       "alfredLevel": "Level 3"
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=KpNiGiTnOZU",
+        "artist": "92pianokeys",
+        "description": "Alfred's Adult All-In-One Level 3",
+        "playlistId": "PLIx-hGjmqNJH9V3NTh6g3jl7unuNUTQvt",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLIx-hGjmqNJH9V3NTh6g3jl7unuNUTQvt"
+      }
+    ],
     "notes": ""
   },
   {
@@ -22527,7 +22868,15 @@
       "faberLevel": null,
       "alfredLevel": "Level 3"
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=Qlr_Yznjgb4",
+        "artist": "92pianokeys",
+        "description": "Alfred's Adult All-In-One Level 3",
+        "playlistId": "PLIx-hGjmqNJH9V3NTh6g3jl7unuNUTQvt",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLIx-hGjmqNJH9V3NTh6g3jl7unuNUTQvt"
+      }
+    ],
     "notes": ""
   },
   {
@@ -22831,7 +23180,15 @@
       "faberLevel": null,
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=JgJN_Rdb8bI",
+        "artist": "Amy Comparetto",
+        "description": "Easy Piano Classics - Book One",
+        "playlistId": "PL7ucElDiXf1QlJJ79ho-Svy9LWegYStIL",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1QlJJ79ho-Svy9LWegYStIL"
+      }
+    ],
     "notes": ""
   },
   {
@@ -22847,7 +23204,15 @@
       "faberLevel": null,
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=Wggo52U8MfI",
+        "artist": "Amy Comparetto",
+        "description": "Easy Piano Classics - Book One",
+        "playlistId": "PL7ucElDiXf1QlJJ79ho-Svy9LWegYStIL",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1QlJJ79ho-Svy9LWegYStIL"
+      }
+    ],
     "notes": ""
   },
   {
@@ -22863,7 +23228,15 @@
       "faberLevel": null,
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=0JpFCu1I8v0",
+        "artist": "Amy Comparetto",
+        "description": "Easy Piano Classics - Book One",
+        "playlistId": "PL7ucElDiXf1QlJJ79ho-Svy9LWegYStIL",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1QlJJ79ho-Svy9LWegYStIL"
+      }
+    ],
     "notes": ""
   },
   {
@@ -23023,7 +23396,15 @@
       "faberLevel": null,
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=57CGVPLH4is",
+        "artist": "Amy Comparetto",
+        "description": "Easy Piano Classics - Book One",
+        "playlistId": "PL7ucElDiXf1QlJJ79ho-Svy9LWegYStIL",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1QlJJ79ho-Svy9LWegYStIL"
+      }
+    ],
     "notes": ""
   },
   {
@@ -23039,7 +23420,15 @@
       "faberLevel": null,
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=Po8NGHWIBNk",
+        "artist": "Amy Comparetto",
+        "description": "Easy Piano Classics - Book One",
+        "playlistId": "PL7ucElDiXf1QlJJ79ho-Svy9LWegYStIL",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1QlJJ79ho-Svy9LWegYStIL"
+      }
+    ],
     "notes": ""
   },
   {
@@ -23415,7 +23804,15 @@
       "faberLevel": null,
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=Z25-Pb-rcgM",
+        "artist": "Amy Comparetto",
+        "description": "Easy Piano Classics - Book One",
+        "playlistId": "PL7ucElDiXf1QlJJ79ho-Svy9LWegYStIL",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1QlJJ79ho-Svy9LWegYStIL"
+      }
+    ],
     "notes": ""
   },
   {
@@ -23455,7 +23852,15 @@
       "faberLevel": null,
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=cAqo9PFZ5E8",
+        "artist": "Amy Comparetto",
+        "description": "Easy Piano Classics - Book One",
+        "playlistId": "PL7ucElDiXf1QlJJ79ho-Svy9LWegYStIL",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1QlJJ79ho-Svy9LWegYStIL"
+      }
+    ],
     "notes": ""
   },
   {
@@ -24287,7 +24692,15 @@
       "faberLevel": null,
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=IXPBj7HRwNs",
+        "artist": "Amy Comparetto",
+        "description": "Easy Piano Classics - Book One",
+        "playlistId": "PL7ucElDiXf1QlJJ79ho-Svy9LWegYStIL",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1QlJJ79ho-Svy9LWegYStIL"
+      }
+    ],
     "notes": ""
   },
   {
@@ -24303,7 +24716,15 @@
       "faberLevel": null,
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=k8VNK7EIZLI",
+        "artist": "Amy Comparetto",
+        "description": "Easy Piano Classics - Book One",
+        "playlistId": "PL7ucElDiXf1QlJJ79ho-Svy9LWegYStIL",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1QlJJ79ho-Svy9LWegYStIL"
+      }
+    ],
     "notes": ""
   },
   {
@@ -24319,7 +24740,15 @@
       "faberLevel": null,
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=Ge3yCvolmfQ",
+        "artist": "Amy Comparetto",
+        "description": "Easy Piano Classics - Book One",
+        "playlistId": "PL7ucElDiXf1QlJJ79ho-Svy9LWegYStIL",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1QlJJ79ho-Svy9LWegYStIL"
+      }
+    ],
     "notes": ""
   },
   {
@@ -24335,7 +24764,15 @@
       "faberLevel": null,
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=alEZN4UXGDQ",
+        "artist": "Amy Comparetto",
+        "description": "Easy Piano Classics - Book One",
+        "playlistId": "PL7ucElDiXf1QlJJ79ho-Svy9LWegYStIL",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1QlJJ79ho-Svy9LWegYStIL"
+      }
+    ],
     "notes": ""
   },
   {
@@ -24783,7 +25220,15 @@
       "faberLevel": null,
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=wTpOn6bTkHM",
+        "artist": "Amy Comparetto",
+        "description": "Easy Piano Classics - Book One",
+        "playlistId": "PL7ucElDiXf1QlJJ79ho-Svy9LWegYStIL",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1QlJJ79ho-Svy9LWegYStIL"
+      }
+    ],
     "notes": ""
   },
   {
@@ -24799,7 +25244,15 @@
       "faberLevel": null,
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=wVAfHEC7qrY",
+        "artist": "Amy Comparetto",
+        "description": "Easy Piano Classics - Book One",
+        "playlistId": "PL7ucElDiXf1QlJJ79ho-Svy9LWegYStIL",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1QlJJ79ho-Svy9LWegYStIL"
+      }
+    ],
     "notes": ""
   },
   {
@@ -27004,7 +27457,7 @@
   },
   {
     "id": "library-family-singalongs-take-me-out-to-the-ballgame",
-    "title": "Take Me Out to the Ballgame",
+    "title": "Take Me Out to the Ball Game",
     "composer": "Albert Von Tilzer",
     "arranger": "Amy Appleby",
     "genre": "Pop",
@@ -29427,22 +29880,6 @@
     "notes": ""
   },
   {
-    "id": "pretime-piano-classics-theme-from-the-london-symphony",
-    "title": "Theme from the \"London\" Symphony",
-    "composer": "",
-    "arranger": "Nancy and Randall Faber",
-    "genre": "",
-    "bookId": "pretime-piano-classics",
-    "pageNumber": null,
-    "difficulty": {
-      "label": "Beginner",
-      "faberLevel": "Primer Level",
-      "alfredLevel": null
-    },
-    "youtubeLinks": [],
-    "notes": ""
-  },
-  {
     "id": "pretime-piano-classics-trumpet-voluntary",
     "title": "Trumpet Voluntary",
     "composer": "",
@@ -31204,7 +31641,7 @@
   {
     "id": "showtime-piano-classics-theme-from-don-giovanni",
     "title": "Theme from Don Giovanni",
-    "composer": "",
+    "composer": "Wolfgang Amadeus Mozart",
     "arranger": "Nancy and Randall Faber",
     "genre": "Classics",
     "bookId": "showtime-piano-classics",
@@ -31228,7 +31665,7 @@
   {
     "id": "showtime-piano-classics-theme-from-symphony-no-1-mahler",
     "title": "Theme from Symphony No. 1, Mahler",
-    "composer": "",
+    "composer": "Gustav Mahler",
     "arranger": "Nancy and Randall Faber",
     "genre": "Classics",
     "bookId": "showtime-piano-classics",
@@ -31300,6 +31737,13 @@
         "description": "ShowTime Disney",
         "playlistId": "PL7ucElDiXf1S0Z6gWmieD61qAq8zR1bWv",
         "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1S0Z6gWmieD61qAq8zR1bWv"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=EkLe_AAnLPQ",
+        "artist": "Karen Rock Music",
+        "description": "Level 2A ShowTime Piano Disney - Piano Adventures",
+        "playlistId": "PLfee9gwa8EdG_X96hidb1I5470I5iKUFc",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLfee9gwa8EdG_X96hidb1I5470I5iKUFc"
       }
     ],
     "notes": ""
@@ -31417,6 +31861,13 @@
         "description": "ShowTime Disney",
         "playlistId": "PL7ucElDiXf1S0Z6gWmieD61qAq8zR1bWv",
         "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1S0Z6gWmieD61qAq8zR1bWv"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=HEm-eKEHT-8",
+        "artist": "Karen Rock Music",
+        "description": "Level 2A ShowTime Piano Disney - Piano Adventures",
+        "playlistId": "PLfee9gwa8EdG_X96hidb1I5470I5iKUFc",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PLfee9gwa8EdG_X96hidb1I5470I5iKUFc"
       }
     ],
     "notes": ""
@@ -32343,7 +32794,15 @@
       "faberLevel": "Level 2B",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=cSifjTR1omw",
+        "artist": "Amy Comparetto",
+        "description": "ChordTime chordtime+classics",
+        "playlistId": "PL7ucElDiXf1Q5RkzVNoHYgUU2OCeYLUdy",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1Q5RkzVNoHYgUU2OCeYLUdy"
+      }
+    ],
     "notes": ""
   },
   {
@@ -32471,7 +32930,15 @@
       "faberLevel": "Level 2B",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=a7eOblTx0S0",
+        "artist": "Amy Comparetto",
+        "description": "ChordTime chordtime+classics",
+        "playlistId": "PL7ucElDiXf1Q5RkzVNoHYgUU2OCeYLUdy",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1Q5RkzVNoHYgUU2OCeYLUdy"
+      }
+    ],
     "notes": ""
   },
   {
@@ -33378,22 +33845,6 @@
         "playlistUrl": "https://www.youtube.com/playlist?list=PLfee9gwa8EdGYk0Szr6RFPsSCE2zo8wQ4"
       }
     ],
-    "notes": ""
-  },
-  {
-    "id": "chordtime-piano-popular-star-wars-main-theme",
-    "title": "Star Wars (Main Theme)",
-    "composer": "",
-    "arranger": "Nancy and Randall Faber",
-    "genre": "",
-    "bookId": "chordtime-piano-popular",
-    "pageNumber": null,
-    "difficulty": {
-      "label": "Early Intermediate",
-      "faberLevel": "Level 2B",
-      "alfredLevel": null
-    },
-    "youtubeLinks": [],
     "notes": ""
   },
   {
@@ -34857,22 +35308,6 @@
     "notes": ""
   },
   {
-    "id": "funtime-piano-popular-star-wars-main-theme",
-    "title": "Star Wars (Main Theme)",
-    "composer": "",
-    "arranger": "Nancy and Randall Faber",
-    "genre": "",
-    "bookId": "funtime-piano-popular",
-    "pageNumber": null,
-    "difficulty": {
-      "label": "Intermediate",
-      "faberLevel": "Level 3A-3B",
-      "alfredLevel": null
-    },
-    "youtubeLinks": [],
-    "notes": ""
-  },
-  {
     "id": "funtime-piano-ragtime-marches-the-easy-winner",
     "title": "The Easy Winner",
     "composer": "",
@@ -35522,7 +35957,7 @@
   },
   {
     "id": "bigtime-piano-classics-songs-of-india",
-    "title": "Songs of India",
+    "title": "Song of India",
     "composer": "",
     "arranger": "Nancy and Randall Faber",
     "genre": "",
@@ -35533,7 +35968,15 @@
       "faberLevel": "Level 4",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=yl10oTJg2EM",
+        "artist": "Amy Comparetto",
+        "description": "BigTime Classics",
+        "playlistId": "PL7ucElDiXf1SnJU6cEl24znyQPsT5rXIF",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1SnJU6cEl24znyQPsT5rXIF"
+      }
+    ],
     "notes": ""
   },
   {
@@ -35621,15 +36064,7 @@
       "faberLevel": "Level 4",
       "alfredLevel": null
     },
-    "youtubeLinks": [
-      {
-        "url": "https://www.youtube.com/watch?v=w6qwmxPOZnk",
-        "artist": "Amy Comparetto",
-        "description": "BigTime Disney",
-        "playlistId": "PL7ucElDiXf1QUj75w-GuTHi5cw4dpXrsx",
-        "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1QUj75w-GuTHi5cw4dpXrsx"
-      }
-    ],
+    "youtubeLinks": [],
     "notes": ""
   },
   {
@@ -35911,6 +36346,30 @@
       }
     ],
     "notes": ""
+  },
+  {
+    "id": "bigtime-piano-disney-aladdin-medley",
+    "title": "Aladdin Medley",
+    "composer": "Alan Menken",
+    "arranger": "Nancy and Randall Faber",
+    "genre": "Disney",
+    "bookId": "bigtime-piano-disney",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Late Intermediate",
+      "faberLevel": "Level 4",
+      "alfredLevel": null
+    },
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=w6qwmxPOZnk",
+        "artist": "Amy Comparetto",
+        "description": "BigTime Disney",
+        "playlistId": "PL7ucElDiXf1QUj75w-GuTHi5cw4dpXrsx",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1QUj75w-GuTHi5cw4dpXrsx"
+      }
+    ],
+    "notes": "Medley arrangement combining multiple Aladdin songs."
   },
   {
     "id": "bigtime-piano-favorites-beautiful-dreamer",
@@ -36757,7 +37216,15 @@
       "faberLevel": "Level 4",
       "alfredLevel": null
     },
-    "youtubeLinks": [],
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=8NNwFPjRxDw",
+        "artist": "Amy Comparetto",
+        "description": "BigTime Popular",
+        "playlistId": "PL7ucElDiXf1TgW8ozEb13NobTKCft1QDZ",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1TgW8ozEb13NobTKCft1QDZ"
+      }
+    ],
     "notes": ""
   },
   {
@@ -36968,6 +37435,30 @@
     "youtubeLinks": [
       {
         "url": "https://www.youtube.com/watch?v=YDmlh3dpWZo",
+        "artist": "Amy Comparetto",
+        "description": "BigTime Rock 'n' Roll",
+        "playlistId": "PL7ucElDiXf1RSuB4MmIEuEYB8txt2Ifne",
+        "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1RSuB4MmIEuEYB8txt2Ifne"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "id": "bigtime-piano-rock-n-roll-walk-dont-run",
+    "title": "Walk, Don't Run",
+    "composer": "Johnny Smith",
+    "arranger": "Nancy and Randall Faber",
+    "genre": "Rock",
+    "bookId": "bigtime-piano-rock-n-roll",
+    "pageNumber": null,
+    "difficulty": {
+      "label": "Late Intermediate",
+      "faberLevel": "Level 4",
+      "alfredLevel": null
+    },
+    "youtubeLinks": [
+      {
+        "url": "https://www.youtube.com/watch?v=DXcLfKkRgGg",
         "artist": "Amy Comparetto",
         "description": "BigTime Rock 'n' Roll",
         "playlistId": "PL7ucElDiXf1RSuB4MmIEuEYB8txt2Ifne",
