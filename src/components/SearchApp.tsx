@@ -4,7 +4,6 @@ import type { SongSearchItem, DifficultyLabel } from '../lib/types';
 import DifficultyRangeFilter, { DIFFICULTY_LABELS } from './DifficultyRangeFilter';
 
 interface Props {
-  songs: SongSearchItem[];
   genres: string[];
   series: string[];
   publishers: string[];
@@ -28,7 +27,9 @@ function syncToUrl(params: Record<string, string>) {
   history.replaceState(null, '', url);
 }
 
-export default function SearchApp({ songs, genres, series, publishers }: Props) {
+export default function SearchApp({ genres, series, publishers }: Props) {
+  const [songs, setSongs] = useState<SongSearchItem[]>([]);
+  const [loading, setLoading] = useState(true);
   const [query, setQuery] = useState('');
   const [diffMin, setDiffMin] = useState<number | null>(null);
   const [diffMax, setDiffMax] = useState<number | null>(null);
@@ -46,6 +47,16 @@ export default function SearchApp({ songs, genres, series, publishers }: Props) 
   const [debouncedQuery, setDebouncedQuery] = useState('');
   const [displayLimit, setDisplayLimit] = useState(50);
   const [randomSongs, setRandomSongs] = useState<SongSearchItem[]>([]);
+
+  // Fetch song data from static JSON endpoint
+  useEffect(() => {
+    fetch('/api/search-index.json')
+      .then((r) => r.json())
+      .then((data: SongSearchItem[]) => {
+        setSongs(data);
+        setLoading(false);
+      });
+  }, []);
 
   // Debounce search query
   useEffect(() => {
@@ -70,6 +81,7 @@ export default function SearchApp({ songs, genres, series, publishers }: Props) 
   }, []);
 
   useEffect(() => {
+    if (loading) return;
     const params = new URLSearchParams(window.location.search);
     if (params.get('q')) setQuery(params.get('q')!);
     const dmin = params.get('dmin');
@@ -98,7 +110,7 @@ export default function SearchApp({ songs, genres, series, publishers }: Props) 
       setRandomSongs(shuffled.slice(0, 6));
     }
     setInitialized(true);
-  }, []);
+  }, [loading]);
 
   useEffect(() => {
     if (!initialized) return;
@@ -221,6 +233,14 @@ export default function SearchApp({ songs, genres, series, publishers }: Props) 
 
   return (
     <div>
+      {loading && (
+        <div class="flex items-center justify-center py-12">
+          <div class="h-8 w-8 animate-spin rounded-full border-4 border-gray-200 border-t-piano-600 dark:border-gray-700 dark:border-t-piano-400" />
+        </div>
+      )}
+
+      {!loading && (
+      <>
       {/* Search input */}
       <div class="relative">
         <input
@@ -479,6 +499,8 @@ export default function SearchApp({ songs, genres, series, publishers }: Props) 
           <svg class="mx-auto h-10 w-10 text-gray-300 dark:text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="m9 9 10.5-3m0 6.553v3.75a2.25 2.25 0 0 1-1.632 2.163l-1.32.377a1.803 1.803 0 0 1-.99-3.467l2.31-.66a2.25 2.25 0 0 0 1.632-2.163zm0 0V4.5l-10.5 3v6.75m0 0v3.75a2.25 2.25 0 0 1-1.632 2.163l-1.32.377a1.803 1.803 0 0 1-.99-3.467l2.31-.66A2.25 2.25 0 0 0 4.5 15V4.5" /></svg>
           <p class="mt-2">No songs found. Try a different search or adjust filters.</p>
         </div>
+      )}
+      </>
       )}
     </div>
   );

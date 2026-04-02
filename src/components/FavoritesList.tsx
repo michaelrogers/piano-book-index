@@ -24,7 +24,6 @@ const difficultyColors: Record<DifficultyLabel, string> = {
 };
 
 interface Props {
-  songs: SongSearchItem[];
 }
 
 function loadFavorites(): Map<string, FavoriteData> {
@@ -40,8 +39,19 @@ function loadFavorites(): Map<string, FavoriteData> {
   return favs;
 }
 
-export default function FavoritesList({ songs }: Props) {
+export default function FavoritesList({}: Props) {
+  const [songs, setSongs] = useState<SongSearchItem[]>([]);
+  const [loading, setLoading] = useState(true);
   const [favMap, setFavMap] = useState<Map<string, FavoriteData>>(new Map());
+
+  useEffect(() => {
+    fetch('/api/search-index.json')
+      .then((r) => r.json())
+      .then((data: SongSearchItem[]) => {
+        setSongs(data);
+        setLoading(false);
+      });
+  }, []);
 
   useEffect(() => {
     const reload = () => setFavMap(loadFavorites());
@@ -87,6 +97,14 @@ export default function FavoritesList({ songs }: Props) {
   }, [favMap, songMap]);
 
   const totalFavorites = [...favMap.keys()].filter((id) => songMap.has(id)).length;
+
+  if (loading) {
+    return (
+      <div class="flex items-center justify-center py-12">
+        <div class="h-8 w-8 animate-spin rounded-full border-4 border-gray-200 border-t-piano-600 dark:border-gray-700 dark:border-t-piano-400" />
+      </div>
+    );
+  }
 
   if (totalFavorites === 0) {
     return (

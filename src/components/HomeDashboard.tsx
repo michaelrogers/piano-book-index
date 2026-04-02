@@ -11,7 +11,6 @@ interface SongSummary {
 }
 
 interface Props {
-  songs: SongSummary[];
   totalBooks: number;
 }
 
@@ -35,10 +34,18 @@ const statusColors: Record<PracticeStatus, string> = {
   'mastered': 'bg-purple-100 text-purple-700 dark:bg-purple-900/40 dark:text-purple-300',
 };
 
-export default function HomeDashboard({ songs, totalBooks }: Props) {
+export default function HomeDashboard({ totalBooks }: Props) {
+  const [songs, setSongs] = useState<SongSummary[]>([]);
   const [favorites, setFavorites] = useState<FavEntry[]>([]);
   const [ownedCount, setOwnedCount] = useState(0);
   const [randomSongs, setRandomSongs] = useState<SongSummary[]>([]);
+
+  // Fetch song summaries from static JSON endpoint
+  useEffect(() => {
+    fetch('/api/song-summaries.json')
+      .then((r) => r.json())
+      .then((data: SongSummary[]) => setSongs(data));
+  }, []);
 
   const loadState = () => {
     const favs: FavEntry[] = [];
@@ -62,11 +69,6 @@ export default function HomeDashboard({ songs, totalBooks }: Props) {
 
   useEffect(() => {
     loadState();
-    // Pick 3 random songs (non-repeating)
-    if (songs.length > 0) {
-      const shuffled = [...songs].sort(() => Math.random() - 0.5);
-      setRandomSongs(shuffled.slice(0, 7));
-    }
     window.addEventListener('favorites-changed', loadState);
     window.addEventListener('owned-books-changed', loadState);
     return () => {
@@ -74,6 +76,13 @@ export default function HomeDashboard({ songs, totalBooks }: Props) {
       window.removeEventListener('owned-books-changed', loadState);
     };
   }, []);
+
+  useEffect(() => {
+    if (songs.length > 0) {
+      const shuffled = [...songs].sort(() => Math.random() - 0.5);
+      setRandomSongs(shuffled.slice(0, 7));
+    }
+  }, [songs]);
 
   const songMap = new Map(songs.map((s) => [s.id, s]));
 

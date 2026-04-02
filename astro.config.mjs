@@ -9,6 +9,11 @@ export default defineConfig({
   output: 'static',
   integrations: [preact()],
 
+  prefetch: {
+    prefetchAll: false,
+    defaultStrategy: 'viewport',
+  },
+
   vite: {
     plugins: [tailwindcss()]
   }

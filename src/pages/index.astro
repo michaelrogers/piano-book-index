@@ -1,21 +1,11 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import HomeDashboard from '../components/HomeDashboard.tsx';
-import { buildSearchIndex, getBooks } from '../lib/data';
+import { getBooks } from '../lib/data';
 
-const searchIndex = buildSearchIndex();
 const books = getBooks();
-
-const songSummaries = searchIndex.map((s) => ({
-  id: s.id,
-  title: s.title,
-  composer: s.composer,
-  bookTitle: s.bookTitle,
-  difficultyLabel: s.difficultyLabel,
-  bookCoverImage: s.bookCoverImage,
-}));
 ---
 
 <BaseLayout title="Piano Book Index">
-  <HomeDashboard client:load songs={songSummaries} totalBooks={books.length} />
+  <HomeDashboard client:load totalBooks={books.length} />
 </BaseLayout>

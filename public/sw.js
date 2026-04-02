@@ -1,10 +1,13 @@
-const CACHE_NAME = 'piano-book-index-v1';
+const CACHE_NAME = 'piano-book-index-v2';
 
 const PRECACHE_URLS = [
   '/',
+  '/search',
   '/books',
   '/favorites',
   '/difficulty',
+  '/api/search-index.json',
+  '/api/song-summaries.json',
   '/manifest.json',
   '/icon-192.png',
   '/icon-512.png',
@@ -34,6 +37,21 @@ self.addEventListener('fetch', (event) => {
 
   // Skip cross-origin requests (YouTube embeds, external resources)
   if (url.origin !== self.location.origin) return;
+
+  // JSON data endpoints: stale-while-revalidate
+  if (url.pathname.startsWith('/api/') && url.pathname.endsWith('.json')) {
+    event.respondWith(
+      caches.match(request).then((cached) => {
+        const fetchPromise = fetch(request).then((response) => {
+          const clone = response.clone();
+          caches.open(CACHE_NAME).then((cache) => cache.put(request, clone));
+          return response;
+        });
+        return cached || fetchPromise;
+      })
+    );
+    return;
+  }
 
   // Static assets: cache-first
   if (

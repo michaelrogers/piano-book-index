@@ -1,9 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import FavoritesList from '../components/FavoritesList.tsx';
-import { buildSearchIndex } from '../lib/data';
-
-const searchIndex = buildSearchIndex();
 ---
 
 <BaseLayout title="Favorites" description="Your favorited songs and practice progress">
@@ -15,6 +12,6 @@ const searchIndex = buildSearchIndex();
   </p>
 
   <div class="mt-6">
-    <FavoritesList client:load songs={searchIndex} />
+    <FavoritesList client:load />
   </div>
 </BaseLayout>
