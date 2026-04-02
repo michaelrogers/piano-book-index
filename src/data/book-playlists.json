@@ -574,5 +574,13 @@
     "playlistUrl": "https://www.youtube.com/playlist?list=PL8hZtgRyL9WTbgw5zLVI6KCo7ans6qyOs",
     "channelName": "Let's Play Piano Methods",
     "trackCount": 19
+  },
+  {
+    "bookId": "bigtime-piano-kids-songs",
+    "playlistId": "PL7ucElDiXf1TuLfu4srt9WKbz61WVsZY0",
+    "playlistTitle": "BigTime Kids' Songs",
+    "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1TuLfu4srt9WKbz61WVsZY0",
+    "channelName": "Amy Comparetto",
+    "trackCount": 12
   }
 ]

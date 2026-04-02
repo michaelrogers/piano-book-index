@@ -15,9 +15,11 @@ const navItems = [
 ];
 
 // Items that only show in PWA mode (not covered by bottom tab bar)
-const pwaNavItems = [
-  { href: '/difficulty', label: 'Difficulty Reference', matchExact: true },
-];
+// const pwaNavItems = [
+//   { href: '/difficulty', label: 'Difficulty Reference', matchExact: true },
+// ];
+
+const pwaNavItems = navItems;
 
 function isStandalone(): boolean {
   if (typeof window === 'undefined') return false;
