@@ -558,5 +558,21 @@
     "playlistUrl": "https://www.youtube.com/playlist?list=PL7ucElDiXf1QlJJ79ho-Svy9LWegYStIL",
     "channelName": "Amy Comparetto",
     "trackCount": 100
+  },
+  {
+    "bookId": "alfred-greatest-hits-3",
+    "playlistId": "PL8hZtgRyL9WQlYLjT1CxiE33XYfNCTGZ_",
+    "playlistTitle": "alfred-greatest-hits-3 (autolinked)",
+    "playlistUrl": "https://www.youtube.com/playlist?list=PL8hZtgRyL9WQlYLjT1CxiE33XYfNCTGZ_",
+    "channelName": "Let's Play Piano Methods",
+    "trackCount": 21
+  },
+  {
+    "bookId": "alfred-popular-hits-2",
+    "playlistId": "PL8hZtgRyL9WTbgw5zLVI6KCo7ans6qyOs",
+    "playlistTitle": "alfred-popular-hits-2 (autolinked)",
+    "playlistUrl": "https://www.youtube.com/playlist?list=PL8hZtgRyL9WTbgw5zLVI6KCo7ans6qyOs",
+    "channelName": "Let's Play Piano Methods",
+    "trackCount": 19
   }
 ]
