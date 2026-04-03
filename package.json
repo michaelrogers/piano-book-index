@@ -10,6 +10,8 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
+    "test": "vitest run",
+    "test:watch": "vitest",
     "yt:link": "node scripts/link-youtube-playlists.mjs",
     "yt:link:dry": "node scripts/link-youtube-playlists.mjs --dry-run"
   },
@@ -20,5 +22,10 @@
     "fuse.js": "^7.1.0",
     "preact": "^10.29.0",
     "tailwindcss": "^4.2.2"
+  },
+  "devDependencies": {
+    "@testing-library/preact": "^3.2.4",
+    "jsdom": "^26.1.0",
+    "vitest": "^3.1.1"
   }
 }
