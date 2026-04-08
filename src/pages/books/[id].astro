@@ -3,7 +3,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import TrackListing from '../../components/TrackListing.astro';
 import DifficultyScale from '../../components/DifficultyScale.astro';
 import OwnedToggle from '../../components/OwnedToggle.tsx';
-import { getBooks, getSongsByBookOrdered, getPlaylistsForBook } from '../../lib/data';
+import { getBooks, getSongsByBookOrdered, getPlaylistsForBook, getAmazonAffiliateUrl, hasAmazonAffiliate } from '../../lib/data';
 import type { Book, Song } from '../../lib/types';
 
 export function getStaticPaths() {
@@ -112,15 +112,18 @@ const publisherUrl = getPublisherUrl(book);
         )}
         {book.amazonUrl && (
           <a
-            href={book.amazonUrl}
+            href={getAmazonAffiliateUrl(book.amazonUrl)}
             target="_blank"
-            rel="noopener noreferrer"
+            rel="sponsored noopener noreferrer"
             class="rounded-lg border border-gray-300 px-3 py-1.5 text-sm text-gray-600 hover:bg-gray-50 dark:border-gray-600 dark:text-gray-400 dark:hover:bg-gray-800"
           >
             Amazon ↗
           </a>
         )}
       </div>
+      {book.amazonUrl && hasAmazonAffiliate && (
+        <p class="mt-2 text-xs text-gray-400 dark:text-gray-500">As an Amazon Associate I earn from qualifying purchases.</p>
+      )}
 
       {/* YouTube Playlists */}
       {playlists.length > 0 && (

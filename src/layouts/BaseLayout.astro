@@ -22,7 +22,7 @@ import PWAInstallPrompt from '../components/PWAInstallPrompt.tsx';
     <meta name="description" content={description} />
     <meta name="color-scheme" content="light dark" />
     <meta name="theme-color" content="#7e22ce" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <meta name="apple-mobile-web-app-title" content="Piano Index" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
@@ -44,16 +44,21 @@ import PWAInstallPrompt from '../components/PWAInstallPrompt.tsx';
         <a href="/" class="flex items-center gap-2 text-lg font-bold text-piano-700 dark:text-piano-400">
           <svg class="h-6 w-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect x="1" y="3" width="22" height="18" rx="2" fill="currentColor" opacity="0.15" stroke="currentColor" stroke-width="1.5"/>
-            <!-- White keys: C D E F G -->
-            <rect x="2" y="5" width="3.8" height="11" rx="0.5" fill="white" stroke="currentColor" stroke-width="0.75"/>
-            <rect x="6" y="5" width="3.8" height="11" rx="0.5" fill="white" stroke="currentColor" stroke-width="0.75"/>
-            <rect x="10" y="5" width="3.8" height="11" rx="0.5" fill="white" stroke="currentColor" stroke-width="0.75"/>
-            <rect x="14" y="5" width="3.8" height="11" rx="0.5" fill="white" stroke="currentColor" stroke-width="0.75"/>
-            <rect x="18" y="5" width="3.8" height="11" rx="0.5" fill="white" stroke="currentColor" stroke-width="0.75"/>
-            <!-- Black keys: C# D# (gap between E-F) F# -->
-            <rect x="5" y="5" width="2" height="7" rx="0.5" fill="currentColor"/>
-            <rect x="9" y="5" width="2" height="7" rx="0.5" fill="currentColor"/>
-            <rect x="17" y="5" width="2" height="7" rx="0.5" fill="currentColor"/>
+            <!-- White keys: C D E F G A B C -->
+            <rect x="2" y="5" width="2.5" height="11" rx="0.5" fill="white" stroke="currentColor" stroke-width="0.75"/>
+            <rect x="4.5" y="5" width="2.5" height="11" rx="0.5" fill="white" stroke="currentColor" stroke-width="0.75"/>
+            <rect x="7" y="5" width="2.5" height="11" rx="0.5" fill="white" stroke="currentColor" stroke-width="0.75"/>
+            <rect x="9.5" y="5" width="2.5" height="11" rx="0.5" fill="white" stroke="currentColor" stroke-width="0.75"/>
+            <rect x="12" y="5" width="2.5" height="11" rx="0.5" fill="white" stroke="currentColor" stroke-width="0.75"/>
+            <rect x="14.5" y="5" width="2.5" height="11" rx="0.5" fill="white" stroke="currentColor" stroke-width="0.75"/>
+            <rect x="17" y="5" width="2.5" height="11" rx="0.5" fill="white" stroke="currentColor" stroke-width="0.75"/>
+            <rect x="19.5" y="5" width="2.5" height="11" rx="0.5" fill="white" stroke="currentColor" stroke-width="0.75"/>
+            <!-- Black keys: C# D# F# G# A# -->
+            <rect x="3.75" y="5" width="1.5" height="7" rx="0.5" fill="currentColor"/>
+            <rect x="6.25" y="5" width="1.5" height="7" rx="0.5" fill="currentColor"/>
+            <rect x="11.25" y="5" width="1.5" height="7" rx="0.5" fill="currentColor"/>
+            <rect x="13.75" y="5" width="1.5" height="7" rx="0.5" fill="currentColor"/>
+            <rect x="16.25" y="5" width="1.5" height="7" rx="0.5" fill="currentColor"/>
           </svg>
           <span>Piano Book Index</span>
         </a>

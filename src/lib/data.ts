@@ -12,6 +12,16 @@ const bookPlaylists: BookPlaylist[] = bookPlaylistsData as BookPlaylist[];
 const songLinks: Record<string, string[]> = songLinksData;
 const songOrderIndex = new Map(songs.map((song, i) => [song.id, i]));
 
+const amazonTag = import.meta.env.PUBLIC_AMAZON_TAG || '';
+
+export const hasAmazonAffiliate = amazonTag.length > 0;
+
+export function getAmazonAffiliateUrl(url: string): string {
+  if (!url || !amazonTag) return url;
+  const separator = url.includes('?') ? '&' : '?';
+  return `${url}${separator}tag=${amazonTag}`;
+}
+
 export function getBooks(): Book[] {
   return books;
 }

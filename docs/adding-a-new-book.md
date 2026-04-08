@@ -45,8 +45,25 @@ Collect these fields from the publisher's product page, Amazon, or Hal Leonard:
 | `isbn` | Publisher/Amazon | ISBN-13 format: `"978-XXXXXXXXXX"` |
 | `pageCount` | Publisher/Amazon | Integer or `null` if unknown |
 | `description` | Publisher page | 1–3 sentences. Mention featured songs if listed. |
-| `amazonUrl` | Amazon | Full product URL, e.g., `"https://www.amazon.com/dp/XXXXXXXXXX"` |
+| `amazonUrl` | Amazon / ISBN | Amazon product URL — see "Amazon URL" below |
 | `trackListingSource` | Your method | One of: `"publisher-website"`, `"manual-entry"`, `"photo-index"`, `"youtube-playlist"`, or `null` |
+
+### Amazon URL
+
+Every book should have an `amazonUrl` pointing to its Amazon product page. The URL format is `https://www.amazon.com/dp/{ISBN10}` where ISBN10 is derived from the book's ISBN-13.
+
+**To generate automatically** (preferred): If you have the ISBN-13, run:
+```bash
+node scripts/fill-amazon-urls.mjs --dry-run   # Preview
+node scripts/fill-amazon-urls.mjs              # Apply to books.json
+```
+This converts ISBN-13 → ISBN-10 and fills any empty `amazonUrl` fields.
+
+**To find manually**: Search Amazon for the book title + "piano" and use the `/dp/XXXXXXXXXX` product page URL.
+
+**Important**: Do NOT include affiliate tags (`?tag=...`) in the `amazonUrl` stored in `books.json`. Affiliate tags are injected at build time via the `PUBLIC_AMAZON_TAG` environment variable. This keeps the source data clean and the affiliate ID out of the open-source repo.
+
+If no Amazon listing exists, set `amazonUrl` to `""`.
 
 ### Where to find data
 
@@ -399,6 +416,7 @@ After a successful build, spot-check:
 - Song detail pages show YouTube embeds (for linked songs)
 - Difficulty badges display correctly
 - Songs that appear in other books show an "Also in Other Books" section
+- The book detail page shows an "Amazon ↗" link (if `amazonUrl` is set)
 
 ---
 
