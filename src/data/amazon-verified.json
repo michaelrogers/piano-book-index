@@ -1,3 +1,708 @@
 {
-  "books": []
+  "books": [
+    {
+      "bookId": "advancetime-piano-christmas",
+      "asin": "1616771240",
+      "expectedTitle": "AdvanceTime Piano Christmas",
+      "amazonTitle": "AdvanceTime Piano: Christmas Book - Level 5",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "alfred-adult-aio-1",
+      "asin": "0882848186",
+      "expectedTitle": "Alfred's Basic Adult All-in-One Course Book 1",
+      "amazonTitle": "Adult All-In-One Course: Lesson-Theory-Technic: Level 1",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "alfred-adult-aio-2",
+      "asin": "0882849956",
+      "expectedTitle": "Alfred's Basic Adult All-in-One Course Book 2",
+      "amazonTitle": "Adult All-in-one Course: Alfred's Basic Adult Piano Course, Level 2",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "alfred-adult-aio-3",
+      "asin": "0739000683",
+      "expectedTitle": "Alfred's Basic Adult All-in-One Course Book 3",
+      "amazonTitle": "Adult All-in-One Course: lesson, theory, solo. Level 3",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "alfred-greatest-hits-1",
+      "asin": "0739002813",
+      "expectedTitle": "Alfred's Basic Adult Piano Course: Greatest Hits Book 1",
+      "amazonTitle": "Alfred's Basic Adult Piano Course: Greatest Hits Book 1",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "bigtime-piano-christmas",
+      "asin": "1616770163",
+      "expectedTitle": "BigTime Piano Christmas",
+      "amazonTitle": "BigTime Piano: Christmas - Level 4",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "bigtime-piano-classics",
+      "asin": "1616770317",
+      "expectedTitle": "BigTime Piano Classics",
+      "amazonTitle": "BigTime Piano: Classics - Level 4",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "bigtime-piano-disney",
+      "asin": "1616777222",
+      "expectedTitle": "BigTime Piano Disney",
+      "amazonTitle": "BigTime Piano: Disney - Level 4",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "bigtime-piano-faber-studio-collection",
+      "asin": "1616776455",
+      "expectedTitle": "BigTime Piano Faber Studio Collection",
+      "amazonTitle": "Faber Studio Collection: Selections from BigTime Piano - Level 4",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "bigtime-piano-favorites",
+      "asin": "1616771917",
+      "expectedTitle": "BigTime Piano Favorites",
+      "amazonTitle": "BigTime Piano: Favorites - Level 4",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "bigtime-piano-hits",
+      "asin": "161677696X",
+      "expectedTitle": "BigTime Piano Hits",
+      "amazonTitle": "BigTime Piano: Hits - Level 4",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "bigtime-piano-hymns",
+      "asin": "1616774355",
+      "expectedTitle": "BigTime Piano Hymns",
+      "amazonTitle": "BigTime Piano: Hymns - Level 4",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "bigtime-piano-jazz-blues",
+      "asin": "1616770112",
+      "expectedTitle": "BigTime Piano Jazz &amp; Blues",
+      "amazonTitle": "BigTime Piano: Jazz & Blues - Level 4 and Above",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "bigtime-piano-kids-songs",
+      "asin": "1616776293",
+      "expectedTitle": "BigTime Piano Kids’ Songs",
+      "amazonTitle": "BigTime Piano: Kids' Songs - Level 4",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "bigtime-piano-music-from-china",
+      "asin": "1616777281",
+      "expectedTitle": "BigTime Piano Music from China",
+      "amazonTitle": "BigTime Piano: Music from China - Level 4",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "bigtime-piano-popular",
+      "asin": "1616770090",
+      "expectedTitle": "BigTime Piano Popular",
+      "amazonTitle": "BigTime Piano: Popular - Level 4 and Above",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "bigtime-piano-ragtime-marches",
+      "asin": "1616771445",
+      "expectedTitle": "BigTime Piano Ragtime &#038; Marches",
+      "amazonTitle": "BigTime Piano: Ragtime and Marches - Level 4",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "bigtime-piano-rock-n-roll",
+      "asin": "1616770295",
+      "expectedTitle": "BigTime Piano Rock ‘n’ Roll",
+      "amazonTitle": "BigTime Piano: Rock 'n' Roll - Level 4",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "chordtime-piano-christmas",
+      "asin": "1616770058",
+      "expectedTitle": "ChordTime Piano Christmas",
+      "amazonTitle": "ChordTime Piano: Christmas - Level 2B",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "chordtime-piano-classics",
+      "asin": "1616770201",
+      "expectedTitle": "ChordTime Piano Classics",
+      "amazonTitle": "ChordTime Piano: Classics - Level 2B",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "chordtime-piano-disney",
+      "asin": "1616777001",
+      "expectedTitle": "ChordTime Piano Disney",
+      "amazonTitle": "ChordTime Piano: Disney - Level 2B",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "chordtime-piano-faber-studio-collection",
+      "asin": "1616776439",
+      "expectedTitle": "ChordTime Piano Faber Studio Collection",
+      "amazonTitle": "Faber Studio Collection: Selections from ChordTime Piano - Level 2B",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "chordtime-piano-favorites",
+      "asin": "1616770147",
+      "expectedTitle": "ChordTime Piano Favorites",
+      "amazonTitle": "ChordTime Piano: Favorites - Level 2B",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "chordtime-piano-hits",
+      "asin": "1616777184",
+      "expectedTitle": "ChordTime Piano Hits",
+      "amazonTitle": "ChordTime Piano: Hits - Level 2B",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "chordtime-piano-hymns",
+      "asin": "1616770031",
+      "expectedTitle": "ChordTime Piano Hymns",
+      "amazonTitle": "ChordTime Piano: Hymns - Level 2B",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "chordtime-piano-jazz-blues",
+      "asin": "1616770465",
+      "expectedTitle": "ChordTime Piano Jazz &#038; Blues",
+      "amazonTitle": "ChordTime Piano: Jazz & Blues - Level 2B",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "chordtime-piano-jewish-favorites",
+      "asin": "1616771925",
+      "expectedTitle": "ChordTime Piano Jewish Favorites",
+      "amazonTitle": "ChordTime Piano: Jewish Favorites - Level 2B",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "chordtime-piano-kids-songs",
+      "asin": "1616770414",
+      "expectedTitle": "ChordTime Piano Kids&#8217; Songs",
+      "amazonTitle": "ChordTime Piano Kids' Songs - Level 2B",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "chordtime-piano-music-from-china",
+      "asin": "1616777265",
+      "expectedTitle": "ChordTime Piano Music from China",
+      "amazonTitle": "ChordTime Piano: Music from China - Level 2B",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "chordtime-piano-popular",
+      "asin": "161677004X",
+      "expectedTitle": "ChordTime Piano Popular",
+      "amazonTitle": "ChordTime Piano: Popular - Level 2B",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "chordtime-piano-ragtime-marches",
+      "asin": "161677133X",
+      "expectedTitle": "ChordTime Piano Ragtime &#038; Marches",
+      "amazonTitle": "ChordTime Piano: Ragtime and Marches - Level 2B",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "chordtime-piano-rock-n-roll",
+      "asin": "161677021X",
+      "expectedTitle": "ChordTime Piano Rock ‘n’ Roll",
+      "amazonTitle": "ChordTime Piano Rock 'n' Roll - Level 2B",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "faber-christmas-1",
+      "asin": "1616773707",
+      "expectedTitle": "Adult Piano Adventures Christmas Book 1",
+      "amazonTitle": "Adult Piano Adventures Christmas Book 1",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "faber-christmas-2",
+      "asin": "1616773715",
+      "expectedTitle": "Adult Piano Adventures Christmas Book 2",
+      "amazonTitle": "Adult Piano Adventures Christmas Book 2",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "faber-classics-1",
+      "asin": "1616771860",
+      "expectedTitle": "Adult Piano Adventures Classics Book 1",
+      "amazonTitle": "Adult Piano Adventures Classics Book 1",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "faber-classics-2",
+      "asin": "1616771895",
+      "expectedTitle": "Adult Piano Adventures Classics Book 2",
+      "amazonTitle": "Adult Piano Adventures Classics Book 2",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "faber-lesson-1",
+      "asin": "1616773022",
+      "expectedTitle": "Adult Piano Adventures All-in-One Lesson Book 1",
+      "amazonTitle": "Adult Piano Adventures: All in One Course - Book 1 | Faber Beginner Method Piano Book for Adults with Chords and Music Notation | Piano Sheet Music and Theory for Self Learners With Digital Audio",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "faber-lesson-2",
+      "asin": "1616773340",
+      "expectedTitle": "Adult Piano Adventures All-in-One Lesson Book 2",
+      "amazonTitle": "Adult Piano Adventures: All-in-One Piano Course - Book 2 | Early Intermediate Piano Method with Online Audio | Songbook with Sheet Music and Theory for Adults | Faber Piano Book for Chord Playing",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "faber-popular-1",
+      "asin": "1616771887",
+      "expectedTitle": "Adult Piano Adventures Popular Book 1",
+      "amazonTitle": "Adult Piano Adventures Popular Book 1",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "faber-popular-2",
+      "asin": "1616771909",
+      "expectedTitle": "Adult Piano Adventures Popular Book 2",
+      "amazonTitle": "Adult Piano Adventures Popular Book 2",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "funtime-piano-christmas",
+      "asin": "1616770066",
+      "expectedTitle": "FunTime Piano Christmas",
+      "amazonTitle": "FunTime Piano: Christmas - Level 3A 3B",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "funtime-piano-classics",
+      "asin": "1616770228",
+      "expectedTitle": "FunTime Piano Classics",
+      "amazonTitle": "FunTime Piano: Classics - Level 3A 3B",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "funtime-piano-disney",
+      "asin": "1616777214",
+      "expectedTitle": "FunTime Piano Disney",
+      "amazonTitle": "FunTime Piano: Disney - Level 3A 3B",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "funtime-piano-faber-studio-collection",
+      "asin": "1616776447",
+      "expectedTitle": "FunTime Piano Faber Studio Collection",
+      "amazonTitle": "Faber Studio Collection: Selection from FunTime Piano - Level 3A 3B",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "funtime-piano-favorites",
+      "asin": "1616770546",
+      "expectedTitle": "FunTime Piano Favorites",
+      "amazonTitle": "FunTime Piano: Favorites - Level 3A 3B",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "funtime-piano-hits",
+      "asin": "1616776951",
+      "expectedTitle": "FunTime Piano Hits",
+      "amazonTitle": "FunTime Piano: Hits - Level 3A 3B",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "funtime-piano-hymns",
+      "asin": "1616770333",
+      "expectedTitle": "FunTime Piano Hymns",
+      "amazonTitle": "FunTime Piano: Hymns - Level 3A 3B",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "funtime-piano-jazz-blues",
+      "asin": "1616770104",
+      "expectedTitle": "FunTime Piano Jazz &#038; Blues",
+      "amazonTitle": "FunTime Piano: Jazz and Blues - Level 3A 3B",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "funtime-piano-kids-songs",
+      "asin": "1616776285",
+      "expectedTitle": "FunTime Piano Kids&#8217; Songs",
+      "amazonTitle": "FunTime Piano: Kids' Songs Level 3A-3B",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "funtime-piano-music-from-china",
+      "asin": "1616777273",
+      "expectedTitle": "FunTime Piano Music from China",
+      "amazonTitle": "FunTime Piano: Music from China - Level 3A 3B",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "funtime-piano-popular",
+      "asin": "1616770074",
+      "expectedTitle": "FunTime Piano Popular",
+      "amazonTitle": "FunTime Piano: Popular - Level 3A 3B",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "funtime-piano-ragtime-marches",
+      "asin": "1616770082",
+      "expectedTitle": "FunTime Piano Ragtime &#038; Marches",
+      "amazonTitle": "FunTime Piano: Ragtime and Marches - Level 3A 3B",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "library-family-singalongs",
+      "asin": "0825634989",
+      "expectedTitle": "The Library of Family Singalongs",
+      "amazonTitle": "The Library of Family Singalongs",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "library-of-easy-piano-classics",
+      "asin": "0825612845",
+      "expectedTitle": "Library of Easy Piano Classics",
+      "amazonTitle": "The Library of Easy Piano Classics",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "playtime-piano-christmas",
+      "asin": "1616770023",
+      "expectedTitle": "PlayTime Piano Christmas",
+      "amazonTitle": "PlayTime Piano: Christmas - Level 1",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "playtime-piano-classics",
+      "asin": "161677018X",
+      "expectedTitle": "PlayTime Piano Classics",
+      "amazonTitle": "PlayTime Piano: Classics - Level 1",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "playtime-piano-disney",
+      "asin": "1616776986",
+      "expectedTitle": "PlayTime Piano Disney",
+      "amazonTitle": "PlayTime Piano: Disney - Level 1",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "playtime-piano-faber-studio-collection",
+      "asin": "1616776412",
+      "expectedTitle": "PlayTime Piano Faber Studio Collection",
+      "amazonTitle": "Faber Studio Collection: Selections from PlayTime Piano - Level 1",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "playtime-piano-favorites",
+      "asin": "1616770139",
+      "expectedTitle": "PlayTime Piano Favorites",
+      "amazonTitle": "PlayTime Piano: Favorites - Level 1",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "playtime-piano-hymns",
+      "asin": "1616770007",
+      "expectedTitle": "PlayTime Piano Hymns",
+      "amazonTitle": "PlayTime Piano: Hymns - Level 1",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "playtime-piano-jazz-blues",
+      "asin": "1616770449",
+      "expectedTitle": "PlayTime Piano Jazz &#038; Blues",
+      "amazonTitle": "PlayTime Piano: Jazz and Blues - Level 1",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "playtime-piano-kids-songs",
+      "asin": "1616770392",
+      "expectedTitle": "PlayTime Piano Kids&#8217; Songs",
+      "amazonTitle": "PlayTime Piano: Kids Songs - Level 1",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "playtime-piano-music-from-china",
+      "asin": "1616777249",
+      "expectedTitle": "PlayTime Piano Music from China",
+      "amazonTitle": "PlayTime Piano: Music from China - Level 1",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "playtime-piano-popular",
+      "asin": "1616770015",
+      "expectedTitle": "PlayTime Piano Popular",
+      "amazonTitle": "PlayTime Piano: Popular - Level 1",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "playtime-piano-rock-n-roll",
+      "asin": "1616770198",
+      "expectedTitle": "PlayTime Piano Rock &#8216;n&#8217; Roll",
+      "amazonTitle": "PlayTime Piano: Rock n Roll - Level 1",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "pretime-piano-christmas",
+      "asin": "1616770155",
+      "expectedTitle": "PreTime Piano Christmas",
+      "amazonTitle": "PreTime Piano: Christmas - Primer Level",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "pretime-piano-classics",
+      "asin": "1616770171",
+      "expectedTitle": "PreTime Piano Classics",
+      "amazonTitle": "PreTime Piano: Classics - Primer Level",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "pretime-piano-disney",
+      "asin": "1616776978",
+      "expectedTitle": "PreTime Piano Disney",
+      "amazonTitle": "PreTime Piano: Disney - Primer Level",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "pretime-piano-faber-studio-collection",
+      "asin": "1616776404",
+      "expectedTitle": "PreTime Piano Faber Studio Collection",
+      "amazonTitle": "Faber Studio Collection: Selections from PreTime Piano - Primer Level",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "pretime-piano-favorites",
+      "asin": "1616770120",
+      "expectedTitle": "PreTime Piano Favorites",
+      "amazonTitle": "PreTime Piano: Favorites - Primer Level",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "pretime-piano-hymns",
+      "asin": "1616770287",
+      "expectedTitle": "PreTime Piano Hymns",
+      "amazonTitle": "PreTime Piano: Hymns - Primer Level",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "pretime-piano-jazz-blues",
+      "asin": "1616770473",
+      "expectedTitle": "PreTime Piano Jazz &#038; Blues",
+      "amazonTitle": "PreTime Piano: Jazz and Blues - Primer Level",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "pretime-piano-kids-songs",
+      "asin": "1616770325",
+      "expectedTitle": "PreTime Piano Kids&#8217; Songs",
+      "amazonTitle": "PreTime Piano: Kids Songs - Primer Level",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "pretime-piano-music-from-china",
+      "asin": "1616777230",
+      "expectedTitle": "PreTime Piano Music from China",
+      "amazonTitle": "PreTime Piano: Music from China - Primer Level",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "pretime-piano-popular",
+      "asin": "1616770422",
+      "expectedTitle": "PreTime Piano Popular",
+      "amazonTitle": "PreTime Piano: Popular - Primer Level",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "pretime-piano-rock-n-roll",
+      "asin": "1616771070",
+      "expectedTitle": "PreTime Piano Rock ‘n Roll",
+      "amazonTitle": "PreTime Piano: Rock 'n Roll - Primer Level",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "showtime-piano-christmas",
+      "asin": "1616770376",
+      "expectedTitle": "ShowTime Piano Christmas",
+      "amazonTitle": "ShowTime Piano: Christmas - Level 2A",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "showtime-piano-classics",
+      "asin": "161677052X",
+      "expectedTitle": "ShowTime Piano Classics",
+      "amazonTitle": "ShowTime Piano: Classics - Level 2A",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "showtime-piano-disney",
+      "asin": "1616776994",
+      "expectedTitle": "ShowTime Piano Disney",
+      "amazonTitle": "ShowTime Piano: Disney - Level 2A",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "showtime-piano-faber-studio-collection",
+      "asin": "1616776420",
+      "expectedTitle": "ShowTime Piano Faber Studio Collection",
+      "amazonTitle": "Faber Studio Collection: Selections from ShowTime Piano - Level 2A",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "showtime-piano-favorites",
+      "asin": "161677035X",
+      "expectedTitle": "ShowTime Piano Favorites",
+      "amazonTitle": "ShowTime Piano: Favorites - Level 2A",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "showtime-piano-hits",
+      "asin": "1616777176",
+      "expectedTitle": "ShowTime Piano Hits",
+      "amazonTitle": "ShowTime Piano: Hits - Level 2A",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "showtime-piano-hymns",
+      "asin": "1616770368",
+      "expectedTitle": "ShowTime Piano Hymns",
+      "amazonTitle": "ShowTime Piano: Hymns - Level 2A",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "showtime-piano-jazz-blues",
+      "asin": "1616770457",
+      "expectedTitle": "ShowTime Piano Jazz &#038; Blues",
+      "amazonTitle": "ShowTime Piano: Jazz & Blues - Level 2A",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "showtime-piano-kids-songs",
+      "asin": "1616770406",
+      "expectedTitle": "ShowTime Piano Kids’ Songs",
+      "amazonTitle": "ShowTime Piano: Kids Songs - Level 2A",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "showtime-piano-music-from-china",
+      "asin": "1616777257",
+      "expectedTitle": "ShowTime Piano Music from China",
+      "amazonTitle": "ShowTime Piano: Music from China - Level 2A",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "showtime-piano-popular",
+      "asin": "1616770430",
+      "expectedTitle": "ShowTime Piano Popular",
+      "amazonTitle": "ShowTime Piano: Popular - Level 2A",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    },
+    {
+      "bookId": "showtime-piano-rock-n-roll",
+      "asin": "1616776323",
+      "expectedTitle": "ShowTime Piano Rock &#8216;n Roll",
+      "amazonTitle": "ShowTime Piano: Rock 'n Roll - Level 2A",
+      "verifiedAt": "2026-04-08",
+      "verifiedMethod": "manual-review"
+    }
+  ]
 }
