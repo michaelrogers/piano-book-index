@@ -99,7 +99,7 @@
     {
       "bookId": "bigtime-piano-jazz-blues",
       "asin": "1616770112",
-      "expectedTitle": "BigTime Piano Jazz &amp; Blues",
+      "expectedTitle": "BigTime Piano Jazz & Blues",
       "amazonTitle": "BigTime Piano: Jazz & Blues - Level 4 and Above",
       "verifiedAt": "2026-04-08",
       "verifiedMethod": "manual-review"
@@ -131,7 +131,7 @@
     {
       "bookId": "bigtime-piano-ragtime-marches",
       "asin": "1616771445",
-      "expectedTitle": "BigTime Piano Ragtime &#038; Marches",
+      "expectedTitle": "BigTime Piano Ragtime & Marches",
       "amazonTitle": "BigTime Piano: Ragtime and Marches - Level 4",
       "verifiedAt": "2026-04-08",
       "verifiedMethod": "manual-review"
@@ -203,7 +203,7 @@
     {
       "bookId": "chordtime-piano-jazz-blues",
       "asin": "1616770465",
-      "expectedTitle": "ChordTime Piano Jazz &#038; Blues",
+      "expectedTitle": "ChordTime Piano Jazz & Blues",
       "amazonTitle": "ChordTime Piano: Jazz & Blues - Level 2B",
       "verifiedAt": "2026-04-08",
       "verifiedMethod": "manual-review"
@@ -219,7 +219,7 @@
     {
       "bookId": "chordtime-piano-kids-songs",
       "asin": "1616770414",
-      "expectedTitle": "ChordTime Piano Kids&#8217; Songs",
+      "expectedTitle": "ChordTime Piano Kids’ Songs",
       "amazonTitle": "ChordTime Piano Kids' Songs - Level 2B",
       "verifiedAt": "2026-04-08",
       "verifiedMethod": "manual-review"
@@ -243,7 +243,7 @@
     {
       "bookId": "chordtime-piano-ragtime-marches",
       "asin": "161677133X",
-      "expectedTitle": "ChordTime Piano Ragtime &#038; Marches",
+      "expectedTitle": "ChordTime Piano Ragtime & Marches",
       "amazonTitle": "ChordTime Piano: Ragtime and Marches - Level 2B",
       "verifiedAt": "2026-04-08",
       "verifiedMethod": "manual-review"
@@ -379,7 +379,7 @@
     {
       "bookId": "funtime-piano-jazz-blues",
       "asin": "1616770104",
-      "expectedTitle": "FunTime Piano Jazz &#038; Blues",
+      "expectedTitle": "FunTime Piano Jazz & Blues",
       "amazonTitle": "FunTime Piano: Jazz and Blues - Level 3A 3B",
       "verifiedAt": "2026-04-08",
       "verifiedMethod": "manual-review"
@@ -387,7 +387,7 @@
     {
       "bookId": "funtime-piano-kids-songs",
       "asin": "1616776285",
-      "expectedTitle": "FunTime Piano Kids&#8217; Songs",
+      "expectedTitle": "FunTime Piano Kids’ Songs",
       "amazonTitle": "FunTime Piano: Kids' Songs Level 3A-3B",
       "verifiedAt": "2026-04-08",
       "verifiedMethod": "manual-review"
@@ -411,7 +411,7 @@
     {
       "bookId": "funtime-piano-ragtime-marches",
       "asin": "1616770082",
-      "expectedTitle": "FunTime Piano Ragtime &#038; Marches",
+      "expectedTitle": "FunTime Piano Ragtime & Marches",
       "amazonTitle": "FunTime Piano: Ragtime and Marches - Level 3A 3B",
       "verifiedAt": "2026-04-08",
       "verifiedMethod": "manual-review"
@@ -483,7 +483,7 @@
     {
       "bookId": "playtime-piano-jazz-blues",
       "asin": "1616770449",
-      "expectedTitle": "PlayTime Piano Jazz &#038; Blues",
+      "expectedTitle": "PlayTime Piano Jazz & Blues",
       "amazonTitle": "PlayTime Piano: Jazz and Blues - Level 1",
       "verifiedAt": "2026-04-08",
       "verifiedMethod": "manual-review"
@@ -491,7 +491,7 @@
     {
       "bookId": "playtime-piano-kids-songs",
       "asin": "1616770392",
-      "expectedTitle": "PlayTime Piano Kids&#8217; Songs",
+      "expectedTitle": "PlayTime Piano Kids’ Songs",
       "amazonTitle": "PlayTime Piano: Kids Songs - Level 1",
       "verifiedAt": "2026-04-08",
       "verifiedMethod": "manual-review"
@@ -515,7 +515,7 @@
     {
       "bookId": "playtime-piano-rock-n-roll",
       "asin": "1616770198",
-      "expectedTitle": "PlayTime Piano Rock &#8216;n&#8217; Roll",
+      "expectedTitle": "PlayTime Piano Rock ‘n’ Roll",
       "amazonTitle": "PlayTime Piano: Rock n Roll - Level 1",
       "verifiedAt": "2026-04-08",
       "verifiedMethod": "manual-review"
@@ -571,7 +571,7 @@
     {
       "bookId": "pretime-piano-jazz-blues",
       "asin": "1616770473",
-      "expectedTitle": "PreTime Piano Jazz &#038; Blues",
+      "expectedTitle": "PreTime Piano Jazz & Blues",
       "amazonTitle": "PreTime Piano: Jazz and Blues - Primer Level",
       "verifiedAt": "2026-04-08",
       "verifiedMethod": "manual-review"
@@ -579,7 +579,7 @@
     {
       "bookId": "pretime-piano-kids-songs",
       "asin": "1616770325",
-      "expectedTitle": "PreTime Piano Kids&#8217; Songs",
+      "expectedTitle": "PreTime Piano Kids’ Songs",
       "amazonTitle": "PreTime Piano: Kids Songs - Primer Level",
       "verifiedAt": "2026-04-08",
       "verifiedMethod": "manual-review"
@@ -667,7 +667,7 @@
     {
       "bookId": "showtime-piano-jazz-blues",
       "asin": "1616770457",
-      "expectedTitle": "ShowTime Piano Jazz &#038; Blues",
+      "expectedTitle": "ShowTime Piano Jazz & Blues",
       "amazonTitle": "ShowTime Piano: Jazz & Blues - Level 2A",
       "verifiedAt": "2026-04-08",
       "verifiedMethod": "manual-review"
@@ -699,7 +699,7 @@
     {
       "bookId": "showtime-piano-rock-n-roll",
       "asin": "1616776323",
-      "expectedTitle": "ShowTime Piano Rock &#8216;n Roll",
+      "expectedTitle": "ShowTime Piano Rock ‘n Roll",
       "amazonTitle": "ShowTime Piano: Rock 'n Roll - Level 2A",
       "verifiedAt": "2026-04-08",
       "verifiedMethod": "manual-review"

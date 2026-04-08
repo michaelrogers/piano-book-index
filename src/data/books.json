@@ -309,7 +309,7 @@
   },
   {
     "id": "pretime-piano-jazz-blues",
-    "title": "PreTime Piano Jazz &#038; Blues",
+    "title": "PreTime Piano Jazz & Blues",
     "series": "PreTime Piano",
     "seriesLevel": "Jazz & Blues",
     "bookType": "companion",
@@ -323,7 +323,7 @@
   },
   {
     "id": "pretime-piano-kids-songs",
-    "title": "PreTime Piano Kids&#8217; Songs",
+    "title": "PreTime Piano Kids’ Songs",
     "series": "PreTime Piano",
     "seriesLevel": "Kids' Songs",
     "bookType": "companion",
@@ -463,7 +463,7 @@
   },
   {
     "id": "playtime-piano-jazz-blues",
-    "title": "PlayTime Piano Jazz &#038; Blues",
+    "title": "PlayTime Piano Jazz & Blues",
     "series": "PlayTime Piano",
     "seriesLevel": "Jazz & Blues",
     "bookType": "companion",
@@ -471,13 +471,13 @@
     "isbn": "978-1616770440",
     "coverImage": "/covers/playtime-piano-jazz-blues.jpg",
     "pageCount": null,
-    "description": "PlayTime® Piano Jazz &amp;amp; Blues is a fun collection of beginning jazz and blues pieces. The book offers a pleasing variety of sounds – from soulful blues to jazz originals and standards – and is a wonderful supplement for the late Level 1 piano student. The student will enjoy creating the sounds of jazz and blues while improving reading and rhythmic skills. Songs include: Ain’t She Sweet",
+    "description": "PlayTime® Piano Jazz & Blues is a fun collection of beginning jazz and blues pieces. The book offers a pleasing variety of sounds – from soulful blues to jazz originals and standards – and is a wonderful supplement for the late Level 1 piano student. The student will enjoy creating the sounds of jazz and blues while improving reading and rhythmic skills. Songs include: Ain’t She Sweet",
     "amazonUrl": "https://www.amazon.com/dp/1616770449",
     "trackListingSource": "publisher-website"
   },
   {
     "id": "playtime-piano-kids-songs",
-    "title": "PlayTime Piano Kids&#8217; Songs",
+    "title": "PlayTime Piano Kids’ Songs",
     "series": "PlayTime Piano",
     "seriesLevel": "Kids' Songs",
     "bookType": "companion",
@@ -519,7 +519,7 @@
   },
   {
     "id": "playtime-piano-rock-n-roll",
-    "title": "PlayTime Piano Rock &#8216;n&#8217; Roll",
+    "title": "PlayTime Piano Rock ‘n’ Roll",
     "series": "PlayTime Piano",
     "seriesLevel": "Rock 'n Roll",
     "bookType": "companion",
@@ -631,7 +631,7 @@
   },
   {
     "id": "showtime-piano-jazz-blues",
-    "title": "ShowTime Piano Jazz &#038; Blues",
+    "title": "ShowTime Piano Jazz & Blues",
     "series": "ShowTime Piano",
     "seriesLevel": "Jazz & Blues",
     "bookType": "companion",
@@ -687,7 +687,7 @@
   },
   {
     "id": "showtime-piano-rock-n-roll",
-    "title": "ShowTime Piano Rock &#8216;n Roll",
+    "title": "ShowTime Piano Rock ‘n Roll",
     "series": "ShowTime Piano",
     "seriesLevel": "Rock 'n Roll",
     "bookType": "companion",
@@ -799,7 +799,7 @@
   },
   {
     "id": "chordtime-piano-jazz-blues",
-    "title": "ChordTime Piano Jazz &#038; Blues",
+    "title": "ChordTime Piano Jazz & Blues",
     "series": "ChordTime Piano",
     "seriesLevel": "Jazz & Blues",
     "bookType": "companion",
@@ -827,7 +827,7 @@
   },
   {
     "id": "chordtime-piano-kids-songs",
-    "title": "ChordTime Piano Kids&#8217; Songs",
+    "title": "ChordTime Piano Kids’ Songs",
     "series": "ChordTime Piano",
     "seriesLevel": "Kids' Songs",
     "bookType": "companion",
@@ -869,7 +869,7 @@
   },
   {
     "id": "chordtime-piano-ragtime-marches",
-    "title": "ChordTime Piano Ragtime &#038; Marches",
+    "title": "ChordTime Piano Ragtime & Marches",
     "series": "ChordTime Piano",
     "seriesLevel": "Ragtime & Marches",
     "bookType": "companion",
@@ -995,7 +995,7 @@
   },
   {
     "id": "funtime-piano-jazz-blues",
-    "title": "FunTime Piano Jazz &#038; Blues",
+    "title": "FunTime Piano Jazz & Blues",
     "series": "FunTime Piano",
     "seriesLevel": "Jazz & Blues",
     "bookType": "companion",
@@ -1003,13 +1003,13 @@
     "isbn": "978-1616770105",
     "coverImage": "/covers/funtime-piano-jazz-blues.jpg",
     "pageCount": 32,
-    "description": "FunTime® Piano Jazz &amp;amp; Blues provides an entertaining collection of pieces from the jazz/blues idiom. The book is perfect for the Level 3 student interested in exploring this style. It consists of easy arrangements of jazz and blues standards as well as delightful original compositions that are sure to motivate and entertain any student. Includes: In the Mood",
+    "description": "FunTime® Piano Jazz & Blues provides an entertaining collection of pieces from the jazz/blues idiom. The book is perfect for the Level 3 student interested in exploring this style. It consists of easy arrangements of jazz and blues standards as well as delightful original compositions that are sure to motivate and entertain any student. Includes: In the Mood",
     "amazonUrl": "https://www.amazon.com/dp/1616770104",
     "trackListingSource": "publisher-website"
   },
   {
     "id": "funtime-piano-kids-songs",
-    "title": "FunTime Piano Kids&#8217; Songs",
+    "title": "FunTime Piano Kids’ Songs",
     "series": "FunTime Piano",
     "seriesLevel": "Kids' Songs",
     "bookType": "companion",
@@ -1051,7 +1051,7 @@
   },
   {
     "id": "funtime-piano-ragtime-marches",
-    "title": "FunTime Piano Ragtime &#038; Marches",
+    "title": "FunTime Piano Ragtime & Marches",
     "series": "FunTime Piano",
     "seriesLevel": "Ragtime & Marches",
     "bookType": "companion",
@@ -1177,7 +1177,7 @@
   },
   {
     "id": "bigtime-piano-jazz-blues",
-    "title": "BigTime Piano Jazz &amp; Blues",
+    "title": "BigTime Piano Jazz & Blues",
     "series": "BigTime Piano",
     "seriesLevel": "Jazz & Blues",
     "bookType": "companion",
@@ -1185,7 +1185,7 @@
     "isbn": "978-1616770112",
     "coverImage": "/covers/bigtime-piano-jazz-blues.jpg",
     "pageCount": 40,
-    "description": "BigTime® Piano Jazz &amp;amp; Blues is a great collection of jazz and blues pieces. Standards such as “Take the 'A' Train” and “Desafinado” provide an introduction to basic jazz styles such as swing and bossa nova. Other moods and styles are featured in classics such as “Autumn Leaves,” “Misty,” and “Night Train,” and in original compositions such as “Equinox” and “Big City Blues.” The book is arranged for the intermediate-level pianist and is especially written to create a “big” sound while rem",
+    "description": "BigTime® Piano Jazz & Blues is a great collection of jazz and blues pieces. Standards such as “Take the 'A' Train” and “Desafinado” provide an introduction to basic jazz styles such as swing and bossa nova. Other moods and styles are featured in classics such as “Autumn Leaves,” “Misty,” and “Night Train,” and in original compositions such as “Equinox” and “Big City Blues.” The book is arranged for the intermediate-level pianist and is especially written to create a “big” sound while rem",
     "amazonUrl": "https://www.amazon.com/dp/1616770112",
     "trackListingSource": "youtube-playlist"
   },
@@ -1233,7 +1233,7 @@
   },
   {
     "id": "bigtime-piano-ragtime-marches",
-    "title": "BigTime Piano Ragtime &#038; Marches",
+    "title": "BigTime Piano Ragtime & Marches",
     "series": "BigTime Piano",
     "seriesLevel": "Ragtime & Marches",
     "bookType": "companion",
