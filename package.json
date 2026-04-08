@@ -10,6 +10,9 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
+    "amazon:sync": "node scripts/fill-amazon-urls.mjs",
+    "amazon:sync:dry": "node scripts/fill-amazon-urls.mjs --dry-run",
+    "amazon:validate": "node scripts/validate-amazon-urls.mjs",
     "yt:link": "node scripts/link-youtube-playlists.mjs",
     "yt:link:dry": "node scripts/link-youtube-playlists.mjs --dry-run"
   },

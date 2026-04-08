@@ -3,7 +3,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import TrackListing from '../../components/TrackListing.astro';
 import DifficultyScale from '../../components/DifficultyScale.astro';
 import OwnedToggle from '../../components/OwnedToggle.tsx';
-import { getBooks, getSongsByBookOrdered, getPlaylistsForBook, getAmazonAffiliateUrl, hasAmazonAffiliate } from '../../lib/data';
+import { getBooks, getSongsByBookOrdered, getPlaylistsForBook, getAmazonAffiliateUrl, getBookAmazonUrl, hasAmazonAffiliate } from '../../lib/data';
 import type { Book, Song } from '../../lib/types';
 
 export function getStaticPaths() {
@@ -23,6 +23,7 @@ const songs: Song[] = getSongsByBookOrdered(book.id);
 const playlists = getPlaylistsForBook(book.id);
 const bookHasVideos = songs.some((s) => s.youtubeLinks.length > 0);
 const firstSong = songs[0];
+const bookAmazonUrl = getBookAmazonUrl(book.id);
 
 // Show incomplete warning if we have songs but the listing looks suspiciously short
 // (pages-per-song ratio > 5 suggests missing entries from publisher extraction)
@@ -110,9 +111,9 @@ const publisherUrl = getPublisherUrl(book);
             {book.publisher} ↗
           </a>
         )}
-        {book.amazonUrl && (
+        {bookAmazonUrl && (
           <a
-            href={getAmazonAffiliateUrl(book.amazonUrl)}
+            href={getAmazonAffiliateUrl(bookAmazonUrl)}
             target="_blank"
             rel="sponsored noopener noreferrer"
             class="rounded-lg border border-gray-300 px-3 py-1.5 text-sm text-gray-600 hover:bg-gray-50 dark:border-gray-600 dark:text-gray-400 dark:hover:bg-gray-800"
@@ -121,7 +122,7 @@ const publisherUrl = getPublisherUrl(book);
           </a>
         )}
       </div>
-      {book.amazonUrl && hasAmazonAffiliate && (
+      {bookAmazonUrl && hasAmazonAffiliate && (
         <p class="mt-2 text-xs text-gray-400 dark:text-gray-500">As an Amazon Associate I earn from qualifying purchases.</p>
       )}
 

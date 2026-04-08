@@ -52,18 +52,44 @@ Collect these fields from the publisher's product page, Amazon, or Hal Leonard:
 
 Every book should have an `amazonUrl` pointing to its Amazon product page. The URL format is `https://www.amazon.com/dp/{ISBN10}` where ISBN10 is derived from the book's ISBN-13.
 
-**To generate automatically** (preferred): If you have the ISBN-13, run:
+**Important policy**: only add Amazon links after manual verification. If you cannot verify an exact match, set `amazonUrl` to `""`.
+
+**Verification source of truth**: add/update an entry in `src/data/amazon-verified.json` for the book. Include:
+- `bookId`
+- `asin`
+- `expectedTitle`
+- `verifiedAt`
+- `verifiedMethod`
+
+`scripts/fill-amazon-urls.mjs` now enforces this policy: it will only set links for books present in `amazon-verified.json`, and clears unverified links.
+
+**To sync from verified entries**:
 ```bash
-node scripts/fill-amazon-urls.mjs --dry-run   # Preview
-node scripts/fill-amazon-urls.mjs              # Apply to books.json
+npm run amazon:sync:dry   # Preview
+npm run amazon:sync       # Apply to books.json
 ```
-This converts ISBN-13 → ISBN-10 and fills any empty `amazonUrl` fields.
+
+**Optional advisory suggestions**:
+```bash
+node scripts/fill-amazon-urls.mjs --suggest-isbn
+```
+This prints ISBN-13 -> ISBN-10 suggestions for books missing verification entries, but does not treat them as verified.
 
 **To find manually**: Search Amazon for the book title + "piano" and use the `/dp/XXXXXXXXXX` product page URL.
 
 **Important**: Do NOT include affiliate tags (`?tag=...`) in the `amazonUrl` stored in `books.json`. Affiliate tags are injected at build time via the `PUBLIC_AMAZON_TAG` environment variable. This keeps the source data clean and the affiliate ID out of the open-source repo.
 
 If no Amazon listing exists, set `amazonUrl` to `""`.
+
+### Amazon verification checklist
+
+Before adding a verified ASIN entry:
+1. Open the Amazon product page for the ASIN.
+2. Confirm title and level/phase match exactly with the catalog book.
+3. Confirm edition cues (series/book number, publisher, cover) match.
+4. Add/update `src/data/amazon-verified.json`.
+5. Run `npm run amazon:sync`.
+6. Run `npm run amazon:validate` and review warnings.
 
 ### Where to find data
 

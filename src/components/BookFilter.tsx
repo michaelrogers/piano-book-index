@@ -1,4 +1,5 @@
-import { useEffect, useState } from 'preact/hooks';
+import { useEffect, useMemo, useState } from 'preact/hooks';
+import Fuse from 'fuse.js';
 import DifficultyRangeFilter, { DIFFICULTY_LABELS } from './DifficultyRangeFilter';
 
 type DifficultyLabel =
@@ -89,6 +90,8 @@ function syncToUrl(params: Record<string, string>) {
 }
 
 export default function BookFilter({ books, seriesList, publisherList }: Props) {
+  const [query, setQuery] = useState('');
+  const [debouncedQuery, setDebouncedQuery] = useState('');
   const [selectedSeries, setSelectedSeries] = useState('');
   const [diffMin, setDiffMin] = useState<number | null>(null);
   const [diffMax, setDiffMax] = useState<number | null>(null);
@@ -101,6 +104,8 @@ export default function BookFilter({ books, seriesList, publisherList }: Props) 
 
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
+    const q = params.get('q');
+    if (q) setQuery(q);
     const dmin = params.get('dmin');
     const dmax = params.get('dmax');
     if (dmin !== null && dmax !== null) {
@@ -135,6 +140,7 @@ export default function BookFilter({ books, seriesList, publisherList }: Props) 
   useEffect(() => {
     if (!initialized) return;
     syncToUrl({
+      q: query,
       dmin: diffMin !== null ? String(diffMin) : '',
       dmax: diffMax !== null ? String(diffMax) : '',
       series: selectedSeries,
@@ -142,7 +148,7 @@ export default function BookFilter({ books, seriesList, publisherList }: Props) 
       lesson: hideLessonBooks ? '' : '1',
       owned: showOnlyOwned ? '1' : '',
     });
-  }, [diffMin, diffMax, selectedSeries, selectedPublisher, hideLessonBooks, showOnlyOwned, initialized]);
+  }, [diffMin, diffMax, selectedSeries, selectedPublisher, hideLessonBooks, showOnlyOwned, initialized, query]);
 
   useEffect(() => {
     const loadOwnedBooks = () => {
@@ -168,9 +174,25 @@ export default function BookFilter({ books, seriesList, publisherList }: Props) 
     };
   }, []);
 
-  const visibleBooks = hideLessonBooks
-    ? books.filter((b) => b.bookType !== 'lesson')
+  // Debounce search query
+  useEffect(() => {
+    const timer = setTimeout(() => setDebouncedQuery(query), 150);
+    return () => clearTimeout(timer);
+  }, [query]);
+
+  // Fuse.js index for fuzzy search
+  const fuse = useMemo(
+    () => new Fuse(books, { keys: ['title', 'series'], threshold: 0.35 }),
+    [books]
+  );
+
+  const afterSearch = debouncedQuery.trim()
+    ? fuse.search(debouncedQuery).map((r) => r.item)
     : books;
+
+  const visibleBooks = hideLessonBooks
+    ? afterSearch.filter((b) => b.bookType !== 'lesson')
+    : afterSearch;
 
   const afterDifficulty = diffMin !== null && diffMax !== null
     ? visibleBooks.filter((b) => {
@@ -204,54 +226,72 @@ export default function BookFilter({ books, seriesList, publisherList }: Props) 
 
   return (
     <div>
-      {/* Collapsible filters */}
+      {/* Search input */}
+      <div class="relative mb-4">
+        <input
+          type="text"
+          placeholder="Search books by title or series..."
+          value={query}
+          onInput={(e) => setQuery((e.target as HTMLInputElement).value)}
+          class="w-full rounded-xl border border-gray-300 bg-white px-4 py-3 pl-10 text-base shadow-sm transition-colors focus:border-piano-500 focus:outline-none focus:ring-2 focus:ring-piano-500/20 dark:border-gray-700 dark:bg-gray-900 dark:text-gray-100 dark:focus:border-piano-400"
+        />
+        <svg class="absolute left-3 top-3.5 h-5 w-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+        </svg>
+      </div>
+
+      {/* Filters */}
       {(() => {
         const activeFilterCount = (diffMin !== null ? 1 : 0) + (selectedPublisher ? 1 : 0) + (showOnlyOwned ? 1 : 0) + (selectedSeries ? 1 : 0);
         return (
-          <div class="mb-4">
-            <button
-              type="button"
-              onClick={() => setFiltersOpen(!filtersOpen)}
-              class="flex items-center gap-1.5 text-sm font-medium text-gray-600 dark:text-gray-400"
-            >
-              <svg class={`h-4 w-4 transition-transform ${filtersOpen ? 'rotate-90' : ''}`} fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" /></svg>
-              Filters
-              {activeFilterCount > 0 && (
-                <span class="rounded-full bg-piano-100 px-1.5 py-0.5 text-xs font-medium text-piano-700 dark:bg-piano-900/40 dark:text-piano-300">{activeFilterCount}</span>
-              )}
-            </button>
+          <div class="mb-4 space-y-3">
+            {/* Always-visible quick filters */}
+            <div class="flex flex-wrap items-center gap-2">
+              <label class="inline-flex cursor-pointer items-center gap-1.5 rounded-full border border-gray-300 px-3 py-2 text-sm dark:border-gray-700">
+                <input
+                  type="checkbox"
+                  checked={hideLessonBooks}
+                  onChange={(e) => setHideLessonBooks((e.target as HTMLInputElement).checked)}
+                  class="accent-piano-600"
+                />
+                <span class="text-gray-600 dark:text-gray-300">Hide lesson books</span>
+              </label>
 
+              <label class="inline-flex cursor-pointer items-center gap-1.5 rounded-full border border-gray-300 px-3 py-2 text-sm dark:border-gray-700">
+                <input
+                  type="checkbox"
+                  checked={showOnlyOwned}
+                  onChange={(e) => setShowOnlyOwned((e.target as HTMLInputElement).checked)}
+                  class="accent-emerald-600"
+                />
+                <span class="text-gray-600 dark:text-gray-300">My Library</span>
+              </label>
+
+              <button
+                type="button"
+                onClick={() => setFiltersOpen(!filtersOpen)}
+                class="flex items-center gap-1.5 rounded-full border border-gray-300 px-3 py-2 text-sm text-gray-600 transition-colors hover:bg-gray-100 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-800"
+              >
+                <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6h9.75M10.5 6a1.5 1.5 0 1 1-3 0m3 0a1.5 1.5 0 1 0-3 0M3.75 6H7.5m3 12h9.75m-9.75 0a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m-3.75 0H7.5m9-6h3.75m-3.75 0a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m-9.75 0h9.75" /></svg>
+                More Filters
+                {activeFilterCount > 0 && (
+                  <span class="rounded-full bg-piano-100 px-1.5 py-0.5 text-xs font-medium text-piano-700 dark:bg-piano-900/40 dark:text-piano-300">{activeFilterCount}</span>
+                )}
+              </button>
+            </div>
+
+            {/* Expanded filters */}
             {filtersOpen && (
-              <div class="mt-2 space-y-3">
+              <div class="space-y-3 rounded-lg border border-gray-200 bg-gray-50 p-3 dark:border-gray-700 dark:bg-gray-800/50">
                 {/* Difficulty range */}
                 <DifficultyRangeFilter min={diffMin} max={diffMax} onChange={(mn, mx) => { setDiffMin(mn); setDiffMax(mx); }} />
 
-                {/* Filter row */}
+                {/* Publisher */}
                 <div class="flex flex-wrap items-center gap-2">
-                  <label class="inline-flex cursor-pointer items-center gap-1.5 rounded-full border border-gray-300 px-3 py-2 text-sm dark:border-gray-700">
-                    <input
-                      type="checkbox"
-                      checked={hideLessonBooks}
-                      onChange={(e) => setHideLessonBooks((e.target as HTMLInputElement).checked)}
-                      class="accent-piano-600"
-                    />
-                    <span class="text-gray-600 dark:text-gray-300">Hide lesson books</span>
-                  </label>
-
-                  <label class="inline-flex cursor-pointer items-center gap-1.5 rounded-full border border-gray-300 px-3 py-2 text-sm dark:border-gray-700">
-                    <input
-                      type="checkbox"
-                      checked={showOnlyOwned}
-                      onChange={(e) => setShowOnlyOwned((e.target as HTMLInputElement).checked)}
-                      class="accent-emerald-600"
-                    />
-                    <span class="text-gray-600 dark:text-gray-300">My Library</span>
-                  </label>
-
                   <select
                     value={selectedPublisher}
                     onChange={(e) => setSelectedPublisher((e.target as HTMLSelectElement).value)}
-                    class="rounded-full border border-gray-300 bg-white px-3 py-2 text-sm dark:border-gray-700 dark:bg-gray-900 dark:text-gray-100"
+                    class="rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm dark:border-gray-700 dark:bg-gray-900 dark:text-gray-100"
                   >
                     <option value="">All Publishers</option>
                     {publisherList.map((p) => (
@@ -259,6 +299,18 @@ export default function BookFilter({ books, seriesList, publisherList }: Props) 
                     ))}
                   </select>
 
+                  {(diffMin !== null || selectedPublisher || selectedSeries) && (
+                    <button
+                      onClick={() => { setDiffMin(null); setDiffMax(null); setSelectedPublisher(''); setSelectedSeries(''); }}
+                      class="rounded-lg px-3 py-2 text-sm text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200"
+                    >
+                      Clear filters
+                    </button>
+                  )}
+                </div>
+
+                {/* Series pills */}
+                <div class="flex flex-wrap items-center gap-2">
                   <button
                     onClick={() => setSelectedSeries('')}
                     class={`rounded-full px-3 py-2 text-sm font-medium transition-colors ${

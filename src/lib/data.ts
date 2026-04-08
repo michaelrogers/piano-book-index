@@ -4,12 +4,29 @@ import songsData from '../data/songs.json';
 import difficultyMapData from '../data/difficulty-map.json';
 import bookPlaylistsData from '../data/book-playlists.json';
 import songLinksData from '../data/song-links.json';
+import amazonVerifiedData from '../data/amazon-verified.json';
 
 const books: Book[] = booksData as Book[];
 const songs: Song[] = songsData as Song[];
 const difficultyMap: DifficultyMapping[] = difficultyMapData as DifficultyMapping[];
 const bookPlaylists: BookPlaylist[] = bookPlaylistsData as BookPlaylist[];
 const songLinks: Record<string, string[]> = songLinksData;
+
+interface AmazonVerifiedEntry {
+  bookId: string;
+  asin: string;
+  expectedTitle: string;
+  verifiedAt: string;
+  verifiedMethod: string;
+  notes?: string;
+}
+
+interface AmazonVerifiedData {
+  books: AmazonVerifiedEntry[];
+}
+
+const amazonVerifiedEntries = (amazonVerifiedData as AmazonVerifiedData).books;
+const amazonVerifiedByBookId = new Map(amazonVerifiedEntries.map((entry) => [entry.bookId, entry]));
 const songOrderIndex = new Map(songs.map((song, i) => [song.id, i]));
 
 const amazonTag = import.meta.env.PUBLIC_AMAZON_TAG || '';
@@ -20,6 +37,12 @@ export function getAmazonAffiliateUrl(url: string): string {
   if (!url || !amazonTag) return url;
   const separator = url.includes('?') ? '&' : '?';
   return `${url}${separator}tag=${amazonTag}`;
+}
+
+export function getBookAmazonUrl(bookId: string): string {
+  const entry = amazonVerifiedByBookId.get(bookId);
+  if (!entry) return '';
+  return `https://www.amazon.com/dp/${entry.asin}`;
 }
 
 export function getBooks(): Book[] {

@@ -10,7 +10,7 @@
     "coverImage": "/covers/faber-lesson-1.jpg",
     "pageCount": 184,
     "description": "A comprehensive, all-in-one approach to learning piano for adults and older beginners. Over two hours of instructional video and supporting audio tracks. 16 units covering rhythm, melody, harmony, and more. Includes Amazing Grace, The Entertainer, Greensleeves, Danny Boy, The Lion Sleeps Tonight and more.",
-    "amazonUrl": "https://www.amazon.com/dp/1616773022",
+    "amazonUrl": "",
     "trackListingSource": "manual-entry"
   },
   {
@@ -24,7 +24,7 @@
     "coverImage": "/covers/faber-lesson-2.jpg",
     "pageCount": 196,
     "description": "Continues the all-in-one approach with more advanced pieces. 16 units covering minor scales, key signatures, triads, arpeggios, and more. Includes Habanera from Carmen, Swan Lake, Scarborough Fair, Hava Nagila, Pachelbel Canon and more.",
-    "amazonUrl": "https://www.amazon.com/dp/1616773324",
+    "amazonUrl": "",
     "trackListingSource": "manual-entry"
   },
   {
@@ -38,7 +38,7 @@
     "coverImage": "/covers/faber-classics-1.jpg",
     "pageCount": 80,
     "description": "Symphony themes, opera gems, and classical favorites arranged for the adult beginner. Three sections from simple harmonies to I-IV-V7 chords in C and G major. Features Finlandia, The Trout, Spring Song, Autumn from The Four Seasons, The Magic Flute, Liebestraum, and more.",
-    "amazonUrl": "https://www.amazon.com/dp/1616771860",
+    "amazonUrl": "",
     "trackListingSource": "manual-entry"
   },
   {
@@ -52,7 +52,7 @@
     "coverImage": "/covers/faber-classics-2.jpg",
     "pageCount": 80,
     "description": "Baroque, Classical, Romantic, and Impressionistic masterworks for early intermediate pianists. Features Jesu Joy of Man's Desiring, Canon in D, Moonlight Sonata, Clair de lune, In the Hall of the Mountain King, and more.",
-    "amazonUrl": "https://www.amazon.com/dp/1616771879",
+    "amazonUrl": "",
     "trackListingSource": "manual-entry"
   },
   {
@@ -66,7 +66,7 @@
     "coverImage": "/covers/faber-popular-1.jpg",
     "pageCount": 80,
     "description": "34 popular melodies arranged for the adult beginner. Three sections from simple harmonies to I-IV-V7 chords in C and G major. Includes My Heart Will Go On, Edelweiss, Let It Be, Someone Like You, Yesterday, Beauty and the Beast, What a Wonderful World, and more.",
-    "amazonUrl": "https://www.amazon.com/dp/1616771887",
+    "amazonUrl": "",
     "trackListingSource": "manual-entry"
   },
   {
@@ -80,7 +80,7 @@
     "coverImage": "/covers/faber-popular-2.jpg",
     "pageCount": 88,
     "description": "27 popular hits for the progressing pianist. Folk, movie themes, Broadway, and chart-toppers including Over the Rainbow, Hey Jude, Piano Man, Let It Go, Rolling in the Deep, Stand By Me, and more.",
-    "amazonUrl": "https://www.amazon.com/dp/1616771895",
+    "amazonUrl": "",
     "trackListingSource": "manual-entry"
   },
   {
@@ -94,7 +94,7 @@
     "coverImage": "/covers/faber-christmas-1.jpg",
     "pageCount": 80,
     "description": "Sacred carols, Santa songs, and winter favorites for adult beginners. Three sections: Beginning Christmas Songs, Key of C major, and Key of G major. Includes Jingle Bells, Silent Night, Frosty the Snowman, Jingle-Bell Rock, Have Yourself a Merry Little Christmas, and more.",
-    "amazonUrl": "https://www.amazon.com/dp/1616773456",
+    "amazonUrl": "",
     "trackListingSource": "manual-entry"
   },
   {
@@ -108,7 +108,7 @@
     "coverImage": "/covers/faber-christmas-2.jpg",
     "pageCount": 80,
     "description": "Traditional carols, popular Christmas songs, and seasonal favorites for early intermediate level. Features O Holy Night, Let It Snow, Winter Wonderland, Sleigh Ride, Dance of the Sugar Plum Fairy, Hallelujah Chorus, and more.",
-    "amazonUrl": "https://www.amazon.com/dp/1616773464",
+    "amazonUrl": "",
     "trackListingSource": "manual-entry"
   },
   {
@@ -122,7 +122,7 @@
     "coverImage": "",
     "pageCount": 80,
     "description": "Jazz standards and original pieces with improvisation activities. Correlates with Lesson Book 1. Includes audio access.",
-    "amazonUrl": "https://www.amazon.com/dp/1616776343",
+    "amazonUrl": "",
     "trackListingSource": null
   },
   {
@@ -136,7 +136,7 @@
     "coverImage": "",
     "pageCount": 80,
     "description": "More jazz standards with swing, blues, and bossa nova styles. Correlates with Lesson Book 2. Includes audio access.",
-    "amazonUrl": "https://www.amazon.com/dp/1616776358",
+    "amazonUrl": "",
     "trackListingSource": null
   },
   {
@@ -150,7 +150,7 @@
     "coverImage": "",
     "pageCount": 80,
     "description": "Contemporary pop hits arranged for the adult beginner. Correlates with Lesson Book 1.",
-    "amazonUrl": "https://www.amazon.com/dp/1616776366",
+    "amazonUrl": "",
     "trackListingSource": null
   },
   {
@@ -164,7 +164,7 @@
     "coverImage": "",
     "pageCount": 80,
     "description": "More contemporary pop hits for early intermediate level. Correlates with Lesson Book 2.",
-    "amazonUrl": "https://www.amazon.com/dp/1616776374",
+    "amazonUrl": "",
     "trackListingSource": null
   },
   {
@@ -178,7 +178,7 @@
     "coverImage": "",
     "pageCount": 80,
     "description": "Classic Motown songs arranged for the adult beginner. Features hits from Stevie Wonder, The Temptations, and more.",
-    "amazonUrl": "https://www.amazon.com/dp/1616776382",
+    "amazonUrl": "",
     "trackListingSource": null
   },
   {
@@ -192,7 +192,7 @@
     "coverImage": "",
     "pageCount": 80,
     "description": "Classic and contemporary country hits arranged for the adult beginner.",
-    "amazonUrl": "https://www.amazon.com/dp/1616776393",
+    "amazonUrl": "",
     "trackListingSource": null
   },
   {
@@ -206,7 +206,7 @@
     "coverImage": "",
     "pageCount": 80,
     "description": "American standards and classic songs arranged for the adult beginner. Correlates with Lesson Book 1.",
-    "amazonUrl": "https://www.amazon.com/dp/1616776404",
+    "amazonUrl": "",
     "trackListingSource": null
   },
   {
@@ -220,7 +220,7 @@
     "coverImage": "/covers/alfred-greatest-hits-1.jpg",
     "pageCount": 48,
     "description": "A collection of popular and classical pieces arranged at Level 1, correlating page-by-page with Alfred's Basic Adult Piano Course Lesson Book 1.",
-    "amazonUrl": "https://www.amazon.com/dp/0739002171",
+    "amazonUrl": "",
     "trackListingSource": "manual-entry"
   },
   {
@@ -234,7 +234,7 @@
     "coverImage": "/covers/alfred-greatest-hits-2.jpg",
     "pageCount": 64,
     "description": "Popular and classical pieces arranged at Level 2 difficulty, correlating with Alfred's Basic Adult Piano Course Lesson Book 2.",
-    "amazonUrl": "https://www.amazon.com/dp/073900218X",
+    "amazonUrl": "",
     "trackListingSource": "manual-entry"
   },
   {
@@ -248,7 +248,7 @@
     "coverImage": "/covers/pretime-piano-christmas.jpg",
     "pageCount": 20,
     "description": "Favorite Christmas carols arranged for the young beginner. No eighth notes or dotted rhythms are used and the hands remain in middle C position.",
-    "amazonUrl": "https://www.amazon.com/dp/1616770155",
+    "amazonUrl": "",
     "trackListingSource": "publisher-website"
   },
   {
@@ -262,7 +262,7 @@
     "coverImage": "/covers/pretime-piano-classics.jpg",
     "pageCount": 20,
     "description": "Familiar orchestral, operatic and other non-keyboard classical themes arranged for the primer-level pianist. No eighth notes or dotted rhythms are used and the hands remain in middle C position. Pieces include: Ode to Joy (from the 9th Symphony) (Beethoven)",
-    "amazonUrl": "https://www.amazon.com/dp/1616770171",
+    "amazonUrl": "",
     "trackListingSource": "publisher-website"
   },
   {
@@ -276,7 +276,7 @@
     "coverImage": "/covers/pretime-piano-disney.jpg",
     "pageCount": 20,
     "description": "PreTime Piano Disney offers an exciting set of contemporary and classic Disney favorites arranged for the Primer student. Motivating selections reinforce basic rhythms and beginning note reading, and optional teacher duets add vitality and color. Students will enjoy treasured songs from Frozen, The Lion King, Mary Poppins, and more. Songs include: Do You Want to Build a Snowman? (Frozen)",
-    "amazonUrl": "https://www.amazon.com/dp/1616776978",
+    "amazonUrl": "",
     "trackListingSource": "publisher-website"
   },
   {
@@ -290,7 +290,7 @@
     "coverImage": "/covers/pretime-piano-favorites.jpg",
     "pageCount": 20,
     "description": "Well-loved folk songs arranged in middle C position with no eighth notes or dotted rhythms, providing the earliest level reading for the beginning pianist.",
-    "amazonUrl": "https://www.amazon.com/dp/1616770120",
+    "amazonUrl": "",
     "trackListingSource": "publisher-website"
   },
   {
@@ -304,7 +304,7 @@
     "coverImage": "/covers/pretime-piano-hymns.jpg",
     "pageCount": 20,
     "description": "This collection of favorite hymns and songs of faith provides the earliest level of reading for the beginning pianist. No eighth notes are used and the hands remain in middle C position throughout the book. Special care has been taken in selecting joyful songs that are easily accessible at the primer level. Includes: God Is So Good",
-    "amazonUrl": "https://www.amazon.com/dp/1616770287",
+    "amazonUrl": "",
     "trackListingSource": "publisher-website"
   },
   {
@@ -318,7 +318,7 @@
     "coverImage": "/covers/pretime-piano-jazz-blues.jpg",
     "pageCount": 20,
     "description": "This set of entertaining pieces in a jazz/blues style was written especially for children. Imaginative lyrics convey the blues spirit of life's ups and downs to the early grade student. Pieces remain in middle C position with an occasional sharp or flat. No eighth notes or dotted rhythms are used. Includes: Penguin Blues",
-    "amazonUrl": "https://www.amazon.com/dp/1616770473",
+    "amazonUrl": "",
     "trackListingSource": "publisher-website"
   },
   {
@@ -332,7 +332,7 @@
     "coverImage": "/covers/pretime-piano-kids-songs.jpg",
     "pageCount": 20,
     "description": "9 songs: A-Tisket, A-Tasket",
-    "amazonUrl": "https://www.amazon.com/dp/1616770325",
+    "amazonUrl": "",
     "trackListingSource": "publisher-website"
   },
   {
@@ -346,7 +346,7 @@
     "coverImage": "/covers/pretime-piano-music-from-china.jpg",
     "pageCount": 24,
     "description": "PreTime Piano Music from China is a colorful selection of folk songs and original Chinese works arranged at just the right level for the beginning pianist. Primer students meet LeLe the musical panda who playfully guides them through writing activities and discovery questions. Teacher duets provide support with harmonic richness and steady rhythms. Unique at each level of the series, a picture tour of China offers a visual sampling of history and culture. In addition, a duet improvisation and gu",
-    "amazonUrl": "https://www.amazon.com/dp/1616777230",
+    "amazonUrl": "",
     "trackListingSource": "publisher-website"
   },
   {
@@ -360,7 +360,7 @@
     "coverImage": "/covers/pretime-piano-popular.jpg",
     "pageCount": 20,
     "description": "Arrangements of popular songs that beginning players will love to learn, including: The Candy Man",
-    "amazonUrl": "https://www.amazon.com/dp/1616770422",
+    "amazonUrl": "",
     "trackListingSource": "publisher-website"
   },
   {
@@ -374,7 +374,7 @@
     "coverImage": "/covers/pretime-piano-rock-n-roll.jpg",
     "pageCount": 20,
     "description": "A set of motivating original rock and roll tunes especially written for children. The teacher duets provide an energetic rock 'n roll sound and give the student a strong rhythmic experience. Includes: Hard Rock Candy",
-    "amazonUrl": "https://www.amazon.com/dp/1616771070",
+    "amazonUrl": "",
     "trackListingSource": "publisher-website"
   },
   {
@@ -388,7 +388,7 @@
     "coverImage": "/covers/pretime-piano-faber-studio-collection.jpg",
     "pageCount": 20,
     "description": "This special collection will let Primer Level students shine! A colorful mix of carefully selected pieces from the PreTime® Piano Supplemental Library is very appealing to beginning piano students and offers instructional value to teachers. Songs include: Hard Rock Candy · Hound Dog Blues · Hush, Little Baby · I've Got the Joy, Joy Joy · Jazz Man · A Little Night Music · On Top of Spaghetti · Part of Your World · Row, Row, Row Your Boat · When Can I See You Again? (recorded by Owl City)!",
-    "amazonUrl": "https://www.amazon.com/dp/1616776404",
+    "amazonUrl": "",
     "trackListingSource": "pianoadventures.com"
   },
   {
@@ -402,7 +402,7 @@
     "coverImage": "/covers/playtime-piano-christmas.jpg",
     "pageCount": 24,
     "description": "Favorite Christmas carols and songs arranged for the beginning pianist.",
-    "amazonUrl": "https://www.amazon.com/dp/1616770023",
+    "amazonUrl": "",
     "trackListingSource": "publisher-website"
   },
   {
@@ -416,7 +416,7 @@
     "coverImage": "/covers/playtime-piano-classics.jpg",
     "pageCount": 24,
     "description": "Excellent introduction to the best-known symphonic and operatic literature of the great composers. The selections have been chosen for their appealing melodies and rhythmic vitality. Includes: Turkish March (from The Ruins of Athens) by Beethoven",
-    "amazonUrl": "https://www.amazon.com/dp/161677018X",
+    "amazonUrl": "",
     "trackListingSource": "publisher-website"
   },
   {
@@ -430,7 +430,7 @@
     "coverImage": "/covers/playtime-piano-disney.jpg",
     "pageCount": 24,
     "description": "PlayTime Piano Disney brings together contemporary and classic Disney hits arranged for the Level 1 pianist. Students build confidence reading notes, intervals, and basic rhythms, all while playing inspiring songs from blockbusters including Coco, Beauty and the Beast, The Little Mermaid, and more. Songs include: Beauty and the Beast (Beauty and the Beast)",
-    "amazonUrl": "https://www.amazon.com/dp/1616776986",
+    "amazonUrl": "",
     "trackListingSource": "publisher-website"
   },
   {
@@ -444,7 +444,7 @@
     "coverImage": "/covers/playtime-piano-favorites.jpg",
     "pageCount": 24,
     "description": "This easy collection of well-known folk songs and children’s favorites is excellent for reinforcing note names and interval recognition. Arranged within a two-octave range with very simple harmonies, the pieces motivate practice and make great recital and sing-along selections.",
-    "amazonUrl": "https://www.amazon.com/dp/1616770139",
+    "amazonUrl": "",
     "trackListingSource": "publisher-website"
   },
   {
@@ -458,7 +458,7 @@
     "coverImage": "/covers/playtime-piano-hymns.jpg",
     "pageCount": 24,
     "description": "Favorite hymns arranged to offer excellent supplementary material. Perfect for Sunday School and church performance, the arrangements use 5-finger hand positions that reinforce note names and interval recognition. Includes: Jesus Loves Me",
-    "amazonUrl": "https://www.amazon.com/dp/1616770007",
+    "amazonUrl": "",
     "trackListingSource": "publisher-website"
   },
   {
@@ -472,7 +472,7 @@
     "coverImage": "/covers/playtime-piano-jazz-blues.jpg",
     "pageCount": null,
     "description": "PlayTime® Piano Jazz &amp;amp; Blues is a fun collection of beginning jazz and blues pieces. The book offers a pleasing variety of sounds – from soulful blues to jazz originals and standards – and is a wonderful supplement for the late Level 1 piano student. The student will enjoy creating the sounds of jazz and blues while improving reading and rhythmic skills. Songs include: Ain’t She Sweet",
-    "amazonUrl": "https://www.amazon.com/dp/1616770449",
+    "amazonUrl": "",
     "trackListingSource": "publisher-website"
   },
   {
@@ -486,7 +486,7 @@
     "coverImage": "/covers/playtime-piano-kids-songs.jpg",
     "pageCount": null,
     "description": "Bob the Builder",
-    "amazonUrl": "https://www.amazon.com/dp/1616770392",
+    "amazonUrl": "",
     "trackListingSource": "publisher-website"
   },
   {
@@ -500,7 +500,7 @@
     "coverImage": "/covers/playtime-piano-music-from-china.jpg",
     "pageCount": 24,
     "description": "PlayTime Piano Music from China is a musical journey featuring energetic dances, quiet folk melodies, and original Chinese pieces. The book is arranged especially for the early elementary student and correlates with Level 1 in the Piano Adventures method. At this level, five-finger positions reinforce tonalities and intervals. Teacher duets provide a full, rich background. Along the way, students meet LeLe the musical panda, their whimsical guide to exploring the Chinese sound through discovery ",
-    "amazonUrl": "https://www.amazon.com/dp/1616777249",
+    "amazonUrl": "",
     "trackListingSource": "publisher-website"
   },
   {
@@ -514,7 +514,7 @@
     "coverImage": "/covers/playtime-piano-popular.jpg",
     "pageCount": 24,
     "description": "Here is an exciting collection of popular hits at precisely the appropriate grade level. The selections provide reinforcement of basic rhythm and note reading. This volume includes: ABC",
-    "amazonUrl": "https://www.amazon.com/dp/1616770015",
+    "amazonUrl": "",
     "trackListingSource": "publisher-website"
   },
   {
@@ -528,7 +528,7 @@
     "coverImage": "/covers/playtime-piano-rock-n-roll.jpg",
     "pageCount": 24,
     "description": "A collection of rock and roll classics from the '50s and '60s. The selections offer fun and excitement at the lessons, while still providing practice in the basics. Includes: Rock Around the Clock",
-    "amazonUrl": "https://www.amazon.com/dp/1616770198",
+    "amazonUrl": "",
     "trackListingSource": "publisher-website"
   },
   {
@@ -542,7 +542,7 @@
     "coverImage": "/covers/playtime-piano-faber-studio-collection.jpg",
     "pageCount": 24,
     "description": "PlayTime® Studio Collection offers a spectacular array of favorite pieces from the PlayTime® Piano Supplementary Library. Level 1 students will be motivated to showcase their skills while playing familiar pieces arranged at precisely the right level. Songs include: Do-Re-Mi · The Elephant · Five Foot Two, Eyes of Blue (Has Anybody Seen My Girl?) · Frere Jacques (Are You Sleeping?) · Let's Go Fly a Kite · Purple People Eater · Rockin' Robin · Snake Dance · This Little Light of Mine · The Trout · ",
-    "amazonUrl": "https://www.amazon.com/dp/1616776412",
+    "amazonUrl": "",
     "trackListingSource": "pianoadventures.com"
   },
   {
@@ -556,7 +556,7 @@
     "coverImage": "/covers/showtime-piano-christmas.jpg",
     "pageCount": 24,
     "description": "Angels We Have Heard On High",
-    "amazonUrl": "https://www.amazon.com/dp/1616770376",
+    "amazonUrl": "",
     "trackListingSource": "publisher-website"
   },
   {
@@ -570,7 +570,7 @@
     "coverImage": "/covers/showtime-piano-classics.jpg",
     "pageCount": 24,
     "description": "An excellent collection of symphonic and operatic works by the great composers. The pieces were chosen for their appealing melodies and rhythmic vitality. Includes: Theme from Don Giovanni (La ci darem la mano) by Mozart",
-    "amazonUrl": "https://www.amazon.com/dp/161677052X",
+    "amazonUrl": "",
     "trackListingSource": "publisher-website"
   },
   {
@@ -584,7 +584,7 @@
     "coverImage": "/covers/showtime-piano-disney.jpg",
     "pageCount": 24,
     "description": "ShowTime Piano Disney presents contemporary and classic Disney hits arranged for the pianist at Level 2A. Students develop fundamental skills reading basic rhythms, intervals, and simple chords, all while playing appealing songs from favorite movies such as Aladdin, Pirates of the Caribbean, Mulan, and more. Songs include: Almost There (The Princess and the Frog)",
-    "amazonUrl": "https://www.amazon.com/dp/1616776994",
+    "amazonUrl": "",
     "trackListingSource": "publisher-website"
   },
   {
@@ -598,7 +598,7 @@
     "coverImage": "/covers/showtime-piano-favorites.jpg",
     "pageCount": 24,
     "description": "This delightful collection of 17 favorite folk songs and familiar melodies offers pieces useful for recital performance, family or group sing-along, and as motivational material for the private or group lesson. Arrangements are in the 5-finger hand positions of C, G, F, Dm and Am, and harmony is limited to single notes and harmonic intervals. Includes: L'il Liza Jane",
-    "amazonUrl": "https://www.amazon.com/dp/161677035X",
+    "amazonUrl": "",
     "trackListingSource": "publisher-website"
   },
   {
@@ -612,7 +612,7 @@
     "coverImage": "/covers/showtime-piano-hits.jpg",
     "pageCount": 24,
     "description": "Discover a fun-filled collection of 10 popular arrangements for the elementary pianist. Play smash hits from the biggest pop stars of today, including Ariana Grande, Maroon 5, Camila Cabello, and more. The selections are arranged to provide a smooth transition for the student moving from Level 2A to 2B, with simply harmonized melodies and circled finger numbers to guide position changes. Optional teacher duets add rhythmic support and rich sound! Songs include: Attention (Charlie Puth)",
-    "amazonUrl": "https://www.amazon.com/dp/1616777176",
+    "amazonUrl": "",
     "trackListingSource": "publisher-website"
   },
   {
@@ -626,7 +626,7 @@
     "coverImage": "/covers/showtime-piano-hymns.jpg",
     "pageCount": 24,
     "description": "These carefully selected hymns and spirituals are especially appropriate for the Level 2A pianist. The book conveys a spirit of joy, celebrating the Christian faith. The arrangements primarily use C position, G position, and middle C position.",
-    "amazonUrl": "https://www.amazon.com/dp/1616770368",
+    "amazonUrl": "",
     "trackListingSource": "publisher-website"
   },
   {
@@ -640,7 +640,7 @@
     "coverImage": "/covers/showtime-piano-jazz-blues.jpg",
     "pageCount": null,
     "description": "Blue Moon",
-    "amazonUrl": "https://www.amazon.com/dp/1616770457",
+    "amazonUrl": "",
     "trackListingSource": "publisher-website"
   },
   {
@@ -654,7 +654,7 @@
     "coverImage": "/covers/showtime-piano-kids-songs.jpg",
     "pageCount": null,
     "description": "Chim Chim Cher-ee",
-    "amazonUrl": "https://www.amazon.com/dp/1616770406",
+    "amazonUrl": "",
     "trackListingSource": "publisher-website"
   },
   {
@@ -668,7 +668,7 @@
     "coverImage": "/covers/showtime-piano-music-from-china.jpg",
     "pageCount": 24,
     "description": "ShowTime Piano Music from China is an exciting exploration of rhythmic dances, serene folk melodies, and original Chinese selections. The book is arranged for the elementary pianist and correlates with Level 2A in the Piano Adventures method. At this level, five-finger melodies with simple harmonies reinforce tonalities and intervals, and teacher duets offer inspiration and support. Students meet LeLe the musical panda, a furry friend who asks discovery questions to guide understanding. Creative",
-    "amazonUrl": "https://www.amazon.com/dp/1616777257",
+    "amazonUrl": "",
     "trackListingSource": "publisher-website"
   },
   {
@@ -682,7 +682,7 @@
     "coverImage": "/covers/showtime-piano-popular.jpg",
     "pageCount": 24,
     "description": "Nine perfectly-arranged pieces students will enjoy, including: Happy Birthday to You",
-    "amazonUrl": "https://www.amazon.com/dp/1616770430",
+    "amazonUrl": "",
     "trackListingSource": "publisher-website"
   },
   {
@@ -696,7 +696,7 @@
     "coverImage": "/covers/showtime-piano-rock-n-roll.jpg",
     "pageCount": 24,
     "description": "ShowTime® Piano Rock 'n Roll features lively pieces arranged specifically for the Level 2A student to enjoy. The variety of sounds and rhythms in this collection encourage elementary level students to have fun with rock! Songs include: A Groovy Kind of Love · Twist and Shout · Ain't No Mountain High Enough · At the Hop · Yakety Yak · and more.",
-    "amazonUrl": "https://www.amazon.com/dp/1616776323",
+    "amazonUrl": "",
     "trackListingSource": "youtube-playlist"
   },
   {
@@ -710,7 +710,7 @@
     "coverImage": "/covers/showtime-piano-faber-studio-collection.jpg",
     "pageCount": 24,
     "description": "Students in Level 2A will have hours of pianistic fun with this engaging collection from standout pieces in the ShowTime® Piano Supplementary Library. The wide variety of genres and musical textures promotes musicality and expressive playing. Songs include: Egyptian Ballet Dance · Give My Regards to Broadway · I Just Can't Wait to Be King · The Merry Widow Waltz · Oh! You Beautiful Doll · Simple Gifts · Tomorrow · Twist and Shout · Yakety Yak. Students are certain to enjoy the Special Bonus Hit:",
-    "amazonUrl": "https://www.amazon.com/dp/1616776420",
+    "amazonUrl": "",
     "trackListingSource": "pianoadventures.com"
   },
   {
@@ -724,7 +724,7 @@
     "coverImage": "/covers/chordtime-piano-christmas.jpg",
     "pageCount": 28,
     "description": "Traditional and popular favorites, perfect for Christmas recitals and any other seasonal events.",
-    "amazonUrl": "https://www.amazon.com/dp/1616770058",
+    "amazonUrl": "",
     "trackListingSource": "publisher-website"
   },
   {
@@ -738,7 +738,7 @@
     "coverImage": "/covers/chordtime-piano-classics.jpg",
     "pageCount": 28,
     "description": "Piano arrangements of some of the great symphonic and operatic masterworks of Western music.",
-    "amazonUrl": "https://www.amazon.com/dp/1616770201",
+    "amazonUrl": "",
     "trackListingSource": "publisher-website"
   },
   {
@@ -752,7 +752,7 @@
     "coverImage": "/covers/chordtime-piano-disney.jpg",
     "pageCount": 28,
     "description": "ChordTime Piano Disney showcases contemporary and classic Disney hits arranged for the Level 2B pianist. Students explore major scale and primary chord patterns in a setting of inspiring songs from timeless movies including Tangled, The Jungle Book, Moana, and more. Songs include: The Bare Necessities (The Jungle Book)",
-    "amazonUrl": "https://www.amazon.com/dp/1616777001",
+    "amazonUrl": "",
     "trackListingSource": "publisher-website"
   },
   {
@@ -766,7 +766,7 @@
     "coverImage": "/covers/chordtime-piano-favorites.jpg",
     "pageCount": 28,
     "description": "Favorite folk songs and familiar melodies which provide delightful pieces for recital and group sing-along. The arrangements emphasize the studentÆs mastery of I, IV, and V7 chords.",
-    "amazonUrl": "https://www.amazon.com/dp/1616770147",
+    "amazonUrl": "",
     "trackListingSource": "publisher-website"
   },
   {
@@ -780,7 +780,7 @@
     "coverImage": "/covers/chordtime-piano-hits.jpg",
     "pageCount": 32,
     "description": "Enjoy 10 outstanding arrangements of popular hits by today's leading artists such as Ed Sheeran, Meghan Trainor, Imagine Dragons, and more. In keeping with the \"ChordTime\" concept, this collection motivates the Level 2B student to learn the building block harmonies of current pop music: the I, IV, V, and vi chords. Songs include: Brave (Sara Bareilles)",
-    "amazonUrl": "https://www.amazon.com/dp/1616777184",
+    "amazonUrl": "",
     "trackListingSource": "publisher-website"
   },
   {
@@ -794,7 +794,7 @@
     "coverImage": "/covers/chordtime-piano-hymns.jpg",
     "pageCount": 28,
     "description": "Favorite hymns arranged for the Level 2B student, including: Give Me Oil in My Lamp",
-    "amazonUrl": "https://www.amazon.com/dp/1616770031",
+    "amazonUrl": "",
     "trackListingSource": "publisher-website"
   },
   {
@@ -808,7 +808,7 @@
     "coverImage": "/covers/chordtime-piano-jazz-blues.jpg",
     "pageCount": null,
     "description": "Ain't Misbehavin'",
-    "amazonUrl": "https://www.amazon.com/dp/1616770465",
+    "amazonUrl": "",
     "trackListingSource": "publisher-website"
   },
   {
@@ -822,7 +822,7 @@
     "coverImage": "/covers/chordtime-piano-jewish-favorites.jpg",
     "pageCount": 28,
     "description": "This collection of favorite Hebrew and Yiddish folk songs and traditional melodies is arranged especially for the Level 2B pianist. Offers motivational songs for Jewish holidays celebrated throughout the year. Selections include: My Draydl",
-    "amazonUrl": "https://www.amazon.com/dp/1616771925",
+    "amazonUrl": "",
     "trackListingSource": "publisher-website"
   },
   {
@@ -836,7 +836,7 @@
     "coverImage": "/covers/chordtime-piano-kids-songs.jpg",
     "pageCount": 28,
     "description": "12 songs, including: Catch a Falling Star",
-    "amazonUrl": "https://www.amazon.com/dp/1616770414",
+    "amazonUrl": "",
     "trackListingSource": "publisher-website"
   },
   {
@@ -850,7 +850,7 @@
     "coverImage": "/covers/chordtime-piano-music-from-china.jpg",
     "pageCount": 32,
     "description": "ChordTime Piano Music from China takes Level 2B pianists on a musical trip through original Chinese compositions, folk songs, and dance themes. Mid-elementary students will enjoy analyzing the pentatonic scales and intervals that make up the distinctive Chinese sound. A picture tour and historical information provide rich context, while LeLe the musical panda highlights key performance details and invites creative improvisation. Songs include: Divertimento",
-    "amazonUrl": "https://www.amazon.com/dp/1616777265",
+    "amazonUrl": "",
     "trackListingSource": "publisher-website"
   },
   {
@@ -864,7 +864,7 @@
     "coverImage": "/covers/chordtime-piano-popular.jpg",
     "pageCount": 28,
     "description": "11 songs that include I-IV-V7 chords in the keys of C, G and F, featuring: Can You Feel the Love Tonight?",
-    "amazonUrl": "https://www.amazon.com/dp/161677004X",
+    "amazonUrl": "",
     "trackListingSource": "publisher-website"
   },
   {
@@ -878,7 +878,7 @@
     "coverImage": "/covers/chordtime-piano-ragtime-marches.jpg",
     "pageCount": 28,
     "description": "Songs include: Alexander March",
-    "amazonUrl": "https://www.amazon.com/dp/161677133X",
+    "amazonUrl": "",
     "trackListingSource": "publisher-website"
   },
   {
@@ -892,7 +892,7 @@
     "coverImage": "/covers/chordtime-piano-rock-n-roll.jpg",
     "pageCount": 28,
     "description": "The style and rhythmic appeal of these rock and roll favorites make it the perfect motivational material for students. Written with the teacher in mind, the book provides instruction and drill in basic chord patterns in the keys of C, G, and F. Songs include: Chantilly Lace",
-    "amazonUrl": "https://www.amazon.com/dp/161677021X",
+    "amazonUrl": "",
     "trackListingSource": "publisher-website"
   },
   {
@@ -906,7 +906,7 @@
     "coverImage": "/covers/chordtime-piano-faber-studio-collection.jpg",
     "pageCount": 32,
     "description": "ChordTime® Studio Collection offers a spectacular mix of styles with carefully selected pieces from the ChordTime® Piano Supplemental Library. This collection is very appealing to students, while offering special instructional value to teachers. The book is sequenced to emphasize chord recognition and chord practice, particularly of the I, IV, and V7 chords. Songs include: The Entertainer · Do-Re-Mi · Crazy Little Thing Called Love · Yesterday · Pizzicato Polka · Tuxedo Junction · Amazing Grace ",
-    "amazonUrl": "https://www.amazon.com/dp/1616776439",
+    "amazonUrl": "",
     "trackListingSource": "pianoadventures.com"
   },
   {
@@ -920,7 +920,7 @@
     "coverImage": "/covers/funtime-piano-christmas.jpg",
     "pageCount": 32,
     "description": "Christmas favorites arranged for the Level 3A - 3B student, including both traditional and popular songs which students find especially appealing.",
-    "amazonUrl": "https://www.amazon.com/dp/1616770066",
+    "amazonUrl": "",
     "trackListingSource": "publisher-website"
   },
   {
@@ -934,7 +934,7 @@
     "coverImage": "/covers/funtime-piano-classics.jpg",
     "pageCount": 32,
     "description": "Drawing primarily from symphonic and operatic literature, this level exposes the piano student to the wealth of color and imagination of the classical literature.",
-    "amazonUrl": "https://www.amazon.com/dp/1616770228",
+    "amazonUrl": "",
     "trackListingSource": "publisher-website"
   },
   {
@@ -948,7 +948,7 @@
     "coverImage": "/covers/funtime-piano-disney.jpg",
     "pageCount": 32,
     "description": "FunTime Piano Disney features contemporary and classic Disney hits arranged for the Level 3A-3B pianist. Students jazz it up with swing and syncopation, play expressive one-octave arpeggios, and recognize accompaniment patterns, all while having fun with timeless Disney favorites from Hercules, Frozen, The Aristocats, and more. Songs include: Be Our Guest (Beauty and the Beast)",
-    "amazonUrl": "https://www.amazon.com/dp/1616777214",
+    "amazonUrl": "",
     "trackListingSource": "publisher-website"
   },
   {
@@ -962,7 +962,7 @@
     "coverImage": "/covers/funtime-piano-favorites.jpg",
     "pageCount": 32,
     "description": "Pianistic arrangements of ever-popular melodies for the early intermediate piano student. Pieces are in the keys of C, G, F, A minor and D minor. Includes: Skaters' Waltz",
-    "amazonUrl": "https://www.amazon.com/dp/1616770546",
+    "amazonUrl": "",
     "trackListingSource": "publisher-website"
   },
   {
@@ -976,7 +976,7 @@
     "coverImage": "/covers/funtime-piano-hits.jpg",
     "pageCount": 32,
     "description": "This striking collection of 11 popular songs is arranged to motivate the Level 3 piano student. Enjoy blockbusters, chart-toppers, and award-winners as performed by stars such as Ed Sheeran, Lady Gaga, Justin Timberlake and more. Songs include: Can’t Stop the Feeling (Justin Timberlake)",
-    "amazonUrl": "https://www.amazon.com/dp/1616776951",
+    "amazonUrl": "",
     "trackListingSource": "publisher-website"
   },
   {
@@ -990,7 +990,7 @@
     "coverImage": "/covers/funtime-piano-hymns.jpg",
     "pageCount": 32,
     "description": "This collection of well-loved hymns and spirituals is arranged in the keys of C, G, F, and D major, along with D and A minor. It offers excellent supplementary material, perfect for Sunday School and family gatherings. Included are these favorite hymns to sing and enjoy: Amen",
-    "amazonUrl": "https://www.amazon.com/dp/1616770333",
+    "amazonUrl": "",
     "trackListingSource": "publisher-website"
   },
   {
@@ -1004,7 +1004,7 @@
     "coverImage": "/covers/funtime-piano-jazz-blues.jpg",
     "pageCount": 32,
     "description": "FunTime® Piano Jazz &amp;amp; Blues provides an entertaining collection of pieces from the jazz/blues idiom. The book is perfect for the Level 3 student interested in exploring this style. It consists of easy arrangements of jazz and blues standards as well as delightful original compositions that are sure to motivate and entertain any student. Includes: In the Mood",
-    "amazonUrl": "https://www.amazon.com/dp/1616770104",
+    "amazonUrl": "",
     "trackListingSource": "publisher-website"
   },
   {
@@ -1018,7 +1018,7 @@
     "coverImage": "/covers/funtime-piano-kids-songs.jpg",
     "pageCount": 32,
     "description": "This new collection of kids' songs will entertain and encourage the early intermediate pianist. Carefully graded for Level 3A-3B students to enjoy, this collection includes: You've Got a Friend in Me · Consider Yourself · Be Our Guest · Yellow Submarine · Walking on Sunshine · The Addam's Family Theme · and more.",
-    "amazonUrl": "https://www.amazon.com/dp/1616776285",
+    "amazonUrl": "",
     "trackListingSource": "youtube-playlist"
   },
   {
@@ -1032,7 +1032,7 @@
     "coverImage": "/covers/funtime-piano-music-from-china.jpg",
     "pageCount": 32,
     "description": "FunTime Piano Music from China is a special collection of folk songs and original Chinese works arranged for early intermediate students (Level 3A-3B). These pieces offer dance-like rhythms, dramatic movement across the keyboard, sonorous use of the pedal, and fast tempi with crisp articulations. Music and text explore fascinating aspects of China such as flowing canals, majestic elephants, peacock dances, mooncakes, and mountain songs. The delightful character LeLe the panda lends a paw with qu",
-    "amazonUrl": "https://www.amazon.com/dp/1616777273",
+    "amazonUrl": "",
     "trackListingSource": "publisher-website"
   },
   {
@@ -1046,7 +1046,7 @@
     "coverImage": "/covers/funtime-piano-popular.jpg",
     "pageCount": 32,
     "description": "12 songs carefully graded for students to enjoy, including: Colors of the Wind",
-    "amazonUrl": "https://www.amazon.com/dp/1616770074",
+    "amazonUrl": "",
     "trackListingSource": "publisher-website"
   },
   {
@@ -1060,7 +1060,7 @@
     "coverImage": "/covers/funtime-piano-ragtime-marches.jpg",
     "pageCount": 32,
     "description": "Early 1900s rags and marches arranged in cut time with quarter and half notes in place of eighth and quarter notes. These ever-popular pieces offer immense appeal to the piano student and are excellent for recital or other performance.",
-    "amazonUrl": "https://www.amazon.com/dp/1616770082",
+    "amazonUrl": "",
     "trackListingSource": "publisher-website"
   },
   {
@@ -1088,7 +1088,7 @@
     "coverImage": "/covers/funtime-piano-faber-studio-collection.jpg",
     "pageCount": 32,
     "description": "FunTime® Studio Collection will spark the imagination of students in Level 3A-3B! This motivating collection features ten terrific pieces, including student favorites and some of the Fabers' personal favorites. Students will enjoy exploring musicality across a wide variety of sounds and styles: Theme from Scheherazade · The Phantom of the Opera · Hound Dog · Howl at the Moon · Swing Low, Sweet Chariot · In the Mood · Misty · Chopsticks · Glad Cat Rag · The Addams Family Theme. Students will love",
-    "amazonUrl": "https://www.amazon.com/dp/1616776447",
+    "amazonUrl": "",
     "trackListingSource": "pianoadventures.com"
   },
   {
@@ -1102,7 +1102,7 @@
     "coverImage": "/covers/bigtime-piano-christmas.jpg",
     "pageCount": 40,
     "description": "An entertaining collection of traditional and popular Christmas songs arranged to offer a variety of sounds and styles. Includes: Carol of the Bells",
-    "amazonUrl": "https://www.amazon.com/dp/1616770163",
+    "amazonUrl": "",
     "trackListingSource": "publisher-website"
   },
   {
@@ -1116,7 +1116,7 @@
     "coverImage": "/covers/bigtime-piano-classics.jpg",
     "pageCount": 40,
     "description": "This book is a treasury of the most popular and most requested masterworks of Western music. The selections are taken from original non-keyboard sources and arranged to create a “big” sound while remaining within the intermediate level.",
-    "amazonUrl": "https://www.amazon.com/dp/1616770317",
+    "amazonUrl": "",
     "trackListingSource": "publisher-website"
   },
   {
@@ -1130,7 +1130,7 @@
     "coverImage": "/covers/bigtime-piano-disney.jpg",
     "pageCount": 48,
     "description": "BigTime Piano Disney is a celebration of contemporary and classic Disney songs arranged for the Level 4 pianist and beyond. Intermediate students can enjoy big-sounding pieces from Aladdin, The Hunchback of Notre Dame, Moana, and more. Songs include: Aladdin Medley (Arabian Nights, Friend Like Me, A Whole New World) (Aladdin)",
-    "amazonUrl": "https://www.amazon.com/dp/1616777222",
+    "amazonUrl": "",
     "trackListingSource": "publisher-website"
   },
   {
@@ -1144,7 +1144,7 @@
     "coverImage": "/covers/bigtime-piano-favorites.jpg",
     "pageCount": 40,
     "description": "These traditional, ever-popular melodies are presented in pianistic arrangements for the intermediate piano student. The pieces are in the keys of C, F, G, D, A minor, and D minor, and feature a variety of sounds. Includes: Beautiful Dreamer (NFMC Bulletin Selection)",
-    "amazonUrl": "https://www.amazon.com/dp/1616771917",
+    "amazonUrl": "",
     "trackListingSource": "publisher-website"
   },
   {
@@ -1158,7 +1158,7 @@
     "coverImage": "/covers/bigtime-piano-hits.jpg",
     "pageCount": 40,
     "description": "This exciting collection of 12 popular songs is arranged to give intermediate piano students a big sound. Enjoy blockbusters, chart-toppers, and award-winners as performed by stars such as Bruno Mars, Katy Perry, Justin Bieber, Taylor Swift, and more. Chord symbols are given above the treble staff, boosting sightreading, memory, and improvisation. Songs include: All of Me (John Legend)",
-    "amazonUrl": "https://www.amazon.com/dp/161677696X",
+    "amazonUrl": "",
     "trackListingSource": "publisher-website"
   },
   {
@@ -1172,7 +1172,7 @@
     "coverImage": "/covers/bigtime-piano-hymns.jpg",
     "pageCount": 40,
     "description": "BigTime® Piano Hymns is a collection of favorite hymns and spirituals arranged for the Level 4 pianist. Keys include C, G, F, and D Major, along with D Minor. Teachers may wish to assign the pieces in the order given, or may skip among selections, choosing by the student. Contents: It is Well With My Soul",
-    "amazonUrl": "https://www.amazon.com/dp/1616774355",
+    "amazonUrl": "",
     "trackListingSource": "publisher-website"
   },
   {
@@ -1186,7 +1186,7 @@
     "coverImage": "/covers/bigtime-piano-jazz-blues.jpg",
     "pageCount": 40,
     "description": "BigTime® Piano Jazz &amp;amp; Blues is a great collection of jazz and blues pieces. Standards such as “Take the 'A' Train” and “Desafinado” provide an introduction to basic jazz styles such as swing and bossa nova. Other moods and styles are featured in classics such as “Autumn Leaves,” “Misty,” and “Night Train,” and in original compositions such as “Equinox” and “Big City Blues.” The book is arranged for the intermediate-level pianist and is especially written to create a “big” sound while rem",
-    "amazonUrl": "https://www.amazon.com/dp/1616770112",
+    "amazonUrl": "",
     "trackListingSource": "youtube-playlist"
   },
   {
@@ -1200,7 +1200,7 @@
     "coverImage": "/covers/bigtime-piano-kids-songs.jpg",
     "pageCount": 40,
     "description": "Intermediate pianists will enjoy this fun-filled collection of favorite kids' songs, arranged to show off their pianistic skills. A wide variety of styles and sounds allow students to entertain family and friends with expressive performances. Songs include: (Meet) The Flintstones · Cruella de Vil · Flight of the Bumble Bee · I'm a Believer · Linus and Lucy · and more.",
-    "amazonUrl": "https://www.amazon.com/dp/1616776293",
+    "amazonUrl": "",
     "trackListingSource": "pianoadventures.com"
   },
   {
@@ -1214,7 +1214,7 @@
     "coverImage": "/covers/bigtime-piano-music-from-china.jpg",
     "pageCount": 40,
     "description": "BigTime Piano Music from China is a striking selection of original Chinese compositions perfect for intermediate students (Level 4 and above). Thematically, the music explores a veritable zoo of animals from the real-life panda to the mythical dragon, in addition to traveling the rolling hills of a shepherd and playing a lighthearted game of hide and seek. Colorful introductory notes, vital performance tips, and analytical theory questions aid the student’s musical journey, while duet improvisat",
-    "amazonUrl": "https://www.amazon.com/dp/1616777281",
+    "amazonUrl": "",
     "trackListingSource": "publisher-website"
   },
   {
@@ -1228,7 +1228,7 @@
     "coverImage": "/covers/bigtime-piano-popular.jpg",
     "pageCount": 40,
     "description": "This new collection features 11 hits that students will love to learn, including: Dancing Queen",
-    "amazonUrl": "https://www.amazon.com/dp/1616770090",
+    "amazonUrl": "",
     "trackListingSource": "publisher-website"
   },
   {
@@ -1242,7 +1242,7 @@
     "coverImage": "/covers/bigtime-piano-ragtime-marches.jpg",
     "pageCount": 40,
     "description": "This collection of outstanding popular pieces from the early 1900s is immensely appealing to the intermediate student. Pianistic arrangements with carefully edited fingering and pedaling include: Champagne Rag",
-    "amazonUrl": "https://www.amazon.com/dp/1616771445",
+    "amazonUrl": "",
     "trackListingSource": "publisher-website"
   },
   {
@@ -1256,7 +1256,7 @@
     "coverImage": "/covers/bigtime-piano-rock-n-roll.jpg",
     "pageCount": 40,
     "description": "BigTime® Piano Rock 'n Roll allows the pianist to “let go” and enjoy the fun sounds of the '50s, '60s and '70s. Upbeat rhythms and pianistic arrangements make the book a delight for both students and teachers. New selections include: Piano Man",
-    "amazonUrl": "https://www.amazon.com/dp/1616770295",
+    "amazonUrl": "",
     "trackListingSource": "publisher-website"
   },
   {
@@ -1270,7 +1270,7 @@
     "coverImage": "/covers/bigtime-piano-faber-studio-collection.jpg",
     "pageCount": 40,
     "description": "BigTime® Studio Collection draws from the best pieces in the BigTime® Level 4 Supplementary Library, offering nine exceptional student favorites in a full array of genres and styles. A current song from the pop charts is featured as a Bonus Hit to entertain and inspire the intermediate pianist! Songs include: Canon in D · The Pink Panther · Can You Feel the Love Tonight · Morning Has Broken · Rock Around the Clock · 100 Years · Autumn Leaves · Deep River · Solace. Plus the Special Bonus Hit: Gan",
-    "amazonUrl": "https://www.amazon.com/dp/1616776455",
+    "amazonUrl": "",
     "trackListingSource": "pianoadventures.com"
   },
   {
@@ -1284,7 +1284,7 @@
     "coverImage": "/covers/advancetime-piano-christmas.jpg",
     "pageCount": 40,
     "description": "A collection of Christmas and winter holiday favorites arranged to provide work on arpeggios, scales, 2-hand gestures, balance between hands, balance within the hand, chord voicing, and octave playing – all within a delightful musical context. Includes: Skaters' Waltz",
-    "amazonUrl": "https://www.amazon.com/dp/1616771240",
+    "amazonUrl": "",
     "trackListingSource": "publisher-website"
   },
   {
@@ -1298,7 +1298,7 @@
     "coverImage": "/covers/library-of-easy-piano-classics.jpg",
     "pageCount": 296,
     "description": "A comprehensive collection of easy piano arrangements of classical masterworks, featuring over 100 pieces from the Baroque, Classical, Romantic, and Modern periods.",
-    "amazonUrl": "https://www.amazon.com/dp/0825612845",
+    "amazonUrl": "",
     "trackListingSource": "publisher-website"
   },
   {
@@ -1312,7 +1312,7 @@
     "coverImage": "/covers/alfred-adult-aio-1.jpg",
     "pageCount": 160,
     "description": "A complete beginner piano course combining lesson, theory, and solo repertoire in one convenient book. Features folk, classical, and contemporary selections.",
-    "amazonUrl": "https://www.amazon.com/dp/0882848186",
+    "amazonUrl": "",
     "trackListingSource": "amazon"
   },
   {
@@ -1326,7 +1326,7 @@
     "coverImage": "/covers/alfred-adult-aio-2.jpg",
     "pageCount": 144,
     "description": "Continues the All-in-One approach with more advanced lesson, theory, and solo content. Features classical masterworks and folk songs at the early intermediate level.",
-    "amazonUrl": "https://www.amazon.com/dp/0882849956",
+    "amazonUrl": "",
     "trackListingSource": "amazon"
   },
   {
@@ -1340,7 +1340,7 @@
     "coverImage": "/covers/alfred-adult-aio-3.jpg",
     "pageCount": 144,
     "description": "The final book in the All-in-One series, featuring intermediate-level lesson, theory, and solo content including classical pieces and original compositions.",
-    "amazonUrl": "https://www.amazon.com/dp/0739000683",
+    "amazonUrl": "",
     "trackListingSource": "youtube-playlist"
   },
   {
@@ -1354,7 +1354,7 @@
     "coverImage": "/covers/library-family-singalongs.jpg",
     "pageCount": 240,
     "description": "A treasury of over 160 familiar songs that everyone loves to sing. Features favorite folk songs, golden hits, songs for children, holiday songs, carols, and best-loved songs from around the world. Arranged by Amy Appleby for piano, vocal, and guitar.",
-    "amazonUrl": "https://www.amazon.com/dp/0825634989",
+    "amazonUrl": "",
     "trackListingSource": "publisher-website"
   },
   {
@@ -1368,7 +1368,7 @@
     "coverImage": "/covers/alfred-popular-hits-1.jpg",
     "pageCount": 40,
     "description": "Popular songs arranged at Level 1 by Tom Gerou, correlating with Alfred's Basic Adult Piano Course Lesson Book 1. Features hits from movies, Broadway, TV, and pop including Don't Stop Believin', Let It Go, Over the Rainbow, and Star Wars.",
-    "amazonUrl": "https://www.amazon.com/dp/1470640589",
+    "amazonUrl": "",
     "trackListingSource": "publisher-website"
   },
   {
@@ -1382,7 +1382,7 @@
     "coverImage": "/covers/alfred-popular-hits-3.jpg",
     "pageCount": 36,
     "description": "Popular songs arranged at Level 3 by Tom Gerou, correlating with Alfred's Basic Adult Piano Course Lesson Book 3. Features hits including Shallow, Rhapsody in Blue, The Imperial March, and the Downton Abbey theme.",
-    "amazonUrl": "https://www.amazon.com/dp/1470641690",
+    "amazonUrl": "",
     "trackListingSource": "publisher-website"
   },
   {
@@ -1396,7 +1396,7 @@
     "coverImage": "/covers/alfred-greatest-hits-3.jpg",
     "pageCount": 64,
     "description": "Popular and classical pieces arranged at Level 3 difficulty, correlating with Alfred's Basic Adult Piano Course Lesson Book 3.",
-    "amazonUrl": "https://www.amazon.com/dp/0739002198",
+    "amazonUrl": "",
     "trackListingSource": "youtube-playlist"
   },
   {
@@ -1410,7 +1410,7 @@
     "coverImage": "/covers/alfred-popular-hits-2.jpg",
     "pageCount": 48,
     "description": "Popular songs arranged by Tom Gerou at early intermediate level, correlating with Alfred's Basic Adult Piano Course Level 2.",
-    "amazonUrl": "https://www.amazon.com/dp/1470640597",
+    "amazonUrl": "",
     "trackListingSource": "youtube-playlist"
   }
 ]
